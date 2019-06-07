@@ -1,0 +1,15 @@
+PN: tinycompress
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD & LGPLv2.1
+DESCRIPTION_tinycompress-dbg: ALSA sound library for compress format.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_tinycompress-dbg: ALSA sound library for compress format - Debugging files
+RRECOMMENDS_tinycompress-dbg: glibc-dbg
+SECTION_tinycompress-dbg: devel
+PKG_tinycompress-dbg: tinycompress-dbg
+ALLOW_EMPTY_tinycompress-dbg: 1
+FILES_tinycompress-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/tinycompress/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/tinycompress/.debug /usr/lib/matchbox-panel/.debug /usr/lib/tinycompress/tinycompress/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/cplay": 8044, "/usr/bin/.debug/crecord": 8208, "/usr/lib/.debug/libtinycompress.so.0.0.0": 15384}
+PKGSIZE_tinycompress-dbg: 31636

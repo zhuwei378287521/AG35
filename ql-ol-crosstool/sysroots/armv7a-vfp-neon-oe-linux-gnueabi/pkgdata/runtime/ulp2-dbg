@@ -1,0 +1,16 @@
+PN: ulp2
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ulp2-dbg: GPS LBS Core  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ulp2-dbg: ulp2 version git-r1 - Debugging files
+RPROVIDES_ulp2-dbg:  ulp2-dbg (=git)
+RRECOMMENDS_ulp2-dbg: libsqlite3-dbg lbs-core-dbg loc-net-iface-dbg libssl-dbg data-items-dbg libcrypto-dbg izat-core-dbg qmi-framework-dbg xmllib-dbg qmi-dbg system-core-dbg dsutils-dbg qmi-client-helper-dbg diag-dbg data-oss-dbg drplugin-dbg libcutils-dbg libstdc++-dbg drplugin-client-dbg event-observer-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg data-dbg configdb-dbg gnsspps-dbg loc-stub-dbg time-genoff-dbg ql-syslog-dbg
+SECTION_ulp2-dbg: devel
+PKG_ulp2-dbg: libulp2-dbg
+ALLOW_EMPTY_ulp2-dbg: 1
+FILES_ulp2-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ulp2/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ulp2/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ulp2/ulp2/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libulp2.so.1.0.0": 47504}
+PKGSIZE_ulp2-dbg: 47504

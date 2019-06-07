@@ -1,0 +1,14 @@
+PN: lk
+PV: git
+PR: r1signed_perf
+PKGV: git
+PKGR: r1signed_perf
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lk-staticdev: Sign the Little Kernel bootloader  This package contains static libraries for software development.
+SUMMARY_lk-staticdev: lk version git-r1signed_perf - Development files (Static Libraries)
+RDEPENDS_lk-staticdev: lk-dev (= git-r1signed_perf)
+SECTION_lk-staticdev: devel
+PKG_lk-staticdev: lk-staticdev
+FILES_lk-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lk/*.a
+FILES_INFO: {}
+PKGSIZE_lk-staticdev: 0

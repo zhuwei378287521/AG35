@@ -1,0 +1,14 @@
+PN: libmincrypt
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_libmincrypt-staticdev: Build Android libmincrypt  This package contains static libraries for software development.
+SUMMARY_libmincrypt-staticdev: libmincrypt version git-r0 - Development files (Static Libraries)
+RDEPENDS_libmincrypt-staticdev: libmincrypt-dev (= git-r0)
+SECTION_libmincrypt-staticdev: devel
+PKG_libmincrypt-staticdev: libmincrypt-staticdev
+FILES_libmincrypt-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libmincrypt/*.a
+FILES_INFO: {"/usr/lib/libmincrypt.a": 39794}
+PKGSIZE_libmincrypt-staticdev: 39794

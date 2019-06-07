@@ -1,0 +1,14 @@
+PN: loc-externaldr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-externaldr-doc: externaldr   This package contains documentation.
+SUMMARY_loc-externaldr-doc: loc-externaldr version git-r1 - Documentation files
+RPROVIDES_loc-externaldr-doc:  loc-externaldr-doc (=git)
+SECTION_loc-externaldr-doc: doc
+PKG_loc-externaldr-doc: libloc-externaldr-doc
+FILES_loc-externaldr-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-externaldr-doc: 0

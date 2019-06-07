@@ -1,0 +1,19 @@
+PN: libexif
+PV: 0.6.21
+PR: r0
+PKGV: 0.6.21
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION: Library to read the extended image information (EXIF) from JPEG pictures.
+SUMMARY: Library to read the extended image information (EXIF) from JPEG pictures
+RDEPENDS_libexif: glibc (>= 2.22)
+RPROVIDES_libexif:  libexif (=0.6.21)
+SECTION: base
+PKG_libexif: libexif12
+FILES_libexif: /usr/bin/* /usr/sbin/* /usr/lib/libexif/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libexif /usr/lib/libexif/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/*
+FILERPROVIDESFLIST_libexif: /lib/libexif.so.12.3.3
+FILES_INFO: {"/lib/pkgconfig/libexif.pc": 223, "/lib/libexif.so.12": 17, "/lib/libexif.so.12.3.3": 202324}
+FILERPROVIDES_/lib/libexif.so.12.3.3_libexif: elf(buildid) (= 8aada239a1eaee41957c240b25dc73285f6f0413) libexif.so.12
+FILERDEPENDSFLIST_libexif: /lib/libexif.so.12.3.3
+FILERDEPENDS_/lib/libexif.so.12.3.3_libexif: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libexif: 202564

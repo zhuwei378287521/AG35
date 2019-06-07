@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: soundtrigger
+Description: soundtrigger library
+Version: 1.0.0
+Libs: -L${libdir} -lsound_trigger_primary
+Cflags: -I${includedir}

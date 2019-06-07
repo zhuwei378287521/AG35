@@ -1,0 +1,4 @@
+libqmi_client_qmux.so.1:/usr/lib:git
+libqmiservices.so.1:/usr/lib:git
+libqmi.so.1:/usr/lib:git
+libqmiidl.so.1:/usr/lib:git

@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.22.0
+PR: r0
+PKGV: 5.22.0
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-unicode-collate: perl module unicode-collate
+SUMMARY_perl-module-unicode-collate: perl module unicode-collate
+RDEPENDS_perl-module-unicode-collate: perl-module-carp perl-module-dynaloader glibc (>= 2.22) perl-module-file-spec perl perl-module-warnings perl-module-strict perl-module-constant
+SECTION: devel
+PKG_perl-module-unicode-collate: perl-module-unicode-collate
+FILES_perl-module-unicode-collate: /usr/lib/perl/5.22.0/auto/Unicode/Collate/Collate.so /usr/lib/perl/5.22.0/Unicode/Collate.pm
+FILERPROVIDESFLIST_perl-module-unicode-collate: /usr/lib/perl/5.22.0/auto/Unicode/Collate/Collate.so
+FILES_INFO: {"/usr/lib/perl/5.22.0/Unicode/Collate.pm": 64410, "/usr/lib/perl/5.22.0/auto/Unicode/Collate/Collate.so": 755276}
+FILERPROVIDES_/usr/lib/perl/5.22.0/auto/Unicode/Collate/Collate.so_perl-module-unicode-collate: Collate.so elf(buildid) (= 8fa8fa901bdf2e3c95e5c21e9d4179cddc6369db)
+FILERDEPENDSFLIST_perl-module-unicode-collate: /usr/lib/perl/5.22.0/auto/Unicode/Collate/Collate.so
+FILERDEPENDS_/usr/lib/perl/5.22.0/auto/Unicode/Collate/Collate.so_perl-module-unicode-collate: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-unicode-collate: 819686

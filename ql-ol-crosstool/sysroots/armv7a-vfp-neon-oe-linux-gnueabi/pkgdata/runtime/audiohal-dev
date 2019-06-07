@@ -1,0 +1,16 @@
+PN: audiohal
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_audiohal-dev: audiohal  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_audiohal-dev: audiohal version 1.0-r0 - Development files
+RDEPENDS_audiohal-dev: audiohal (= 1.0-r0)
+RRECOMMENDS_audiohal-dev: libhardware-dev glibc-dev liblog-dev tinycompress-dev system-media-dev acdbloader-dev libstdc++-dev surround-sound-3mic-dev system-core-dev tinyalsa-dev glib-2.0-dev expat-dev libcutils-dev
+SECTION_audiohal-dev: devel
+PKG_audiohal-dev: audiohal-dev
+ALLOW_EMPTY_audiohal-dev: 1
+FILES_audiohal-dev: /usr/lib/*.la /usr/include
+FILES_INFO: {"/usr/include/mm-audio/qahw_api/inc/qahw_effect_virtualizer.h": 3970, "/usr/lib/audio_primary_default.la": 1391, "/usr/include/voice.h": 3544, "/usr/include/mm-audio/qahw_api/inc/qahw_api.h": 17291, "/usr/include/mm-audio/qahw_api/inc/qahw_effect_presetreverb.h": 2156, "/usr/include/mm-audio/qahw_api/inc/qahw_effect_bassboost.h": 1613, "/usr/include/mm-audio/qahw_api/inc/qahw_effect_equalizer.h": 3028, "/usr/include/mm-audio/qahw_api/inc/qahw_effect_visualizer.h": 2914, "/usr/include/mm-audio/qahw_api/inc/qahw_defs.h": 13864, "/usr/include/mm-audio/qahw_api/inc/qahw_effect_environmentalreverb.h": 3331, "/usr/include/mm-audio/qahw_api/inc/qahw_effect_api.h": 42271, "/usr/lib/libqahw.la": 1068, "/usr/include/audio_defs.h": 10576, "/usr/include/audio_extn.h": 40172, "/usr/include/audio_hw.h": 16072, "/usr/include/mm-audio/qahw_api/inc/qahw_effect_audiosphere.h": 2511, "/usr/lib/libqcompostprocbundle.la": 1239}
+PKGSIZE_audiohal-dev: 167011

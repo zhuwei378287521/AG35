@@ -1,0 +1,15 @@
+PN: safe-iop
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_safe-iop-staticdev: Safe integer operation library for C  This package contains static libraries for software development.
+SUMMARY_safe-iop-staticdev: safe-iop version git-r0 - Development files (Static Libraries)
+RDEPENDS_safe-iop-staticdev: safe-iop-dev (= git-r0)
+RPROVIDES_safe-iop-staticdev:  safe-iop-staticdev (=git)
+SECTION_safe-iop-staticdev: devel
+PKG_safe-iop-staticdev: libsafe-iop-staticdev
+FILES_safe-iop-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/safe-iop/*.a
+FILES_INFO: {"/usr/lib/libsafe_iop.a": 2830}
+PKGSIZE_safe-iop-staticdev: 2830

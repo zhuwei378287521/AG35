@@ -1,0 +1,14 @@
+PN: ql-pwrkey-monitor
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-pwrkey-monitor-staticdev: Quectel ql_pwrkey_monitor data dispatch  This package contains static libraries for software development.
+SUMMARY_ql-pwrkey-monitor-staticdev: ql-pwrkey-monitor version git-r1 - Development files (Static Libraries)
+RDEPENDS_ql-pwrkey-monitor-staticdev: ql-pwrkey-monitor-dev (= git-r1)
+SECTION_ql-pwrkey-monitor-staticdev: devel
+PKG_ql-pwrkey-monitor-staticdev: ql-pwrkey-monitor-staticdev
+FILES_ql-pwrkey-monitor-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-pwrkey-monitor/*.a
+FILES_INFO: {}
+PKGSIZE_ql-pwrkey-monitor-staticdev: 0

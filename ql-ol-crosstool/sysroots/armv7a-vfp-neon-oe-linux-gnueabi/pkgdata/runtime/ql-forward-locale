@@ -1,0 +1,13 @@
+PN: ql-forward
+PV: git
+PR: r01
+PKGV: git
+PKGR: r01
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel Data forward applicant
+SUMMARY: ql-forward version git-r01
+SECTION: base
+PKG_ql-forward-locale: ql-forward-locale
+FILES_ql-forward-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ql-forward-locale: 0

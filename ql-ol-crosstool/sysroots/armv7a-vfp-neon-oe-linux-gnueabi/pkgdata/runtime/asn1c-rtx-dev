@@ -1,0 +1,17 @@
+PN: asn1c-rtx
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_asn1c-rtx-dev: GPS asn1c  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_asn1c-rtx-dev: asn1c-rtx version git-r1 - Development files
+RDEPENDS_asn1c-rtx-dev: asn1c-rtx (= git-r1)
+RPROVIDES_asn1c-rtx-dev:  asn1c-rtx-dev (=git)
+RRECOMMENDS_asn1c-rtx-dev: glib-2.0-dev libgcc-dev glibc-dev libstdc++-dev
+SECTION_asn1c-rtx-dev: devel
+PKG_asn1c-rtx-dev: libasn1c-rtx-dev
+ALLOW_EMPTY_asn1c-rtx-dev: 1
+FILES_asn1c-rtx-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/asn1c-rtx/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/asn1c-rtx.pc": 158, "/usr/lib/libasn1c_rtx.la": 1056, "/usr/lib/libasn1c_rtx.so": 21}
+PKGSIZE_asn1c-rtx-dev: 1235

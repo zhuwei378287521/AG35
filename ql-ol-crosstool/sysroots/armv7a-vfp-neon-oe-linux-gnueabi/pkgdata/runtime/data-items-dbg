@@ -1,0 +1,16 @@
+PN: data-items
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_data-items-dbg: GPS Data Items  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_data-items-dbg: data-items version git-r1 - Debugging files
+RPROVIDES_data-items-dbg:  data-items-dbg (=git)
+RRECOMMENDS_data-items-dbg: libsqlite3-dbg loc-pla-dbg glibc-dbg gps-utils-dbg libstdc++-dbg libssl-dbg liblog-dbg loc-base-util-dbg libcrypto-dbg glib-2.0-dbg libgcc-dbg libcutils-dbg loc-stub-dbg
+SECTION_data-items-dbg: devel
+PKG_data-items-dbg: libdataitems-dbg
+ALLOW_EMPTY_data-items-dbg: 1
+FILES_data-items-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/data-items/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/data-items/.debug /usr/lib/matchbox-panel/.debug /usr/lib/data-items/data-items/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libdataitems.so.1.0.0": 112436}
+PKGSIZE_data-items-dbg: 112436

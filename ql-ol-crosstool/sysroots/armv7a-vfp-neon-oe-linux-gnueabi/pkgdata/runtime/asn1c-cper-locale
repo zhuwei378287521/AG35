@@ -1,0 +1,14 @@
+PN: asn1c-cper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS asn1c cper
+SUMMARY: asn1c-cper version git-r1
+RPROVIDES_asn1c-cper-locale:  asn1c-cper-locale (=git)
+SECTION: base
+PKG_asn1c-cper-locale: libasn1c-cper-locale
+FILES_asn1c-cper-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_asn1c-cper-locale: 0

@@ -1,0 +1,19 @@
+PN: audioalsa
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: libaudioalsa Library
+SUMMARY: audioalsa version git-r5
+RDEPENDS_audioalsa: glibc (>= 2.22) glib-2.0 (>= 2.44.1)
+RPROVIDES_audioalsa:  audioalsa (=git)
+SECTION: base
+PKG_audioalsa: libaudioalsa1
+FILES_audioalsa: /usr/bin/* /usr/sbin/* /usr/lib/audioalsa/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/audioalsa /usr/lib/audioalsa/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_audioalsa: /usr/lib/libaudioalsa.so.1.0.0
+FILES_INFO: {"/usr/lib/libaudioalsa.so.1.0.0": 13852, "/usr/lib/libaudioalsa.so.1": 21}
+FILERPROVIDES_/usr/lib/libaudioalsa.so.1.0.0_audioalsa: elf(buildid) (= 7c48b54f00118d8c99f5f65c10575cea13108933) libaudioalsa.so.1
+FILERDEPENDSFLIST_audioalsa: /usr/lib/libaudioalsa.so.1.0.0
+FILERDEPENDS_/usr/lib/libaudioalsa.so.1.0.0_audioalsa: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_audioalsa: 13873

@@ -1,0 +1,16 @@
+PN: mcmlocserver
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mcmlocserver-dev: MCM Location Server  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_mcmlocserver-dev: mcmlocserver version git-r5 - Development files
+RDEPENDS_mcmlocserver-dev: mcmlocserver (= git-r5)
+RRECOMMENDS_mcmlocserver-dev: mcm-core-dev gps-utils-dev glibc-dev loc-hal-dev location-service-dev data-dev libgcc-dev loc-mcm-type-conv-dev ql-syslog-dev glib-2.0-dev qmi-framework-dev mcm-dev loc-pla-dev
+SECTION_mcmlocserver-dev: devel
+PKG_mcmlocserver-dev: mcmlocserver-dev
+ALLOW_EMPTY_mcmlocserver-dev: 1
+FILES_mcmlocserver-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mcmlocserver/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/mcmlocserver.pc": 151}
+PKGSIZE_mcmlocserver-dev: 151

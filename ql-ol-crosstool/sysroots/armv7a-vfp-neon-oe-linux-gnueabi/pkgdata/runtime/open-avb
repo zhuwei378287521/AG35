@@ -1,0 +1,26 @@
+PN: open-avb
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: open-avb tools
+SUMMARY: open-avb version 1.0-r1
+RDEPENDS_open-avb: libasound (>= 1.0.29) libpcap (>= 1.6.2) glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) alsa-intf (>= git) libgcc (>= 4.9.3)
+SECTION: base
+PKG_open-avb: open-avb
+FILES_open-avb: /usr/bin/* /usr/sbin/* /usr/lib/open-avb/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/open-avb /usr/lib/open-avb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/bin/* /data/avb/*
+FILERPROVIDESFLIST_open-avb: /usr/bin/daemon@underscore@cl /usr/bin/mrpctl /usr/bin/mrpd /usr/bin/openavb@underscore@harness /usr/bin/maap@underscore@daemon
+FILES_INFO: {"/data/avb/aaf_file_talker.ini": 5502, "/data/avb/latency_talker.ini": 7817, "/data/avb/aaf_listener_auto.ini": 6389, "/usr/bin/mrpctl": 5804, "/data/avb/echo_listener_auto.ini": 4921, "/usr/bin/maap_daemon": 11828, "/data/avb/alsa2_listener.ini": 7877, "/usr/bin/mrpd": 50892, "/data/avb/alsa2dual_talker.ini": 8004, "/data/avb/tonegen_talker.ini": 6475, "/data/avb/latency_listener.ini": 5425, "/data/avb/ctrl_talker.ini": 7127, "/data/avb/alsa_talker.ini": 7565, "/data/avb/tinyalsa_talker.ini": 6251, "/data/avb/ctrl_mux_listener.ini": 4977, "/data/avb/echo_listener.ini": 4921, "/usr/bin/daemon_cl": 77484, "/data/avb/ctrl_listener.ini": 4977, "/data/avb/tinyalsa_listener.ini": 6418, "/data/avb/clk_ref_listener.ini": 5845, "/data/avb/null_talker.ini": 6542, "/data/avb/mpeg2ts_file_talker.ini": 6814, "/data/avb/aaf_talker.ini": 7507, "/data/avb/echo_talker.ini": 7231, "/data/avb/aaf_listener.ini": 6391, "/data/avb/ctrl_mux_talker.ini": 6905, "/data/avb/wav_file_talker.ini": 5664, "/usr/bin/openavb_harness": 268200, "/data/avb/null_listener.ini": 4391, "/data/avb/echo_talker_auto.ini": 7232, "/data/avb/clk_ref_talker.ini": 7422, "/data/avb/mpeg2ts_file_listener.ini": 4556, "/data/avb/alsa_listener.ini": 7161, "/data/avb/viewer_listener.ini": 5035, "/data/avb/wav_file_listener.ini": 5240, "/data/avb/alsa2_talker.ini": 8170, "/data/avb/endpoint.ini": 2356}
+FILERPROVIDES_/usr/bin/daemon@underscore@cl_open-avb: elf(buildid) (= 4e105a45322e84316ae464797326a54e09c58c5f)
+FILERPROVIDES_/usr/bin/mrpctl_open-avb: elf(buildid) (= 75c7ba55e68c85c4adcec1346b2548e3bb62f0ff)
+FILERPROVIDES_/usr/bin/mrpd_open-avb: elf(buildid) (= 32dce0a01560f5082e4920c6fb1b1913af15313a)
+FILERPROVIDES_/usr/bin/openavb@underscore@harness_open-avb: elf(buildid) (= 3392cd82dee1ea99e532250c40f5f866398e80e0)
+FILERPROVIDES_/usr/bin/maap@underscore@daemon_open-avb: elf(buildid) (= 5e748441d9ea2d47aa756becd225ada3ad8a9322)
+FILERDEPENDSFLIST_open-avb: /usr/bin/daemon@underscore@cl /usr/bin/mrpctl /usr/bin/mrpd /usr/bin/openavb@underscore@harness /usr/bin/maap@underscore@daemon
+FILERDEPENDS_/usr/bin/daemon@underscore@cl_open-avb: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.15) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/mrpctl_open-avb: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/mrpd_open-avb: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.8) libglib-2.0.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/openavb@underscore@harness_open-avb: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libalsa_intf.so.1 libasound.so.2 libasound.so.2(ALSA_0.9) libasound.so.2(ALSA_0.9.0rc4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libglib-2.0.so.0 libpcap.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/maap@underscore@daemon_open-avb: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpcap.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_open-avb: 613316

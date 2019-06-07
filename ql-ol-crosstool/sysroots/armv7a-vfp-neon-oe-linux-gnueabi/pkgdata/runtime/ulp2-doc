@@ -1,0 +1,14 @@
+PN: ulp2
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ulp2-doc: GPS LBS Core  This package contains documentation.
+SUMMARY_ulp2-doc: ulp2 version git-r1 - Documentation files
+RPROVIDES_ulp2-doc:  ulp2-doc (=git)
+SECTION_ulp2-doc: doc
+PKG_ulp2-doc: libulp2-doc
+FILES_ulp2-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ulp2-doc: 0

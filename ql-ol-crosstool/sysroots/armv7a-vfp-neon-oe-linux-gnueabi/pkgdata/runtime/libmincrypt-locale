@@ -1,0 +1,13 @@
+PN: libmincrypt
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION: Build Android libmincrypt
+SUMMARY: libmincrypt version git-r0
+SECTION: base
+PKG_libmincrypt-locale: libmincrypt-locale
+FILES_libmincrypt-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libmincrypt-locale: 0

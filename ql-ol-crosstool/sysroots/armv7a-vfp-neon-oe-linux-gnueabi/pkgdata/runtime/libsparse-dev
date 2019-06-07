@@ -1,0 +1,16 @@
+PN: libsparse
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_libsparse-dev: Build Android libsprase  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libsparse-dev: libsparse version 1.0-r0 - Development files
+RDEPENDS_libsparse-dev: libsparse (= 1.0-r0)
+RRECOMMENDS_libsparse-dev: glibc-dev zlib-dev
+SECTION_libsparse-dev: devel
+PKG_libsparse-dev: libsparse-dev
+ALLOW_EMPTY_libsparse-dev: 1
+FILES_libsparse-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libsparse/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libsparse.so": 18, "/usr/include/sparse/sparse.h": 10667, "/usr/lib/pkgconfig/libsparse.pc": 214, "/usr/lib/libsparse.la": 928}
+PKGSIZE_libsparse-dev: 11827

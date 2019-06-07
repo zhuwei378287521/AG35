@@ -1,0 +1,18 @@
+PN: lowi-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS lowi server
+SUMMARY: lowi-server version git-r1
+RDEPENDS_lowi-server: loc-base-util (>= git) glibc (>= 2.22) lowi-client (>= git) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) liblog (>= 1.0) loc-mq-client (>= git) libgcc (>= 4.9.3) libnl-genl (>= 3.2.25) libnl (>= 3.2.25)
+SECTION: base
+PKG_lowi-server: lowi-server
+FILES_lowi-server: /usr/bin/* /usr/sbin/* /usr/lib/lowi-server/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lowi-server /usr/lib/lowi-server/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_lowi-server: /usr/bin/lowi-server
+FILES_INFO: {"/etc/lowi.conf": 727, "/usr/bin/lowi-server": 338440}
+FILERPROVIDES_/usr/bin/lowi-server_lowi-server: elf(buildid) (= 9931f8c49f346f47edad36a626d5ee88dcc69189)
+FILERDEPENDSFLIST_lowi-server: /usr/bin/lowi-server
+FILERDEPENDS_/usr/bin/lowi-server_lowi-server: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libloc_base_util.so.1 libloc_mq_client.so.1 liblog.so.0 liblowi_client.so.1 libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_lowi-server: 339167

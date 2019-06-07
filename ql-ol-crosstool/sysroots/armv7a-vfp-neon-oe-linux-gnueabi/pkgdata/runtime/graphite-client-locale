@@ -1,0 +1,13 @@
+PN: graphite-client
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Graphite-client Library
+SUMMARY: graphite-client version git-r0
+SECTION: base
+PKG_graphite-client-locale: graphite-client-locale
+FILES_graphite-client-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_graphite-client-locale: 0

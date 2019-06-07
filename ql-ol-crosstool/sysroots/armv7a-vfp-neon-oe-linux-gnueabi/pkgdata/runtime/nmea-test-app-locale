@@ -1,0 +1,13 @@
+PN: nmea-test-app
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: NMEA test application 
+SUMMARY: nmea-test-app version git-r1
+SECTION: base
+PKG_nmea-test-app-locale: nmea-test-app-locale
+FILES_nmea-test-app-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_nmea-test-app-locale: 0

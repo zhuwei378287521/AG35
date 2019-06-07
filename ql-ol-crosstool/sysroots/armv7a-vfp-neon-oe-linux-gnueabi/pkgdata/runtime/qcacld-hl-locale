@@ -1,0 +1,13 @@
+PN: qcacld-hl
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION: Qualcomm Atheros WLAN CLD high latency driver
+SUMMARY: qcacld-hl version git-r0_perf
+SECTION: base
+PKG_qcacld-hl-locale: qcacld-hl-locale
+FILES_qcacld-hl-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qcacld-hl-locale: 0

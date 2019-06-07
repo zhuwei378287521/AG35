@@ -1,0 +1,24 @@
+PN: qmi
+PV: git
+PR: r13
+PKGV: git
+PKGR: r13
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm MSM Interface (QMI) Library
+SUMMARY: qmi version git-r13
+RDEPENDS_qmi: diag (>= git) time-genoff (>= git) glib-2.0 (>= 2.44.1) configdb (>= git) dsutils (>= git) xmllib (>= git) glibc (>= 2.22)
+SECTION: base
+PKG_qmi: qmi
+FILES_qmi: /usr/bin/* /usr/sbin/* /usr/lib/qmi/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qmi /usr/lib/qmi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_qmi: /usr/lib/libqmi.so.1.0.0 /usr/lib/libqmi@underscore@client@underscore@qmux.so.1.0.0 /usr/lib/libqmiservices.so.1.0.0 /usr/lib/libqmiidl.so.1.0.0
+FILES_INFO: {"/usr/lib/libqmi_client_qmux.so.1.0.0": 34400, "/usr/lib/libqmiservices.so.1.0.0": 101540, "/usr/lib/libqmiidl.so.1.0.0": 13800, "/usr/lib/libqmiservices.so.1": 23, "/usr/lib/libqmi_client_qmux.so.1": 27, "/usr/lib/libqmi.so.1.0.0": 210568, "/usr/lib/libqmiidl.so.1": 18, "/usr/lib/libqmi.so.1": 15}
+FILERPROVIDES_/usr/lib/libqmi.so.1.0.0_qmi: elf(buildid) (= 90db8c0669156abd76e5237eaf6b0c3edcb53f2d) libqmi.so.1
+FILERPROVIDES_/usr/lib/libqmi@underscore@client@underscore@qmux.so.1.0.0_qmi: elf(buildid) (= 70a26944e8a3d406e670445fcc340599cb952140) libqmi_client_qmux.so.1
+FILERPROVIDES_/usr/lib/libqmiservices.so.1.0.0_qmi: elf(buildid) (= e0377c2453f7d9a32a8ff2ec4e6015ca1a2e3301) libqmiservices.so.1
+FILERPROVIDES_/usr/lib/libqmiidl.so.1.0.0_qmi: elf(buildid) (= 23dc7756827ae2307f3bed62a463f8ee643a1425) libqmiidl.so.1
+FILERDEPENDSFLIST_qmi: /usr/lib/libqmi.so.1.0.0 /usr/lib/libqmi@underscore@client@underscore@qmux.so.1.0.0 /usr/lib/libqmiservices.so.1.0.0 /usr/lib/libqmiidl.so.1.0.0
+FILERDEPENDS_/usr/lib/libqmi.so.1.0.0_qmi: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmiidl.so.1 libqmiservices.so.1 libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libqmi@underscore@client@underscore@qmux.so.1.0.0_qmi: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libqmiservices.so.1.0.0_qmi: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libqmiidl.so.1.0.0_qmi: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_qmi: 360391

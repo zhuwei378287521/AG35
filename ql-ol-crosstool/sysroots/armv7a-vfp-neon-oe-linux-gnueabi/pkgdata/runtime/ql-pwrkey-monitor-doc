@@ -1,0 +1,13 @@
+PN: ql-pwrkey-monitor
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-pwrkey-monitor-doc: Quectel ql_pwrkey_monitor data dispatch  This package contains documentation.
+SUMMARY_ql-pwrkey-monitor-doc: ql-pwrkey-monitor version git-r1 - Documentation files
+SECTION_ql-pwrkey-monitor-doc: doc
+PKG_ql-pwrkey-monitor-doc: ql-pwrkey-monitor-doc
+FILES_ql-pwrkey-monitor-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ql-pwrkey-monitor-doc: 0

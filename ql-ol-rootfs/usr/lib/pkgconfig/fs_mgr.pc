@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: fs_mgr
+Description: fs_mgr library
+Version: 1.0.0
+Libs: -L${libdir} -lfs_mgr
+Cflags: -I${includedir}

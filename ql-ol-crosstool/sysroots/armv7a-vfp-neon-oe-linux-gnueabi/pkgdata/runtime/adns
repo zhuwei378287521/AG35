@@ -1,0 +1,26 @@
+PN: adns
+PV: 1.5.1
+PR: r0
+PKGV: 1.5.1
+PKGR: r0
+LICENSE: GPL
+DESCRIPTION: An advanced alternative, asynchronous resolver.
+SUMMARY: adns version 1.5.1-r0
+RDEPENDS_adns: glibc (>= 2.22)
+SECTION: console/network
+PKG_adns: adns
+FILES_adns: /usr/bin/* /usr/sbin/* /usr/lib/adns/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/adns /usr/lib/adns/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_adns: /usr/bin/adnsheloex /usr/bin/adnshost /usr/bin/adnsresfilter /usr/lib/libadns.so.1.5 /usr/bin/adnslogres
+FILES_INFO: {"/usr/bin/adnshost": 26416, "/usr/lib/libadns.so.1.5": 91780, "/usr/bin/adnslogres": 9896, "/usr/bin/adnsheloex": 9896, "/usr/lib/libadns.so.1": 14, "/usr/bin/adnsresfilter": 14004}
+FILERPROVIDES_/usr/bin/adnsheloex_adns: elf(buildid) (= 6c96085b575544ad5590b0b2be1c548fbc685dab)
+FILERPROVIDES_/usr/bin/adnshost_adns: elf(buildid) (= 7e041173333fb24d11051ad2b930bd3df45f1f51)
+FILERPROVIDES_/usr/bin/adnsresfilter_adns: elf(buildid) (= 8aa17fb45dc49df4c77f69387c4f760c239d9fcc)
+FILERPROVIDES_/usr/lib/libadns.so.1.5_adns: elf(buildid) (= 4d0051df54f4c9769a843f2c63f017644e2be636) libadns.so.1
+FILERPROVIDES_/usr/bin/adnslogres_adns: elf(buildid) (= ad00cc99201632638347997bee8e49b022d924af)
+FILERDEPENDSFLIST_adns: /usr/bin/adnsheloex /usr/bin/adnshost /usr/bin/adnsresfilter /usr/lib/libadns.so.1.5 /usr/bin/adnslogres
+FILERDEPENDS_/usr/bin/adnsheloex_adns: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libadns.so.1 libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/adnshost_adns: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libadns.so.1 libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/adnsresfilter_adns: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libadns.so.1 libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libadns.so.1.5_adns: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/adnslogres_adns: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libadns.so.1 libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_adns: 152006

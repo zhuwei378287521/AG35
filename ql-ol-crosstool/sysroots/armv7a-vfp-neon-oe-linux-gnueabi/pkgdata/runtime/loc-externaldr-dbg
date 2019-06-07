@@ -1,0 +1,16 @@
+PN: loc-externaldr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-externaldr-dbg: externaldr   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-externaldr-dbg: loc-externaldr version git-r1 - Debugging files
+RPROVIDES_loc-externaldr-dbg:  loc-externaldr-dbg (=git)
+RRECOMMENDS_loc-externaldr-dbg: libsqlite3-dbg lbs-core-dbg libstdc++-dbg loc-net-iface-dbg libssl-dbg data-items-dbg libcrypto-dbg izat-core-dbg dsutils-dbg xmllib-dbg qmi-dbg system-core-dbg qmi-framework-dbg qmi-client-helper-dbg loc-externaldrcore-dbg diag-dbg data-oss-dbg libcutils-dbg loc-stub-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg data-dbg configdb-dbg time-genoff-dbg
+SECTION_loc-externaldr-dbg: devel
+PKG_loc-externaldr-dbg: libloc-externaldr-dbg
+ALLOW_EMPTY_loc-externaldr-dbg: 1
+FILES_loc-externaldr-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-externaldr/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-externaldr/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-externaldr/loc-externaldr/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_externalDr.so.1.0.0": 27404}
+PKGSIZE_loc-externaldr-dbg: 27404

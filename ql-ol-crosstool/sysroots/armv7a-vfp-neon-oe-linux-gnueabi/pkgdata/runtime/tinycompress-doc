@@ -1,0 +1,13 @@
+PN: tinycompress
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD & LGPLv2.1
+DESCRIPTION_tinycompress-doc: ALSA sound library for compress format.  This package contains documentation.
+SUMMARY_tinycompress-doc: ALSA sound library for compress format - Documentation files
+SECTION_tinycompress-doc: doc
+PKG_tinycompress-doc: tinycompress-doc
+FILES_tinycompress-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_tinycompress-doc: 0

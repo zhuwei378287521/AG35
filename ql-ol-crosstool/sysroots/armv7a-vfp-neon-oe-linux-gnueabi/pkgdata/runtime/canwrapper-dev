@@ -1,0 +1,17 @@
+PN: canwrapper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_canwrapper-dev: CAN Wrapper   This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_canwrapper-dev: canwrapper version git-r1 - Development files
+RDEPENDS_canwrapper-dev: canwrapper (= git-r1)
+RPROVIDES_canwrapper-dev:  canwrapper-dev (=git)
+RRECOMMENDS_canwrapper-dev: libcutils-dev liblog-dev libstdc++-dev libgcc-dev glibc-dev canwrapper-hdr-dev glib-2.0-dev qmi-framework-dev
+SECTION_canwrapper-dev: devel
+PKG_canwrapper-dev: libcanwrapper-dev
+ALLOW_EMPTY_canwrapper-dev: 1
+FILES_canwrapper-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/canwrapper/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libcanwrapper.la": 1148, "/usr/lib/libcanwrapper.so": 22, "/usr/lib/pkgconfig/libcanwrapper.pc": 201}
+PKGSIZE_canwrapper-dev: 1371

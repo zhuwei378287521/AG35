@@ -1,0 +1,13 @@
+PN: libbt-vendor
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_libbt-vendor-doc: Bluetooth Vendor Library  This package contains documentation.
+SUMMARY_libbt-vendor-doc: libbt-vendor version git-r0 - Documentation files
+SECTION_libbt-vendor-doc: doc
+PKG_libbt-vendor-doc: libbt-vendor-doc
+FILES_libbt-vendor-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libbt-vendor-doc: 0

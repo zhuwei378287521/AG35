@@ -1,0 +1,16 @@
+PN: open-avb
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_open-avb-dev: open-avb tools  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_open-avb-dev: open-avb version 1.0-r1 - Development files
+RDEPENDS_open-avb-dev: open-avb (= 1.0-r1)
+RRECOMMENDS_open-avb-dev: alsa-intf-dev libstdc++-dev libpcap-dev pciutils-dev libgcc-dev libasound-dev alsa-lib-dev glib-2.0-dev glibc-dev
+SECTION_open-avb-dev: devel
+PKG_open-avb-dev: open-avb-dev
+ALLOW_EMPTY_open-avb-dev: 1
+FILES_open-avb-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/open-avb/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_open-avb-dev: 0

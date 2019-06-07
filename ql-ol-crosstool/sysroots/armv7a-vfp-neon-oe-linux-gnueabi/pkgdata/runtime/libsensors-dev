@@ -1,0 +1,16 @@
+PN: libsensors
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD-3-Clause
+DESCRIPTION_libsensors-dev: Sensor library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libsensors-dev: libsensors version git-r1 - Development files
+RDEPENDS_libsensors-dev: libsensors (= git-r1)
+RRECOMMENDS_libsensors-dev: glib-2.0-dev libgcc-dev glibc-dev libstdc++-dev
+SECTION_libsensors-dev: devel
+PKG_libsensors-dev: libsensors-dev
+ALLOW_EMPTY_libsensors-dev: 1
+FILES_libsensors-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libsensors/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/libsensors.pc": 211, "/usr/include/libsensors/sensors.h": 40141, "/usr/include/libsensors/BstSensor.h": 6376, "/usr/include/libsensors/sensors_poll_context.h": 1445, "/usr/lib/libsensors.so": 19, "/usr/lib/libsensors.la": 1039, "/usr/include/libsensors/hardware.h": 7904, "/usr/include/libsensors/sensord_def.h": 7477, "/usr/include/libsensors/bstsimple_list.h": 5092}
+PKGSIZE_libsensors-dev: 69704

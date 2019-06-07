@@ -1,0 +1,14 @@
+PN: ql-mtdimg
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-mtdimg-staticdev: Quectel Function Daemon  This package contains static libraries for software development.
+SUMMARY_ql-mtdimg-staticdev: ql-mtdimg version git-r1 - Development files (Static Libraries)
+RDEPENDS_ql-mtdimg-staticdev: ql-mtdimg-dev (= git-r1)
+SECTION_ql-mtdimg-staticdev: devel
+PKG_ql-mtdimg-staticdev: ql-mtdimg-staticdev
+FILES_ql-mtdimg-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-mtdimg/*.a
+FILES_INFO: {}
+PKGSIZE_ql-mtdimg-staticdev: 0

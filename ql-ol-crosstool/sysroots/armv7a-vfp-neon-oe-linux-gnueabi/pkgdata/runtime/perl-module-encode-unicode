@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.22.0
+PR: r0
+PKGV: 5.22.0
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-unicode: perl module encode-unicode
+SUMMARY_perl-module-encode-unicode: perl module encode-unicode
+RDEPENDS_perl-module-encode-unicode: perl-module-encode perl-module-xsloader perl perl-module-warnings perl-module-strict perl-module-parent glibc (>= 2.22)
+SECTION: devel
+PKG_perl-module-encode-unicode: perl-module-encode-unicode
+FILES_perl-module-encode-unicode: /usr/lib/perl/5.22.0/auto/Encode/Unicode/Unicode.so /usr/lib/perl/5.22.0/Encode/Unicode.pm
+FILERPROVIDESFLIST_perl-module-encode-unicode: /usr/lib/perl/5.22.0/auto/Encode/Unicode/Unicode.so
+FILES_INFO: {"/usr/lib/perl/5.22.0/Encode/Unicode.pm": 8958, "/usr/lib/perl/5.22.0/auto/Encode/Unicode/Unicode.so": 22032}
+FILERPROVIDES_/usr/lib/perl/5.22.0/auto/Encode/Unicode/Unicode.so_perl-module-encode-unicode: Unicode.so elf(buildid) (= 9c4d8579f4086d139886a744a59122578cf49e28)
+FILERDEPENDSFLIST_perl-module-encode-unicode: /usr/lib/perl/5.22.0/auto/Encode/Unicode/Unicode.so
+FILERDEPENDS_/usr/lib/perl/5.22.0/auto/Encode/Unicode/Unicode.so_perl-module-encode-unicode: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-encode-unicode: 30990

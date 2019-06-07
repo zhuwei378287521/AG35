@@ -1,0 +1,19 @@
+PN: libpcap
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: Libpcap provides a portable framework for low-level network monitoring.  Libpcap can provide network statistics collection, security monitoring and network debugging.
+SUMMARY: Interface for user-level network packet capture
+RDEPENDS_libpcap: glibc (>= 2.22)
+RPROVIDES_libpcap:  libpcap (=1.6.2)
+SECTION: libs/network
+PKG_libpcap: libpcap1
+FILES_libpcap: /usr/bin/* /usr/sbin/* /usr/lib/libpcap/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libpcap /usr/lib/libpcap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libpcap: /usr/lib/libpcap.so.1.6.2
+FILES_INFO: {"/usr/lib/libpcap.so.1": 16, "/usr/lib/libpcap.so.1.6.2": 276452}
+FILERPROVIDES_/usr/lib/libpcap.so.1.6.2_libpcap: elf(buildid) (= 0d212aec400ea6c31772d06f40b6ac1196984a82) libpcap.so.1
+FILERDEPENDSFLIST_libpcap: /usr/lib/libpcap.so.1.6.2
+FILERDEPENDS_/usr/lib/libpcap.so.1.6.2_libpcap: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+PKGSIZE_libpcap: 276468

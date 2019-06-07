@@ -1,0 +1,20 @@
+PN: dbus
+PV: 1.8.20
+PR: r0
+PKGV: 1.8.20
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION: D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\"single instance\\" application or daemon, and to launch applications and daemons on demand when their services are needed.
+SUMMARY: D-Bus message bus
+RDEPENDS_dbus-lib: glibc (>= 2.22)
+RPROVIDES_dbus-lib:  dbus-lib (=1.8.20)
+RRECOMMENDS_dbus-lib: dbus
+SECTION: base
+PKG_dbus-lib: libdbus-1-3
+FILES_dbus-lib: /usr/lib/lib*.so.*
+FILERPROVIDESFLIST_dbus-lib: /usr/lib/libdbus-1.so.3.8.13
+FILES_INFO: {"/usr/lib/libdbus-1.so.3.8.13": 259812, "/usr/lib/libdbus-1.so.3": 19}
+FILERPROVIDES_/usr/lib/libdbus-1.so.3.8.13_dbus-lib: elf(buildid) (= 9f15a2c1e1234b621be0b3ce1106cf2250a498c9) libdbus-1.so.3
+FILERDEPENDSFLIST_dbus-lib: /usr/lib/libdbus-1.so.3.8.13
+FILERDEPENDS_/usr/lib/libdbus-1.so.3.8.13_dbus-lib: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.10) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_dbus-lib: 259831

@@ -1,0 +1,19 @@
+PN: slim-common
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: SLIM Common library
+SUMMARY: slim-common version git-r1
+RDEPENDS_slim-common: qmi (>= git) slim-utils (>= git) diag (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) qmi-framework (>= git) configdb (>= git) dsutils (>= git) xmllib (>= git) time-genoff (>= git)
+RPROVIDES_slim-common:  slim-common (=git)
+SECTION: base
+PKG_slim-common: libslimcommon1
+FILES_slim-common: /usr/bin/* /usr/sbin/* /usr/lib/slim-common/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/slim-common /usr/lib/slim-common/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_slim-common: /usr/lib/libslimcommon.so.1.0.0
+FILES_INFO: {"/usr/lib/libslimcommon.so.1": 22, "/usr/lib/libslimcommon.so.1.0.0": 161580}
+FILERPROVIDES_/usr/lib/libslimcommon.so.1.0.0_slim-common: elf(buildid) (= d8d3afd7954c4217275bda23b3ad6d54db91af71) libslimcommon.so.1
+FILERDEPENDSFLIST_slim-common: /usr/lib/libslimcommon.so.1.0.0
+FILERDEPENDS_/usr/lib/libslimcommon.so.1.0.0_slim-common: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 librt.so.1 libslimutils.so.1 libstdc++.so.6 libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_slim-common: 161602

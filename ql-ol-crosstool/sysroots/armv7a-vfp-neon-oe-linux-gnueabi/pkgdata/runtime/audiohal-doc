@@ -1,0 +1,13 @@
+PN: audiohal
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_audiohal-doc: audiohal  This package contains documentation.
+SUMMARY_audiohal-doc: audiohal version 1.0-r0 - Documentation files
+SECTION_audiohal-doc: doc
+PKG_audiohal-doc: audiohal-doc
+FILES_audiohal-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_audiohal-doc: 0

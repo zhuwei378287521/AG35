@@ -1,0 +1,17 @@
+PN: loc-mq-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mq-client-dev: LOC MQ Client  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-mq-client-dev: loc-mq-client version git-r1 - Development files
+RDEPENDS_loc-mq-client-dev: loc-mq-client (= git-r1)
+RPROVIDES_loc-mq-client-dev:  loc-mq-client-dev (=git)
+RRECOMMENDS_loc-mq-client-dev: liblog-dev loc-base-util-dev libgcc-dev time-genoff-dev glib-2.0-dev loc-hal-dev data-dev qmi-dev ql-syslog-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev libcrypto-dev libstdc++-dev gps-utils-dev dsutils-dev libsqlite3-dev libcutils-dev loc-stub-dev data-oss-dev qmi-client-helper-dev diag-dev qmi-framework-dev
+SECTION_loc-mq-client-dev: devel
+PKG_loc-mq-client-dev: libloc-mq-client-dev
+ALLOW_EMPTY_loc-mq-client-dev: 1
+FILES_loc-mq-client-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-mq-client/*.la /lib/*.la
+FILES_INFO: {"/usr/include/mq_client/mq_client_controller.h": 5461, "/usr/include/mq_client/IPCMessagingProxy.h": 2646, "/usr/lib/libloc_mq_client.la": 2656, "/usr/include/loc-mq-client/mq_client_controller.h": 5461, "/usr/lib/libloc_mq_client.so": 25, "/usr/include/loc-mq-client/IPCMessagingProxy.h": 2646, "/usr/include/mq_client/mq_client.h": 1870, "/usr/lib/pkgconfig/loc-mq-client.pc": 215, "/usr/include/loc-mq-client/mq_client.h": 1870}
+PKGSIZE_loc-mq-client-dev: 22850

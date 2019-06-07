@@ -1,0 +1,13 @@
+PN: soundtrigger
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: sound trigger loader Library
+SUMMARY: soundtrigger version git-r9
+SECTION: base
+PKG_soundtrigger-locale: soundtrigger-locale
+FILES_soundtrigger-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_soundtrigger-locale: 0

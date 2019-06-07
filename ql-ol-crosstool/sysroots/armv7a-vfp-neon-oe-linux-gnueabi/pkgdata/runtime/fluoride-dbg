@@ -1,0 +1,15 @@
+PN: fluoride
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_fluoride-dbg: Bluetooth Fluoride Stack  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_fluoride-dbg: fluoride version git-r0 - Debugging files
+RRECOMMENDS_fluoride-dbg: glibc-dbg zlib-dbg libstdc++-dbg liblog-dbg libhardware-dbg libcutils-dbg system-media-dbg
+SECTION_fluoride-dbg: devel
+PKG_fluoride-dbg: fluoride-dbg
+ALLOW_EMPTY_fluoride-dbg: 1
+FILES_fluoride-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/fluoride/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/fluoride/.debug /usr/lib/matchbox-panel/.debug /usr/lib/fluoride/fluoride/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libbluetoothdefault.so.0.0.0": 494872, "/usr/bin/.debug/bdt": 17028}
+PKGSIZE_fluoride-dbg: 511900

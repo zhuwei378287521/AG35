@@ -1,0 +1,51 @@
+AG35CE
+________________________________________
+
+FW_Version:     AG35CEVAR05A01T4G_OCPU_BETA0130
+Build_Date:     2018-01-30
+Changelist_ID:  
+
+Key Changes Points
+1. 修复gpioSysfs中文件句柄泄露问题
+2. 改善ADC接口
+3. Trustzone: 修复概率性生成的签名数据错误问题
+4. 改善几个example：ssl，https， wifi
+5. ql_nw： 修复GSM rssi 和 LTE lac&ci获取不准确问题
+6. 修复 QL_WWAN_SetAPN频繁调用后造成的资源泄露
+7. 增加 QL_NW_GetRegState_Ex
+8. ql_wwan_v2.h:增加ql_apn_set与 ql_apn_get函数来读写APN
+
+
+________________________________________
+
+FW_Version:     AG35CEVAR05A01T4G_OCPU_BETA1229
+Build_Date:     2017-12-29
+Changelist_ID:  
+
+Key Changes Points
+1. 新增拨号新接口，ql_wwan_v2.h  及其相关Example； example/data/example_data_call_v2.c
+2. 新增一些Example：http,soc, https, openssl, json, xml.
+3. 新增BLE NF3303的Demo. 
+
+
+________________________________________
+
+FW_Version:     AG35CEVAR05A01T4G_OCPU_BETA1214
+Build_Date:     2017-12-14
+Changelist_ID:  
+
+Key Changes Points
+1.简化编译: make clean; make kernel_menuconfig; make 可以一键编译Kernel，bootloader，rootfs打包；
+2.修正 GPIO API的注释
+3. 增加SGMII API
+4. 增加低功耗Demo：low_power_consume_app
+5. 修复SMS重复接收的问题
+6. 删除无用文档
+7. 增加WIFI API
+8. 增加中文短信的支持
+9. 修复短信注册回调后，频繁唤醒的问题
+10. 删除过时Example
+11. 删除gpioSysfs.h， ql_gpio_def.h ,改用ql_gpio.h；
+增加peripheral.a;  后续逐渐把 lib/interface/src 废弃；
+
+

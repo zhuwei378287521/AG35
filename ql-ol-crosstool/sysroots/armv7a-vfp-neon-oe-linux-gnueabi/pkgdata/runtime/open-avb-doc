@@ -1,0 +1,13 @@
+PN: open-avb
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_open-avb-doc: open-avb tools  This package contains documentation.
+SUMMARY_open-avb-doc: open-avb version 1.0-r1 - Documentation files
+SECTION_open-avb-doc: doc
+PKG_open-avb-doc: open-avb-doc
+FILES_open-avb-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_open-avb-doc: 0

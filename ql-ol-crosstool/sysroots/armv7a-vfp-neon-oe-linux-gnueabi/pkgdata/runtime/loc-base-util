@@ -1,0 +1,19 @@
+PN: loc-base-util
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: LOC base utils
+SUMMARY: loc-base-util version git-r1
+RDEPENDS_loc-base-util: libcrypto (>= 1.0.2h) glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libsqlite3 (>= 3.8.10.2) libgcc (>= 4.9.3) libssl (>= 1.0.2h)
+RPROVIDES_loc-base-util:  loc-base-util (=git)
+SECTION: base
+PKG_loc-base-util: libloc-base-util1
+FILES_loc-base-util: /usr/bin/* /usr/sbin/* /usr/lib/loc-base-util/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/loc-base-util /usr/lib/loc-base-util/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_loc-base-util: /usr/lib/libloc@underscore@base@underscore@util.so.1.0.0
+FILES_INFO: {"/usr/lib/libloc_base_util.so.1.0.0": 116536, "/usr/lib/libloc_base_util.so.1": 25}
+FILERPROVIDES_/usr/lib/libloc@underscore@base@underscore@util.so.1.0.0_loc-base-util: elf(buildid) (= 48120d6811ef97c903a5e40df3b12e1a60a4492b) libloc_base_util.so.1
+FILERDEPENDSFLIST_loc-base-util: /usr/lib/libloc@underscore@base@underscore@util.so.1.0.0
+FILERDEPENDS_/usr/lib/libloc@underscore@base@underscore@util.so.1.0.0_loc-base-util: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libsqlite3.so.0 libssl.so.1.0.0 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_loc-base-util: 116561

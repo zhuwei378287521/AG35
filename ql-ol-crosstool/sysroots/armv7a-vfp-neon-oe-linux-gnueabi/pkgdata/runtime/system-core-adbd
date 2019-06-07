@@ -1,0 +1,22 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r19_perf
+RDEPENDS_system-core-adbd: ql-libsepol (>= git) libsparse (>= 1.0) libmincrypt (>= git) zlib (>= 1.2.8) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) libgcc (>= 4.9.3) libpcre (>= 8.38) system-core (>= git) libselinux (>= git) glibc (>= 2.22) ext4-utils (>= git)
+SECTION: base
+PKG_system-core-adbd: system-core-adbd
+FILES_system-core-adbd: /sbin/adbd /etc/init.d/adbd /usr/lib/libadbd.so.* /lib/systemd/system/adbd.service /lib/systemd/system/multi-user.target.wants/adbd.service /lib/systemd/system/ffbm.target.wants/adbd.service /etc/launch_adbd /etc/initscripts/adbd
+FILERPROVIDESFLIST_system-core-adbd: /usr/lib/libadbd.so.0.0.0 /sbin/adbd
+FILES_INFO: {"/etc/init.d/adbd": 3172, "/usr/lib/libadbd.so.0.0.0": 88548, "/etc/launch_adbd": 2520, "/sbin/adbd": 34516, "/usr/lib/libadbd.so.0": 16}
+FILERPROVIDES_/usr/lib/libadbd.so.0.0.0_system-core-adbd: elf(buildid) (= 586a980c6786e1dd61b333e2f7ab2610b10b23fe) libadbd.so.0
+FILERPROVIDES_/sbin/adbd_system-core-adbd: elf(buildid) (= 3207b15c79c2e28c788eeb0c96853e5d4a377e0c)
+FILERDEPENDSFLIST_system-core-adbd: /etc/init.d/adbd /usr/lib/libadbd.so.0.0.0 /sbin/adbd /etc/launch@underscore@adbd
+FILERDEPENDS_/etc/init.d/adbd_system-core-adbd: /bin/sh
+FILERDEPENDS_/usr/lib/libadbd.so.0.0.0_system-core-adbd: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbase.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libext4_utils.so.0 libfs_mgr.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 liblogwrap.so.0 libm.so.6 libmincrypt.so.0 libpcre.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libresolv.so.2 libresolv.so.2(GLIBC_2.4) libselinux.so.1 libsepol.so.1 libsparse.so.0 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.11) libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/adbd_system-core-adbd: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libadbd.so.0 libbase.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.9) libcutils.so.0 libext4_utils.so.0 libfs_mgr.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libselinux.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/launch@underscore@adbd_system-core-adbd: /bin/sh
+PKGSIZE_system-core-adbd: 128772

@@ -1,0 +1,15 @@
+PN: event-observer
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_event-observer-staticdev: Event Observer  This package contains static libraries for software development.
+SUMMARY_event-observer-staticdev: event-observer version git-r1 - Development files (Static Libraries)
+RDEPENDS_event-observer-staticdev: event-observer-dev (= git-r1)
+RPROVIDES_event-observer-staticdev:  event-observer-staticdev (=git)
+SECTION_event-observer-staticdev: devel
+PKG_event-observer-staticdev: libevent-observer-staticdev
+FILES_event-observer-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/event-observer/*.a
+FILES_INFO: {}
+PKGSIZE_event-observer-staticdev: 0

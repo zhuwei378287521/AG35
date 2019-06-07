@@ -1,0 +1,14 @@
+PN: gen-gatt
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_gen-gatt-staticdev: Bluetooth Generic Gatt Interface  This package contains static libraries for software development.
+SUMMARY_gen-gatt-staticdev: gen-gatt version git-r0 - Development files (Static Libraries)
+RDEPENDS_gen-gatt-staticdev: gen-gatt-dev (= git-r0)
+SECTION_gen-gatt-staticdev: devel
+PKG_gen-gatt-staticdev: gen-gatt-staticdev
+FILES_gen-gatt-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gen-gatt/*.a
+FILES_INFO: {"/usr/lib/libgengatt.a": 126634}
+PKGSIZE_gen-gatt-staticdev: 126634

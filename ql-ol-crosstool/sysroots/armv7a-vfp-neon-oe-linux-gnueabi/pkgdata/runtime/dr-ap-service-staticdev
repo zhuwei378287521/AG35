@@ -1,0 +1,14 @@
+PN: dr-ap-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_dr-ap-service-staticdev: DR AP service  This package contains static libraries for software development.
+SUMMARY_dr-ap-service-staticdev: dr-ap-service version git-r1 - Development files (Static Libraries)
+RDEPENDS_dr-ap-service-staticdev: dr-ap-service-dev (= git-r1)
+SECTION_dr-ap-service-staticdev: devel
+PKG_dr-ap-service-staticdev: dr-ap-service-staticdev
+FILES_dr-ap-service-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/dr-ap-service/*.a
+FILES_INFO: {}
+PKGSIZE_dr-ap-service-staticdev: 0

@@ -1,0 +1,14 @@
+PN: slim-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-client-doc: SLIM cleint   This package contains documentation.
+SUMMARY_slim-client-doc: slim-client version git-r1 - Documentation files
+RPROVIDES_slim-client-doc:  slim-client-doc (=git)
+SECTION_slim-client-doc: doc
+PKG_slim-client-doc: libslimclient-doc
+FILES_slim-client-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_slim-client-doc: 0

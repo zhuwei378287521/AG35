@@ -1,0 +1,16 @@
+PN: surround-sound-3mic
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_surround-sound-3mic-dev: surround_sound_3mic Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_surround-sound-3mic-dev: surround-sound-3mic version git-r0 - Development files
+RDEPENDS_surround-sound-3mic-dev: surround-sound-3mic (= git-r0)
+RRECOMMENDS_surround-sound-3mic-dev: glibc-dev
+SECTION_surround-sound-3mic-dev: devel
+PKG_surround-sound-3mic-dev: surround-sound-3mic-dev
+ALLOW_EMPTY_surround-sound-3mic-dev: 1
+FILES_surround-sound-3mic-dev: /usr/lib/*.la /usr/include
+FILES_INFO: {"/usr/include/surround_sound_3mic/surround_rec_interface.h": 2438}
+PKGSIZE_surround-sound-3mic-dev: 2438

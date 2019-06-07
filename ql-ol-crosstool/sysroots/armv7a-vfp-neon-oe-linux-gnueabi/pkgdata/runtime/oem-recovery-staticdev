@@ -1,0 +1,14 @@
+PN: oem-recovery
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_oem-recovery-staticdev: OEM Recovery  This package contains static libraries for software development.
+SUMMARY_oem-recovery-staticdev: oem-recovery version git-r1 - Development files (Static Libraries)
+RDEPENDS_oem-recovery-staticdev: oem-recovery-dev (= git-r1)
+SECTION_oem-recovery-staticdev: devel
+PKG_oem-recovery-staticdev: oem-recovery-staticdev
+FILES_oem-recovery-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/oem-recovery/*.a
+FILES_INFO: {"/usr/lib/librecovery_updater_msm.a": 68316}
+PKGSIZE_oem-recovery-staticdev: 68316

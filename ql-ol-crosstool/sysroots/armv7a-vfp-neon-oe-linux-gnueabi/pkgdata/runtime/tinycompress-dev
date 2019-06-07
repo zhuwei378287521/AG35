@@ -1,0 +1,16 @@
+PN: tinycompress
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD & LGPLv2.1
+DESCRIPTION_tinycompress-dev: ALSA sound library for compress format.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_tinycompress-dev: ALSA sound library for compress format - Development files
+RDEPENDS_tinycompress-dev: tinycompress (= git-r0)
+RRECOMMENDS_tinycompress-dev: glibc-dev
+SECTION_tinycompress-dev: devel
+PKG_tinycompress-dev: tinycompress-dev
+ALLOW_EMPTY_tinycompress-dev: 1
+FILES_tinycompress-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tinycompress/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libtinycompress.so": 24, "/usr/include/tinycompress/tinycompress.h": 9795, "/usr/lib/libtinycompress.la": 949}
+PKGSIZE_tinycompress-dev: 10768

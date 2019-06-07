@@ -1,0 +1,17 @@
+PN: lowi-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-client-dev: GPS lowi client  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_lowi-client-dev: lowi-client version git-r1 - Development files
+RDEPENDS_lowi-client-dev: lowi-client (= git-r1)
+RPROVIDES_lowi-client-dev:  lowi-client-dev (=git)
+RRECOMMENDS_lowi-client-dev: liblog-dev loc-base-util-dev libgcc-dev time-genoff-dev glib-2.0-dev loc-hal-dev loc-mq-client-dev data-dev qmi-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev libcrypto-dev libstdc++-dev gps-utils-dev dsutils-dev libsqlite3-dev libcutils-dev loc-stub-dev data-oss-dev qmi-client-helper-dev diag-dev qmi-framework-dev
+SECTION_lowi-client-dev: devel
+PKG_lowi-client-dev: liblowi-client-dev
+ALLOW_EMPTY_lowi-client-dev: 1
+FILES_lowi-client-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lowi-client/*.la /lib/*.la
+FILES_INFO: {"/usr/include/lowi-client/lowi_scan_measurement.h": 15452, "/usr/include/lowi-client/lowi_defines.h": 1601, "/usr/include/lowi-client/lowi_mac_address.h": 4372, "/usr/include/lowi/inc/lowi_ssid.h": 2845, "/usr/lib/liblowi_client.so": 23, "/usr/include/lowi-client/lowi_request.h": 57162, "/usr/include/lowi-client/lowi_ssid.h": 2845, "/usr/include/lowi/inc/lowi_client.h": 7983, "/usr/include/lowi-client/lowi_const.h": 6406, "/usr/include/lowi/inc/lowi_scan_measurement.h": 15452, "/usr/include/lowi-client/lowi_client.h": 7983, "/usr/include/lowi/inc/lowi_defines.h": 1601, "/usr/include/lowi/inc/lowi_client_receiver.h": 2983, "/usr/lib/pkgconfig/lowi-client.pc": 229, "/usr/include/lowi/inc/lowi_mac_address.h": 4372, "/usr/include/lowi/inc/lowi_request.h": 57162, "/usr/include/lowi-client/lowi_response.h": 15255, "/usr/lib/liblowi_client.la": 2705, "/usr/include/lowi/inc/lowi_response.h": 15255, "/usr/include/lowi/inc/lowi_const.h": 6406}
+PKGSIZE_lowi-client-dev: 228092

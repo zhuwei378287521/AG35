@@ -1,0 +1,6 @@
+liblogwrap.so.0:/usr/lib:git
+libsync.so.0:/usr/lib:git
+libfs_mgr.so.0:/usr/lib:git
+libbacktrace.so.0:/usr/lib:git
+libutils.so.0:/usr/lib:git
+libbase.so.0:/usr/lib:git

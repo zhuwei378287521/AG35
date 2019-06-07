@@ -1,0 +1,15 @@
+PN: ql-forward
+PV: git
+PR: r01
+PKGV: git
+PKGR: r01
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-forward-dbg: Quectel Data forward applicant  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ql-forward-dbg: ql-forward version git-r01 - Debugging files
+RRECOMMENDS_ql-forward-dbg: ql-common-tools-dbg qmi-framework-dbg glibc-dbg
+SECTION_ql-forward-dbg: devel
+PKG_ql-forward-dbg: ql-forward-dbg
+ALLOW_EMPTY_ql-forward-dbg: 1
+FILES_ql-forward-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-forward/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-forward/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-forward/ql-forward/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/ql_forward": 130632}
+PKGSIZE_ql-forward-dbg: 130632

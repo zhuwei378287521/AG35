@@ -1,0 +1,16 @@
+PN: hci-qcomm-init
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_hci-qcomm-init-dev: Bluetooth BT Vendor Filters  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_hci-qcomm-init-dev: hci-qcomm-init version git-r0 - Development files
+RDEPENDS_hci-qcomm-init-dev: hci-qcomm-init (= git-r0)
+RRECOMMENDS_hci-qcomm-init-dev: glibc-dev liblog-dev libstdc++-dev libgcc-dev qmi-dev glib-2.0-dev qmi-framework-dev common-dev libcutils-dev diag-dev
+SECTION_hci-qcomm-init-dev: devel
+PKG_hci-qcomm-init-dev: hci-qcomm-init-dev
+ALLOW_EMPTY_hci-qcomm-init-dev: 1
+FILES_hci-qcomm-init-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/hci-qcomm-init/*.la /lib/*.la
+FILES_INFO: {"/usr/include/bt_nv.h": 4072, "/usr/include/btqsocnvm.h": 17858, "/usr/lib/libbtnv.so": 16, "/usr/include/btqsocnvmutils.h": 5241, "/usr/lib/libbtnv.la": 967}
+PKGSIZE_hci-qcomm-init-dev: 28154

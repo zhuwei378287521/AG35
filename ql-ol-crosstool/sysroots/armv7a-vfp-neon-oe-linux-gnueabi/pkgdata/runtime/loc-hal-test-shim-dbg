@@ -1,0 +1,15 @@
+PN: loc-hal-test-shim
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-hal-test-shim-dbg: GPS HAL API Test shim Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-hal-test-shim-dbg: loc-hal-test-shim version git-r3 - Debugging files
+RRECOMMENDS_loc-hal-test-shim-dbg: libsqlite3-dbg lbs-core-dbg libstdc++-dbg libssl-dbg data-items-dbg libcrypto-dbg izat-core-dbg qmi-framework-dbg xmllib-dbg qmi-dbg system-core-dbg loc-mq-client-dbg dsutils-dbg qmi-client-helper-dbg diag-dbg lowi-client-dbg data-oss-dbg drplugin-dbg libcutils-dbg loc-net-iface-dbg drplugin-client-dbg event-observer-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg data-dbg configdb-dbg gnsspps-dbg loc-stub-dbg time-genoff-dbg location-service-dbg ql-syslog-dbg ulp2-dbg
+SECTION_loc-hal-test-shim-dbg: devel
+PKG_loc-hal-test-shim-dbg: loc-hal-test-shim-dbg
+ALLOW_EMPTY_loc-hal-test-shim-dbg: 1
+FILES_loc-hal-test-shim-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-hal-test-shim/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-hal-test-shim/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-hal-test-shim/loc-hal-test-shim/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_hal_test_shim_extended.so.1.0.0": 9460, "/usr/lib/.debug/libloc_hal_test_shim.so.1.0.0": 8800}
+PKGSIZE_loc-hal-test-shim-dbg: 18260

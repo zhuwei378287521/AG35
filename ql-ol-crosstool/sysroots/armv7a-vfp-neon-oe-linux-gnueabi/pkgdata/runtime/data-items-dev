@@ -1,0 +1,17 @@
+PN: data-items
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_data-items-dev: GPS Data Items  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_data-items-dev: data-items version git-r1 - Development files
+RDEPENDS_data-items-dev: data-items (= git-r1)
+RPROVIDES_data-items-dev:  data-items-dev (=git)
+RRECOMMENDS_data-items-dev: gps-utils-dev glibc-dev loc-pla-dev loc-base-util-dev libssl-dev liblog-dev libcrypto-dev libstdc++-dev libgcc-dev libsqlite3-dev glib-2.0-dev libcutils-dev loc-stub-dev
+SECTION_data-items-dev: devel
+PKG_data-items-dev: libdataitems-dev
+ALLOW_EMPTY_data-items-dev: 1
+FILES_data-items-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/data-items/*.la /lib/*.la
+FILES_INFO: {"/usr/include/data-items/IDataItem.h": 1763, "/usr/include/data-items/DataItemId.h": 1584, "/usr/include/data-items/DataItemStringifierBase.h": 852, "/usr/include/data-items/DataItemCopierBase.h": 802, "/usr/include/data-items/IDataItemCopier.h": 1102, "/usr/include/data-items/DataItemConcreteTypeFieldNames.h": 4925, "/usr/include/data-items/DataItemConcreteTypes.h": 12901, "/usr/include/data-items/DataItemsFactory.h": 984, "/usr/lib/libdataitems.la": 1413, "/usr/include/data-items/DataItemCopierConcreteTypes.h": 6234, "/usr/include/data-items/loc_ril.h": 10901, "/usr/lib/libdataitems.so": 21, "/usr/include/data-items/DataItemConcreteTypeDefaultValues.h": 3448, "/usr/include/data-items/DataItemDeSerializerConcreteTypes.h": 6151, "/usr/include/data-items/DataItemSerializerConcreteTypes.h": 5947, "/usr/include/data-items/DataItemSerializerBase.h": 1022, "/usr/include/data-items/DataItemBase.h": 2741, "/usr/lib/pkgconfig/data-items.pc": 221, "/usr/include/data-items/IDataItemSerializer.h": 1243, "/usr/include/data-items/DataItemDeSerializerBase.h": 1044, "/usr/include/data-items/IDataItemDeSerializer.h": 1255, "/usr/include/data-items/DataItemStringifierConcreteTypes.h": 6202, "/usr/include/data-items/IDataItemStringifier.h": 1016}
+PKGSIZE_data-items-dev: 73772

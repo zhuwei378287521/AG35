@@ -1,0 +1,14 @@
+PN: slim-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-utils-doc: SLIM Utils  This package contains documentation.
+SUMMARY_slim-utils-doc: slim-utils version git-r1 - Documentation files
+RPROVIDES_slim-utils-doc:  slim-utils-doc (=git)
+SECTION_slim-utils-doc: doc
+PKG_slim-utils-doc: libslimutils-doc
+FILES_slim-utils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_slim-utils-doc: 0

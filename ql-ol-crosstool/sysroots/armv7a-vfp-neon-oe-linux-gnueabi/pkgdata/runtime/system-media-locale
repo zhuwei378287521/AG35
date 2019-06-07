@@ -1,0 +1,13 @@
+PN: system-media
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: Apache-2.0
+DESCRIPTION: system media headers
+SUMMARY: system-media version git-r2
+SECTION: base
+PKG_system-media-locale: system-media-locale
+FILES_system-media-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_system-media-locale: 0

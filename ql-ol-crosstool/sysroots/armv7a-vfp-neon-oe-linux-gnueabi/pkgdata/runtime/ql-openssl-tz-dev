@@ -1,0 +1,16 @@
+PN: ql-openssl-tz
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-openssl-tz-dev: Quectel openssl-tz lib  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ql-openssl-tz-dev: ql-openssl-tz version git-r1 - Development files
+RDEPENDS_ql-openssl-tz-dev: ql-openssl-tz (= git-r1)
+RRECOMMENDS_ql-openssl-tz-dev: openssl-dev glibc-dev libcrypto-dev
+SECTION_ql-openssl-tz-dev: devel
+PKG_ql-openssl-tz-dev: ql-openssl-tz-dev
+ALLOW_EMPTY_ql-openssl-tz-dev: 1
+FILES_ql-openssl-tz-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ql-openssl-tz/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libql_openssl_tz.la": 964, "/usr/lib/libql_openssl_tz.so": 25}
+PKGSIZE_ql-openssl-tz-dev: 989

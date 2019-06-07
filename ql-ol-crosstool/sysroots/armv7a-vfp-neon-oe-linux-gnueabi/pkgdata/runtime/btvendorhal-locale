@@ -1,0 +1,14 @@
+PN: btvendorhal
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION: hardware btvendorhal headers
+SUMMARY: btvendorhal version git-r1
+RPROVIDES_btvendorhal-locale:  btvendorhal-locale (=git)
+SECTION: base
+PKG_btvendorhal-locale: libbtvendorhal-locale
+FILES_btvendorhal-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_btvendorhal-locale: 0

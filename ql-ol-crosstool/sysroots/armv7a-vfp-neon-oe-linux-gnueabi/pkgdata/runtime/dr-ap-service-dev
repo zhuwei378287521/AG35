@@ -1,0 +1,16 @@
+PN: dr-ap-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_dr-ap-service-dev: DR AP service  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_dr-ap-service-dev: dr-ap-service version git-r1 - Development files
+RDEPENDS_dr-ap-service-dev: dr-ap-service (= git-r1)
+RRECOMMENDS_dr-ap-service-dev: gps-utils-dev glibc-dev loc-pla-dev drplugin-server-dev data-dev loc-externaldrcore-dev libgcc-dev glib-2.0-dev qmi-framework-dev
+SECTION_dr-ap-service-dev: devel
+PKG_dr-ap-service-dev: dr-ap-service-dev
+ALLOW_EMPTY_dr-ap-service-dev: 1
+FILES_dr-ap-service-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dr-ap-service/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_dr-ap-service-dev: 0

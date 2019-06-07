@@ -1,0 +1,16 @@
+PN: slim-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-client-dbg: SLIM cleint   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_slim-client-dbg: slim-client version git-r1 - Debugging files
+RPROVIDES_slim-client-dbg:  slim-client-dbg (=git)
+RRECOMMENDS_slim-client-dbg: loc-pla-dbg slim-utils-dbg glibc-dbg configdb-dbg gps-utils-dbg xmllib-dbg libstdc++-dbg diag-dbg dsutils-dbg time-genoff-dbg liblog-dbg slim-common-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg libcutils-dbg loc-stub-dbg qmi-dbg
+SECTION_slim-client-dbg: devel
+PKG_slim-client-dbg: libslimclient-dbg
+ALLOW_EMPTY_slim-client-dbg: 1
+FILES_slim-client-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/slim-client/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/slim-client/.debug /usr/lib/matchbox-panel/.debug /usr/lib/slim-client/slim-client/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libslimclient.so.1.0.0": 33724}
+PKGSIZE_slim-client-dbg: 33724

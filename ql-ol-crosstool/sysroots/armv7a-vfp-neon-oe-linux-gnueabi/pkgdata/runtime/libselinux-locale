@@ -1,0 +1,13 @@
+PN: libselinux
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION: QUECTEL libselinux
+SUMMARY: libselinux version git-r1
+SECTION: base
+PKG_libselinux-locale: libselinux-locale
+FILES_libselinux-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libselinux-locale: 0

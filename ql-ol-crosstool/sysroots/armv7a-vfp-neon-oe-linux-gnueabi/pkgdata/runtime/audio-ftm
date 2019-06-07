@@ -1,0 +1,18 @@
+PN: audio-ftm
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Audio FTM
+SUMMARY: audio-ftm version git-r5
+RDEPENDS_audio-ftm: alsa-intf (>= git) liblog (>= 1.0) glibc (>= 2.22) glib-2.0 (>= 2.44.1)
+SECTION: base
+PKG_audio-ftm: audio-ftm
+FILES_audio-ftm: /usr/lib/*.so /usr/lib/*.so.* /etc/* /usr/bin/* /usr/lib/pkgconfig/*
+FILERPROVIDESFLIST_audio-ftm: /usr/bin/audio@underscore@ftm
+FILES_INFO: {"/etc/ftm_test_config": 7164, "/usr/bin/audio_ftm": 146808, "/usr/lib/pkgconfig/audio_ftm.pc": 197}
+FILERPROVIDES_/usr/bin/audio@underscore@ftm_audio-ftm: elf(buildid) (= 726a3c0ee13acf3dbad3982b50cde9bfb42334e8)
+FILERDEPENDSFLIST_audio-ftm: /usr/bin/audio@underscore@ftm
+FILERDEPENDS_/usr/bin/audio@underscore@ftm_audio-ftm: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libalsa_intf.so.1 libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libglib-2.0.so.0 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_audio-ftm: 154169

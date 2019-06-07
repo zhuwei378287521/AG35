@@ -1,0 +1,14 @@
+PN: event-observer
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Event Observer
+SUMMARY: event-observer version git-r1
+RPROVIDES_event-observer-locale:  event-observer-locale (=git)
+SECTION: base
+PKG_event-observer-locale: libevent-observer-locale
+FILES_event-observer-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_event-observer-locale: 0

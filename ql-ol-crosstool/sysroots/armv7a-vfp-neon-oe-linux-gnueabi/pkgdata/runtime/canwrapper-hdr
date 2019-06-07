@@ -1,0 +1,13 @@
+PN: canwrapper-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: CAN Wrapper hdr
+SUMMARY: canwrapper-hdr version git-r1
+SECTION: base
+PKG_canwrapper-hdr: canwrapper-hdr
+FILES_canwrapper-hdr: /usr/bin/* /usr/sbin/* /usr/lib/canwrapper-hdr/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/canwrapper-hdr /usr/lib/canwrapper-hdr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_canwrapper-hdr: 0

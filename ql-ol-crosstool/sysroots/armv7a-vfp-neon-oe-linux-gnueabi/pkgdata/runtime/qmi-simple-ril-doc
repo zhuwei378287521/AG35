@@ -1,0 +1,13 @@
+PN: qmi-simple-ril
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-simple-ril-doc: QMI Test application  This package contains documentation.
+SUMMARY_qmi-simple-ril-doc: qmi-simple-ril version 1.0-r1 - Documentation files
+SECTION_qmi-simple-ril-doc: doc
+PKG_qmi-simple-ril-doc: qmi-simple-ril-doc
+FILES_qmi-simple-ril-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_qmi-simple-ril-doc: 0

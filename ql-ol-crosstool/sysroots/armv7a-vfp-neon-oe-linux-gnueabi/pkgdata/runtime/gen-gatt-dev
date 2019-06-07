@@ -1,0 +1,16 @@
+PN: gen-gatt
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_gen-gatt-dev: Bluetooth Generic Gatt Interface  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gen-gatt-dev: gen-gatt version git-r0 - Development files
+RDEPENDS_gen-gatt-dev: gen-gatt (= git-r0)
+RRECOMMENDS_gen-gatt-dev: glib-2.0-dev
+SECTION_gen-gatt-dev: devel
+PKG_gen-gatt-dev: gen-gatt-dev
+ALLOW_EMPTY_gen-gatt-dev: 1
+FILES_gen-gatt-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gen-gatt/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libgengatt.la": 953}
+PKGSIZE_gen-gatt-dev: 953

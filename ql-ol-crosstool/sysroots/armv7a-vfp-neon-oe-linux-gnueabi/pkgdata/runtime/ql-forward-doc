@@ -1,0 +1,13 @@
+PN: ql-forward
+PV: git
+PR: r01
+PKGV: git
+PKGR: r01
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-forward-doc: Quectel Data forward applicant  This package contains documentation.
+SUMMARY_ql-forward-doc: ql-forward version git-r01 - Documentation files
+SECTION_ql-forward-doc: doc
+PKG_ql-forward-doc: ql-forward-doc
+FILES_ql-forward-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ql-forward-doc: 0

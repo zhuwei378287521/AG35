@@ -1,0 +1,16 @@
+PN: libselinux
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION_libselinux-dev: QUECTEL libselinux  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libselinux-dev: libselinux version git-r1 - Development files
+RDEPENDS_libselinux-dev: libselinux (= git-r1)
+RRECOMMENDS_libselinux-dev: glibc-dev ql-libsepol-dev libpcre-dev
+SECTION_libselinux-dev: devel
+PKG_libselinux-dev: libselinux-dev
+ALLOW_EMPTY_libselinux-dev: 1
+FILES_libselinux-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libselinux/*.la /lib/*.la
+FILES_INFO: {"/usr/include/selinux/restorecon.h": 6012, "/usr/include/selinux/avc.h": 16446, "/usr/include/selinux/flask.h": 4881, "/usr/lib/libselinux.la": 948, "/usr/include/selinux/av_permissions.h": 54823, "/usr/include/selinux/get_default_type.h": 629, "/usr/include/selinux/label.h": 5978, "/usr/lib/pkgconfig/libselinux.pc": 201, "/usr/include/selinux/selinux.h": 27305, "/usr/lib/libselinux.so": 19, "/usr/include/selinux/get_context_list.h": 2920, "/usr/include/selinux/context.h": 1209}
+PKGSIZE_libselinux-dev: 121371

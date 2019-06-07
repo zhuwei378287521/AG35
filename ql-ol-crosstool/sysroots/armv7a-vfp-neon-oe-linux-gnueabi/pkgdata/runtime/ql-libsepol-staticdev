@@ -1,0 +1,15 @@
+PN: ql-libsepol
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION_ql-libsepol-staticdev: QUECTEL libsepol  This package contains static libraries for software development.
+SUMMARY_ql-libsepol-staticdev: ql-libsepol version git-r1 - Development files (Static Libraries)
+RDEPENDS_ql-libsepol-staticdev: ql-libsepol-dev (= git-r1)
+RPROVIDES_ql-libsepol-staticdev:  ql-libsepol-staticdev (=git)
+SECTION_ql-libsepol-staticdev: devel
+PKG_ql-libsepol-staticdev: libsepol-staticdev
+FILES_ql-libsepol-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-libsepol/*.a
+FILES_INFO: {"/usr/lib/libsepol.a": 2425958}
+PKGSIZE_ql-libsepol-staticdev: 2425958

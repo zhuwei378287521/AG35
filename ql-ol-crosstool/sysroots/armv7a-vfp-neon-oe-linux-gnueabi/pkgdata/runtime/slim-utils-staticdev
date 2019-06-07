@@ -1,0 +1,15 @@
+PN: slim-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-utils-staticdev: SLIM Utils  This package contains static libraries for software development.
+SUMMARY_slim-utils-staticdev: slim-utils version git-r1 - Development files (Static Libraries)
+RDEPENDS_slim-utils-staticdev: slim-utils-dev (= git-r1)
+RPROVIDES_slim-utils-staticdev:  slim-utils-staticdev (=git)
+SECTION_slim-utils-staticdev: devel
+PKG_slim-utils-staticdev: libslimutils-staticdev
+FILES_slim-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/slim-utils/*.a
+FILES_INFO: {}
+PKGSIZE_slim-utils-staticdev: 0

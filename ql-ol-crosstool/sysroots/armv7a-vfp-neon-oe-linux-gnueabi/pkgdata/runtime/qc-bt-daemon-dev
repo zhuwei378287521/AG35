@@ -1,0 +1,16 @@
+PN: qc-bt-daemon
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qc-bt-daemon-dev: Bluetooth QC Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_qc-bt-daemon-dev: qc-bt-daemon version git-r0 - Development files
+RDEPENDS_qc-bt-daemon-dev: qc-bt-daemon (= git-r0)
+RRECOMMENDS_qc-bt-daemon-dev: glibc-dev liblog-dev libgcc-dev libstdc++-dev data-dev glib-2.0-dev qmi-framework-dev
+SECTION_qc-bt-daemon-dev: devel
+PKG_qc-bt-daemon-dev: qc-bt-daemon-dev
+ALLOW_EMPTY_qc-bt-daemon-dev: 1
+FILES_qc-bt-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qc-bt-daemon/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_qc-bt-daemon-dev: 0

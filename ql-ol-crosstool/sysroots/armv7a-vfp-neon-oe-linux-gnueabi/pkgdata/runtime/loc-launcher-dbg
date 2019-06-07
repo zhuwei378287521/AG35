@@ -1,0 +1,15 @@
+PN: loc-launcher
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-launcher-dbg: GPS Location process launcher  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-launcher-dbg: loc-launcher version git-r1 - Debugging files
+RRECOMMENDS_loc-launcher-dbg: loc-pla-dbg loc-mq-client-dbg gps-utils-dbg libstdc++-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg glibc-dbg
+SECTION_loc-launcher-dbg: devel
+PKG_loc-launcher-dbg: loc-launcher-dbg
+ALLOW_EMPTY_loc-launcher-dbg: 1
+FILES_loc-launcher-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-launcher/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-launcher/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-launcher/loc-launcher/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/loc_launcher": 14764}
+PKGSIZE_loc-launcher-dbg: 14764

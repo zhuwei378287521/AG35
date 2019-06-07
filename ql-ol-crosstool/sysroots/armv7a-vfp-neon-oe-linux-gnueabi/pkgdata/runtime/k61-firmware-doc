@@ -1,0 +1,13 @@
+PN: k61-firmware
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_k61-firmware-doc: K61 firmware  This package contains documentation.
+SUMMARY_k61-firmware-doc: k61-firmware version git-r1 - Documentation files
+SECTION_k61-firmware-doc: doc
+PKG_k61-firmware-doc: k61-firmware-doc
+FILES_k61-firmware-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_k61-firmware-doc: 0

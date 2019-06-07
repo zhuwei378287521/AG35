@@ -1,0 +1,15 @@
+PN: btvendorhal
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_btvendorhal-staticdev: hardware btvendorhal headers  This package contains static libraries for software development.
+SUMMARY_btvendorhal-staticdev: btvendorhal version git-r1 - Development files (Static Libraries)
+RDEPENDS_btvendorhal-staticdev: btvendorhal-dev (= git-r1)
+RPROVIDES_btvendorhal-staticdev:  btvendorhal-staticdev (=git)
+SECTION_btvendorhal-staticdev: devel
+PKG_btvendorhal-staticdev: libbtvendorhal-staticdev
+FILES_btvendorhal-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/btvendorhal/*.a
+FILES_INFO: {"/usr/lib/libbtvendorhal.a": 4016}
+PKGSIZE_btvendorhal-staticdev: 4016

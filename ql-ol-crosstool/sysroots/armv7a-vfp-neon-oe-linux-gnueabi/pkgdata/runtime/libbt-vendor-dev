@@ -1,0 +1,16 @@
+PN: libbt-vendor
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_libbt-vendor-dev: Bluetooth Vendor Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libbt-vendor-dev: libbt-vendor version git-r0 - Development files
+RDEPENDS_libbt-vendor-dev: libbt-vendor (= git-r0)
+RRECOMMENDS_libbt-vendor-dev: glibc-dev liblog-dev hci-qcomm-init-dev libstdc++-dev libgcc-dev glib-2.0-dev system-core-dev common-dev libcutils-dev
+SECTION_libbt-vendor-dev: devel
+PKG_libbt-vendor-dev: libbt-vendor-dev
+ALLOW_EMPTY_libbt-vendor-dev: 1
+FILES_libbt-vendor-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libbt-vendor/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libbt-vendor.so": 21, "/usr/lib/libbt-vendor.la": 1135}
+PKGSIZE_libbt-vendor-dev: 1156

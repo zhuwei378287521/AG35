@@ -1,0 +1,16 @@
+PN: gtp-ap-le-os-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gtp-ap-le-os-agent-dev: GPS xtwifi LE os agent  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gtp-ap-le-os-agent-dev: gtp-ap-le-os-agent version git-r1 - Development files
+RDEPENDS_gtp-ap-le-os-agent-dev: gtp-ap-le-os-agent (= git-r1)
+RRECOMMENDS_gtp-ap-le-os-agent-dev: loc-mq-client-dev glibc-dev liblog-dev loc-base-util-dev libgcc-dev glib-2.0-dev
+SECTION_gtp-ap-le-os-agent-dev: devel
+PKG_gtp-ap-le-os-agent-dev: gtp-ap-le-os-agent-dev
+ALLOW_EMPTY_gtp-ap-le-os-agent-dev: 1
+FILES_gtp-ap-le-os-agent-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gtp-ap-le-os-agent/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/gtp-ap-le-os-agent.pc": 162}
+PKGSIZE_gtp-ap-le-os-agent-dev: 162

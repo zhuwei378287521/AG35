@@ -1,0 +1,14 @@
+PN: sfe
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION: Shortcut Forward Engine Driver
+SUMMARY: sfe version git-r0_perf
+RDEPENDS_sfe: kernel-module-shortcut-fe-cm kernel-module-shortcut-fe-ipv6 kernel-module-shortcut-fe
+SECTION: base
+PKG_sfe: sfe
+ALLOW_EMPTY_sfe: 1
+FILES_INFO: {}
+PKGSIZE_sfe: 0

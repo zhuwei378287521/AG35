@@ -1,0 +1,34 @@
+#  ---------------------------------------------------------------------------
+#   Copyright (c) 2012 Qualcomm Technologies, Inc.  All Rights Reserved.
+#   Qualcomm Technologies Proprietary and Confidential.
+#  ---------------------------------------------------------------------------
+#
+
+#! /bin/sh
+#
+# init.d script for ql_pwrkey_monitor
+
+set -e
+
+case "$1" in
+       start)
+                echo -n "Starting ql_pwrkey_monitor: "
+                start-stop-daemon -S -b -a /usr/bin/ql_pwrkey_monitor
+                echo "done"
+                ;;
+       stop)
+                echo -n "Stopping ql_pwrkey_monitor: "
+                start-stop-daemon -K -n ql_pwrkey_monitor
+                echo "done"
+                ;;
+       restart)
+                $0 stop
+                $0 start
+                ;;
+       *)
+                echo "Usage: ql_pwrkey_monitor { start | stop | restart }" >&2
+                exit 1
+                ;;
+esac
+
+exit 0

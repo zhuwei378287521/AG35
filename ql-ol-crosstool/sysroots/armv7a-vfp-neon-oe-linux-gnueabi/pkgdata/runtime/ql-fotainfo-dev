@@ -1,0 +1,16 @@
+PN: ql-fotainfo
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-fotainfo-dev: Quectel Function Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ql-fotainfo-dev: ql-fotainfo version git-r1 - Development files
+RDEPENDS_ql-fotainfo-dev: ql-fotainfo (= git-r1)
+RRECOMMENDS_ql-fotainfo-dev: glibc-dev ql-libfotainfo-dev
+SECTION_ql-fotainfo-dev: devel
+PKG_ql-fotainfo-dev: ql-fotainfo-dev
+ALLOW_EMPTY_ql-fotainfo-dev: 1
+FILES_ql-fotainfo-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ql-fotainfo/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_ql-fotainfo-dev: 0

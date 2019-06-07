@@ -1,0 +1,16 @@
+PN: start-scripts-init-can
+PV: 1.0
+PR: r2
+PKGV: 1.0
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION_start-scripts-init-can-dev: Start up script for setting up the can link  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_start-scripts-init-can-dev: start-scripts-init-can version 1.0-r2 - Development files
+RDEPENDS_start-scripts-init-can-dev: start-scripts-init-can (= 1.0-r2)
+RRECOMMENDS_start-scripts-init-can-dev: update-rc.d-dev initscripts-dev
+SECTION_start-scripts-init-can-dev: devel
+PKG_start-scripts-init-can-dev: start-scripts-init-can-dev
+ALLOW_EMPTY_start-scripts-init-can-dev: 1
+FILES_start-scripts-init-can-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/start-scripts-init-can/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_start-scripts-init-can-dev: 0

@@ -1,0 +1,14 @@
+PN: loc-externaldrcore
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-externaldrcore-doc: DR core  This package contains documentation.
+SUMMARY_loc-externaldrcore-doc: loc-externaldrcore version git-r1 - Documentation files
+RPROVIDES_loc-externaldrcore-doc:  loc-externaldrcore-doc (=git)
+SECTION_loc-externaldrcore-doc: doc
+PKG_loc-externaldrcore-doc: libloc-externaldrcore-doc
+FILES_loc-externaldrcore-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-externaldrcore-doc: 0

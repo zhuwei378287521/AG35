@@ -1,0 +1,17 @@
+PN: ulp2
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ulp2-dev: GPS LBS Core  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ulp2-dev: ulp2 version git-r1 - Development files
+RDEPENDS_ulp2-dev: ulp2 (= git-r1)
+RPROVIDES_ulp2-dev:  ulp2-dev (=git)
+RRECOMMENDS_ulp2-dev: liblog-dev loc-base-util-dev loc-flp-hdr-dev libgcc-dev time-genoff-dev glib-2.0-dev event-observer-dev gps-utils-dev data-dev qmi-dev ql-syslog-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev gnsspps-dev libstdc++-dev libcrypto-dev loc-hal-dev libsqlite3-dev data-items-dev libcutils-dev loc-net-iface-dev lbs-core-dev system-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev dsutils-dev drplugin-client-dev drplugin-dev qmi-framework-dev diag-dev
+SECTION_ulp2-dev: devel
+PKG_ulp2-dev: libulp2-dev
+ALLOW_EMPTY_ulp2-dev: 1
+FILES_ulp2-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ulp2/*.la /lib/*.la
+FILES_INFO: {"/usr/include/ulp2/ulp_log.h": 487, "/usr/lib/libulp2.so": 16, "/usr/include/ulp2/LocUlpProxy.h": 4570, "/usr/lib/pkgconfig/ulp2.pc": 178, "/usr/include/ulp2/ulp_data.h": 20280, "/usr/lib/libulp2.la": 3221, "/usr/include/ulp2/ulp_internal.h": 7411}
+PKGSIZE_ulp2-dev: 36163

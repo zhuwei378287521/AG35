@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name:sensors
+Description:Sensor Service Library
+Version:1.0.0
+Libs:-L${libdir} -lsensors
+Cflags: -I${includedir} -I${includedir}/libsensors/

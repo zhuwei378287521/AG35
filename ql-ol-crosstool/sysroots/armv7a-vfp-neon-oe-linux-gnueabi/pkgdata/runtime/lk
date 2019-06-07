@@ -1,0 +1,13 @@
+PN: lk
+PV: git
+PR: r1signed_perf
+PKGV: git
+PKGR: r1signed_perf
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Sign the Little Kernel bootloader
+SUMMARY: lk version git-r1signed_perf
+SECTION: base
+PKG_lk: lk
+FILES_lk: /boot
+FILES_INFO: {"/boot/signed_encrypted/appsboot.mbn": 450472, "/boot/appsboot.mbn": 450472, "/boot/sign_and_encrypt/default/appsbl/SecImage_log.txt": 7273, "/boot/sign/default/appsbl/SecImage_log.txt": 7229, "/boot/sign/SecImage_log.txt": 9980, "/boot/sign/default/appsbl/appsboot.mbn": 450472, "/boot/integrity_check/default/appsbl/SecImage_log.txt": 4294, "/boot/signed/appsboot.mbn": 450472, "/boot/integrity_check/default/appsbl/appsboot.mbn": 450472, "/boot/integrity_check/SecImage_log.txt": 7100, "/boot/sign_and_encrypt/SecImage_log.txt": 10082, "/boot/sign_and_encrypt/default/appsbl/appsboot.mbn": 450472, "/boot/integrity/appsboot.mbn": 450472}
+PKGSIZE_lk: 3199262

@@ -1,0 +1,16 @@
+PN: qcacld-hl
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION: Qualcomm Atheros WLAN CLD high latency driver
+SUMMARY: qcacld-hl version git-r0_perf
+RDEPENDS_qcacld-hl: kernel-module-wlan
+RPROVIDES_qcacld-hl:  kernel-module-wlan
+SECTION: base
+PKG_qcacld-hl: qcacld-hl
+ALLOW_EMPTY_qcacld-hl: 1
+FILES_qcacld-hl:  lib/firmware/wlan/* /lib/modules/3.18.48/extra/wlan.ko
+FILES_INFO: {"/lib/modules/3.18.48/extra/wlan.ko": 4259096, "/lib/firmware/wlan/qca_cld/wlan_mac.bin": 28, "/lib/firmware/wlan/qca_cld/WCNSS_cfg.dat": 10234}
+PKGSIZE_qcacld-hl: 4269358

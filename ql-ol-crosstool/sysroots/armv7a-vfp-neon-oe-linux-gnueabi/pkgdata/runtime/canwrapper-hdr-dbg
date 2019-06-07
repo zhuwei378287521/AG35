@@ -1,0 +1,14 @@
+PN: canwrapper-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_canwrapper-hdr-dbg: CAN Wrapper hdr  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_canwrapper-hdr-dbg: canwrapper-hdr version git-r1 - Debugging files
+SECTION_canwrapper-hdr-dbg: devel
+PKG_canwrapper-hdr-dbg: canwrapper-hdr-dbg
+ALLOW_EMPTY_canwrapper-hdr-dbg: 1
+FILES_canwrapper-hdr-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/canwrapper-hdr/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/canwrapper-hdr/.debug /usr/lib/matchbox-panel/.debug /usr/lib/canwrapper-hdr/canwrapper-hdr/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_canwrapper-hdr-dbg: 0

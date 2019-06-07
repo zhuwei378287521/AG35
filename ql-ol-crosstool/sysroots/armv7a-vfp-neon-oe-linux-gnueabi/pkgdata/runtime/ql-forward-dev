@@ -1,0 +1,16 @@
+PN: ql-forward
+PV: git
+PR: r01
+PKGV: git
+PKGR: r01
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-forward-dev: Quectel Data forward applicant  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ql-forward-dev: ql-forward version git-r01 - Development files
+RDEPENDS_ql-forward-dev: qmi-framework ql-common-tools
+RRECOMMENDS_ql-forward-dev: glibc-dev ql-common-tools-dev qmi-framework-dev
+SECTION_ql-forward-dev: devel
+PKG_ql-forward-dev: ql-forward-dev
+ALLOW_EMPTY_ql-forward-dev: 1
+FILES_ql-forward-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ql-forward/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_ql-forward-dev: 0

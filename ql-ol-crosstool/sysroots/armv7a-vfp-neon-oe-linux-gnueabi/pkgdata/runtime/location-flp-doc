@@ -1,0 +1,14 @@
+PN: location-flp
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-flp-doc: GPS FLP  This package contains documentation.
+SUMMARY_location-flp-doc: location-flp version git-r1 - Documentation files
+RPROVIDES_location-flp-doc:  location-flp-doc (=git)
+SECTION_location-flp-doc: doc
+PKG_location-flp-doc: libflp-doc
+FILES_location-flp-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_location-flp-doc: 0

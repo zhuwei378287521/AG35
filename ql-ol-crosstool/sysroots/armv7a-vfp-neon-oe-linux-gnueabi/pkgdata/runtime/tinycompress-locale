@@ -1,0 +1,13 @@
+PN: tinycompress
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD & LGPLv2.1
+DESCRIPTION: ALSA sound library for compress format.
+SUMMARY: ALSA sound library for compress format
+SECTION: base
+PKG_tinycompress-locale: tinycompress-locale
+FILES_tinycompress-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_tinycompress-locale: 0

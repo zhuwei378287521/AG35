@@ -1,0 +1,16 @@
+PN: asn1c-rtx
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_asn1c-rtx-dbg: GPS asn1c  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_asn1c-rtx-dbg: asn1c-rtx version git-r1 - Debugging files
+RPROVIDES_asn1c-rtx-dbg:  asn1c-rtx-dbg (=git)
+RRECOMMENDS_asn1c-rtx-dbg: glib-2.0-dbg libstdc++-dbg glibc-dbg libgcc-dbg
+SECTION_asn1c-rtx-dbg: devel
+PKG_asn1c-rtx-dbg: libasn1c-rtx-dbg
+ALLOW_EMPTY_asn1c-rtx-dbg: 1
+FILES_asn1c-rtx-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/asn1c-rtx/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/asn1c-rtx/.debug /usr/lib/matchbox-panel/.debug /usr/lib/asn1c-rtx/asn1c-rtx/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libasn1c_rtx.so.1.0.0": 997832}
+PKGSIZE_asn1c-rtx-dbg: 997832

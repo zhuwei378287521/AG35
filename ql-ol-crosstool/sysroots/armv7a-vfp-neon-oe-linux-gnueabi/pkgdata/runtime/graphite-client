@@ -1,0 +1,24 @@
+PN: graphite-client
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Graphite-client Library
+SUMMARY: graphite-client version git-r0
+RDEPENDS_graphite-client: libstdc++ (>= 4.9.3) glibc (>= 2.22) liblog (>= 1.0) expat (>= 2.1.0)
+SECTION: base
+PKG_graphite-client: graphite-client
+FILES_graphite-client: /usr/bin/* /usr/sbin/* /usr/lib/graphite-client/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/graphite-client /usr/lib/graphite-client/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_graphite-client: /usr/lib/libgcs-ipc.so.0.0.0 /usr/lib/libgcs-calwrapper.so.0.0.0 /usr/lib/libgcs.so.0.0.0 /usr/lib/libgcs-osal.so.0.0.0
+FILES_INFO: {"/usr/lib/libgcs-ipc.so.0": 19, "/usr/lib/libgcs-osal.so.0": 20, "/usr/lib/libgcs.so.0": 15, "/usr/lib/libgcs-ipc.so.0.0.0": 18336, "/usr/lib/libgcs.so.0.0.0": 34384, "/usr/lib/libgcs-osal.so.0.0.0": 13852, "/usr/lib/libgcs-calwrapper.so.0": 26, "/usr/lib/libgcs-calwrapper.so.0.0.0": 9760}
+FILERPROVIDES_/usr/lib/libgcs-ipc.so.0.0.0_graphite-client: elf(buildid) (= 2b0bd60ecfa63e32e029c57db08a3824c96976ee) libgcs-ipc.so.0
+FILERPROVIDES_/usr/lib/libgcs-calwrapper.so.0.0.0_graphite-client: elf(buildid) (= 45434743e051f6cfea275613c174478550ffd3fb) libgcs-calwrapper.so.0
+FILERPROVIDES_/usr/lib/libgcs.so.0.0.0_graphite-client: elf(buildid) (= 8cc07e7af1ac6a1b4bd3c1fccf9f9d543821d079) libgcs.so.0
+FILERPROVIDES_/usr/lib/libgcs-osal.so.0.0.0_graphite-client: elf(buildid) (= e1bbb676ca190f8427acd200d0cc106dbbb826fb) libgcs-osal.so.0
+FILERDEPENDSFLIST_graphite-client: /usr/lib/libgcs-ipc.so.0.0.0 /usr/lib/libgcs-calwrapper.so.0.0.0 /usr/lib/libgcs.so.0.0.0 /usr/lib/libgcs-osal.so.0.0.0
+FILERDEPENDS_/usr/lib/libgcs-ipc.so.0.0.0_graphite-client: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libexpat.so.1 libgcs-osal.so.0 liblog.so.0 libm.so.6 libstdc++.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgcs-calwrapper.so.0.0.0_graphite-client: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libgcs-osal.so.0 liblog.so.0 libm.so.6 libstdc++.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgcs.so.0.0.0_graphite-client: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libexpat.so.1 libgcs-calwrapper.so.0 libgcs-ipc.so.0 libgcs-osal.so.0 liblog.so.0 libm.so.6 libstdc++.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgcs-osal.so.0.0.0_graphite-client: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) liblog.so.0 libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_graphite-client: 76412

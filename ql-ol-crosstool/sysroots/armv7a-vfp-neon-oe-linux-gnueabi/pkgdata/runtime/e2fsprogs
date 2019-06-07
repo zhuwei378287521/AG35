@@ -1,0 +1,44 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+SUMMARY: Ext2 Filesystem Utilities
+RDEPENDS_e2fsprogs: libss (>= 1.42.9) libcomerr (>= 1.42.9) glibc (>= 2.22) util-linux-libblkid (>= 2.26.2) util-linux-libuuid (>= 2.26.2) libe2p (>= 1.42.9) e2fsprogs-badblocks update-alternatives-opkg libext2fs (>= 1.42.9)
+RRECOMMENDS_e2fsprogs: e2fsprogs-mke2fs e2fsprogs-e2fsck
+SECTION: base
+PKG_e2fsprogs: e2fsprogs
+FILES_e2fsprogs: /usr/bin/* /usr/sbin/* /usr/lib/e2fsprogs/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/e2fsprogs /usr/lib/e2fsprogs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_e2fsprogs: #!/bin/sh\n\tupdate-alternatives --install /bin/chattr chattr /bin/chattr.e2fsprogs 100\n
+pkg_prerm_e2fsprogs: #!/bin/sh\n\tupdate-alternatives --remove  chattr /bin/chattr.e2fsprogs\n
+FILERPROVIDESFLIST_e2fsprogs: /sbin/dumpe2fs /sbin/logsave /usr/bin/lsattr /sbin/e4defrag /sbin/e2undo /sbin/e2image /sbin/filefrag /sbin/debugfs /sbin/e2freefrag /bin/chattr.e2fsprogs /sbin/mklost+found
+FILES_INFO: {"/sbin/dumpe2fs": 18092, "/sbin/logsave": 9900, "/usr/bin/compile_et": 1448, "/usr/bin/lsattr": 9896, "/sbin/e4defrag": 26280, "/sbin/e2freefrag": 9896, "/sbin/e2image": 30376, "/sbin/filefrag": 14008, "/sbin/debugfs": 120320, "/sbin/populate-extfs.sh": 2460, "/sbin/e2undo": 9956, "/usr/bin/mk_cmds": 1280, "/bin/chattr.e2fsprogs": 9908, "/sbin/mklost+found": 5804}
+FILERPROVIDES_/sbin/dumpe2fs_e2fsprogs: elf(buildid) (= d3c1b2093b2b39a7fc5019eb50f3cb9a9f8141c6)
+FILERPROVIDES_/sbin/logsave_e2fsprogs: elf(buildid) (= 6d0bfea752261da05b711c6edc93ecca484e7997)
+FILERPROVIDES_/usr/bin/lsattr_e2fsprogs: elf(buildid) (= 3482a935735ca70ca8528315cd7947484319c42c)
+FILERPROVIDES_/sbin/e4defrag_e2fsprogs: elf(buildid) (= 8b5d4bea3d61e5aadf8a0192320c3cac8caf1394)
+FILERPROVIDES_/sbin/e2undo_e2fsprogs: elf(buildid) (= 59d94d4c6b5c13e65f385ff54f5c4d81d2f2cb63)
+FILERPROVIDES_/sbin/e2image_e2fsprogs: elf(buildid) (= bf91dc644dd9580747200e4e66e4fc0c6ba1cdc1)
+FILERPROVIDES_/sbin/filefrag_e2fsprogs: elf(buildid) (= 32f66fa600c46d0f25c742404dc0a1d816c1282e)
+FILERPROVIDES_/sbin/debugfs_e2fsprogs: elf(buildid) (= 11efa32e22925d594b94cea042e9cbe2c5875218)
+FILERPROVIDES_/sbin/e2freefrag_e2fsprogs: elf(buildid) (= 26198f8920c8657075a980b8103b7ea07e954270)
+FILERPROVIDES_/bin/chattr.e2fsprogs_e2fsprogs: elf(buildid) (= da7862dc096389f1b97ff654b39e14c34ba71935) /bin/chattr
+FILERPROVIDES_/sbin/mklost+found_e2fsprogs: elf(buildid) (= c42d079eb29d2028b57790bec65cbf1e68fa24cb)
+FILERDEPENDSFLIST_e2fsprogs: /sbin/dumpe2fs /sbin/logsave /usr/bin/lsattr /usr/bin/compile@underscore@et /sbin/e4defrag /sbin/e2undo /sbin/e2image /usr/bin/mk@underscore@cmds /sbin/filefrag /sbin/debugfs /sbin/populate-extfs.sh /sbin/e2freefrag /bin/chattr.e2fsprogs /sbin/mklost+found
+FILERDEPENDS_/sbin/dumpe2fs_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/logsave_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/lsattr_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/compile@underscore@et_e2fsprogs: /bin/sh
+FILERDEPENDS_/sbin/e4defrag_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libext2fs.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/e2undo_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libext2fs.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/e2image_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libext2fs.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/mk@underscore@cmds_e2fsprogs: /bin/sh
+FILERDEPENDS_/sbin/filefrag_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/debugfs_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libss.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/populate-extfs.sh_e2fsprogs: /bin/sh
+FILERDEPENDS_/sbin/e2freefrag_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libext2fs.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/bin/chattr.e2fsprogs_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/mklost+found_e2fsprogs: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_e2fsprogs: 269624

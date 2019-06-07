@@ -1,0 +1,17 @@
+PN: asn1c-cper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_asn1c-cper-dev: GPS asn1c cper  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_asn1c-cper-dev: asn1c-cper version git-r1 - Development files
+RDEPENDS_asn1c-cper-dev: asn1c-cper (= git-r1)
+RPROVIDES_asn1c-cper-dev:  asn1c-cper-dev (=git)
+RRECOMMENDS_asn1c-cper-dev: glibc-dev asn1c-crt-dev libstdc++-dev asn1c-rtx-dev libgcc-dev glib-2.0-dev
+SECTION_asn1c-cper-dev: devel
+PKG_asn1c-cper-dev: libasn1c-cper-dev
+ALLOW_EMPTY_asn1c-cper-dev: 1
+FILES_asn1c-cper-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/asn1c-cper/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/asn1c-cper.pc": 159, "/usr/lib/libasn1c_cper.la": 1062, "/usr/lib/libasn1c_cper.so": 22}
+PKGSIZE_asn1c-cper-dev: 1243

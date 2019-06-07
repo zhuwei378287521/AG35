@@ -1,0 +1,15 @@
+PN: slim-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-client-staticdev: SLIM cleint   This package contains static libraries for software development.
+SUMMARY_slim-client-staticdev: slim-client version git-r1 - Development files (Static Libraries)
+RDEPENDS_slim-client-staticdev: slim-client-dev (= git-r1)
+RPROVIDES_slim-client-staticdev:  slim-client-staticdev (=git)
+SECTION_slim-client-staticdev: devel
+PKG_slim-client-staticdev: libslimclient-staticdev
+FILES_slim-client-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/slim-client/*.a
+FILES_INFO: {}
+PKGSIZE_slim-client-staticdev: 0

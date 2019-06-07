@@ -1,0 +1,16 @@
+PN: slim-daemon
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-daemon-dev: SLIM daemon   This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_slim-daemon-dev: slim-daemon version git-r1 - Development files
+RDEPENDS_slim-daemon-dev: slim-daemon (= git-r1)
+RRECOMMENDS_slim-daemon-dev: slim-client-dev gps-utils-dev glibc-dev loc-pla-dev libsensors-dev diag-dev libstdc++-dev libgcc-dev slim-utils-dev canwrapper-hdr-dev glib-2.0-dev canwrapper-dev slim-common-dev qmi-framework-dev
+SECTION_slim-daemon-dev: devel
+PKG_slim-daemon-dev: slim-daemon-dev
+ALLOW_EMPTY_slim-daemon-dev: 1
+FILES_slim-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/slim-daemon/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_slim-daemon-dev: 0

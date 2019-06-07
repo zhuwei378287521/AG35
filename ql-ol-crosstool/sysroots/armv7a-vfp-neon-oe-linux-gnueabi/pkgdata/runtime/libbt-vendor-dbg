@@ -1,0 +1,15 @@
+PN: libbt-vendor
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_libbt-vendor-dbg: Bluetooth Vendor Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libbt-vendor-dbg: libbt-vendor version git-r0 - Debugging files
+RRECOMMENDS_libbt-vendor-dbg: glibc-dbg libstdc++-dbg hci-qcomm-init-dbg liblog-dbg glib-2.0-dbg libgcc-dbg
+SECTION_libbt-vendor-dbg: devel
+PKG_libbt-vendor-dbg: libbt-vendor-dbg
+ALLOW_EMPTY_libbt-vendor-dbg: 1
+FILES_libbt-vendor-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libbt-vendor/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libbt-vendor/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libbt-vendor/libbt-vendor/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libbt-vendor.so.0.0.0": 14668}
+PKGSIZE_libbt-vendor-dbg: 14668

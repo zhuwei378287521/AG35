@@ -1,0 +1,17 @@
+PN: loc-glue
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-glue-dev: GPS Location Service library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-glue-dev: loc-glue version git-r1 - Development files
+RDEPENDS_loc-glue-dev: loc-glue (= git-r1)
+RPROVIDES_loc-glue-dev:  loc-glue-dev (=git)
+RRECOMMENDS_loc-glue-dev: liblog-dev loc-base-util-dev libgcc-dev time-genoff-dev glib-2.0-dev event-observer-dev location-service-dev gps-utils-dev loc-mq-client-dev ulp2-dev location-flp-dev data-dev libsqlite3-dev qmi-dev ql-syslog-dev izat-core-dev qmi-framework-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev libcrypto-dev libstdc++-dev gnsspps-dev loc-hal-dev lowi-client-dev data-items-dev libcutils-dev loc-net-iface-dev lbs-core-dev system-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev dsutils-dev drplugin-client-dev drplugin-dev location-geofence-dev diag-dev
+SECTION_loc-glue-dev: devel
+PKG_loc-glue-dev: liblocationservice-glue-dev
+ALLOW_EMPTY_loc-glue-dev: 1
+FILES_loc-glue-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-glue/*.la /lib/*.la
+FILES_INFO: {"/usr/include/loc-glue/FrameworkActionRequest.h": 1047, "/usr/include/loc-glue/NetworkLocationProviderGlue.h": 1378, "/usr/lib/liblocationservice_glue.la": 3633, "/usr/include/loc-glue/RawCommandInjector.h": 1049, "/usr/include/loc-glue/OSFrameworkCleaner.h": 830, "/usr/lib/liblocationservice_glue.so": 32, "/usr/include/loc-glue/LocationProviderGlue.h": 1419, "/usr/lib/pkgconfig/loc-glue.pc": 238, "/usr/include/loc-glue/Subscription.h": 1644, "/usr/include/loc-glue/OSNPGlue.h": 1261, "/usr/include/loc-glue/FusedLocationProviderGlue.h": 1359, "/usr/include/loc-glue/OSFramework.h": 1152}
+PKGSIZE_loc-glue-dev: 15042

@@ -1,0 +1,14 @@
+PN: drplugin-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-client-doc: DR Plugin client  This package contains documentation.
+SUMMARY_drplugin-client-doc: drplugin-client version git-r1 - Documentation files
+RPROVIDES_drplugin-client-doc:  drplugin-client-doc (=git)
+SECTION_drplugin-client-doc: doc
+PKG_drplugin-client-doc: libdrplugin-client-doc
+FILES_drplugin-client-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_drplugin-client-doc: 0

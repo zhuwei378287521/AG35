@@ -1,0 +1,19 @@
+PN: canwrapper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: CAN Wrapper 
+SUMMARY: canwrapper version git-r1
+RDEPENDS_canwrapper: glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) libgcc (>= 4.9.3)
+RPROVIDES_canwrapper:  canwrapper (=git)
+SECTION: base
+PKG_canwrapper: libcanwrapper1
+FILES_canwrapper: /usr/bin/* /usr/sbin/* /usr/lib/canwrapper/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/canwrapper /usr/lib/canwrapper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_canwrapper: /usr/lib/libcanwrapper.so.1.0.0
+FILES_INFO: {"/usr/lib/libcanwrapper.so.1.0.0": 50932, "/usr/lib/libcanwrapper.so.1": 22}
+FILERPROVIDES_/usr/lib/libcanwrapper.so.1.0.0_canwrapper: elf(buildid) (= 93c2538329b3f7f0055d5ad19ade2c51bccc46d1) libcanwrapper.so.1
+FILERDEPENDSFLIST_canwrapper: /usr/lib/libcanwrapper.so.1.0.0
+FILERDEPENDS_/usr/lib/libcanwrapper.so.1.0.0_canwrapper: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_canwrapper: 50954

@@ -1,0 +1,13 @@
+Package: gcc-cross-canadian-arm
+Version: 4.9.3-r0
+Description: GNU cc and gcc C compilers (cross-canadian for arm target)
+ GNU cc and gcc C compilers (cross-canadian for arm target).
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-with-GCC-exception & GPLv3
+Architecture: x86_64-nativesdk
+OE: gcc-cross-canadian-arm
+Homepage: http://www.gnu.org/software/gcc/
+Depends: nativesdk-elfutils, nativesdk-libmpc3, nativesdk-libmpfr4
+Source: None

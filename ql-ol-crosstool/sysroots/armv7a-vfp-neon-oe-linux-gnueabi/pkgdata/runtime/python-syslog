@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-syslog: Python syslog interface
+RDEPENDS_python-syslog: python-core glibc (>= 2.22) libpython2 (>= 2.7.9)
+SECTION: devel/python
+PKG_python-syslog: python-syslog
+FILES_python-syslog: /usr/lib/python2.7/lib-dynload/syslog.so 
+FILERPROVIDESFLIST_python-syslog: /usr/lib/python2.7/lib-dynload/syslog.so
+FILES_INFO: {"/usr/lib/python2.7/lib-dynload/syslog.so": 9876}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/syslog.so_python-syslog: elf(buildid) (= 08eea8c1a56e90c068e3804b99d5584fe8d39e7a) syslog.so
+FILERDEPENDSFLIST_python-syslog: /usr/lib/python2.7/lib-dynload/syslog.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/syslog.so_python-syslog: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-syslog: 9876

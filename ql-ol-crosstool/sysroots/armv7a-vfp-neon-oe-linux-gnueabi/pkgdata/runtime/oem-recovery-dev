@@ -1,0 +1,16 @@
+PN: oem-recovery
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_oem-recovery-dev: OEM Recovery  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_oem-recovery-dev: oem-recovery version git-r1 - Development files
+RDEPENDS_oem-recovery-dev: oem-recovery (= git-r1)
+RRECOMMENDS_oem-recovery-dev: update-rc.d-dev initscripts-dev
+SECTION_oem-recovery-dev: devel
+PKG_oem-recovery-dev: oem-recovery-dev
+ALLOW_EMPTY_oem-recovery-dev: 1
+FILES_oem-recovery-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/oem-recovery/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/librecovery_updater_msm.la": 947}
+PKGSIZE_oem-recovery-dev: 947

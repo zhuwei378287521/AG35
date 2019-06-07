@@ -1,0 +1,15 @@
+PN: slim-daemon
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-daemon-dbg: SLIM daemon   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_slim-daemon-dbg: slim-daemon version git-r1 - Debugging files
+RRECOMMENDS_slim-daemon-dbg: loc-pla-dbg slim-utils-dbg glibc-dbg gps-utils-dbg libstdc++-dbg diag-dbg libsensors-dbg slim-common-dbg glib-2.0-dbg libgcc-dbg canwrapper-dbg
+SECTION_slim-daemon-dbg: devel
+PKG_slim-daemon-dbg: slim-daemon-dbg
+ALLOW_EMPTY_slim-daemon-dbg: 1
+FILES_slim-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/slim-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/slim-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/slim-daemon/slim-daemon/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/slim_daemon": 73168}
+PKGSIZE_slim-daemon-dbg: 73168

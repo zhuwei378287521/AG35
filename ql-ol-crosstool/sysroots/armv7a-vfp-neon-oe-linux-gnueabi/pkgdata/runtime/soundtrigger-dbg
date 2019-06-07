@@ -1,0 +1,15 @@
+PN: soundtrigger
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_soundtrigger-dbg: sound trigger loader Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_soundtrigger-dbg: soundtrigger version git-r9 - Debugging files
+RRECOMMENDS_soundtrigger-dbg: glibc-dbg libstdc++-dbg liblog-dbg tinyalsa-dbg glib-2.0-dbg libcutils-dbg expat-dbg system-media-dbg
+SECTION_soundtrigger-dbg: devel
+PKG_soundtrigger-dbg: soundtrigger-dbg
+ALLOW_EMPTY_soundtrigger-dbg: 1
+FILES_soundtrigger-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/soundtrigger/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/soundtrigger/.debug /usr/lib/matchbox-panel/.debug /usr/lib/soundtrigger/soundtrigger/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/sound_trigger_primary_default.so": 351300}
+PKGSIZE_soundtrigger-dbg: 351300

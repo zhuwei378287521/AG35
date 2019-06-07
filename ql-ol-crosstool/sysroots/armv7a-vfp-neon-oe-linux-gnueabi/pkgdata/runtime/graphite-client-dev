@@ -1,0 +1,16 @@
+PN: graphite-client
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_graphite-client-dev: Graphite-client Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_graphite-client-dev: graphite-client version git-r0 - Development files
+RDEPENDS_graphite-client-dev: graphite-client (= git-r0)
+RRECOMMENDS_graphite-client-dev: glibc-dev liblog-dev libstdc++-dev expat-dev
+SECTION_graphite-client-dev: devel
+PKG_graphite-client-dev: graphite-client-dev
+ALLOW_EMPTY_graphite-client-dev: 1
+FILES_graphite-client-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/graphite-client/*.la /lib/*.la
+FILES_INFO: {"/usr/include/graphite-client/osal/osal_dev.h": 1749, "/usr/include/graphite-client/osal/osal_cond.h": 1941, "/usr/lib/libgcs-calwrapper.so": 26, "/usr/lib/libgcs-ipc.la": 1036, "/usr/include/graphite-client/ipc/packetizer.h": 3665, "/usr/include/graphite-client/osal/osal_pack_start.h": 541, "/usr/include/graphite-client/osal/osal_errorcodes.h": 2137, "/usr/lib/libgcs-ipc.so": 19, "/usr/lib/libgcs-calwrapper.la": 1061, "/usr/include/graphite-client/osal/osal_pack_end.h": 533, "/usr/lib/libgcs.so": 15, "/usr/include/graphite-client/gcs/gcs_api.h": 10909, "/usr/lib/libgcs-osal.so": 20, "/usr/lib/libgcs-osal.la": 995, "/usr/include/graphite-client/osal/osal_lock.h": 1488, "/usr/lib/pkgconfig/gcs.pc": 189, "/usr/include/graphite-client/cal-wrapper/cal_wrapper.h": 10736, "/usr/lib/pkgconfig/ipc.pc": 193, "/usr/lib/pkgconfig/calwrapper.pc": 222, "/usr/include/graphite-client/osal/osal_list.h": 5296, "/usr/include/graphite-client/osal/osal_log.h": 1021, "/usr/include/graphite-client/osal/osal_thread.h": 2465, "/usr/include/graphite-client/osal/osal_mem.h": 2242, "/usr/include/graphite-client/gcs/graphite_common.h": 2679, "/usr/lib/pkgconfig/osal.pc": 197, "/usr/lib/libgcs.la": 1080, "/usr/include/graphite-client/osal/osal_types.h": 1192}
+PKGSIZE_graphite-client-dev: 53647

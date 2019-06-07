@@ -1,0 +1,19 @@
+PN: event-observer
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Event Observer
+SUMMARY: event-observer version git-r1
+RDEPENDS_event-observer: glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) loc-stub (>= git) libgcc (>= 4.9.3) gps-utils (>= git) liblog (>= 1.0) loc-pla (>= git)
+RPROVIDES_event-observer:  event-observer (=git)
+SECTION: base
+PKG_event-observer: libevent-observer1
+FILES_event-observer: /usr/bin/* /usr/sbin/* /usr/lib/event-observer/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/event-observer /usr/lib/event-observer/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_event-observer: /usr/lib/libevent@underscore@observer.so.1.0.0
+FILES_INFO: {"/usr/lib/libevent_observer.so.1": 26, "/usr/lib/libevent_observer.so.1.0.0": 14012}
+FILERPROVIDES_/usr/lib/libevent@underscore@observer.so.1.0.0_event-observer: elf(buildid) (= 5b1911c54a34f5d98f37f9adf7d81309d74ba38e) libevent_observer.so.1
+FILERDEPENDSFLIST_event-observer: /usr/lib/libevent@underscore@observer.so.1.0.0
+FILERDEPENDS_/usr/lib/libevent@underscore@observer.so.1.0.0_event-observer: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_utils_so.so.1 libgthread-2.0.so.0 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_event-observer: 14038

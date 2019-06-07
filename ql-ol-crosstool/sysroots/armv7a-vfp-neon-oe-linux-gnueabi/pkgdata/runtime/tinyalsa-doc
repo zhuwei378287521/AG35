@@ -1,0 +1,13 @@
+PN: tinyalsa
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_tinyalsa-doc: Tinyalsa Library  This package contains documentation.
+SUMMARY_tinyalsa-doc: tinyalsa version git-r1 - Documentation files
+SECTION_tinyalsa-doc: doc
+PKG_tinyalsa-doc: tinyalsa-doc
+FILES_tinyalsa-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_tinyalsa-doc: 0

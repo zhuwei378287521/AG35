@@ -1,0 +1,14 @@
+PN: loc-base-util
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-base-util-doc: LOC base utils  This package contains documentation.
+SUMMARY_loc-base-util-doc: loc-base-util version git-r1 - Documentation files
+RPROVIDES_loc-base-util-doc:  loc-base-util-doc (=git)
+SECTION_loc-base-util-doc: doc
+PKG_loc-base-util-doc: libloc-base-util-doc
+FILES_loc-base-util-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-base-util-doc: 0

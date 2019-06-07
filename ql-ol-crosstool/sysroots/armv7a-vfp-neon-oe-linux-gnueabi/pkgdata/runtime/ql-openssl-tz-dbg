@@ -1,0 +1,15 @@
+PN: ql-openssl-tz
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-openssl-tz-dbg: Quectel openssl-tz lib  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ql-openssl-tz-dbg: ql-openssl-tz version git-r1 - Debugging files
+RRECOMMENDS_ql-openssl-tz-dbg: glibc-dbg libcrypto-dbg
+SECTION_ql-openssl-tz-dbg: devel
+PKG_ql-openssl-tz-dbg: ql-openssl-tz-dbg
+ALLOW_EMPTY_ql-openssl-tz-dbg: 1
+FILES_ql-openssl-tz-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-openssl-tz/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-openssl-tz/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-openssl-tz/ql-openssl-tz/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/ql_openssl_tz_test": 31456, "/usr/lib/.debug/libql_openssl_tz.so.1.0.0": 30960}
+PKGSIZE_ql-openssl-tz-dbg: 62416

@@ -1,0 +1,16 @@
+PN: libcutils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_libcutils-dev: Build Android libcutils  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libcutils-dev: libcutils version 1.0-r1 - Development files
+RDEPENDS_libcutils-dev: libcutils (= 1.0-r1)
+RRECOMMENDS_libcutils-dev: libgcc-dev glibc-dev liblog-dev libstdc++-dev
+SECTION_libcutils-dev: devel
+PKG_libcutils-dev: libcutils-dev
+ALLOW_EMPTY_libcutils-dev: 1
+FILES_libcutils-dev: /usr/lib/libcutils.so /usr/lib/libcutils.la /usr/include
+FILES_INFO: {"/usr/include/cutils/bitops.h": 3036, "/usr/include/cutils/sched_policy.h": 2196, "/usr/include/cutils/properties.h": 4734, "/usr/include/cutils/process_name.h": 1061, "/usr/include/cutils/open_memstream.h": 921, "/usr/include/cutils/log.h": 21, "/usr/include/cutils/ashmem.h": 1899, "/usr/include/cutils/klog.h": 2132, "/usr/include/cutils/config_utils.h": 1767, "/usr/include/cutils/atomic.h": 9197, "/usr/include/cutils/partition_utils.h": 798, "/usr/include/cutils/aref.h": 1330, "/usr/lib/libcutils.so": 18, "/usr/include/cutils/list.h": 2222, "/usr/include/cutils/jstring.h": 1326, "/usr/include/cutils/compiler.h": 1359, "/usr/include/cutils/memory.h": 1273, "/usr/lib/libcutils.la": 993, "/usr/include/cutils/trace.h": 8727, "/usr/include/cutils/native_handle.h": 1857, "/usr/include/cutils/threads.h": 4090, "/usr/include/cutils/sockets.h": 3193, "/usr/include/cutils/android_reboot.h": 1011, "/usr/include/cutils/misc.h": 1248, "/usr/include/cutils/multiuser.h": 1109, "/usr/include/cutils/uevent.h": 1147, "/usr/include/cutils/debugger.h": 2685, "/usr/include/cutils/str_parms.h": 2178, "/usr/include/cutils/hashmap.h": 3565, "/usr/include/cutils/fs.h": 2171, "/usr/include/cutils/stdatomic.h": 19662, "/usr/include/cutils/sys/system_properties.h": 3846, "/usr/include/cutils/qtaguid.h": 1832, "/usr/include/cutils/sys/capability.h": 1725, "/usr/include/cutils/record_stream.h": 1170, "/usr/include/cutils/iosched_policy.h": 1066}
+PKGSIZE_libcutils-dev: 98565

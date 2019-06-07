@@ -1,0 +1,14 @@
+PN: loc-base-util
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: LOC base utils
+SUMMARY: loc-base-util version git-r1
+RPROVIDES_loc-base-util-locale:  loc-base-util-locale (=git)
+SECTION: base
+PKG_loc-base-util-locale: libloc-base-util-locale
+FILES_loc-base-util-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-base-util-locale: 0

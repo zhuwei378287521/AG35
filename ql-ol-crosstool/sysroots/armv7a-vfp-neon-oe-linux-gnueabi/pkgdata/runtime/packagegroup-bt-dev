@@ -1,0 +1,16 @@
+PN: packagegroup-bt
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_packagegroup-bt-dev: BT Deamons.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_packagegroup-bt-dev: BT Deamons - Development files
+RDEPENDS_packagegroup-bt-dev: packagegroup-bt (= 1.0-r1)
+RRECOMMENDS_packagegroup-bt-dev: bt-app-dev bt-property-dev fluoride-dev libbt-vendor-dev
+SECTION_packagegroup-bt-dev: devel
+PKG_packagegroup-bt-dev: packagegroup-bt-dev
+ALLOW_EMPTY_packagegroup-bt-dev: 1
+FILES_packagegroup-bt-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-bt/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_packagegroup-bt-dev: 0

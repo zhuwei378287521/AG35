@@ -1,0 +1,14 @@
+PN: glibc
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: The GNU C Library is used as the system C library in most systems with the Linux kernel.
+SUMMARY: GLIBC (GNU C Library)
+RPROVIDES_glibc-pic: eglibc-pic glibc-pic (=2.22)
+SECTION: libs
+PKG_glibc-pic: libc6-pic
+FILES_glibc-pic: /usr/lib/*_pic.a /usr/lib/*_pic.map /usr/lib/libc_pic/*.o
+FILES_INFO: {"/usr/lib/libanl_pic.map": 96, "/usr/lib/libcrypt_pic.map": 107, "/usr/lib/libBrokenLocale_pic.a": 1340, "/usr/lib/libnss_db_pic.a": 7268, "/usr/lib/libc_pic.a": 3660356, "/usr/lib/libc_pic.map": 34393, "/usr/lib/libnsl_pic.map": 2285, "/usr/lib/libresolv_pic.a": 111550, "/usr/lib/libdl_pic.map": 196, "/usr/lib/libutil_pic.map": 98, "/usr/lib/libc_pic/sofini.o": 1092, "/usr/lib/libcidn_pic.a": 193292, "/usr/lib/librt_pic.a": 70926, "/usr/lib/libresolv_pic.map": 1714, "/usr/lib/libnss_dns_pic.a": 19572, "/usr/lib/librt_pic.map": 670, "/usr/lib/libnss_hesiod_pic.map": 515, "/usr/lib/libnss_compat_pic.map": 421, "/usr/lib/libutil_pic.a": 9840, "/usr/lib/libnss_nis_pic.map": 1416, "/usr/lib/libnss_nisplus_pic.map": 1670, "/usr/lib/libanl_pic.a": 16546, "/usr/lib/libdl_pic.a": 18744, "/usr/lib/libm_pic.a": 769940, "/usr/lib/libnss_nis_pic.a": 65110, "/usr/lib/libnss_files_pic.a": 61842, "/usr/lib/libnss_files_pic.map": 1986, "/usr/lib/libthread_db_pic.a": 76238, "/usr/lib/libnss_db_pic.map": 1113, "/usr/lib/libnss_dns_pic.map": 304, "/usr/lib/libnss_nisplus_pic.a": 83298, "/usr/lib/libBrokenLocale_pic.map": 69, "/usr/lib/libnss_compat_pic.a": 40992, "/usr/lib/libthread_db_pic.map": 785, "/usr/lib/libnsl_pic.a": 143070, "/usr/lib/libc_pic/soinit.o": 976, "/usr/lib/libcrypt_pic.a": 44884, "/usr/lib/libcidn_pic.map": 93, "/usr/lib/libnss_hesiod_pic.a": 20206, "/usr/lib/libm_pic.map": 4612}
+PKGSIZE_glibc-pic: 5469625

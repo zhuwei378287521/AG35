@@ -1,0 +1,15 @@
+PN: gtp-ap-le-os-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gtp-ap-le-os-agent-dbg: GPS xtwifi LE os agent  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gtp-ap-le-os-agent-dbg: gtp-ap-le-os-agent version git-r1 - Debugging files
+RRECOMMENDS_gtp-ap-le-os-agent-dbg: liblog-dbg loc-base-util-dbg loc-mq-client-dbg libgcc-dbg glibc-dbg
+SECTION_gtp-ap-le-os-agent-dbg: devel
+PKG_gtp-ap-le-os-agent-dbg: gtp-ap-le-os-agent-dbg
+ALLOW_EMPTY_gtp-ap-le-os-agent-dbg: 1
+FILES_gtp-ap-le-os-agent-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gtp-ap-le-os-agent/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gtp-ap-le-os-agent/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gtp-ap-le-os-agent/gtp-ap-le-os-agent/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/gtp-ap-le-os-agent": 16224}
+PKGSIZE_gtp-ap-le-os-agent-dbg: 16224

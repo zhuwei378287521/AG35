@@ -1,0 +1,16 @@
+PN: loc-launcher
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-launcher-dev: GPS Location process launcher  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-launcher-dev: loc-launcher version git-r1 - Development files
+RDEPENDS_loc-launcher-dev: loc-launcher (= git-r1)
+RRECOMMENDS_loc-launcher-dev: gps-utils-dev loc-mq-client-dev loc-pla-dev loc-base-util-dev liblog-dev libstdc++-dev libgcc-dev glibc-dev glib-2.0-dev qmi-framework-dev
+SECTION_loc-launcher-dev: devel
+PKG_loc-launcher-dev: loc-launcher-dev
+ALLOW_EMPTY_loc-launcher-dev: 1
+FILES_loc-launcher-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-launcher/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_loc-launcher-dev: 0

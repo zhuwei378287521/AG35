@@ -1,0 +1,18 @@
+PN: xtwifi-inet-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS xtwifi tile
+SUMMARY: xtwifi-inet-agent version git-r1
+RDEPENDS_xtwifi-inet-agent: loc-base-util (>= git) libcurl (>= 7.44.0) loc-mq-client (>= git) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) liblog (>= 1.0) libgcc (>= 4.9.3) loc-pla (>= git) glibc (>= 2.22)
+SECTION: base
+PKG_xtwifi-inet-agent: xtwifi-inet-agent
+FILES_xtwifi-inet-agent: /usr/bin/* /usr/sbin/* /usr/lib/xtwifi-inet-agent/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/xtwifi-inet-agent /usr/lib/xtwifi-inet-agent/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_xtwifi-inet-agent: /usr/bin/xtwifi-inet-agent
+FILES_INFO: {"/usr/bin/xtwifi-inet-agent": 46944, "/etc/cacert_location.pem": 30438}
+FILERPROVIDES_/usr/bin/xtwifi-inet-agent_xtwifi-inet-agent: elf(buildid) (= e871a2dd0c05cbbe31a20ec6a60550c3c8d7f8a8)
+FILERDEPENDSFLIST_xtwifi-inet-agent: /usr/bin/xtwifi-inet-agent
+FILERDEPENDS_/usr/bin/xtwifi-inet-agent_xtwifi-inet-agent: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcurl.so.4 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libloc_base_util.so.1 libloc_mq_client.so.1 libloc_pla.so.1 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_xtwifi-inet-agent: 77382

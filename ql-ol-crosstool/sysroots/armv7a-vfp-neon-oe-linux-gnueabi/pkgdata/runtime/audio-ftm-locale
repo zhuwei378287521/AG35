@@ -1,0 +1,13 @@
+PN: audio-ftm
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Audio FTM
+SUMMARY: audio-ftm version git-r5
+SECTION: base
+PKG_audio-ftm-locale: audio-ftm-locale
+FILES_audio-ftm-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_audio-ftm-locale: 0

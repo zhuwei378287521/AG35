@@ -1,0 +1,14 @@
+PN: drplugin-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: DR Plugin server
+SUMMARY: drplugin-server version git-r1
+RPROVIDES_drplugin-server-locale:  drplugin-server-locale (=git)
+SECTION: base
+PKG_drplugin-server-locale: lib-drplugin-server-locale
+FILES_drplugin-server-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_drplugin-server-locale: 0

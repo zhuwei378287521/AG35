@@ -1,0 +1,17 @@
+PN: lbs-core
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lbs-core-dev: GPS LBS Core  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_lbs-core-dev: lbs-core version git-r1 - Development files
+RDEPENDS_lbs-core-dev: lbs-core (= git-r1)
+RPROVIDES_lbs-core-dev:  lbs-core-dev (=git)
+RRECOMMENDS_lbs-core-dev: liblog-dev loc-base-util-dev loc-flp-hdr-dev libgcc-dev time-genoff-dev glib-2.0-dev gps-utils-dev data-dev qmi-dev ql-syslog-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev libcrypto-dev libstdc++-dev loc-hal-dev libsqlite3-dev data-items-dev libcutils-dev loc-net-iface-dev system-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev dsutils-dev qmi-framework-dev diag-dev
+SECTION_lbs-core-dev: devel
+PKG_lbs-core-dev: liblbs-core-dev
+ALLOW_EMPTY_lbs-core-dev: 1
+FILES_lbs-core-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lbs-core/*.la /lib/*.la
+FILES_INFO: {"/usr/include/lbs-core/LBSApiBase.h": 3043, "/usr/include/lbs-core/LBSProxy.h": 2697, "/usr/lib/pkgconfig/lbs-core.pc": 200, "/usr/lib/liblbs_core.so": 20, "/usr/include/lbs-core/LBSApiRpc.h": 1404, "/usr/include/lbs-core/WiperData.h": 9086, "/usr/include/lbs-core/LocApiProxy.h": 2186, "/usr/include/lbs-core/LBSAdapterBase.h": 1353, "/usr/include/lbs-core/SlimSensor.h": 3180, "/usr/include/lbs-core/geofence.h": 2134, "/usr/lib/liblbs_core.la": 3001, "/usr/include/lbs-core/LBSApiV02.h": 3846}
+PKGSIZE_lbs-core-dev: 32150

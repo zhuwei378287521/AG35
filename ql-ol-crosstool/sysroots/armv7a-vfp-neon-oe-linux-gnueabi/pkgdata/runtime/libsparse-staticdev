@@ -1,0 +1,14 @@
+PN: libsparse
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_libsparse-staticdev: Build Android libsprase  This package contains static libraries for software development.
+SUMMARY_libsparse-staticdev: libsparse version 1.0-r0 - Development files (Static Libraries)
+RDEPENDS_libsparse-staticdev: libsparse-dev (= 1.0-r0)
+SECTION_libsparse-staticdev: devel
+PKG_libsparse-staticdev: libsparse-staticdev
+FILES_libsparse-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libsparse/*.a
+FILES_INFO: {"/usr/lib/libsparse.a": 125912}
+PKGSIZE_libsparse-staticdev: 125912

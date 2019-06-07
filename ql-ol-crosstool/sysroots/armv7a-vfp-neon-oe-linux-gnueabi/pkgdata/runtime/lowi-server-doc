@@ -1,0 +1,13 @@
+PN: lowi-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-server-doc: GPS lowi server  This package contains documentation.
+SUMMARY_lowi-server-doc: lowi-server version git-r1 - Documentation files
+SECTION_lowi-server-doc: doc
+PKG_lowi-server-doc: lowi-server-doc
+FILES_lowi-server-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_lowi-server-doc: 0

@@ -1,0 +1,26 @@
+PN: qcacld-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Atheros WLAN CLD utils
+SUMMARY: qcacld-utils version git-r1
+RDEPENDS_qcacld-utils: diag (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1) libcutils (>= 1.0) liblog (>= 1.0) libnl-genl (>= 3.2.25) libnl (>= 3.2.25)
+SECTION: base
+PKG_qcacld-utils: qcacld-utils
+FILES_qcacld-utils: /usr/bin/* /usr/sbin/* /usr/lib/qcacld-utils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qcacld-utils /usr/lib/qcacld-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /data/misc/wifi/*
+FILERPROVIDESFLIST_qcacld-utils: /usr/bin/pktlogconf /usr/bin/ptt@underscore@socket@underscore@app /usr/bin/athdiag /usr/bin/cnss@underscore@diag /usr/bin/csm
+FILES_INFO: {"/usr/bin/pktlogconf": 13992, "/usr/bin/cnss_diag": 216456, "/etc/csm.conf": 367, "/usr/bin/ptt_socket_app": 38636, "/usr/bin/athdiag": 30736, "/usr/bin/csm": 42664}
+FILERPROVIDES_/usr/bin/pktlogconf_qcacld-utils: elf(buildid) (= 9a8542b4b1e0a204a2f53003e041ba86246b6954)
+FILERPROVIDES_/usr/bin/ptt@underscore@socket@underscore@app_qcacld-utils: elf(buildid) (= b88ebfc8d5cefb587de13d38e8db40586462b76c)
+FILERPROVIDES_/usr/bin/athdiag_qcacld-utils: elf(buildid) (= 9f44c7791304334e6c1a414acfebdc893d6dea4d)
+FILERPROVIDES_/usr/bin/cnss@underscore@diag_qcacld-utils: elf(buildid) (= 47ebb7433cd02610003679b10c21d7b3818deb62)
+FILERPROVIDES_/usr/bin/csm_qcacld-utils: elf(buildid) (= baa7c0072c603926a350a87cf7226bd09b20b720)
+FILERDEPENDSFLIST_qcacld-utils: /usr/bin/pktlogconf /usr/bin/ptt@underscore@socket@underscore@app /usr/bin/athdiag /usr/bin/cnss@underscore@diag /usr/bin/csm
+FILERDEPENDS_/usr/bin/pktlogconf_qcacld-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ptt@underscore@socket@underscore@app_qcacld-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 libdiag.so.1 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/athdiag_qcacld-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/cnss@underscore@diag_qcacld-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdiag.so.1 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/csm_qcacld-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_qcacld-utils: 342851

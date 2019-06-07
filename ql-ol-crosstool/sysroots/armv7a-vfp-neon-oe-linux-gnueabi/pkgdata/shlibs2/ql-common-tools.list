@@ -1,0 +1,3 @@
+libql_log.so.1:/usr/lib:git
+libeloop.so.1:/usr/lib:git
+libql_utils.so.1:/usr/lib:git

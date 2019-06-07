@@ -1,0 +1,23 @@
+PN: bzip2
+PV: 1.0.6
+PR: r5
+PKGV: 1.0.6
+PKGR: r5
+LICENSE: bzip2
+DESCRIPTION: bzip2 compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding. Compression is generally considerably better than that achieved by more conventional LZ77/LZ78-based compressors, and approaches the performance of the PPM family of statistical compressors.
+SUMMARY: Very high-quality data compression program
+RDEPENDS_bzip2: glibc (>= 2.22) libbz2 (>= 1.0.6)
+SECTION: console/utils
+PKG_bzip2: bzip2
+FILES_bzip2: /usr/bin/* /usr/sbin/* /usr/lib/bzip2/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/bzip2 /usr/lib/bzip2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_bzip2: /usr/bin/bzip2 /usr/bin/bzip2recover
+FILES_INFO: {"/usr/bin/bzless": 15, "/usr/bin/bunzip2": 14, "/usr/bin/bzcmp": 15, "/usr/bin/bzip2": 30404, "/usr/bin/bzip2recover": 13996, "/usr/bin/bzegrep": 15, "/usr/bin/bzdiff": 2128, "/usr/bin/bzmore": 1259, "/usr/bin/bzfgrep": 15, "/usr/bin/bzgrep": 1677, "/usr/bin/bzcat": 14}
+FILERPROVIDES_/usr/bin/bzip2_bzip2: elf(buildid) (= 38e3e2e8b6af9c898b69bca8e7258658cfcfa0d6)
+FILERPROVIDES_/usr/bin/bzip2recover_bzip2: elf(buildid) (= ca11237aeedce4cafe61d8ecee9da7dab5d4dd53)
+FILERDEPENDSFLIST_bzip2: /usr/bin/bzmore /usr/bin/bzip2 /usr/bin/bzgrep /usr/bin/bzip2recover /usr/bin/bzdiff
+FILERDEPENDS_/usr/bin/bzmore_bzip2: /bin/sh
+FILERDEPENDS_/usr/bin/bzip2_bzip2: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/bzgrep_bzip2: /bin/sh
+FILERDEPENDS_/usr/bin/bzip2recover_bzip2: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/bzdiff_bzip2: /bin/sh
+PKGSIZE_bzip2: 49552

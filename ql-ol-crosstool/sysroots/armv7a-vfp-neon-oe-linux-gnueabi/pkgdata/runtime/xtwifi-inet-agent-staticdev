@@ -1,0 +1,14 @@
+PN: xtwifi-inet-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_xtwifi-inet-agent-staticdev: GPS xtwifi tile  This package contains static libraries for software development.
+SUMMARY_xtwifi-inet-agent-staticdev: xtwifi-inet-agent version git-r1 - Development files (Static Libraries)
+RDEPENDS_xtwifi-inet-agent-staticdev: xtwifi-inet-agent-dev (= git-r1)
+SECTION_xtwifi-inet-agent-staticdev: devel
+PKG_xtwifi-inet-agent-staticdev: xtwifi-inet-agent-staticdev
+FILES_xtwifi-inet-agent-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/xtwifi-inet-agent/*.a
+FILES_INFO: {}
+PKGSIZE_xtwifi-inet-agent-staticdev: 0

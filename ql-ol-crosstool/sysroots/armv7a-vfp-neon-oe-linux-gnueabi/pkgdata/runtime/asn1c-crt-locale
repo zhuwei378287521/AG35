@@ -1,0 +1,14 @@
+PN: asn1c-crt
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS asn1c
+SUMMARY: asn1c-crt version git-r1
+RPROVIDES_asn1c-crt-locale:  asn1c-crt-locale (=git)
+SECTION: base
+PKG_asn1c-crt-locale: libasn1c-crt-locale
+FILES_asn1c-crt-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_asn1c-crt-locale: 0

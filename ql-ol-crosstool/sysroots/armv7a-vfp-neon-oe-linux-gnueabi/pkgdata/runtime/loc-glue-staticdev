@@ -1,0 +1,15 @@
+PN: loc-glue
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-glue-staticdev: GPS Location Service library  This package contains static libraries for software development.
+SUMMARY_loc-glue-staticdev: loc-glue version git-r1 - Development files (Static Libraries)
+RDEPENDS_loc-glue-staticdev: loc-glue-dev (= git-r1)
+RPROVIDES_loc-glue-staticdev:  loc-glue-staticdev (=git)
+SECTION_loc-glue-staticdev: devel
+PKG_loc-glue-staticdev: liblocationservice-glue-staticdev
+FILES_loc-glue-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-glue/*.a
+FILES_INFO: {}
+PKGSIZE_loc-glue-staticdev: 0

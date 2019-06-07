@@ -1,0 +1,19 @@
+PN: dhcpcd
+PV: 5.2.10
+PR: r2
+PKGV: 5.2.10
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION: dhcpcd is an RFC2131-, RFC2132-, and RFC1541-compliant DHCP client daemon. It gets an IP address and other information from the DHCP server, automatically configures the network interface, and tries to renew the lease time according to RFC2131 or RFC1541.
+SUMMARY: dhcpcd version 5.2.10-r2
+RDEPENDS_dhcpcd: glibc (>= 2.22)
+SECTION: console/network
+PKG_dhcpcd: dhcpcd
+FILES_dhcpcd: /usr/bin/* /usr/sbin/* /usr/lib/dhcpcd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dhcpcd /usr/lib/dhcpcd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/libexec/* /usr/etc* /data/*
+FILERPROVIDESFLIST_dhcpcd: /usr/sbin/dhcpcd
+FILES_INFO: {"/usr/libexec/dhcpcd-hooks/10-mtu": 850, "/usr/libexec/dhcpcd-hooks/30-hostname": 586, "/usr/libexec/dhcpcd-hooks/02-dump": 108, "/usr/sbin/dhcpcd": 87868, "/usr/libexec/dhcpcd-run-hooks": 4111, "/usr/libexec/dhcpcd-hooks/20-resolv.conf": 3301, "/usr/etc/dhcpcd.conf": 831, "/usr/libexec/dhcpcd-hooks/50-dhcpcd-compat": 1010, "/usr/libexec/dhcpcd-hooks/01-test": 180, "/usr/libexec/dhcpcd-hooks/29-lookup-hostname": 649}
+FILERPROVIDES_/usr/sbin/dhcpcd_dhcpcd: elf(buildid) (= caa879f502d826e8bc4d555233bd0d49e851ddb1)
+FILERDEPENDSFLIST_dhcpcd: /usr/libexec/dhcpcd-run-hooks /usr/sbin/dhcpcd
+FILERDEPENDS_/usr/libexec/dhcpcd-run-hooks_dhcpcd: /bin/sh
+FILERDEPENDS_/usr/sbin/dhcpcd_dhcpcd: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_dhcpcd: 99494

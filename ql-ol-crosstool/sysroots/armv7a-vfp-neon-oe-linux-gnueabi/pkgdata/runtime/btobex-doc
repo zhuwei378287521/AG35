@@ -1,0 +1,13 @@
+PN: btobex
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_btobex-doc: Bluetooth OBEX  This package contains documentation.
+SUMMARY_btobex-doc: btobex version git-r0 - Documentation files
+SECTION_btobex-doc: doc
+PKG_btobex-doc: btobex-doc
+FILES_btobex-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_btobex-doc: 0

@@ -1,0 +1,13 @@
+PN: bt-app
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_bt-app-doc: Bluetooth application layer  This package contains documentation.
+SUMMARY_bt-app-doc: bt-app version git-r0 - Documentation files
+SECTION_bt-app-doc: doc
+PKG_bt-app-doc: bt-app-doc
+FILES_bt-app-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_bt-app-doc: 0

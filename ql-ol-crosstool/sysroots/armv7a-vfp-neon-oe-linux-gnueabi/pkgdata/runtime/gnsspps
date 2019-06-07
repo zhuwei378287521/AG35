@@ -1,0 +1,19 @@
+PN: gnsspps
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: gnsspps
+SUMMARY: gnsspps version git-r1
+RDEPENDS_gnsspps: glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) loc-stub (>= git) gps-utils (>= git) liblog (>= 1.0) loc-pla (>= git)
+RPROVIDES_gnsspps:  gnsspps (=git)
+SECTION: base
+PKG_gnsspps: libgnsspps1
+FILES_gnsspps: /usr/bin/* /usr/sbin/* /usr/lib/gnsspps/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gnsspps /usr/lib/gnsspps/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_gnsspps: /usr/lib/libgnsspps.so.1.0.0
+FILES_INFO: {"/usr/lib/libgnsspps.so.1.0.0": 9752, "/usr/lib/libgnsspps.so.1": 19}
+FILERPROVIDES_/usr/lib/libgnsspps.so.1.0.0_gnsspps: elf(buildid) (= ce3001758c28a8b18347d46eb28781c00841335c) libgnsspps.so.1
+FILERDEPENDSFLIST_gnsspps: /usr/lib/libgnsspps.so.1.0.0
+FILERDEPENDS_/usr/lib/libgnsspps.so.1.0.0_gnsspps: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcutils.so.0 libdl.so.2 libglib-2.0.so.0 libgps_utils_so.so.1 libgthread-2.0.so.0 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_gnsspps: 9771

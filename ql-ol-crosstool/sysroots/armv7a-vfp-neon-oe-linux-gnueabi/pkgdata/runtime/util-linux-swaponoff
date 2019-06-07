@@ -1,0 +1,22 @@
+PN: util-linux
+PV: 2.26.2
+PR: r0.3
+PKGV: 2.26.2
+PKGR: r0.3
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-swaponoff: util-linux-libblkid (>= 2.26.2) util-linux-libmount (>= 2.26.2) update-alternatives-opkg util-linux-libsmartcols (>= 2.26.2) glibc (>= 2.22)
+SECTION: base
+PKG_util-linux-swaponoff: util-linux-swaponoff
+FILES_util-linux-swaponoff: /sbin/swapon.util-linux /sbin/swapoff.util-linux
+pkg_postinst_util-linux-swaponoff: #!/bin/sh\n\tupdate-alternatives --install /sbin/swapoff swapoff /sbin/swapoff.util-linux 100\n\tupdate-alternatives --install /sbin/swapon swapon /sbin/swapon.util-linux 100\n
+pkg_prerm_util-linux-swaponoff: #!/bin/sh\n\tupdate-alternatives --remove  swapoff /sbin/swapoff.util-linux\n\tupdate-alternatives --remove  swapon /sbin/swapon.util-linux\n
+FILERPROVIDESFLIST_util-linux-swaponoff: /sbin/swapoff.util-linux /sbin/swapon.util-linux
+FILES_INFO: {"/sbin/swapoff.util-linux": 14060, "/sbin/swapon.util-linux": 34720}
+FILERPROVIDES_/sbin/swapoff.util-linux_util-linux-swaponoff: elf(buildid) (= 50f62a794bb01e43502fb9b368851910bebf0637) /sbin/swapoff
+FILERPROVIDES_/sbin/swapon.util-linux_util-linux-swaponoff: elf(buildid) (= 496d6cc00020d2cd803d45921669a4adfb5a230e) /sbin/swapon
+FILERDEPENDSFLIST_util-linux-swaponoff: /sbin/swapoff.util-linux /sbin/swapon.util-linux
+FILERDEPENDS_/sbin/swapoff.util-linux_util-linux-swaponoff: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libblkid.so.1 libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libblkid.so.1(BLKID_2.17) libc.so.6 libc.so.6(GLIBC_2.4) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.24) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/swapon.util-linux_util-linux-swaponoff: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libblkid.so.1 libblkid.so.1(BLKID_2.15) libblkid.so.1(BLKID_2.17) libc.so.6 libc.so.6(GLIBC_2.4) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.20) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.24) libsmartcols.so.1 libsmartcols.so.1(SMARTCOLS_2.25) rtld(GNU_HASH)
+PKGSIZE_util-linux-swaponoff: 48780

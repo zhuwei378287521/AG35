@@ -1,0 +1,13 @@
+PN: loc-flp-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: flp common hdr
+SUMMARY: loc-flp-hdr version git-r1
+SECTION: base
+PKG_loc-flp-hdr: loc-flp-hdr
+FILES_loc-flp-hdr: /usr/bin/* /usr/sbin/* /usr/lib/loc-flp-hdr/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/loc-flp-hdr /usr/lib/loc-flp-hdr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/*
+FILES_INFO: {"/usr/include/fused_location_extended.h": 8969}
+PKGSIZE_loc-flp-hdr: 8969

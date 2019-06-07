@@ -1,0 +1,13 @@
+PN: slim-daemon
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-daemon-doc: SLIM daemon   This package contains documentation.
+SUMMARY_slim-daemon-doc: slim-daemon version git-r1 - Documentation files
+SECTION_slim-daemon-doc: doc
+PKG_slim-daemon-doc: slim-daemon-doc
+FILES_slim-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_slim-daemon-doc: 0

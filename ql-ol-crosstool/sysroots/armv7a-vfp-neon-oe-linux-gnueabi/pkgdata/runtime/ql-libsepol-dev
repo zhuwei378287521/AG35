@@ -1,0 +1,17 @@
+PN: ql-libsepol
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION_ql-libsepol-dev: QUECTEL libsepol  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ql-libsepol-dev: ql-libsepol version git-r1 - Development files
+RDEPENDS_ql-libsepol-dev: ql-libsepol (= git-r1)
+RPROVIDES_ql-libsepol-dev:  ql-libsepol-dev (=git)
+RRECOMMENDS_ql-libsepol-dev: glibc-dev
+SECTION_ql-libsepol-dev: devel
+PKG_ql-libsepol-dev: libsepol-dev
+ALLOW_EMPTY_ql-libsepol-dev: 1
+FILES_ql-libsepol-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ql-libsepol/*.la /lib/*.la
+FILES_INFO: {"/usr/include/sepol/policydb/link.h": 517, "/usr/include/sepol/policydb/avrule_block.h": 1637, "/usr/include/sepol/users.h": 2023, "/usr/include/sepol/policydb/services.h": 8583, "/usr/lib/pkgconfig/libsepol.pc": 195, "/usr/include/sepol/context_record.h": 1670, "/usr/include/sepol/module.h": 2680, "/usr/include/sepol/handle.h": 1393, "/usr/include/sepol/ports.h": 1312, "/usr/include/sepol/ibendport_record.h": 2182, "/usr/include/sepol/policydb/flask.h": 4992, "/usr/include/sepol/node_record.h": 2806, "/usr/include/sepol/module_to_cil.h": 329, "/usr/include/sepol/roles.h": 339, "/usr/include/sepol/policydb/context.h": 3332, "/usr/include/sepol/kernel_to_cil.h": 125, "/usr/include/sepol/policydb/util.h": 1461, "/usr/include/sepol/policydb/expand.h": 3656, "/usr/include/sepol/nodes.h": 1312, "/usr/lib/libsepol.so": 17, "/usr/include/sepol/user_record.h": 2384, "/usr/include/sepol/ibpkey_record.h": 2301, "/usr/include/sepol/interfaces.h": 1403, "/usr/include/sepol/port_record.h": 1988, "/usr/include/sepol/policydb/symtab.h": 1102, "/usr/include/sepol/debug.h": 975, "/usr/include/sepol/policydb/policydb.h": 26086, "/usr/include/sepol/policydb/hierarchy.h": 1818, "/usr/include/sepol/ibpkeys.h": 1347, "/usr/include/sepol/policydb/avtab.h": 4743, "/usr/include/sepol/context.h": 752, "/usr/include/sepol/policydb/hashtab.h": 4392, "/usr/include/sepol/policydb/ebitmap.h": 3176, "/usr/include/sepol/policydb/mls_types.h": 4376, "/usr/include/sepol/booleans.h": 2244, "/usr/include/sepol/kernel_to_conf.h": 126, "/usr/include/sepol/policydb/sidtab.h": 1976, "/usr/include/sepol/boolean_record.h": 1551, "/usr/include/sepol/policydb.h": 4695, "/usr/include/sepol/policydb/constraint.h": 2571, "/usr/include/sepol/ibendports.h": 1387, "/usr/include/sepol/errcodes.h": 852, "/usr/include/sepol/iface_record.h": 1840, "/usr/include/sepol/sepol.h": 862, "/usr/include/sepol/policydb/flask_types.h": 1779, "/usr/include/sepol/policydb/conditional.h": 4733, "/usr/include/sepol/policydb/polcaps.h": 721, "/usr/include/sepol/policydb/module.h": 1532}
+PKGSIZE_ql-libsepol-dev: 124273

@@ -1,0 +1,15 @@
+PN: tinyalsa
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_tinyalsa-dbg: Tinyalsa Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_tinyalsa-dbg: tinyalsa version git-r1 - Debugging files
+RRECOMMENDS_tinyalsa-dbg: liblog-dbg libstdc++-dbg libcutils-dbg glibc-dbg
+SECTION_tinyalsa-dbg: devel
+PKG_tinyalsa-dbg: tinyalsa-dbg
+ALLOW_EMPTY_tinyalsa-dbg: 1
+FILES_tinyalsa-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/tinyalsa/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/tinyalsa/.debug /usr/lib/matchbox-panel/.debug /usr/lib/tinyalsa/tinyalsa/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libtinyalsa.so.1.0.0": 65640, "/usr/bin/.debug/tinymix": 21212, "/usr/bin/.debug/tinyplay": 18520, "/usr/bin/.debug/tinycap": 17068}
+PKGSIZE_tinyalsa-dbg: 122440

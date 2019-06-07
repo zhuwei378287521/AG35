@@ -1,0 +1,15 @@
+PN: nmea-test-app
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_nmea-test-app-dbg: NMEA test application   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_nmea-test-app-dbg: nmea-test-app version git-r1 - Debugging files
+RRECOMMENDS_nmea-test-app-dbg: liblog-dbg loc-hal-dbg glibc-dbg
+SECTION_nmea-test-app-dbg: devel
+PKG_nmea-test-app-dbg: nmea-test-app-dbg
+ALLOW_EMPTY_nmea-test-app-dbg: 1
+FILES_nmea-test-app-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/nmea-test-app/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/nmea-test-app/.debug /usr/lib/matchbox-panel/.debug /usr/lib/nmea-test-app/nmea-test-app/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/nmea_test_app": 6148}
+PKGSIZE_nmea-test-app-dbg: 6148

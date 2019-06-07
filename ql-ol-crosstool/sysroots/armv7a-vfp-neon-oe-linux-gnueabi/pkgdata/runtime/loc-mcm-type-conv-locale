@@ -1,0 +1,14 @@
+PN: loc-mcm-type-conv
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: MCM Location Type Conversion Library
+SUMMARY: loc-mcm-type-conv version git-r4
+RPROVIDES_loc-mcm-type-conv-locale:  loc-mcm-type-conv-locale (=git)
+SECTION: base
+PKG_loc-mcm-type-conv-locale: libloc-mcm-type-conv-locale
+FILES_loc-mcm-type-conv-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-mcm-type-conv-locale: 0

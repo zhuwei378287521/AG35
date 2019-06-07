@@ -1,0 +1,13 @@
+PN: lowi-test
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-test-doc: GPS lowi test  This package contains documentation.
+SUMMARY_lowi-test-doc: lowi-test version git-r1 - Documentation files
+SECTION_lowi-test-doc: doc
+PKG_lowi-test-doc: lowi-test-doc
+FILES_lowi-test-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_lowi-test-doc: 0

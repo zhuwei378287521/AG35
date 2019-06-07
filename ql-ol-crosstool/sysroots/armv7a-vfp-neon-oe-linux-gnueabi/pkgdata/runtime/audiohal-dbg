@@ -1,0 +1,15 @@
+PN: audiohal
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_audiohal-dbg: audiohal  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_audiohal-dbg: audiohal version 1.0-r0 - Debugging files
+RRECOMMENDS_audiohal-dbg: system-core-dbg tinycompress-dbg glibc-dbg libstdc++-dbg liblog-dbg tinyalsa-dbg libhardware-dbg glib-2.0-dbg libcutils-dbg expat-dbg system-media-dbg
+SECTION_audiohal-dbg: devel
+PKG_audiohal-dbg: audiohal-dbg
+ALLOW_EMPTY_audiohal-dbg: 1
+FILES_audiohal-dbg: /usr/lib/.debug/*
+FILES_INFO: {"/usr/lib/.debug/libqcompostprocbundle.so": 23296, "/usr/lib/.debug/audio_primary_default.so": 60104, "/usr/lib/.debug/libqahw.so": 9940}
+PKGSIZE_audiohal-dbg: 93340

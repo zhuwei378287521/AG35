@@ -1,0 +1,14 @@
+PN: embms-kernel
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION_embms-kernel-staticdev: Embms Kernel Module  This package contains static libraries for software development.
+SUMMARY_embms-kernel-staticdev: embms-kernel version git-r0_perf - Development files (Static Libraries)
+RDEPENDS_embms-kernel-staticdev: embms-kernel-dev (= git-r0_perf)
+SECTION_embms-kernel-staticdev: devel
+PKG_embms-kernel-staticdev: embms-kernel-staticdev
+FILES_embms-kernel-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/embms-kernel/*.a
+FILES_INFO: {}
+PKGSIZE_embms-kernel-staticdev: 0

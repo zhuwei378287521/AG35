@@ -1,0 +1,15 @@
+PN: loc-externaldr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-externaldr-staticdev: externaldr   This package contains static libraries for software development.
+SUMMARY_loc-externaldr-staticdev: loc-externaldr version git-r1 - Development files (Static Libraries)
+RDEPENDS_loc-externaldr-staticdev: loc-externaldr-dev (= git-r1)
+RPROVIDES_loc-externaldr-staticdev:  loc-externaldr-staticdev (=git)
+SECTION_loc-externaldr-staticdev: devel
+PKG_loc-externaldr-staticdev: libloc-externaldr-staticdev
+FILES_loc-externaldr-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-externaldr/*.a
+FILES_INFO: {}
+PKGSIZE_loc-externaldr-staticdev: 0

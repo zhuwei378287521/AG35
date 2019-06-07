@@ -1,0 +1,14 @@
+PN: gdtap-adapter
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS xtwifi gdtap
+SUMMARY: gdtap-adapter version git-r1
+RPROVIDES_gdtap-adapter-locale:  gdtap-adapter-locale (=git)
+SECTION: base
+PKG_gdtap-adapter-locale: libgdtap-adapter-locale
+FILES_gdtap-adapter-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_gdtap-adapter-locale: 0

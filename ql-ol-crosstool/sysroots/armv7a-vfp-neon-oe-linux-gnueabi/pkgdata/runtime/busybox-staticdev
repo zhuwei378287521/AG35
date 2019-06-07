@@ -1,0 +1,14 @@
+PN: busybox
+PV: 1.23.2
+PR: r0.1
+PKGV: 1.23.2
+PKGR: r0.1
+LICENSE: GPLv2 & bzip2
+DESCRIPTION_busybox-staticdev: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.  This package contains static libraries for software development.
+SUMMARY_busybox-staticdev: Tiny versions of many common UNIX utilities in a single small executable - Development files (Static Libraries)
+RDEPENDS_busybox-staticdev: busybox-dev (= 1.23.2-r0.1)
+SECTION_busybox-staticdev: devel
+PKG_busybox-staticdev: busybox-staticdev
+FILES_busybox-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/busybox/*.a
+FILES_INFO: {}
+PKGSIZE_busybox-staticdev: 0

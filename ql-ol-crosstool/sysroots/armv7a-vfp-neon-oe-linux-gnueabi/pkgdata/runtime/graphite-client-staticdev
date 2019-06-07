@@ -1,0 +1,14 @@
+PN: graphite-client
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_graphite-client-staticdev: Graphite-client Library  This package contains static libraries for software development.
+SUMMARY_graphite-client-staticdev: graphite-client version git-r0 - Development files (Static Libraries)
+RDEPENDS_graphite-client-staticdev: graphite-client-dev (= git-r0)
+SECTION_graphite-client-staticdev: devel
+PKG_graphite-client-staticdev: graphite-client-staticdev
+FILES_graphite-client-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/graphite-client/*.a
+FILES_INFO: {"/usr/lib/libgcs.a": 110548}
+PKGSIZE_graphite-client-staticdev: 110548

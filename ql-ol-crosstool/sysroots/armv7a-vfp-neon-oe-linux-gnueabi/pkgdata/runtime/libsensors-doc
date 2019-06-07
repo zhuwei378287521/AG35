@@ -1,0 +1,13 @@
+PN: libsensors
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD-3-Clause
+DESCRIPTION_libsensors-doc: Sensor library  This package contains documentation.
+SUMMARY_libsensors-doc: libsensors version git-r1 - Documentation files
+SECTION_libsensors-doc: doc
+PKG_libsensors-doc: libsensors-doc
+FILES_libsensors-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libsensors-doc: 0

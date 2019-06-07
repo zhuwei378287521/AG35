@@ -1,0 +1,15 @@
+PN: izat-api-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_izat-api-hdr-dev: Izat api hdr  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_izat-api-hdr-dev: izat-api-hdr version git-r1 - Development files
+RDEPENDS_izat-api-hdr-dev: izat-api-hdr (= git-r1)
+SECTION_izat-api-hdr-dev: devel
+PKG_izat-api-hdr-dev: izat-api-hdr-dev
+ALLOW_EMPTY_izat-api-hdr-dev: 1
+FILES_izat-api-hdr-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/izat-api-hdr/*.la /lib/*.la
+FILES_INFO: {"/usr/include/izat_remote_api.h": 6046, "/usr/include/IzatRemoteApi.h": 6220}
+PKGSIZE_izat-api-hdr-dev: 12266

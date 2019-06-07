@@ -1,0 +1,14 @@
+PN: qc-bt-daemon
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qc-bt-daemon-staticdev: Bluetooth QC Daemon  This package contains static libraries for software development.
+SUMMARY_qc-bt-daemon-staticdev: qc-bt-daemon version git-r0 - Development files (Static Libraries)
+RDEPENDS_qc-bt-daemon-staticdev: qc-bt-daemon-dev (= git-r0)
+SECTION_qc-bt-daemon-staticdev: devel
+PKG_qc-bt-daemon-staticdev: qc-bt-daemon-staticdev
+FILES_qc-bt-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qc-bt-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_qc-bt-daemon-staticdev: 0

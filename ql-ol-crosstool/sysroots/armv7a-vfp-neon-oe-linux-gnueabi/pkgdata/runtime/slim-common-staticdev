@@ -1,0 +1,15 @@
+PN: slim-common
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-common-staticdev: SLIM Common library  This package contains static libraries for software development.
+SUMMARY_slim-common-staticdev: slim-common version git-r1 - Development files (Static Libraries)
+RDEPENDS_slim-common-staticdev: slim-common-dev (= git-r1)
+RPROVIDES_slim-common-staticdev:  slim-common-staticdev (=git)
+SECTION_slim-common-staticdev: devel
+PKG_slim-common-staticdev: libslimcommon-staticdev
+FILES_slim-common-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/slim-common/*.a
+FILES_INFO: {}
+PKGSIZE_slim-common-staticdev: 0

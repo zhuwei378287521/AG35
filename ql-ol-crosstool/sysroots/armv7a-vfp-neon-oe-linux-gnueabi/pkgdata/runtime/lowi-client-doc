@@ -1,0 +1,14 @@
+PN: lowi-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-client-doc: GPS lowi client  This package contains documentation.
+SUMMARY_lowi-client-doc: lowi-client version git-r1 - Documentation files
+RPROVIDES_lowi-client-doc:  lowi-client-doc (=git)
+SECTION_lowi-client-doc: doc
+PKG_lowi-client-doc: liblowi-client-doc
+FILES_lowi-client-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_lowi-client-doc: 0

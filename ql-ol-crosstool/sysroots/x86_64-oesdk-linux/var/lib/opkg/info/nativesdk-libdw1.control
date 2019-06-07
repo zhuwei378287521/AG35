@@ -1,0 +1,14 @@
+Package: nativesdk-libdw1
+Version: 0.163-r0
+Description: Utilities and libraries for handling compiled object files
+ Utilities and libraries for handling compiled object files.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: (GPLv3 & Elfutils-Exception)
+Architecture: x86_64-nativesdk
+OE: nativesdk-elfutils
+Homepage: https://fedorahosted.org/elfutils
+Depends: nativesdk-libelf1 (>= 0.163), nativesdk-libz1 (>= 1.2.8), nativesdk-libbz2-0 (>= 1.0.6), nativesdk-libc6 (>= 2.22)
+Provides: nativesdk-libdw
+Source: https://fedorahosted.org/releases/e/l/elfutils/0.163/elfutils-0.163.tar.bz2 file://mempcpy.patch file://dso-link-change.patch file://Fix_elf_cvt_gunhash.patch file://fixheadercheck.patch file://0001-elf_getarsym-Silence-Werror-maybe-uninitialized-fals.patch file://0001-remove-the-unneed-checking.patch file://0001-fix-a-stack-usage-warning.patch file://redhat-portability.diff file://hppa_backend.diff file://arm_backend.diff file://mips_backend.diff file://m68k_backend.diff file://testsuite-ignore-elflint.diff file://scanf-format.patch file://mips_readelf_w.patch file://arm_func_value.patch file://arm_unwind_ret_mask.patch file://non_linux.patch

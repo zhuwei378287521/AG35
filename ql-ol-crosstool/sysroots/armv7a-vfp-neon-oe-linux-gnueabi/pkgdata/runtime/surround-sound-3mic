@@ -1,0 +1,18 @@
+PN: surround-sound-3mic
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: surround_sound_3mic Library
+SUMMARY: surround-sound-3mic version git-r0
+RDEPENDS_surround-sound-3mic: glibc (>= 2.22)
+SECTION: base
+PKG_surround-sound-3mic: surround-sound-3mic
+FILES_surround-sound-3mic: /usr/lib/*.so /usr/lib/*.so.* /etc/* /usr/lib/pkgconfig/*
+FILERPROVIDESFLIST_surround-sound-3mic: /usr/lib/libsurround@underscore@3mic@underscore@proc.so
+FILES_INFO: {"/usr/lib/libsurround_3mic_proc.so": 5616, "/etc/surround_sound_rec_AZ.cfg": 54742, "/etc/surround_sound_rec_5.1.cfg": 57751}
+FILERPROVIDES_/usr/lib/libsurround@underscore@3mic@underscore@proc.so_surround-sound-3mic: elf(buildid) (= f2867b03a7d6058164238331b12b58c5b83b0b1e) libsurround_3mic_proc.so
+FILERDEPENDSFLIST_surround-sound-3mic: /usr/lib/libsurround@underscore@3mic@underscore@proc.so
+FILERDEPENDS_/usr/lib/libsurround@underscore@3mic@underscore@proc.so_surround-sound-3mic: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_surround-sound-3mic: 118109

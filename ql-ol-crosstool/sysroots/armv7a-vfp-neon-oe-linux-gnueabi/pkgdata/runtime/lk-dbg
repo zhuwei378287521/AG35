@@ -1,0 +1,14 @@
+PN: lk
+PV: git
+PR: r1signed_perf
+PKGV: git
+PKGR: r1signed_perf
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lk-dbg: Sign the Little Kernel bootloader  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lk-dbg: lk version git-r1signed_perf - Debugging files
+SECTION_lk-dbg: devel
+PKG_lk-dbg: lk-dbg
+ALLOW_EMPTY_lk-dbg: 1
+FILES_lk-dbg: /boot/.debug
+FILES_INFO: {}
+PKGSIZE_lk-dbg: 0

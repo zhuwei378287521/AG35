@@ -1,0 +1,19 @@
+PN: asn1c-cper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS asn1c cper
+SUMMARY: asn1c-cper version git-r1
+RDEPENDS_asn1c-cper: libstdc++ (>= 4.9.3) glibc (>= 2.22) libgcc (>= 4.9.3) glib-2.0 (>= 2.44.1)
+RPROVIDES_asn1c-cper:  asn1c-cper (=git)
+SECTION: base
+PKG_asn1c-cper: libasn1c-cper1
+FILES_asn1c-cper: /usr/bin/* /usr/sbin/* /usr/lib/asn1c-cper/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/asn1c-cper /usr/lib/asn1c-cper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_asn1c-cper: /usr/lib/libasn1c@underscore@cper.so.1.0.0
+FILES_INFO: {"/usr/lib/libasn1c_cper.so.1.0.0": 91888, "/usr/lib/libasn1c_cper.so.1": 22}
+FILERPROVIDES_/usr/lib/libasn1c@underscore@cper.so.1.0.0_asn1c-cper: elf(buildid) (= 906b5012bc8e2e9c8c05897014387fe0ba4225bb) libasn1c_cper.so.1
+FILERDEPENDSFLIST_asn1c-cper: /usr/lib/libasn1c@underscore@cper.so.1.0.0
+FILERDEPENDS_/usr/lib/libasn1c@underscore@cper.so.1.0.0_asn1c-cper: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_asn1c-cper: 91910

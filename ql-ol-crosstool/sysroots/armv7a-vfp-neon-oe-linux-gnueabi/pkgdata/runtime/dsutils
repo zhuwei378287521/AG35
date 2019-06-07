@@ -1,0 +1,19 @@
+PN: dsutils
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Data DSutils Module
+SUMMARY: dsutils version git-r7
+RDEPENDS_dsutils: diag (>= git) time-genoff (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1)
+RPROVIDES_dsutils:  dsutils (=git)
+SECTION: base
+PKG_dsutils: libdsutils1
+FILES_dsutils: /usr/bin/* /usr/sbin/* /usr/lib/dsutils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dsutils /usr/lib/dsutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_dsutils: /usr/lib/libdsutils.so.1.0.0
+FILES_INFO: {"/usr/lib/libdsutils.so.1": 19, "/usr/lib/libdsutils.so.1.0.0": 67168}
+FILERPROVIDES_/usr/lib/libdsutils.so.1.0.0_dsutils: elf(buildid) (= 146c9e3c2d9921f9b4bd91f7224c9ea14102ee60) libdsutils.so.1
+FILERDEPENDSFLIST_dsutils: /usr/lib/libdsutils.so.1.0.0
+FILERDEPENDS_/usr/lib/libdsutils.so.1.0.0_dsutils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_dsutils: 67187

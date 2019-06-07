@@ -1,0 +1,19 @@
+PN: ql-forward
+PV: git
+PR: r01
+PKGV: git
+PKGR: r01
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel Data forward applicant
+SUMMARY: ql-forward version git-r01
+RDEPENDS_ql-forward: qmi-framework (>= git) ql-common-tools (>= git) glibc (>= 2.22)
+SECTION: base
+PKG_ql-forward: ql-forward
+FILES_ql-forward: /usr/bin/* /usr/sbin/* /usr/lib/ql-forward/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ql-forward /usr/lib/ql-forward/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_ql-forward: /usr/bin/ql@underscore@forward
+FILES_INFO: {"/usr/bin/ql_forward": 51164, "/etc/init.d/start_ql_forward_le": 643}
+FILERPROVIDES_/usr/bin/ql@underscore@forward_ql-forward: elf(buildid) (= f78d928f14c1384165568c4262c7d8ed3505dc9b)
+FILERDEPENDSFLIST_ql-forward: /usr/bin/ql@underscore@forward /etc/init.d/start@underscore@ql@underscore@forward@underscore@le
+FILERDEPENDS_/usr/bin/ql@underscore@forward_ql-forward: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libeloop.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libql_log.so.1 libql_utils.so.1 libqmi_cci.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/start@underscore@ql@underscore@forward@underscore@le_ql-forward: /bin/sh
+PKGSIZE_ql-forward: 51807

@@ -1,0 +1,19 @@
+PN: gdb
+PV: 7.9.1
+PR: r0
+PKGV: 7.9.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+DESCRIPTION: GNU debugger.
+SUMMARY: GNU debugger
+RDEPENDS_gdbserver: glibc (>= 2.22)
+RRECOMMENDS_gdbserver:  glibc-thread-db 
+SECTION: devel
+PKG_gdbserver: gdbserver
+FILES_gdbserver: /usr/bin/gdbserver
+FILERPROVIDESFLIST_gdbserver: /usr/bin/gdbserver
+FILES_INFO: {"/usr/bin/gdbserver": 300456}
+FILERPROVIDES_/usr/bin/gdbserver_gdbserver: elf(buildid) (= 719fb0dda39d0928e3f4ddb64d579e2f206e9383)
+FILERDEPENDSFLIST_gdbserver: /usr/bin/gdbserver
+FILERDEPENDS_/usr/bin/gdbserver_gdbserver: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.9) libdl.so.2 libdl.so.2(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_gdbserver: 300456

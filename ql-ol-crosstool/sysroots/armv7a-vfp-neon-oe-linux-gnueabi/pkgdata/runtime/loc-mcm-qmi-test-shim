@@ -1,0 +1,19 @@
+PN: loc-mcm-qmi-test-shim
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: MCM Location Type Conversion Library
+SUMMARY: loc-mcm-qmi-test-shim version git-r4
+RDEPENDS_loc-mcm-qmi-test-shim: qmi (>= git) loc-mcm-type-conv (>= git) mcm-core (>= git) diag (>= git) time-genoff (>= git) ql-syslog (>= git) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) qmi-framework (>= git) libcutils (>= 1.0) loc-stub (>= git) configdb (>= git) dsutils (>= git) xmllib (>= git) libgcc (>= 4.9.3) liblog (>= 1.0) loc-pla (>= git) glibc (>= 2.22) gps-utils (>= git)
+RPROVIDES_loc-mcm-qmi-test-shim:  loc-mcm-qmi-test-shim (=git)
+SECTION: base
+PKG_loc-mcm-qmi-test-shim: libloc-mcm-qmi-test-shim1
+FILES_loc-mcm-qmi-test-shim: /usr/bin/* /usr/sbin/* /usr/lib/loc-mcm-qmi-test-shim/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/loc-mcm-qmi-test-shim /usr/lib/loc-mcm-qmi-test-shim/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_loc-mcm-qmi-test-shim: /usr/lib/libloc@underscore@mcm@underscore@qmi@underscore@test@underscore@shim.so.1.0.0
+FILES_INFO: {"/usr/lib/libloc_mcm_qmi_test_shim.so.1": 33, "/usr/lib/libloc_mcm_qmi_test_shim.so.1.0.0": 18212}
+FILERPROVIDES_/usr/lib/libloc@underscore@mcm@underscore@qmi@underscore@test@underscore@shim.so.1.0.0_loc-mcm-qmi-test-shim: elf(buildid) (= 53b2d2676dc37c424d05e6c6216cc6e70d1d8750) libloc_mcm_qmi_test_shim.so.1
+FILERDEPENDSFLIST_loc-mcm-qmi-test-shim: /usr/lib/libloc@underscore@mcm@underscore@qmi@underscore@test@underscore@shim.so.1.0.0
+FILERDEPENDS_/usr/lib/libloc@underscore@mcm@underscore@qmi@underscore@test@underscore@shim.so.1.0.0_loc-mcm-qmi-test-shim: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libcutils.so.0 libdiag.so.1 libdl.so.2 libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_utils_so.so.1 libgthread-2.0.so.0 libloc_mcm_type_conv.so.1 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libmcm.so.0 libmcm_log_util.so.0 libmcmipc.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libql_sys_log.so.1 libqmi.so.1 libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_loc-mcm-qmi-test-shim: 18245

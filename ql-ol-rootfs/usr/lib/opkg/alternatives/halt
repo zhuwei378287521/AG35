@@ -1,0 +1,3 @@
+/sbin/halt
+/usr/lib/busybox/sbin/halt 50
+/sbin/halt.sysvinit 200

@@ -1,0 +1,14 @@
+PN: soundtrigger
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_soundtrigger-staticdev: sound trigger loader Library  This package contains static libraries for software development.
+SUMMARY_soundtrigger-staticdev: soundtrigger version git-r9 - Development files (Static Libraries)
+RDEPENDS_soundtrigger-staticdev: soundtrigger-dev (= git-r9)
+SECTION_soundtrigger-staticdev: devel
+PKG_soundtrigger-staticdev: soundtrigger-staticdev
+FILES_soundtrigger-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/soundtrigger/*.a
+FILES_INFO: {}
+PKGSIZE_soundtrigger-staticdev: 0

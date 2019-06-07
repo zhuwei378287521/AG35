@@ -1,0 +1,14 @@
+PN: lowi-test
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-test-staticdev: GPS lowi test  This package contains static libraries for software development.
+SUMMARY_lowi-test-staticdev: lowi-test version git-r1 - Development files (Static Libraries)
+RDEPENDS_lowi-test-staticdev: lowi-test-dev (= git-r1)
+SECTION_lowi-test-staticdev: devel
+PKG_lowi-test-staticdev: lowi-test-staticdev
+FILES_lowi-test-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lowi-test/*.a
+FILES_INFO: {}
+PKGSIZE_lowi-test-staticdev: 0

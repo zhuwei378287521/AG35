@@ -1,0 +1,14 @@
+PN: tinyalsa
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_tinyalsa-staticdev: Tinyalsa Library  This package contains static libraries for software development.
+SUMMARY_tinyalsa-staticdev: tinyalsa version git-r1 - Development files (Static Libraries)
+RDEPENDS_tinyalsa-staticdev: tinyalsa-dev (= git-r1)
+SECTION_tinyalsa-staticdev: devel
+PKG_tinyalsa-staticdev: tinyalsa-staticdev
+FILES_tinyalsa-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/tinyalsa/*.a
+FILES_INFO: {}
+PKGSIZE_tinyalsa-staticdev: 0

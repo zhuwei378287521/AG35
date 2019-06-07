@@ -1,0 +1,17 @@
+PN: slim-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-client-dev: SLIM cleint   This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_slim-client-dev: slim-client version git-r1 - Development files
+RDEPENDS_slim-client-dev: slim-client (= git-r1)
+RPROVIDES_slim-client-dev:  slim-client-dev (=git)
+RRECOMMENDS_slim-client-dev: configdb-dev gps-utils-dev glibc-dev loc-pla-dev xmllib-dev dsutils-dev liblog-dev libstdc++-dev loc-stub-dev libgcc-dev slim-utils-dev time-genoff-dev qmi-dev glib-2.0-dev diag-dev libcutils-dev slim-common-dev qmi-framework-dev
+SECTION_slim-client-dev: devel
+PKG_slim-client-dev: libslimclient-dev
+ALLOW_EMPTY_slim-client-dev: 1
+FILES_slim-client-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/slim-client/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/slim-client.pc": 295, "/usr/include/slim-client/SlimClientBase.h": 13325, "/usr/lib/libslimclient.la": 1980, "/usr/lib/libslimclient.so": 22}
+PKGSIZE_slim-client-dev: 15622

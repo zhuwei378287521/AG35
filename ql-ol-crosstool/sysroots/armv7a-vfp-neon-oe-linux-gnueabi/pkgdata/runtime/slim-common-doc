@@ -1,0 +1,14 @@
+PN: slim-common
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-common-doc: SLIM Common library  This package contains documentation.
+SUMMARY_slim-common-doc: slim-common version git-r1 - Documentation files
+RPROVIDES_slim-common-doc:  slim-common-doc (=git)
+SECTION_slim-common-doc: doc
+PKG_slim-common-doc: libslimcommon-doc
+FILES_slim-common-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_slim-common-doc: 0

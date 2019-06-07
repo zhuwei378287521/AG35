@@ -1,0 +1,19 @@
+PN: ql-libsepol
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION: QUECTEL libsepol
+SUMMARY: ql-libsepol version git-r1
+RDEPENDS_ql-libsepol: glibc (>= 2.22)
+RPROVIDES_ql-libsepol:  ql-libsepol (=git)
+SECTION: base
+PKG_ql-libsepol: libsepol1
+FILES_ql-libsepol: /usr/bin/* /usr/sbin/* /usr/lib/ql-libsepol/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ql-libsepol /usr/lib/ql-libsepol/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_ql-libsepol: /usr/lib/libsepol.so.1.0.0
+FILES_INFO: {"/usr/lib/libsepol.so.1": 17, "/usr/lib/libsepol.so.1.0.0": 404420}
+FILERPROVIDES_/usr/lib/libsepol.so.1.0.0_ql-libsepol: elf(buildid) (= d600819380f4ce04e0a07ac563850cc843fe9056) libsepol.so.1
+FILERDEPENDSFLIST_ql-libsepol: /usr/lib/libsepol.so.1.0.0
+FILERDEPENDS_/usr/lib/libsepol.so.1.0.0_ql-libsepol: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ql-libsepol: 404437

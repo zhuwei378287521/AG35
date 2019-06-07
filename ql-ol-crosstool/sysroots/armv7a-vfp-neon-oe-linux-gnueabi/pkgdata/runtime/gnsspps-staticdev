@@ -1,0 +1,15 @@
+PN: gnsspps
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gnsspps-staticdev: gnsspps  This package contains static libraries for software development.
+SUMMARY_gnsspps-staticdev: gnsspps version git-r1 - Development files (Static Libraries)
+RDEPENDS_gnsspps-staticdev: gnsspps-dev (= git-r1)
+RPROVIDES_gnsspps-staticdev:  gnsspps-staticdev (=git)
+SECTION_gnsspps-staticdev: devel
+PKG_gnsspps-staticdev: libgnsspps-staticdev
+FILES_gnsspps-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gnsspps/*.a
+FILES_INFO: {}
+PKGSIZE_gnsspps-staticdev: 0

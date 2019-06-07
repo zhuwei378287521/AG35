@@ -1,0 +1,13 @@
+PN: ql-openssl-tz
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel openssl-tz lib
+SUMMARY: ql-openssl-tz version git-r1
+SECTION: base
+PKG_ql-openssl-tz-locale: ql-openssl-tz-locale
+FILES_ql-openssl-tz-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ql-openssl-tz-locale: 0

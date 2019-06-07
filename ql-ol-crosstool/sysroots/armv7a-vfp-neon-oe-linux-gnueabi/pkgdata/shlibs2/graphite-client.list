@@ -1,0 +1,4 @@
+libgcs-calwrapper.so.0:/usr/lib:git
+libgcs.so.0:/usr/lib:git
+libgcs-osal.so.0:/usr/lib:git
+libgcs-ipc.so.0:/usr/lib:git

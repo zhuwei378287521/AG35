@@ -1,0 +1,13 @@
+PN: libselinux
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION_libselinux-doc: QUECTEL libselinux  This package contains documentation.
+SUMMARY_libselinux-doc: libselinux version git-r1 - Documentation files
+SECTION_libselinux-doc: doc
+PKG_libselinux-doc: libselinux-doc
+FILES_libselinux-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libselinux-doc: 0

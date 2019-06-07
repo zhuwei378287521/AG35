@@ -1,0 +1,14 @@
+PN: loc-glue
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Location Service library
+SUMMARY: loc-glue version git-r1
+RPROVIDES_loc-glue-locale:  loc-glue-locale (=git)
+SECTION: base
+PKG_loc-glue-locale: liblocationservice-glue-locale
+FILES_loc-glue-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-glue-locale: 0

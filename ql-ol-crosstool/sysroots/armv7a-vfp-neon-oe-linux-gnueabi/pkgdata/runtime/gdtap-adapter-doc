@@ -1,0 +1,14 @@
+PN: gdtap-adapter
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gdtap-adapter-doc: GPS xtwifi gdtap  This package contains documentation.
+SUMMARY_gdtap-adapter-doc: gdtap-adapter version git-r1 - Documentation files
+RPROVIDES_gdtap-adapter-doc:  gdtap-adapter-doc (=git)
+SECTION_gdtap-adapter-doc: doc
+PKG_gdtap-adapter-doc: libgdtap-adapter-doc
+FILES_gdtap-adapter-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_gdtap-adapter-doc: 0

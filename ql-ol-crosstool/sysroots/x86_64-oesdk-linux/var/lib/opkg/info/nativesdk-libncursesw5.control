@@ -1,0 +1,14 @@
+Package: nativesdk-libncursesw5
+Version: 5.9-r15.1
+Description: ncurses ncursesw library
+ ncurses ncursesw library
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: nativesdk-libc6 (>= 2.22), nativesdk-libtinfo5 (>= 5.9)
+Provides: nativesdk-ncurses-libncursesw
+Source: http://downloads.yoctoproject.org/mirror/sources/ncurses-5.9-20150329.tgz file://tic-hang.patch file://config.cache

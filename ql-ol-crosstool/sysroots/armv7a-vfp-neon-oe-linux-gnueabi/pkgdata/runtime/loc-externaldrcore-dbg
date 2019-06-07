@@ -1,0 +1,16 @@
+PN: loc-externaldrcore
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-externaldrcore-dbg: DR core  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-externaldrcore-dbg: loc-externaldrcore version git-r1 - Debugging files
+RPROVIDES_loc-externaldrcore-dbg:  loc-externaldrcore-dbg (=git)
+RRECOMMENDS_loc-externaldrcore-dbg: loc-pla-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg gps-utils-dbg xmllib-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg liblog-dbg data-oss-dbg glib-2.0-dbg qmi-framework-dbg libcutils-dbg loc-stub-dbg qmi-dbg
+SECTION_loc-externaldrcore-dbg: devel
+PKG_loc-externaldrcore-dbg: libloc-externaldrcore-dbg
+ALLOW_EMPTY_loc-externaldrcore-dbg: 1
+FILES_loc-externaldrcore-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-externaldrcore/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-externaldrcore/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-externaldrcore/loc-externaldrcore/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_externalDrcore.so.1.0.0": 69660}
+PKGSIZE_loc-externaldrcore-dbg: 69660

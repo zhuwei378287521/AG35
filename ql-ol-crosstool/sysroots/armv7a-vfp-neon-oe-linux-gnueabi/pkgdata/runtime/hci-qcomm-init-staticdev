@@ -1,0 +1,14 @@
+PN: hci-qcomm-init
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_hci-qcomm-init-staticdev: Bluetooth BT Vendor Filters  This package contains static libraries for software development.
+SUMMARY_hci-qcomm-init-staticdev: hci-qcomm-init version git-r0 - Development files (Static Libraries)
+RDEPENDS_hci-qcomm-init-staticdev: hci-qcomm-init-dev (= git-r0)
+SECTION_hci-qcomm-init-staticdev: devel
+PKG_hci-qcomm-init-staticdev: hci-qcomm-init-staticdev
+FILES_hci-qcomm-init-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/hci-qcomm-init/*.a
+FILES_INFO: {}
+PKGSIZE_hci-qcomm-init-staticdev: 0

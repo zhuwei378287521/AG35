@@ -1,0 +1,13 @@
+PN: liblog
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_liblog-doc: Build Android liblog  This package contains documentation.
+SUMMARY_liblog-doc: liblog version 1.0-r1 - Documentation files
+SECTION_liblog-doc: doc
+PKG_liblog-doc: liblog-doc
+FILES_liblog-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_liblog-doc: 0

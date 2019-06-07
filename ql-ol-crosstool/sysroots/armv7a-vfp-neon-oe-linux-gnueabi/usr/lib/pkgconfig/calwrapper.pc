@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: calwrapper
+Description: calwrapper library
+Version: 1.0.0
+Libs: -L${libdir} -lgcs-calwrapper
+Cflags: -I${includedir}/graphite-client/cal-wrapper/

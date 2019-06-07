@@ -1,0 +1,14 @@
+PN: libatomic-ops
+PV: 7.4.2
+PR: r0
+PKGV: 7.4.2
+PKGR: r0
+LICENSE: GPLv2 & MIT
+DESCRIPTION_libatomic-ops-dbg: A library for atomic integer operations.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libatomic-ops-dbg: A library for atomic integer operations - Debugging files
+SECTION_libatomic-ops-dbg: devel
+PKG_libatomic-ops-dbg: libatomic-ops-dbg
+ALLOW_EMPTY_libatomic-ops-dbg: 1
+FILES_libatomic-ops-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libatomic-ops/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libatomic-ops/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libatomic-ops/libatomic-ops/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_libatomic-ops-dbg: 0

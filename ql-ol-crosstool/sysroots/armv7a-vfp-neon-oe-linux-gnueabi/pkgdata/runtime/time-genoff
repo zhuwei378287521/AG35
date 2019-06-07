@@ -1,0 +1,19 @@
+PN: time-genoff
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Time Genoff Library
+SUMMARY: time-genoff version git-r0
+RDEPENDS_time-genoff: glibc (>= 2.22)
+RPROVIDES_time-genoff:  time-genoff (=git)
+SECTION: base
+PKG_time-genoff: libtime-genoff1
+FILES_time-genoff: /usr/bin/* /usr/sbin/* /usr/lib/time-genoff/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/time-genoff /usr/lib/time-genoff/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_time-genoff: /usr/lib/libtime@underscore@genoff.so.1.0.0
+FILES_INFO: {"/usr/lib/libtime_genoff.so.1.0.0": 5712, "/usr/lib/libtime_genoff.so.1": 23}
+FILERPROVIDES_/usr/lib/libtime@underscore@genoff.so.1.0.0_time-genoff: elf(buildid) (= b3e7dee507418f3513d6a93a8cdae8c11aab840c) libtime_genoff.so.1
+FILERDEPENDSFLIST_time-genoff: /usr/lib/libtime@underscore@genoff.so.1.0.0
+FILERDEPENDS_/usr/lib/libtime@underscore@genoff.so.1.0.0_time-genoff: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_time-genoff: 5735

@@ -1,0 +1,14 @@
+PN: lowi-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS lowi client
+SUMMARY: lowi-client version git-r1
+RPROVIDES_lowi-client-locale:  lowi-client-locale (=git)
+SECTION: base
+PKG_lowi-client-locale: liblowi-client-locale
+FILES_lowi-client-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_lowi-client-locale: 0

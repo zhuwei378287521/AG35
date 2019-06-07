@@ -1,0 +1,16 @@
+PN: fluoride
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_fluoride-dev: Bluetooth Fluoride Stack  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_fluoride-dev: fluoride version git-r0 - Development files
+RDEPENDS_fluoride-dev: fluoride (= git-r0)
+RRECOMMENDS_fluoride-dev: libhardware-dev glibc-dev zlib-dev system-media-dev libstdc++-dev libbt-vendor-dev libcutils-dev common-dev btvendorhal-dev liblog-dev
+SECTION_fluoride-dev: devel
+PKG_fluoride-dev: fluoride-dev
+ALLOW_EMPTY_fluoride-dev: 1
+FILES_fluoride-dev: /usr/include  /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/fluoride/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libbtcore.la": 949, "/usr/lib/libbt_qcom_sbc_decoder.la": 988, "/usr/lib/libbtstack.la": 947, "/usr/lib/libbluetoothdefault.la": 1114, "/usr/lib/libbtosi.la": 941, "/usr/lib/libbt-hci.la": 949, "/usr/lib/libbtif.la": 1056, "/usr/lib/libbtdevice.la": 950, "/usr/lib/libbtprofile.la": 953, "/usr/lib/libbtutils.la": 969, "/usr/lib/libbtbta.la": 977}
+PKGSIZE_fluoride-dev: 10793

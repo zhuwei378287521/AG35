@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libselinux
+Description: quectel libselinux API package
+Version: 1.0.0
+Libs: -L${libdir} -llibselinux
+Cflags: -I${includedir}

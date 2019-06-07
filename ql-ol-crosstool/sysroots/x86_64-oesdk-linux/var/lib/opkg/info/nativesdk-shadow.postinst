@@ -1,0 +1,14 @@
+	if [ "x$D" != "x" ]; then
+	  rootarg="--root $D"
+	else
+	  rootarg=""
+	fi
+
+	pwconv $rootarg || exit 1
+	grpconv $rootarg || exit 1
+	update-alternatives --install /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/passwd passwd /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/passwd.shadow 200
+	update-alternatives --install /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chfn chfn /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chfn.shadow 200
+	update-alternatives --install /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chsh chsh /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chsh.shadow 200
+	update-alternatives --install /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chpasswd chpasswd /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chpasswd.shadow 200
+	update-alternatives --install /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vipw vipw /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vipw.shadow 200
+	update-alternatives --install /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vigr vigr /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vigr.shadow 200

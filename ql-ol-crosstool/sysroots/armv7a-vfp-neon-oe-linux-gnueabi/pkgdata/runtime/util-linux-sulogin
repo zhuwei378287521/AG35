@@ -1,0 +1,20 @@
+PN: util-linux
+PV: 2.26.2
+PR: r0.3
+PKGV: 2.26.2
+PKGR: r0.3
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-sulogin: update-alternatives-opkg glibc (>= 2.22)
+SECTION: base
+PKG_util-linux-sulogin: util-linux-sulogin
+FILES_util-linux-sulogin: /sbin/sulogin*
+pkg_postinst_util-linux-sulogin: #!/bin/sh\n\tupdate-alternatives --install /sbin/sulogin sulogin /sbin/sulogin.util-linux 100\n
+pkg_prerm_util-linux-sulogin: #!/bin/sh\n\tupdate-alternatives --remove  sulogin /sbin/sulogin.util-linux\n
+FILERPROVIDESFLIST_util-linux-sulogin: /sbin/sulogin.util-linux
+FILES_INFO: {"/sbin/sulogin.util-linux": 34544}
+FILERPROVIDES_/sbin/sulogin.util-linux_util-linux-sulogin: elf(buildid) (= a4d1287e983bda128649e75fedefe5369f73e5cd) /sbin/sulogin
+FILERDEPENDSFLIST_util-linux-sulogin: /sbin/sulogin.util-linux
+FILERDEPENDS_/sbin/sulogin.util-linux_util-linux-sulogin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcrypt.so.1 libcrypt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_util-linux-sulogin: 34544

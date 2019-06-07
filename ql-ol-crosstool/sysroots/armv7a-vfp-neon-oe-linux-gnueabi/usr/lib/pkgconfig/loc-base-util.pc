@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: loc-base-util
+Description: QTI GPS Loc base utils
+Version: @VERSION
+Libs: -L${libdir} -lloc_base_util
+Cflags: -I${includedir} -I${includedir}/loc-base-util

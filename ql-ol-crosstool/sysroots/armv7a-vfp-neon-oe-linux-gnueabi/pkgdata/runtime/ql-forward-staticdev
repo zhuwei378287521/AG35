@@ -1,0 +1,14 @@
+PN: ql-forward
+PV: git
+PR: r01
+PKGV: git
+PKGR: r01
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-forward-staticdev: Quectel Data forward applicant  This package contains static libraries for software development.
+SUMMARY_ql-forward-staticdev: ql-forward version git-r01 - Development files (Static Libraries)
+RDEPENDS_ql-forward-staticdev: ql-forward-dev (= git-r01)
+SECTION_ql-forward-staticdev: devel
+PKG_ql-forward-staticdev: ql-forward-staticdev
+FILES_ql-forward-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-forward/*.a
+FILES_INFO: {}
+PKGSIZE_ql-forward-staticdev: 0

@@ -1,0 +1,34 @@
+#  ---------------------------------------------------------------------------
+#   Copyright (c) 2012 Qualcomm Technologies, Inc.  All Rights Reserved.
+#   Qualcomm Technologies Proprietary and Confidential.
+#  ---------------------------------------------------------------------------
+#
+
+#! /bin/sh
+#
+# init.d script for quec_wifi_bridge
+
+set -e
+
+case "$1" in
+       start)
+                echo -n "Starting quec_wifi_bridge: ENABLE"
+#                start-stop-daemon -S -b -a /usr/bin/quec_wifi_bridge 
+                echo "done"
+                ;;
+       stop)
+                echo -n "Stopping quec_wifi_bridge: "
+#                start-stop-daemon -K -n quec_wifi_bridge
+                echo "done"
+                ;;
+       restart)
+                $0 stop
+                $0 start
+                ;;
+       *)
+                echo "Usage: quec_wifi_bridge { start | stop | restart }" >&2
+                exit 1
+                ;;
+esac
+
+exit 0

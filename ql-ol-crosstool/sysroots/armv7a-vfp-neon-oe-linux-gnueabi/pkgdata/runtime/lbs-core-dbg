@@ -1,0 +1,16 @@
+PN: lbs-core
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lbs-core-dbg: GPS LBS Core  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lbs-core-dbg: lbs-core version git-r1 - Debugging files
+RPROVIDES_lbs-core-dbg:  lbs-core-dbg (=git)
+RRECOMMENDS_lbs-core-dbg: libsqlite3-dbg loc-net-iface-dbg libssl-dbg data-items-dbg libcrypto-dbg izat-core-dbg dsutils-dbg xmllib-dbg qmi-dbg system-core-dbg qmi-framework-dbg qmi-client-helper-dbg diag-dbg data-oss-dbg libcutils-dbg libstdc++-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg data-dbg configdb-dbg loc-stub-dbg time-genoff-dbg ql-syslog-dbg
+SECTION_lbs-core-dbg: devel
+PKG_lbs-core-dbg: liblbs-core-dbg
+ALLOW_EMPTY_lbs-core-dbg: 1
+FILES_lbs-core-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lbs-core/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lbs-core/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lbs-core/lbs-core/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/liblbs_core.so.1.0.0": 38572}
+PKGSIZE_lbs-core-dbg: 38572

@@ -1,0 +1,13 @@
+PN: xtwifi-inet-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS xtwifi tile
+SUMMARY: xtwifi-inet-agent version git-r1
+SECTION: base
+PKG_xtwifi-inet-agent-locale: xtwifi-inet-agent-locale
+FILES_xtwifi-inet-agent-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_xtwifi-inet-agent-locale: 0

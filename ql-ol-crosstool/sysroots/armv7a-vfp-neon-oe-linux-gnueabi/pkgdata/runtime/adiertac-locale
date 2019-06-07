@@ -1,0 +1,14 @@
+PN: adiertac
+PV: 1.0
+PR: r3
+PKGV: 1.0
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: adie rtac Library and calibiration files
+SUMMARY: adiertac version 1.0-r3
+RPROVIDES_adiertac-locale:  adiertac-locale (=1.0)
+SECTION: base
+PKG_adiertac-locale: libadiertac-locale
+FILES_adiertac-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_adiertac-locale: 0

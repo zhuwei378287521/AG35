@@ -1,0 +1,19 @@
+PN: libdaemon
+PV: 0.14
+PR: r0
+PKGV: 0.14
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: Lightweight C library which eases the writing of UNIX daemons.
+SUMMARY: Lightweight C library which eases the writing of UNIX daemons
+RDEPENDS_libdaemon: glibc (>= 2.22)
+RPROVIDES_libdaemon:  libdaemon (=0.14)
+SECTION: libs
+PKG_libdaemon: libdaemon0
+FILES_libdaemon: /usr/bin/* /usr/sbin/* /usr/lib/libdaemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libdaemon /usr/lib/libdaemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libdaemon: /usr/lib/libdaemon.so.0.5.0
+FILES_INFO: {"/usr/lib/libdaemon.so.0.5.0": 22072, "/usr/lib/libdaemon.so.0": 18}
+FILERPROVIDES_/usr/lib/libdaemon.so.0.5.0_libdaemon: elf(buildid) (= 91fddcbfccddb92270837c784a3bb855331d2d07) libdaemon.so.0
+FILERDEPENDSFLIST_libdaemon: /usr/lib/libdaemon.so.0.5.0
+FILERDEPENDS_/usr/lib/libdaemon.so.0.5.0_libdaemon: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libdaemon: 22090

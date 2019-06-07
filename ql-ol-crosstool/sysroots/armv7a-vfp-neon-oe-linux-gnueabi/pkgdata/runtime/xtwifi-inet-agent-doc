@@ -1,0 +1,13 @@
+PN: xtwifi-inet-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_xtwifi-inet-agent-doc: GPS xtwifi tile  This package contains documentation.
+SUMMARY_xtwifi-inet-agent-doc: xtwifi-inet-agent version git-r1 - Documentation files
+SECTION_xtwifi-inet-agent-doc: doc
+PKG_xtwifi-inet-agent-doc: xtwifi-inet-agent-doc
+FILES_xtwifi-inet-agent-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_xtwifi-inet-agent-doc: 0

@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: alsa_utils
+Description: alsa_utils library
+Version: 1.0.0
+Libs: -L${libdir} -lalsautils
+Cflags: -I${includedir}

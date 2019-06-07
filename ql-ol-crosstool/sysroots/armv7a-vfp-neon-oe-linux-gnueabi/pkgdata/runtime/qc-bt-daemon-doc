@@ -1,0 +1,13 @@
+PN: qc-bt-daemon
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qc-bt-daemon-doc: Bluetooth QC Daemon  This package contains documentation.
+SUMMARY_qc-bt-daemon-doc: qc-bt-daemon version git-r0 - Documentation files
+SECTION_qc-bt-daemon-doc: doc
+PKG_qc-bt-daemon-doc: qc-bt-daemon-doc
+FILES_qc-bt-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_qc-bt-daemon-doc: 0

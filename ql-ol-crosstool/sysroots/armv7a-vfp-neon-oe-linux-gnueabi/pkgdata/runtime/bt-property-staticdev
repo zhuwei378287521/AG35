@@ -1,0 +1,14 @@
+PN: bt-property
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_bt-property-staticdev: Bluetooth Property Daemon  This package contains static libraries for software development.
+SUMMARY_bt-property-staticdev: bt-property version git-r0 - Development files (Static Libraries)
+RDEPENDS_bt-property-staticdev: bt-property-dev (= git-r0)
+SECTION_bt-property-staticdev: devel
+PKG_bt-property-staticdev: bt-property-staticdev
+FILES_bt-property-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/bt-property/*.a
+FILES_INFO: {}
+PKGSIZE_bt-property-staticdev: 0

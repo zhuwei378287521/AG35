@@ -1,0 +1,4 @@
+libaudioroute.so.0:/usr/lib:git
+libaudioutils.so.0:/usr/lib:git
+libcamera_metadata.so.0:/usr/lib:git
+libtinysndfile.so.0:/usr/lib:git

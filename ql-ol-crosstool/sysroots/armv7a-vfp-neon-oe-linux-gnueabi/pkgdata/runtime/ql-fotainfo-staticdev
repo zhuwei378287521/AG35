@@ -1,0 +1,14 @@
+PN: ql-fotainfo
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-fotainfo-staticdev: Quectel Function Daemon  This package contains static libraries for software development.
+SUMMARY_ql-fotainfo-staticdev: ql-fotainfo version git-r1 - Development files (Static Libraries)
+RDEPENDS_ql-fotainfo-staticdev: ql-fotainfo-dev (= git-r1)
+SECTION_ql-fotainfo-staticdev: devel
+PKG_ql-fotainfo-staticdev: ql-fotainfo-staticdev
+FILES_ql-fotainfo-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-fotainfo/*.a
+FILES_INFO: {}
+PKGSIZE_ql-fotainfo-staticdev: 0

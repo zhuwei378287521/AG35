@@ -1,0 +1,14 @@
+Package: nativesdk-libgcc1
+Version: 4.9.3-r0
+Description: GNU cc and gcc C compilers
+ GNU cc and gcc C compilers.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-with-GCC-exception
+Architecture: x86_64-nativesdk
+OE: nativesdk-libgcc
+Homepage: http://www.gnu.org/software/gcc/
+Depends: nativesdk-libc6 (>= 2.22)
+Provides: nativesdk-libgcc
+Source: None

@@ -1,0 +1,19 @@
+PN: curl
+PV: 7.44.0
+PR: r0
+PKGV: 7.44.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Command line tool and library for client-side URL transfers.
+SUMMARY: Command line tool and library for client-side URL transfers
+RDEPENDS_libcurl: libcrypto (>= 1.0.2h) glibc (>= 2.22) zlib (>= 1.2.8) libssl (>= 1.0.2h)
+RPROVIDES_libcurl:  libcurl (=7.44.0)
+SECTION: console/network
+PKG_libcurl: libcurl4
+FILES_libcurl: /usr/lib/lib*.so.*
+FILERPROVIDESFLIST_libcurl: /usr/lib/libcurl.so.4.4.0
+FILES_INFO: {"/usr/lib/libcurl.so.4": 16, "/usr/lib/libcurl.so.4.4.0": 399164}
+FILERPROVIDES_/usr/lib/libcurl.so.4.4.0_libcurl: elf(buildid) (= 10b1a5642114824e6c8d235da42a824e89f8a96a) libcurl.so.4
+FILERDEPENDSFLIST_libcurl: /usr/lib/libcurl.so.4.4.0
+FILERDEPENDS_/usr/lib/libcurl.so.4.4.0_libcurl: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0(OPENSSL_1.0.1) libssl.so.1.0.0(OPENSSL_1.0.2) libz.so.1 rtld(GNU_HASH)
+PKGSIZE_libcurl: 399180

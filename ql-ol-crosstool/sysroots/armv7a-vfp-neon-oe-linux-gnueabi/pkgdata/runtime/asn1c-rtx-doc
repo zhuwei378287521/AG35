@@ -1,0 +1,14 @@
+PN: asn1c-rtx
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_asn1c-rtx-doc: GPS asn1c  This package contains documentation.
+SUMMARY_asn1c-rtx-doc: asn1c-rtx version git-r1 - Documentation files
+RPROVIDES_asn1c-rtx-doc:  asn1c-rtx-doc (=git)
+SECTION_asn1c-rtx-doc: doc
+PKG_asn1c-rtx-doc: libasn1c-rtx-doc
+FILES_asn1c-rtx-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_asn1c-rtx-doc: 0

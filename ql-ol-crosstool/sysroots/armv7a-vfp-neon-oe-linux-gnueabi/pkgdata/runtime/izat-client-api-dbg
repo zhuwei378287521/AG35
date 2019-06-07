@@ -1,0 +1,16 @@
+PN: izat-client-api
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_izat-client-api-dbg: Izat client api libary  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_izat-client-api-dbg: izat-client-api version git-r1 - Debugging files
+RPROVIDES_izat-client-api-dbg:  izat-client-api-dbg (=git)
+RRECOMMENDS_izat-client-api-dbg: libsqlite3-dbg libstdc++-dbg libssl-dbg libcrypto-dbg dsutils-dbg xmllib-dbg qmi-dbg qmi-framework-dbg qmi-client-helper-dbg glibc-dbg diag-dbg data-oss-dbg libcutils-dbg loc-stub-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg loc-mq-client-dbg configdb-dbg data-dbg time-genoff-dbg ql-syslog-dbg
+SECTION_izat-client-api-dbg: devel
+PKG_izat-client-api-dbg: libizat-client-api-dbg
+ALLOW_EMPTY_izat-client-api-dbg: 1
+FILES_izat-client-api-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/izat-client-api/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/izat-client-api/.debug /usr/lib/matchbox-panel/.debug /usr/lib/izat-client-api/izat-client-api/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libizat_client_api.so.1.0.0": 12744}
+PKGSIZE_izat-client-api-dbg: 12744

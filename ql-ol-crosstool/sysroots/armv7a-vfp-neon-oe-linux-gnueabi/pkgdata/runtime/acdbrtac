@@ -1,0 +1,19 @@
+PN: acdbrtac
+PV: 1.0
+PR: r3
+PKGV: 1.0
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb rtac Library
+SUMMARY: acdbrtac version 1.0-r3
+RDEPENDS_acdbrtac: audioalsa (>= git) diag (>= git) time-genoff (>= git) glib-2.0 (>= 2.44.1) acdbmapper (>= git) audcal (>= git) glibc (>= 2.22)
+RPROVIDES_acdbrtac:  acdbrtac (=1.0)
+SECTION: base
+PKG_acdbrtac: libacdbrtac1
+FILES_acdbrtac: /usr/bin/* /usr/sbin/* /usr/lib/acdbrtac/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/acdbrtac /usr/lib/acdbrtac/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_acdbrtac: /usr/lib/libacdbrtac.so.1.0.0
+FILES_INFO: {"/usr/lib/libacdbrtac.so.1": 20, "/usr/lib/libacdbrtac.so.1.0.0": 17948}
+FILERPROVIDES_/usr/lib/libacdbrtac.so.1.0.0_acdbrtac: elf(buildid) (= d26ee65bc9b1907040b733967275c227246afe39) libacdbrtac.so.1
+FILERDEPENDSFLIST_acdbrtac: /usr/lib/libacdbrtac.so.1.0.0
+FILERDEPENDS_/usr/lib/libacdbrtac.so.1.0.0_acdbrtac: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libacdbmapper.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_acdbrtac: 17968

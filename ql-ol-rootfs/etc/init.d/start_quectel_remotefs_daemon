@@ -1,0 +1,37 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+start)
+	# the following shell code is add by quectel 2016.06.26  start
+	echo  "Starting Setting Modem Restart Level again"
+	
+	if [ -e "/data/ModemRestartRelated" ]; then
+		echo -n  RELATED > "/sys/bus/msm_subsys/devices/subsys1/restart_level"
+	fi
+
+	if [ -e "/data/ModemRestartSystem" ]; then
+		echo -n SYSTEM > "/sys/bus/msm_subsys/devices/subsys1/restart_level"
+	fi
+	# add by quectel 2016.06.26  end	
+    echo -n "Starting atreset: "
+    start-stop-daemon -S -b -a /usr/bin/quectel-remotefs-service
+    echo "done"
+    ;;
+  stop)
+    echo -n "Stopping atreset: "
+    start-stop-daemon -K -n quectel-remotefs-service
+    echo "done"
+    ;;
+  restart)
+    $0 stop
+    $0 start
+    ;;
+  *)
+    echo "Usage quectel-remotefs-service{ start | stop | restart }" >&2
+    exit 1
+    ;;
+esac
+
+exit 0

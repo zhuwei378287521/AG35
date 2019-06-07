@@ -1,0 +1,18 @@
+PN: libxml2
+PV: 2.9.2
+PR: r0
+PKGV: 2.9.2
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: The XML Parser Library allows for manipulation of XML files.  Libxml2 exports Push and Pull type parser interfaces for both XML and HTML.  It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and Xinclude implementations.  It also has a SAX like interface, which is designed to be compatible with Expat.
+SUMMARY: XML C Parser Library and Toolkit
+RDEPENDS_libxml2-python: libpython2 (>= 2.7.9) libxml2 (>= 2.9.2) glibc (>= 2.22) zlib (>= 1.2.8) python-core libgcc (>= 4.9.3)
+SECTION: libs
+PKG_libxml2-python: libxml2-python
+FILES_libxml2-python:  /usr/lib/python2.7/site-packages
+FILERPROVIDESFLIST_libxml2-python: /usr/lib/python2.7/site-packages/libxml2mod.so
+FILES_INFO: {"/usr/lib/python2.7/site-packages/libxml2.py": 345667, "/usr/lib/python2.7/site-packages/libxml2mod.so": 356208, "/usr/lib/python2.7/site-packages/libxml2mod.la": 1009, "/usr/lib/python2.7/site-packages/drv_libxml2.py": 15160}
+FILERPROVIDES_/usr/lib/python2.7/site-packages/libxml2mod.so_libxml2-python: elf(buildid) (= d6db4c6c1738bf878e0ee89f89d175eaec8e4a86) libxml2mod.so
+FILERDEPENDSFLIST_libxml2-python: /usr/lib/python2.7/site-packages/libxml2mod.so
+FILERDEPENDS_/usr/lib/python2.7/site-packages/libxml2mod.so_libxml2-python: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libpthread.so.0 libpython2.7.so.1.0 libutil.so.1 libxml2.so.2 libxml2.so.2(LIBXML2_2.4.30) libxml2.so.2(LIBXML2_2.5.0) libxml2.so.2(LIBXML2_2.5.2) libxml2.so.2(LIBXML2_2.5.4) libxml2.so.2(LIBXML2_2.5.6) libxml2.so.2(LIBXML2_2.5.7) libxml2.so.2(LIBXML2_2.5.8) libxml2.so.2(LIBXML2_2.5.9) libxml2.so.2(LIBXML2_2.6.0) libxml2.so.2(LIBXML2_2.6.1) libxml2.so.2(LIBXML2_2.6.10) libxml2.so.2(LIBXML2_2.6.11) libxml2.so.2(LIBXML2_2.6.12) libxml2.so.2(LIBXML2_2.6.14) libxml2.so.2(LIBXML2_2.6.15) libxml2.so.2(LIBXML2_2.6.16) libxml2.so.2(LIBXML2_2.6.17) libxml2.so.2(LIBXML2_2.6.18) libxml2.so.2(LIBXML2_2.6.2) libxml2.so.2(LIBXML2_2.6.20) libxml2.so.2(LIBXML2_2.6.21) libxml2.so.2(LIBXML2_2.6.23) libxml2.so.2(LIBXML2_2.6.25) libxml2.so.2(LIBXML2_2.6.27) libxml2.so.2(LIBXML2_2.6.28) libxml2.so.2(LIBXML2_2.6.3) libxml2.so.2(LIBXML2_2.6.5) libxml2.so.2(LIBXML2_2.6.6) libxml2.so.2(LIBXML2_2.6.8) libxml2.so.2(LIBXML2_2.7.0) libxml2.so.2(LIBXML2_2.7.3) libxml2.so.2(LIBXML2_2.8.0) libxml2.so.2(LIBXML2_2.9.0) libxml2.so.2(LIBXML2_2.9.1) libz.so.1 rtld(GNU_HASH)
+PKGSIZE_libxml2-python: 718044

@@ -1,0 +1,16 @@
+PN: canwrapper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_canwrapper-dbg: CAN Wrapper   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_canwrapper-dbg: canwrapper version git-r1 - Debugging files
+RPROVIDES_canwrapper-dbg:  canwrapper-dbg (=git)
+RRECOMMENDS_canwrapper-dbg: glibc-dbg libstdc++-dbg liblog-dbg glib-2.0-dbg libgcc-dbg libcutils-dbg
+SECTION_canwrapper-dbg: devel
+PKG_canwrapper-dbg: libcanwrapper-dbg
+ALLOW_EMPTY_canwrapper-dbg: 1
+FILES_canwrapper-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/canwrapper/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/canwrapper/.debug /usr/lib/matchbox-panel/.debug /usr/lib/canwrapper/canwrapper/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libcanwrapper.so.1.0.0": 22152}
+PKGSIZE_canwrapper-dbg: 22152

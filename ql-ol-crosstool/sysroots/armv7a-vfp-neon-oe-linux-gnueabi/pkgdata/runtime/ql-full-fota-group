@@ -1,0 +1,15 @@
+PN: ql-full-fota-group
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & MIT
+DESCRIPTION: Full Fota packagegroup for Poky
+SUMMARY: ql-full-fota-group version 1.0-r0
+RDEPENDS_ql-full-fota-group: ql-libfotainfo ql-mtdimg ql-fotainfo
+SECTION: base
+PKG_ql-full-fota-group: ql-full-fota-group
+ALLOW_EMPTY_ql-full-fota-group: 1
+FILES_ql-full-fota-group: /usr/bin/* /usr/sbin/* /usr/lib/ql-full-fota-group/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ql-full-fota-group /usr/lib/ql-full-fota-group/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/bin/full_update": 5513}
+PKGSIZE_ql-full-fota-group: 5513

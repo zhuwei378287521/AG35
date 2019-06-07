@@ -1,0 +1,14 @@
+PN: k61-firmware
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_k61-firmware-staticdev: K61 firmware  This package contains static libraries for software development.
+SUMMARY_k61-firmware-staticdev: k61-firmware version git-r1 - Development files (Static Libraries)
+RDEPENDS_k61-firmware-staticdev: k61-firmware-dev (= git-r1)
+SECTION_k61-firmware-staticdev: devel
+PKG_k61-firmware-staticdev: k61-firmware-staticdev
+FILES_k61-firmware-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/k61-firmware/*.a
+FILES_INFO: {}
+PKGSIZE_k61-firmware-staticdev: 0

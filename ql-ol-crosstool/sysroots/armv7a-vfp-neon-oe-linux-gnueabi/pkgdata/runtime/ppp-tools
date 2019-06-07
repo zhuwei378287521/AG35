@@ -1,0 +1,20 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+SUMMARY_ppp-tools: Additional tools for the PPP package
+RDEPENDS_ppp-tools: glibc (>= 2.22)
+SECTION: console/network
+PKG_ppp-tools: ppp-tools
+FILES_ppp-tools: /usr/sbin/pppstats /usr/sbin/pppdump
+FILERPROVIDESFLIST_ppp-tools: /usr/sbin/pppdump /usr/sbin/pppstats
+FILES_INFO: {"/usr/sbin/pppdump": 47736, "/usr/sbin/pppstats": 13992}
+FILERPROVIDES_/usr/sbin/pppdump_ppp-tools: elf(buildid) (= 0bf63a858e7847001b5a71b96b031572facb3c6c)
+FILERPROVIDES_/usr/sbin/pppstats_ppp-tools: elf(buildid) (= bd53ba066445e5874ff3c81ec59984581895234a)
+FILERDEPENDSFLIST_ppp-tools: /usr/sbin/pppdump /usr/sbin/pppstats
+FILERDEPENDS_/usr/sbin/pppdump_ppp-tools: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/pppstats_ppp-tools: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+PKGSIZE_ppp-tools: 61728

@@ -1,0 +1,14 @@
+PN: libatomic-ops
+PV: 7.4.2
+PR: r0
+PKGV: 7.4.2
+PKGR: r0
+LICENSE: GPLv2 & MIT
+DESCRIPTION: A library for atomic integer operations.
+SUMMARY: A library for atomic integer operations
+SECTION: optional
+PKG_libatomic-ops: libatomic-ops
+ALLOW_EMPTY_libatomic-ops: 1
+FILES_libatomic-ops: /usr/bin/* /usr/sbin/* /usr/lib/libatomic-ops/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libatomic-ops /usr/lib/libatomic-ops/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_libatomic-ops: 0

@@ -1,0 +1,19 @@
+PN: asn1c-crt
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS asn1c
+SUMMARY: asn1c-crt version git-r1
+RDEPENDS_asn1c-crt: libstdc++ (>= 4.9.3) glibc (>= 2.22) libgcc (>= 4.9.3) glib-2.0 (>= 2.44.1)
+RPROVIDES_asn1c-crt:  asn1c-crt (=git)
+SECTION: base
+PKG_asn1c-crt: libasn1c-crt1
+FILES_asn1c-crt: /usr/bin/* /usr/sbin/* /usr/lib/asn1c-crt/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/asn1c-crt /usr/lib/asn1c-crt/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_asn1c-crt: /usr/lib/libasn1c@underscore@crt.so.1.0.0
+FILES_INFO: {"/usr/lib/libasn1c_crt.so.1": 21, "/usr/lib/libasn1c_crt.so.1.0.0": 153384}
+FILERPROVIDES_/usr/lib/libasn1c@underscore@crt.so.1.0.0_asn1c-crt: elf(buildid) (= ae86944f1c16f4b7bba52380a7e6fece367eab76) libasn1c_crt.so.1
+FILERDEPENDSFLIST_asn1c-crt: /usr/lib/libasn1c@underscore@crt.so.1.0.0
+FILERDEPENDS_/usr/lib/libasn1c@underscore@crt.so.1.0.0_asn1c-crt: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_asn1c-crt: 153405

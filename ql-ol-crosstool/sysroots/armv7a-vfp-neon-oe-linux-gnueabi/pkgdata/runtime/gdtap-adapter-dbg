@@ -1,0 +1,16 @@
+PN: gdtap-adapter
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gdtap-adapter-dbg: GPS xtwifi gdtap  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gdtap-adapter-dbg: gdtap-adapter version git-r1 - Debugging files
+RPROVIDES_gdtap-adapter-dbg:  gdtap-adapter-dbg (=git)
+RRECOMMENDS_gdtap-adapter-dbg: libsqlite3-dbg loc-net-iface-dbg libssl-dbg data-items-dbg libcrypto-dbg izat-core-dbg dsutils-dbg xmllib-dbg qmi-dbg system-core-dbg qmi-framework-dbg qmi-client-helper-dbg glibc-dbg diag-dbg data-oss-dbg libcutils-dbg libstdc++-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg loc-mq-client-dbg data-dbg configdb-dbg loc-stub-dbg time-genoff-dbg
+SECTION_gdtap-adapter-dbg: devel
+PKG_gdtap-adapter-dbg: libgdtap-adapter-dbg
+ALLOW_EMPTY_gdtap-adapter-dbg: 1
+FILES_gdtap-adapter-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gdtap-adapter/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gdtap-adapter/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gdtap-adapter/gdtap-adapter/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libgdtap_adapter.so.1.0.0": 355136}
+PKGSIZE_gdtap-adapter-dbg: 355136

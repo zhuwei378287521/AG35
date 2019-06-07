@@ -1,0 +1,17 @@
+PN: loc-base-util
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-base-util-dev: LOC base utils  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-base-util-dev: loc-base-util version git-r1 - Development files
+RDEPENDS_loc-base-util-dev: loc-base-util (= git-r1)
+RPROVIDES_loc-base-util-dev:  loc-base-util-dev (=git)
+RRECOMMENDS_loc-base-util-dev: glibc-dev loc-pla-dev libssl-dev openssl-dev libcrypto-dev libstdc++-dev libgcc-dev libsqlite3-dev sqlite3-dev glib-2.0-dev
+SECTION_loc-base-util-dev: devel
+PKG_loc-base-util-dev: libloc-base-util-dev
+ALLOW_EMPTY_loc-base-util-dev: 1
+FILES_loc-base-util-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-base-util/*.la /lib/*.la
+FILES_INFO: {"/usr/include/base_util/queue.h": 2989, "/usr/include/loc-base-util/memorystream.h": 2163, "/usr/include/base_util/config_file.h": 1683, "/usr/include/base_util/nvparam_mgr.h": 6375, "/usr/include/loc-base-util/fault_tolerant_file.h": 2933, "/usr/include/loc-base-util/string_routines.h": 940, "/usr/include/base_util/sync.h": 2642, "/usr/include/base_util/array.h": 4396, "/usr/include/loc-base-util/log.h": 1774, "/usr/include/base_util/log.h": 1774, "/usr/include/base_util/postcard.h": 8659, "/usr/include/base_util/list.h": 11235, "/usr/include/loc-base-util/time_routines.h": 4050, "/usr/include/loc-base-util/sync.h": 2642, "/usr/include/base_util/memorystream.h": 2163, "/usr/include/loc-base-util/list.h": 11235, "/usr/include/loc-base-util/postcard.h": 8659, "/usr/include/base_util/fault_tolerant_file.h": 2933, "/usr/include/base_util/vector.h": 4505, "/usr/include/base_util/time_routines.h": 4050, "/usr/lib/pkgconfig/loc-base-util.pc": 232, "/usr/include/loc-base-util/config_file.h": 1683, "/usr/include/loc-base-util/vector.h": 4505, "/usr/include/base_util/string_routines.h": 940, "/usr/include/loc-base-util/nvparam_mgr.h": 6375, "/usr/lib/libloc_base_util.la": 1119, "/usr/include/loc-base-util/array.h": 4396, "/usr/include/loc-base-util/queue.h": 2989, "/usr/lib/libloc_base_util.so": 25}
+PKGSIZE_loc-base-util-dev: 110064

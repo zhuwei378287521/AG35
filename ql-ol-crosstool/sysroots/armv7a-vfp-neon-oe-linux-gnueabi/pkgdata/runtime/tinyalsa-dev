@@ -1,0 +1,16 @@
+PN: tinyalsa
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_tinyalsa-dev: Tinyalsa Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_tinyalsa-dev: tinyalsa version git-r1 - Development files
+RDEPENDS_tinyalsa-dev: tinyalsa (= git-r1)
+RRECOMMENDS_tinyalsa-dev: glibc-dev libcutils-dev liblog-dev libstdc++-dev
+SECTION_tinyalsa-dev: devel
+PKG_tinyalsa-dev: tinyalsa-dev
+ALLOW_EMPTY_tinyalsa-dev: 1
+FILES_tinyalsa-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tinyalsa/*.la /lib/*.la
+FILES_INFO: {"/usr/include/tinyalsa/asoundlib.h": 1731, "/usr/lib/pkgconfig/tinyalsa.pc": 192, "/usr/include/tinyalsa/mixer.h": 4929, "/usr/include/tinyalsa/version.h": 1872, "/usr/lib/libtinyalsa.la": 1048, "/usr/include/tinyalsa/pcm.h": 10179, "/usr/lib/libtinyalsa.so": 20}
+PKGSIZE_tinyalsa-dev: 19971

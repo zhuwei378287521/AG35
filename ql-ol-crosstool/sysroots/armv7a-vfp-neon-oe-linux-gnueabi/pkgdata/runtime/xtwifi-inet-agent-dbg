@@ -1,0 +1,15 @@
+PN: xtwifi-inet-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_xtwifi-inet-agent-dbg: GPS xtwifi tile  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_xtwifi-inet-agent-dbg: xtwifi-inet-agent version git-r1 - Debugging files
+RRECOMMENDS_xtwifi-inet-agent-dbg: loc-pla-dbg loc-mq-client-dbg libcurl-dbg libstdc++-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg glibc-dbg
+SECTION_xtwifi-inet-agent-dbg: devel
+PKG_xtwifi-inet-agent-dbg: xtwifi-inet-agent-dbg
+ALLOW_EMPTY_xtwifi-inet-agent-dbg: 1
+FILES_xtwifi-inet-agent-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/xtwifi-inet-agent/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/xtwifi-inet-agent/.debug /usr/lib/matchbox-panel/.debug /usr/lib/xtwifi-inet-agent/xtwifi-inet-agent/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/xtwifi-inet-agent": 127296}
+PKGSIZE_xtwifi-inet-agent-dbg: 127296

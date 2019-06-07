@@ -1,0 +1,15 @@
+PN: shadow
+PV: 4.2.1
+PR: r0.1
+PKGV: 4.2.1
+PKGR: r0.1
+LICENSE: BSD | Artistic-1.0
+DESCRIPTION_shadow-dbg: Tools to change and administer password and group data.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_shadow-dbg: Tools to change and administer password and group data - Debugging files
+RRECOMMENDS_shadow-dbg: glibc-dbg
+SECTION_shadow-dbg: devel
+PKG_shadow-dbg: shadow-dbg
+ALLOW_EMPTY_shadow-dbg: 1
+FILES_shadow-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/shadow/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/shadow/.debug /usr/lib/matchbox-panel/.debug /usr/lib/shadow/shadow/.debug /usr/src/debug
+FILES_INFO: {"/bin/.debug/su.shadow": 13964, "/usr/sbin/.debug/groupdel": 15276, "/usr/bin/.debug/chsh.shadow": 13292, "/usr/sbin/.debug/pwconv": 12660, "/sbin/.debug/vipw.shadow": 17040, "/usr/bin/.debug/lastlog": 7072, "/sbin/.debug/nologin": 5080, "/usr/sbin/.debug/groupmems": 14900, "/usr/bin/.debug/chage": 14552, "/usr/sbin/.debug/pwck": 15120, "/usr/sbin/.debug/userdel": 20700, "/usr/sbin/.debug/useradd": 26992, "/usr/sbin/.debug/groupmod": 19992, "/usr/sbin/.debug/newusers": 23328, "/usr/bin/.debug/groups.shadow": 6360, "/usr/bin/.debug/faillog": 16004, "/usr/sbin/.debug/chgpasswd": 15444, "/usr/bin/.debug/chfn.shadow": 13536, "/usr/bin/.debug/gpasswd": 18784, "/usr/sbin/.debug/groupadd": 15744, "/usr/sbin/.debug/pwunconv": 11704, "/usr/sbin/.debug/grpck": 14368, "/usr/sbin/.debug/grpunconv": 13800, "/usr/sbin/.debug/chpasswd.shadow": 15560, "/usr/bin/.debug/expiry": 10180, "/usr/sbin/.debug/grpconv": 13824, "/usr/sbin/.debug/logoutd": 6212, "/usr/bin/.debug/newgrp.shadow": 11012, "/usr/bin/.debug/newgidmap": 10980, "/usr/sbin/.debug/usermod": 26724, "/usr/bin/.debug/passwd.shadow": 18148, "/usr/bin/.debug/newuidmap": 10980, "/bin/.debug/login.shadow": 16508}
+PKGSIZE_shadow-dbg: 485840

@@ -1,0 +1,15 @@
+PN: system-media
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: Apache-2.0
+DESCRIPTION_system-media-dbg: system media headers  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_system-media-dbg: system-media version git-r2 - Debugging files
+RRECOMMENDS_system-media-dbg: glibc-dbg libstdc++-dbg liblog-dbg tinyalsa-dbg glib-2.0-dbg libcutils-dbg expat-dbg
+SECTION_system-media-dbg: devel
+PKG_system-media-dbg: system-media-dbg
+ALLOW_EMPTY_system-media-dbg: 1
+FILES_system-media-dbg: /usr/lib/.debug/lib*.*
+FILES_INFO: {"/usr/lib/.debug/libalsautils.so": 8564, "/usr/lib/.debug/libaudioutils.so.0.0.0": 10552, "/usr/lib/.debug/libtinysndfile.so.0.0.0": 10860, "/usr/lib/.debug/libaudioroute.so.0.0.0": 5316, "/usr/lib/.debug/libcamera_metadata.so.0.0.0": 10820}
+PKGSIZE_system-media-dbg: 46112

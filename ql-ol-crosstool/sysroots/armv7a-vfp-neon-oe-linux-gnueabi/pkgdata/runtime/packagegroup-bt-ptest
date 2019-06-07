@@ -1,0 +1,12 @@
+PN: packagegroup-bt
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: BT Deamons.
+SUMMARY: BT Deamons
+SECTION: base
+PKG_packagegroup-bt-ptest: packagegroup-bt-ptest
+FILES_INFO: {}
+PKGSIZE_packagegroup-bt-ptest: 0

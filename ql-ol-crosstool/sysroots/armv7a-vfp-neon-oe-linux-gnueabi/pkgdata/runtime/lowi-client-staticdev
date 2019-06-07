@@ -1,0 +1,15 @@
+PN: lowi-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-client-staticdev: GPS lowi client  This package contains static libraries for software development.
+SUMMARY_lowi-client-staticdev: lowi-client version git-r1 - Development files (Static Libraries)
+RDEPENDS_lowi-client-staticdev: lowi-client-dev (= git-r1)
+RPROVIDES_lowi-client-staticdev:  lowi-client-staticdev (=git)
+SECTION_lowi-client-staticdev: devel
+PKG_lowi-client-staticdev: liblowi-client-staticdev
+FILES_lowi-client-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lowi-client/*.a
+FILES_INFO: {}
+PKGSIZE_lowi-client-staticdev: 0

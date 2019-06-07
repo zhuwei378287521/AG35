@@ -1,0 +1,16 @@
+PN: liblog
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_liblog-dev: Build Android liblog  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_liblog-dev: liblog version 1.0-r1 - Development files
+RDEPENDS_liblog-dev: liblog (= 1.0-r1)
+RRECOMMENDS_liblog-dev: libgcc-dev glibc-dev libstdc++-dev
+SECTION_liblog-dev: devel
+PKG_liblog-dev: liblog-dev
+ALLOW_EMPTY_liblog-dev: 1
+FILES_liblog-dev: /usr/lib/*.so /usr/lib/*.la /usr/include/*
+FILES_INFO: {"/usr/lib/liblog.la": 918, "/usr/include/log/logger.h": 6606, "/usr/include/log/logprint.h": 4073, "/usr/include/log/uio.h": 1105, "/usr/include/log/log.h": 18531, "/usr/include/log/logd.h": 1379, "/usr/include/log/log_read.h": 4680, "/usr/lib/liblog.so": 15, "/usr/include/log/event_tag_map.h": 1295, "/usr/include/android/log.h": 4337}
+PKGSIZE_liblog-dev: 42939

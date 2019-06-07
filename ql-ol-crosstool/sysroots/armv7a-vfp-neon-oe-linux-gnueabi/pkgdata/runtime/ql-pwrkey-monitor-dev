@@ -1,0 +1,16 @@
+PN: ql-pwrkey-monitor
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-pwrkey-monitor-dev: Quectel ql_pwrkey_monitor data dispatch  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ql-pwrkey-monitor-dev: ql-pwrkey-monitor version git-r1 - Development files
+RDEPENDS_ql-pwrkey-monitor-dev: ql-pwrkey-monitor (= git-r1)
+RRECOMMENDS_ql-pwrkey-monitor-dev: glibc-dev update-rc.d-dev initscripts-dev
+SECTION_ql-pwrkey-monitor-dev: devel
+PKG_ql-pwrkey-monitor-dev: ql-pwrkey-monitor-dev
+ALLOW_EMPTY_ql-pwrkey-monitor-dev: 1
+FILES_ql-pwrkey-monitor-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ql-pwrkey-monitor/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_ql-pwrkey-monitor-dev: 0

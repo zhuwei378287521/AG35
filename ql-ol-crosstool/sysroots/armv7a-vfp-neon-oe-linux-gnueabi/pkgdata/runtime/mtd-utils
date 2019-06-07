@@ -1,0 +1,65 @@
+PN: mtd-utils
+PV: 2.0.1
+PR: r3
+PKGV: 2.0.1
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION: mtd-utils include mkfs.ubifs,ubiattach,ubinfo tools
+SUMMARY: mtd-utils version 2.0.1-r3
+RDEPENDS_mtd-utils: glibc (>= 2.22)
+SECTION: base
+PKG_mtd-utils: mtd-utils
+FILES_mtd-utils: /usr/bin/* /usr/sbin/* /usr/lib/mtd-utils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mtd-utils /usr/lib/mtd-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_mtd-utils: /usr/sbin/flash@underscore@otp@underscore@write /usr/sbin/flash@underscore@otp@underscore@dump /usr/sbin/mtdpart /usr/sbin/nftldump /usr/sbin/recv@underscore@image /usr/sbin/flash@underscore@erase /usr/sbin/ftl@underscore@check /usr/sbin/rfdformat /usr/sbin/nftl@underscore@format /usr/sbin/nanddump /usr/sbin/flash@underscore@otp@underscore@lock /usr/sbin/nandtest /usr/sbin/ftl@underscore@format /usr/sbin/doc@underscore@loadbios /usr/sbin/mtdinfo /usr/sbin/flash@underscore@otp@underscore@info /usr/sbin/rfddump /usr/sbin/docfdisk /usr/sbin/mtd@underscore@debug /usr/sbin/serve@underscore@image /usr/sbin/nandwrite /usr/sbin/flash@underscore@lock /usr/sbin/flashcp /usr/sbin/flash@underscore@unlock
+FILES_INFO: {"/usr/sbin/flash_eraseall": 150, "/usr/sbin/mtdpart": 9952, "/usr/sbin/nftldump": 9912, "/usr/sbin/rfdformat": 9956, "/usr/sbin/doc_loadbios": 9900, "/usr/sbin/flash_otp_write": 9900, "/usr/sbin/nanddump": 42732, "/usr/sbin/flash_otp_dump": 5804, "/usr/sbin/flash_otp_info": 5804, "/usr/sbin/nandtest": 14052, "/usr/sbin/recv_image": 22188, "/usr/sbin/serve_image": 18092, "/usr/sbin/flash_lock": 9956, "/usr/sbin/mtdinfo": 50912, "/usr/sbin/flash_otp_lock": 9900, "/usr/sbin/rfddump": 9952, "/usr/sbin/ftl_check": 9956, "/usr/sbin/docfdisk": 13992, "/usr/sbin/ftl_format": 9956, "/usr/sbin/flash_unlock": 9964, "/usr/sbin/flash_erase": 42728, "/usr/sbin/nftl_format": 14060, "/usr/sbin/mtd_debug": 9956, "/usr/sbin/nandwrite": 46824, "/usr/sbin/flashcp": 14056}
+FILERPROVIDES_/usr/sbin/flash@underscore@otp@underscore@write_mtd-utils: elf(buildid) (= a61c92e18c1941fe7e886e0326d022989721ec14)
+FILERPROVIDES_/usr/sbin/flash@underscore@otp@underscore@dump_mtd-utils: elf(buildid) (= 2daad581c74a2315933d57e71b58dc4d3a509294)
+FILERPROVIDES_/usr/sbin/mtdpart_mtd-utils: elf(buildid) (= 9ec81a849932ef296bada9f64a92593080635bd0)
+FILERPROVIDES_/usr/sbin/nftldump_mtd-utils: elf(buildid) (= 019c6852721aa9d6810089d76431cdcb683d99ce)
+FILERPROVIDES_/usr/sbin/recv@underscore@image_mtd-utils: elf(buildid) (= e4e9d97adde34a62e1b22e47d139ad4640e5c0ba)
+FILERPROVIDES_/usr/sbin/flash@underscore@erase_mtd-utils: elf(buildid) (= 10cdf7e008eb047ece66d304e12cbf6258fc00d5)
+FILERPROVIDES_/usr/sbin/ftl@underscore@check_mtd-utils: elf(buildid) (= 7aeabeea1abb5f4212cea47efc7548828155ac18)
+FILERPROVIDES_/usr/sbin/rfdformat_mtd-utils: elf(buildid) (= 15f2ce8c712f8ef25b2cd52a58a35652da01c8bb)
+FILERPROVIDES_/usr/sbin/nftl@underscore@format_mtd-utils: elf(buildid) (= f14a3e7d2246a9ef802d0bf11b53b8c38c2de235)
+FILERPROVIDES_/usr/sbin/nanddump_mtd-utils: elf(buildid) (= 6204a5c918a1d5786743d0f59c258625fb342e07)
+FILERPROVIDES_/usr/sbin/flash@underscore@otp@underscore@lock_mtd-utils: elf(buildid) (= 553af0f12133d945bd57b78d8bbdc4006b399ffa)
+FILERPROVIDES_/usr/sbin/nandtest_mtd-utils: elf(buildid) (= 11fa70571d057b171c3a507c21ccdf2bd11e819a)
+FILERPROVIDES_/usr/sbin/ftl@underscore@format_mtd-utils: elf(buildid) (= ba71e98f1da314dd4bd448457b50e7ebe420fe12)
+FILERPROVIDES_/usr/sbin/doc@underscore@loadbios_mtd-utils: elf(buildid) (= 937ddd5501de145c86e395280b3cc92e8be2ae27)
+FILERPROVIDES_/usr/sbin/mtdinfo_mtd-utils: elf(buildid) (= ee25550bd58d819712d65961835b088cc532b59b)
+FILERPROVIDES_/usr/sbin/flash@underscore@otp@underscore@info_mtd-utils: elf(buildid) (= f29830cf2421458e10000871991a2d525fad980d)
+FILERPROVIDES_/usr/sbin/rfddump_mtd-utils: elf(buildid) (= e2c5255fcab6d580485f4668c5ce6465496788ea)
+FILERPROVIDES_/usr/sbin/docfdisk_mtd-utils: elf(buildid) (= 4863bee8021057646ca196544e9dcd9599831f5e)
+FILERPROVIDES_/usr/sbin/mtd@underscore@debug_mtd-utils: elf(buildid) (= 66a9ffe0326a517e10e90b97f53546032b2f3b8c)
+FILERPROVIDES_/usr/sbin/serve@underscore@image_mtd-utils: elf(buildid) (= ee166876a675536ad46f8221c3433b4d62ae14cd)
+FILERPROVIDES_/usr/sbin/nandwrite_mtd-utils: elf(buildid) (= b8004a4a70757c79d68f2481af26f4d9a21bf902)
+FILERPROVIDES_/usr/sbin/flash@underscore@lock_mtd-utils: elf(buildid) (= a89db785b2e1bbf08d718608145b2b08db78db61)
+FILERPROVIDES_/usr/sbin/flashcp_mtd-utils: elf(buildid) (= 0748a68881cce60e84003ef1cd0c4ebb25149f8d)
+FILERPROVIDES_/usr/sbin/flash@underscore@unlock_mtd-utils: elf(buildid) (= 4d8194ae947204055bfb7ed066aacc9f0d4eacf0)
+FILERDEPENDSFLIST_mtd-utils: /usr/sbin/flash@underscore@otp@underscore@write /usr/sbin/flash@underscore@eraseall /usr/sbin/flash@underscore@otp@underscore@dump /usr/sbin/mtdpart /usr/sbin/nftldump /usr/sbin/recv@underscore@image /usr/sbin/flash@underscore@erase /usr/sbin/ftl@underscore@check /usr/sbin/rfdformat /usr/sbin/nftl@underscore@format /usr/sbin/nanddump /usr/sbin/flash@underscore@otp@underscore@lock /usr/sbin/nandtest /usr/sbin/ftl@underscore@format /usr/sbin/doc@underscore@loadbios /usr/sbin/mtdinfo /usr/sbin/flash@underscore@otp@underscore@info /usr/sbin/rfddump /usr/sbin/docfdisk /usr/sbin/mtd@underscore@debug /usr/sbin/serve@underscore@image /usr/sbin/nandwrite /usr/sbin/flash@underscore@lock /usr/sbin/flashcp /usr/sbin/flash@underscore@unlock
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@write_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@eraseall_mtd-utils: /bin/sh
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@dump_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mtdpart_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nftldump_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/recv@underscore@image_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@erase_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ftl@underscore@check_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/rfdformat_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nftl@underscore@format_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nanddump_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@lock_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nandtest_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ftl@underscore@format_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/doc@underscore@loadbios_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mtdinfo_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@info_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/rfddump_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/docfdisk_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mtd@underscore@debug_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/serve@underscore@image_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nandwrite_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@lock_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flashcp_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@unlock_mtd-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_mtd-utils: 410654

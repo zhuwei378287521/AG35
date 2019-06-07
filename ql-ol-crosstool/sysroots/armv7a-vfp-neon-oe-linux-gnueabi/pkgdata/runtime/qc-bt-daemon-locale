@@ -1,0 +1,13 @@
+PN: qc-bt-daemon
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Bluetooth QC Daemon
+SUMMARY: qc-bt-daemon version git-r0
+SECTION: base
+PKG_qc-bt-daemon-locale: qc-bt-daemon-locale
+FILES_qc-bt-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qc-bt-daemon-locale: 0

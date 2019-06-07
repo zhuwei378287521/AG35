@@ -1,0 +1,14 @@
+PN: loc-mq-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mq-client-doc: LOC MQ Client  This package contains documentation.
+SUMMARY_loc-mq-client-doc: loc-mq-client version git-r1 - Documentation files
+RPROVIDES_loc-mq-client-doc:  loc-mq-client-doc (=git)
+SECTION_loc-mq-client-doc: doc
+PKG_loc-mq-client-doc: libloc-mq-client-doc
+FILES_loc-mq-client-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-mq-client-doc: 0

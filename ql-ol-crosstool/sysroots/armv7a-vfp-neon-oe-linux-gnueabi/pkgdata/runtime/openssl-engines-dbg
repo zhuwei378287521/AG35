@@ -1,0 +1,14 @@
+PN: openssl
+PV: 1.0.2h
+PR: r0
+PKGV: 1.0.2h
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RRECOMMENDS_openssl-engines-dbg: glibc-dbg libcrypto-dbg libssl-dbg
+SECTION: libs/network
+PKG_openssl-engines-dbg: openssl-engines-dbg
+FILES_openssl-engines-dbg: /usr/lib/ssl/engines/.debug
+FILES_INFO: {"/usr/lib/ssl/engines/.debug/libgost.so": 23932, "/usr/lib/ssl/engines/.debug/lib4758cca.so": 7064, "/usr/lib/ssl/engines/.debug/libsureware.so": 8420, "/usr/lib/ssl/engines/.debug/libatalla.so": 6604, "/usr/lib/ssl/engines/.debug/libcswift.so": 6972, "/usr/lib/ssl/engines/.debug/libnuron.so": 6200, "/usr/lib/ssl/engines/.debug/libchil.so": 8560, "/usr/lib/ssl/engines/.debug/libgmp.so": 3812, "/usr/lib/ssl/engines/.debug/libubsec.so": 7148, "/usr/lib/ssl/engines/.debug/libcapi.so": 3816, "/usr/lib/ssl/engines/.debug/libpadlock.so": 3816, "/usr/lib/ssl/engines/.debug/libaep.so": 6904}
+PKGSIZE_openssl-engines-dbg: 93248

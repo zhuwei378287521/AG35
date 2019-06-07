@@ -1,0 +1,14 @@
+PN: slim-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: SLIM cleint 
+SUMMARY: slim-client version git-r1
+RPROVIDES_slim-client-locale:  slim-client-locale (=git)
+SECTION: base
+PKG_slim-client-locale: libslimclient-locale
+FILES_slim-client-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_slim-client-locale: 0

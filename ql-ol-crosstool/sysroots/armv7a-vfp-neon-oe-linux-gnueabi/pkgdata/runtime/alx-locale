@@ -1,0 +1,13 @@
+PN: alx
+PV: git
+PR: r4_perf
+PKGV: git
+PKGR: r4_perf
+LICENSE: ISC
+DESCRIPTION: Qualcomm Atheros Gigabit Ethernet Driver
+SUMMARY: alx version git-r4_perf
+SECTION: base
+PKG_alx-locale: alx-locale
+FILES_alx-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_alx-locale: 0

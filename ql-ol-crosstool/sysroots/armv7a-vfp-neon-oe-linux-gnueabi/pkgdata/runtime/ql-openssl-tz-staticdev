@@ -1,0 +1,14 @@
+PN: ql-openssl-tz
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-openssl-tz-staticdev: Quectel openssl-tz lib  This package contains static libraries for software development.
+SUMMARY_ql-openssl-tz-staticdev: ql-openssl-tz version git-r1 - Development files (Static Libraries)
+RDEPENDS_ql-openssl-tz-staticdev: ql-openssl-tz-dev (= git-r1)
+SECTION_ql-openssl-tz-staticdev: devel
+PKG_ql-openssl-tz-staticdev: ql-openssl-tz-staticdev
+FILES_ql-openssl-tz-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-openssl-tz/*.a
+FILES_INFO: {}
+PKGSIZE_ql-openssl-tz-staticdev: 0

@@ -1,0 +1,14 @@
+PN: data-items
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_data-items-doc: GPS Data Items  This package contains documentation.
+SUMMARY_data-items-doc: data-items version git-r1 - Documentation files
+RPROVIDES_data-items-doc:  data-items-doc (=git)
+SECTION_data-items-doc: doc
+PKG_data-items-doc: libdataitems-doc
+FILES_data-items-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_data-items-doc: 0

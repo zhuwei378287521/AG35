@@ -1,0 +1,15 @@
+PN: drplugin-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-server-staticdev: DR Plugin server  This package contains static libraries for software development.
+SUMMARY_drplugin-server-staticdev: drplugin-server version git-r1 - Development files (Static Libraries)
+RDEPENDS_drplugin-server-staticdev: drplugin-server-dev (= git-r1)
+RPROVIDES_drplugin-server-staticdev:  drplugin-server-staticdev (=git)
+SECTION_drplugin-server-staticdev: devel
+PKG_drplugin-server-staticdev: lib-drplugin-server-staticdev
+FILES_drplugin-server-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/drplugin-server/*.a
+FILES_INFO: {}
+PKGSIZE_drplugin-server-staticdev: 0

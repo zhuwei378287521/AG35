@@ -1,0 +1,14 @@
+PN: drplugin-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-server-doc: DR Plugin server  This package contains documentation.
+SUMMARY_drplugin-server-doc: drplugin-server version git-r1 - Documentation files
+RPROVIDES_drplugin-server-doc:  drplugin-server-doc (=git)
+SECTION_drplugin-server-doc: doc
+PKG_drplugin-server-doc: lib-drplugin-server-doc
+FILES_drplugin-server-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_drplugin-server-doc: 0

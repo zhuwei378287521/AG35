@@ -1,0 +1,2 @@
+/sbin/klogd
+/usr/lib/busybox/sbin/klogd 50

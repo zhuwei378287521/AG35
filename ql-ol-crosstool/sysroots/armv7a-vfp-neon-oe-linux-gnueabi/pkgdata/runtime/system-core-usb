@@ -1,0 +1,61 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r19_perf
+RDEPENDS_system-core-usb: glibc (>= 2.22)
+RRECOMMENDS_system-core-usb:  update-rc.d
+SECTION: base
+PKG_system-core-usb: system-core-usb
+FILES_system-core-usb: /etc/init.d/usb /sbin/usb_composition /usr/bin/usb_composition_switch /sbin/usb/compositions/* /data/usb/* /sbin/usb/* /sbin/usb_debug /sbin/usb/debuger/* /lib/systemd/system/usb.service /lib/systemd/system/multi-user.target.wants/usb.service /lib/systemd/system/ffbm.target.wants/usb.service /etc/initscripts/usb
+pkg_postinst_system-core-usb: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT usb start 30 S .\nfi\n
+pkg_postrm_system-core-usb: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT usb remove\nfi\n
+pkg_preinst_system-core-usb: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/usb" ]; then\n\t/etc/init.d/usb stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT usb remove\nfi\n
+pkg_prerm_system-core-usb: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/usb stop\nfi\n
+FILERPROVIDESFLIST_system-core-usb: /usr/bin/usb@underscore@composition@underscore@switch
+FILES_INFO: {"/sbin/usb/compositions/9085": 5805, "/sbin/usb/compositions/905B": 5055, "/sbin/usb/compositions/9084": 5685, "/sbin/usb/compositions/9060": 3233, "/sbin/usb/compositions/9063": 5607, "/sbin/usb/compositions/901D": 3075, "/sbin/usb/compositions/9064": 8419, "/etc/init.d/usb": 5983, "/sbin/usb/compositions/usb_id_check": 1883, "/sbin/usb_composition": 7798, "/sbin/usb/compositions/90A9": 6357, "/data/usb/hsic_next": 2, "/sbin/usb/target": 2315, "/sbin/usb/compositions/90A1": 3657, "/usr/bin/usb_composition_switch": 5812, "/data/usb/hsusb_next": 5, "/sbin/usb/compositions/9025": 10350, "/sbin/usb/compositions/9024": 4161, "/sbin/usb/compositions/empty": 127, "/sbin/usb/compositions/9021": 5185, "/sbin/usb/compositions/9049": 7192, "/sbin/usb/compositions/9022": 5557, "/sbin/usb/compositions/9091": 4566, "/sbin/usb/compositions/hsusb_next": 5, "/sbin/usb/compositions/904A": 3075, "/sbin/usb/compositions/recovery_9607": 2978, "/sbin/usb/compositions/usb_func_check": 5880, "/sbin/usb/compositions/902D": 4440, "/sbin/usb/debuger/debugFiles": 866, "/sbin/usb/compositions/9067": 6436, "/sbin/usb/compositions/902B": 4220, "/sbin/usb/compositions/90CA": 2434, "/sbin/usb_debug": 9149, "/sbin/usb/compositions/90CD": 2380, "/sbin/usb/compositions/hsic_next": 2, "/sbin/usb/compositions/90AD": 5121, "/data/usb/boot_hsic_composition": 28, "/sbin/usb/compositions/90D6": 2679, "/sbin/usb/compositions/90D5": 2783, "/sbin/usb/compositions/90B1": 2677, "/sbin/usb/compositions/9056": 6427, "/sbin/usb/compositions/9057": 4409, "/sbin/usb/compositions/F000": 2207, "/sbin/usb/debuger/help": 1261, "/sbin/usb/compositions/9039": 4955, "/sbin/usb/compositions/9059": 5105, "/data/usb/boot_hsusb_composition": 27}
+FILERPROVIDES_/usr/bin/usb@underscore@composition@underscore@switch_system-core-usb: elf(buildid) (= dce5a881cc2a706459ac0704f5f878212dba12dd)
+FILERDEPENDSFLIST_system-core-usb: /sbin/usb/compositions/905B /sbin/usb/compositions/9084 /sbin/usb/compositions/9060 /sbin/usb/compositions/9063 /sbin/usb/compositions/901D /sbin/usb/compositions/9064 /etc/init.d/usb /sbin/usb/compositions/90A9 /sbin/usb/compositions/recovery@underscore@9607 /sbin/usb/compositions/9085 /sbin/usb/target /sbin/usb/compositions/90A1 /sbin/usb@underscore@debug /sbin/usb/compositions/9025 /sbin/usb/compositions/9024 /sbin/usb/compositions/empty /sbin/usb/compositions/9021 /sbin/usb/compositions/9049 /sbin/usb/compositions/9022 /sbin/usb/compositions/9091 /sbin/usb/compositions/904A /sbin/usb/compositions/90D6 /sbin/usb/compositions/902D /sbin/usb/compositions/902B /sbin/usb/compositions/usb@underscore@func@underscore@check /sbin/usb/compositions/90CA /sbin/usb/compositions/9067 /sbin/usb/compositions/90CD /sbin/usb/compositions/90AD /usr/bin/usb@underscore@composition@underscore@switch /sbin/usb/compositions/90D5 /sbin/usb/compositions/90B1 /sbin/usb/compositions/9056 /sbin/usb/compositions/9057 /sbin/usb@underscore@composition /sbin/usb/compositions/F000 /sbin/usb/compositions/9039 /sbin/usb/compositions/9059 /sbin/usb/compositions/usb@underscore@id@underscore@check
+FILERDEPENDS_/sbin/usb/compositions/905B_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9084_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9060_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9063_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/901D_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9064_system-core-usb: /bin/sh
+FILERDEPENDS_/etc/init.d/usb_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/90A9_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/recovery@underscore@9607_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9085_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/target_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/90A1_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb@underscore@debug_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9025_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9024_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/empty_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9021_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9049_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9022_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9091_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/904A_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/90D6_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/902D_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/902B_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/usb@underscore@func@underscore@check_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/90CA_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9067_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/90CD_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/90AD_system-core-usb: /bin/sh
+FILERDEPENDS_/usr/bin/usb@underscore@composition@underscore@switch_system-core-usb: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/usb/compositions/90D5_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/90B1_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9056_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9057_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb@underscore@composition_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/F000_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9039_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/9059_system-core-usb: /bin/sh
+FILERDEPENDS_/sbin/usb/compositions/usb@underscore@id@underscore@check_system-core-usb: /bin/sh
+PKGSIZE_system-core-usb: 187373

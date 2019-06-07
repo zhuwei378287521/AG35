@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: location-service-glue
+Description: QTI GPS Location Service Glue Library
+Version: 1.0.0
+Libs: -L${libdir} -llocationservice_glue
+Cflags: -I${includedir}/loc-glue

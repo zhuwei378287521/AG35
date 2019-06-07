@@ -1,0 +1,14 @@
+PN: gensecimage
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gensecimage-staticdev: gensecimage : Image signing tools  This package contains static libraries for software development.
+SUMMARY_gensecimage-staticdev: gensecimage version git-r3 - Development files (Static Libraries)
+RDEPENDS_gensecimage-staticdev: gensecimage-dev (= git-r3)
+SECTION_gensecimage-staticdev: devel
+PKG_gensecimage-staticdev: gensecimage-staticdev
+FILES_gensecimage-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gensecimage/*.a
+FILES_INFO: {}
+PKGSIZE_gensecimage-staticdev: 0

@@ -1,0 +1,13 @@
+PN: libatomic-ops
+PV: 7.4.2
+PR: r0
+PKGV: 7.4.2
+PKGR: r0
+LICENSE: GPLv2 & MIT
+DESCRIPTION_libatomic-ops-doc: A library for atomic integer operations.  This package contains documentation.
+SUMMARY_libatomic-ops-doc: A library for atomic integer operations - Documentation files
+SECTION_libatomic-ops-doc: doc
+PKG_libatomic-ops-doc: libatomic-ops-doc
+FILES_libatomic-ops-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/libatomic-ops/README.md": 2195, "/usr/share/doc/libatomic-ops/README_malloc.txt": 3086, "/usr/share/doc/libatomic-ops/README.txt": 11905, "/usr/share/doc/libatomic-ops/README_stack.txt": 3959, "/usr/share/doc/libatomic-ops/LICENSING.txt": 2800, "/usr/share/doc/libatomic-ops/README_win32.txt": 1653, "/usr/share/doc/libatomic-ops/COPYING": 17992}
+PKGSIZE_libatomic-ops-doc: 43590

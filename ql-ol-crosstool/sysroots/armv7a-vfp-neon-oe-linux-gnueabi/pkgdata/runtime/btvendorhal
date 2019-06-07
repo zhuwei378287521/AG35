@@ -1,0 +1,19 @@
+PN: btvendorhal
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION: hardware btvendorhal headers
+SUMMARY: btvendorhal version git-r1
+RDEPENDS_btvendorhal: libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) glibc (>= 2.22)
+RPROVIDES_btvendorhal:  btvendorhal (=git)
+SECTION: base
+PKG_btvendorhal: libbtvendorhal0
+FILES_btvendorhal: /usr/bin/* /usr/sbin/* /usr/lib/btvendorhal/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/btvendorhal /usr/lib/btvendorhal/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_btvendorhal: /usr/lib/libbtvendorhal.so.0.0.0
+FILES_INFO: {"/usr/lib/libbtvendorhal.so.0.0.0": 9816, "/usr/lib/libbtvendorhal.so.0": 23}
+FILERPROVIDES_/usr/lib/libbtvendorhal.so.0.0.0_btvendorhal: elf(buildid) (= 7254dbbfb877a986092f9f912ef60602629e1d0c) libbtvendorhal.so.0
+FILERDEPENDSFLIST_btvendorhal: /usr/lib/libbtvendorhal.so.0.0.0
+FILERDEPENDS_/usr/lib/libbtvendorhal.so.0.0.0_btvendorhal: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libdl.so.2 libdl.so.2(GLIBC_2.4) liblog.so.0 libm.so.6 libpthread.so.0 libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_btvendorhal: 9839

@@ -1,0 +1,15 @@
+PN: asn1c-rtx
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_asn1c-rtx-staticdev: GPS asn1c  This package contains static libraries for software development.
+SUMMARY_asn1c-rtx-staticdev: asn1c-rtx version git-r1 - Development files (Static Libraries)
+RDEPENDS_asn1c-rtx-staticdev: asn1c-rtx-dev (= git-r1)
+RPROVIDES_asn1c-rtx-staticdev:  asn1c-rtx-staticdev (=git)
+SECTION_asn1c-rtx-staticdev: devel
+PKG_asn1c-rtx-staticdev: libasn1c-rtx-staticdev
+FILES_asn1c-rtx-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/asn1c-rtx/*.a
+FILES_INFO: {}
+PKGSIZE_asn1c-rtx-staticdev: 0

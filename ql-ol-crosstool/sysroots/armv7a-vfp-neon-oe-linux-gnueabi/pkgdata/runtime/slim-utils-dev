@@ -1,0 +1,17 @@
+PN: slim-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-utils-dev: SLIM Utils  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_slim-utils-dev: slim-utils version git-r1 - Development files
+RDEPENDS_slim-utils-dev: slim-utils (= git-r1)
+RPROVIDES_slim-utils-dev:  slim-utils-dev (=git)
+RRECOMMENDS_slim-utils-dev: slim-common-hdr-dev glibc-dev loc-pla-dev libstdc++-dev libgcc-dev time-genoff-dev glib-2.0-dev diag-dev qmi-framework-dev
+SECTION_slim-utils-dev: devel
+PKG_slim-utils-dev: libslimutils-dev
+ALLOW_EMPTY_slim-utils-dev: 1
+FILES_slim-utils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/slim-utils/*.la /lib/*.la
+FILES_INFO: {"/usr/include/slim-utils/slim_os_log_api.h": 17866, "/usr/lib/pkgconfig/slim-utils.pc": 207, "/usr/include/slim-utils/slim_os_api.h": 32738, "/usr/include/slim-utils/qmislim_target.h": 10937, "/usr/include/slim-utils/slim_os_i.h": 2195, "/usr/lib/libslimutils.la": 1161, "/usr/include/slim-utils/slim_list_api.h": 3892, "/usr/lib/libslimutils.so": 21, "/usr/include/slim-utils/slim_processor.h": 8788, "/usr/include/slim-utils/slim_log_utils_i.h": 1789}
+PKGSIZE_slim-utils-dev: 79594

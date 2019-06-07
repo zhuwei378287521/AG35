@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.22.0
+PR: r0
+PKGV: 5.22.0
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-devel-peek: perl module devel-peek
+SUMMARY_perl-module-devel-peek: perl module devel-peek
+RDEPENDS_perl-module-devel-peek: perl-module-exporter perl glibc (>= 2.22) perl-module-xsloader
+SECTION: devel
+PKG_perl-module-devel-peek: perl-module-devel-peek
+FILES_perl-module-devel-peek: /usr/lib/perl/5.22.0/auto/Devel/Peek/Peek.so /usr/lib/perl/5.22.0/Devel/Peek.pm
+FILERPROVIDESFLIST_perl-module-devel-peek: /usr/lib/perl/5.22.0/auto/Devel/Peek/Peek.so
+FILES_INFO: {"/usr/lib/perl/5.22.0/auto/Devel/Peek/Peek.so": 13896, "/usr/lib/perl/5.22.0/Devel/Peek.pm": 18047}
+FILERPROVIDES_/usr/lib/perl/5.22.0/auto/Devel/Peek/Peek.so_perl-module-devel-peek: Peek.so elf(buildid) (= 4f5b3d97650d7be1358f42f5db13886064ecacb3)
+FILERDEPENDSFLIST_perl-module-devel-peek: /usr/lib/perl/5.22.0/auto/Devel/Peek/Peek.so
+FILERDEPENDS_/usr/lib/perl/5.22.0/auto/Devel/Peek/Peek.so_perl-module-devel-peek: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-devel-peek: 31943

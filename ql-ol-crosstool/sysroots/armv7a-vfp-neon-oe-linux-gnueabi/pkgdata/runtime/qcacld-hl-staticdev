@@ -1,0 +1,14 @@
+PN: qcacld-hl
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION_qcacld-hl-staticdev: Qualcomm Atheros WLAN CLD high latency driver  This package contains static libraries for software development.
+SUMMARY_qcacld-hl-staticdev: qcacld-hl version git-r0_perf - Development files (Static Libraries)
+RDEPENDS_qcacld-hl-staticdev: qcacld-hl-dev (= git-r0_perf)
+SECTION_qcacld-hl-staticdev: devel
+PKG_qcacld-hl-staticdev: qcacld-hl-staticdev
+FILES_qcacld-hl-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qcacld-hl/*.a
+FILES_INFO: {}
+PKGSIZE_qcacld-hl-staticdev: 0

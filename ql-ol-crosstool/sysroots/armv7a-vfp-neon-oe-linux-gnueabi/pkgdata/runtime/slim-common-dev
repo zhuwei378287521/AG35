@@ -1,0 +1,17 @@
+PN: slim-common
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-common-dev: SLIM Common library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_slim-common-dev: slim-common version git-r1 - Development files
+RDEPENDS_slim-common-dev: slim-common (= git-r1)
+RPROVIDES_slim-common-dev:  slim-common-dev (=git)
+RRECOMMENDS_slim-common-dev: configdb-dev slim-utils-dev glibc-dev loc-pla-dev xmllib-dev dsutils-dev libstdc++-dev loc-hal-dev time-genoff-dev qmi-dev glib-2.0-dev qmi-framework-dev diag-dev
+SECTION_slim-common-dev: devel
+PKG_slim-common-dev: libslimcommon-dev
+ALLOW_EMPTY_slim-common-dev: 1
+FILES_slim-common-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/slim-common/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/slim-common.pc": 204, "/usr/include/slim-common/qmislim_qmi_monitor_api.h": 6528, "/usr/include/slim-common/qmislim_qmi_client_api.h": 18233, "/usr/include/slim-common/slim_provider_data.h": 26153, "/usr/include/slim-common/slim_internal_api.h": 10486, "/usr/lib/libslimcommon.la": 1635, "/usr/include/slim-common/slim_utils.h": 9647, "/usr/include/slim-common/slim_timesync.h": 12009, "/usr/lib/libslimcommon.so": 22, "/usr/include/slim-common/slim_service_status.h": 13200, "/usr/include/slim-common/qmislim_qmi_dm_log_api.h": 9156, "/usr/include/slim-common/slim_client_types.h": 69187, "/usr/include/slim-common/slim_task.h": 11895, "/usr/include/slim-common/qmislim_task_api.h": 10865, "/usr/include/slim-common/slim_provider_conf.h": 4965, "/usr/include/slim-common/qmislim_qmi_service_api.h": 15403, "/usr/include/slim-common/slim_internal.h": 5468, "/usr/include/slim-common/slim_core.h": 13737, "/usr/include/slim-common/sensor_location_interface_manager_v01.h": 55230, "/usr/include/slim-common/qmislim_provider_api.h": 9367, "/usr/include/slim-common/qmislim_qmi_api.h": 20893, "/usr/include/slim-common/slim_api.h": 24746, "/usr/include/slim-common/slim_internal_client_types.h": 1839, "/usr/include/slim-common/qmislim_common_api.h": 15789}
+PKGSIZE_slim-common-dev: 366657

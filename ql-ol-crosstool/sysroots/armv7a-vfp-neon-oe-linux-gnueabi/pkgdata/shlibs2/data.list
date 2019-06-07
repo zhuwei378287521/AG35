@@ -1,0 +1,9 @@
+libqdi.so.0:/usr/lib:git
+libdsi_netctrl.so.0:/usr/lib:git
+libqcmaputils.so.1:/usr/lib:git
+libnetmgr.so.0:/usr/lib:git
+libqcmap_cm.so.1:/usr/lib:git
+libqcmapipc.so.1:/usr/lib:git
+libqmi_ip.so.1:/usr/lib:git
+libqdp.so.0:/usr/lib:git
+libqcmap_client.so.1:/usr/lib:git

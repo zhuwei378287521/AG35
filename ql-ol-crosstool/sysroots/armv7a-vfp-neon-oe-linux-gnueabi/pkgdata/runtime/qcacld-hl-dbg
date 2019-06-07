@@ -1,0 +1,14 @@
+PN: qcacld-hl
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION_qcacld-hl-dbg: Qualcomm Atheros WLAN CLD high latency driver  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qcacld-hl-dbg: qcacld-hl version git-r0_perf - Debugging files
+SECTION_qcacld-hl-dbg: devel
+PKG_qcacld-hl-dbg: qcacld-hl-dbg
+ALLOW_EMPTY_qcacld-hl-dbg: 1
+FILES_qcacld-hl-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qcacld-hl/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qcacld-hl/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qcacld-hl/qcacld-hl/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_qcacld-hl-dbg: 0

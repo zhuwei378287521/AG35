@@ -1,0 +1,19 @@
+PN: libselinux
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION: QUECTEL libselinux
+SUMMARY: libselinux version git-r1
+RDEPENDS_libselinux: libpcre (>= 8.38) ql-libsepol (>= git) glibc (>= 2.22)
+RPROVIDES_libselinux:  libselinux (=git)
+SECTION: base
+PKG_libselinux: libselinux1
+FILES_libselinux: /usr/bin/* /usr/sbin/* /usr/lib/libselinux/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libselinux /usr/lib/libselinux/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libselinux: /usr/lib/libselinux.so.1.0.0
+FILES_INFO: {"/usr/lib/libselinux.so.1": 19, "/usr/lib/libselinux.so.1.0.0": 141020}
+FILERPROVIDES_/usr/lib/libselinux.so.1.0.0_libselinux: elf(buildid) (= f267f0e0365a7a483ef9d90b5c35fed71dcb457a) libselinux.so.1
+FILERDEPENDSFLIST_libselinux: /usr/lib/libselinux.so.1.0.0
+FILERDEPENDS_/usr/lib/libselinux.so.1.0.0_libselinux: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libpcre.so.1 libsepol.so.1 rtld(GNU_HASH)
+PKGSIZE_libselinux: 141039

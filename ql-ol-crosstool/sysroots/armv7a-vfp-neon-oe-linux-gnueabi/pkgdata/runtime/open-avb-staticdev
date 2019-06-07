@@ -1,0 +1,14 @@
+PN: open-avb
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_open-avb-staticdev: open-avb tools  This package contains static libraries for software development.
+SUMMARY_open-avb-staticdev: open-avb version 1.0-r1 - Development files (Static Libraries)
+RDEPENDS_open-avb-staticdev: open-avb-dev (= 1.0-r1)
+SECTION_open-avb-staticdev: devel
+PKG_open-avb-staticdev: open-avb-staticdev
+FILES_open-avb-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/open-avb/*.a
+FILES_INFO: {}
+PKGSIZE_open-avb-staticdev: 0

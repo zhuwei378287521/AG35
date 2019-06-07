@@ -1,0 +1,13 @@
+PN: tinyalsa
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: Tinyalsa Library
+SUMMARY: tinyalsa version git-r1
+SECTION: base
+PKG_tinyalsa-locale: tinyalsa-locale
+FILES_tinyalsa-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_tinyalsa-locale: 0

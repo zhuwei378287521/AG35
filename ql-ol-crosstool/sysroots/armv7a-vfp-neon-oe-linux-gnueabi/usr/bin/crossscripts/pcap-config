@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'ERROR: /usr/bin/pcap-config should not be used, use an alternative such as pkg-config' >&2
+echo '--should-not-have-used-/usr/bin/pcap-config'
+exit 1

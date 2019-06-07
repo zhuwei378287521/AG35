@@ -1,0 +1,13 @@
+PN: embms-kernel
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION: Embms Kernel Module
+SUMMARY: embms-kernel version git-r0_perf
+SECTION: base
+PKG_embms-kernel-locale: embms-kernel-locale
+FILES_embms-kernel-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_embms-kernel-locale: 0

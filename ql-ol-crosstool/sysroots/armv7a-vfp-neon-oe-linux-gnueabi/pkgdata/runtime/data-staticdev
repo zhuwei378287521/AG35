@@ -1,0 +1,14 @@
+PN: data
+PV: git
+PR: r25
+PKGV: git
+PKGR: r25
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_data-staticdev: Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)  This package contains static libraries for software development.
+SUMMARY_data-staticdev: data version git-r25 - Development files (Static Libraries)
+RDEPENDS_data-staticdev: data-dev (= git-r25)
+SECTION_data-staticdev: devel
+PKG_data-staticdev: data-staticdev
+FILES_data-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/data/*.a
+FILES_INFO: {"/usr/lib/libnetmgr.a": 375942, "/usr/lib/libqdi.a": 458278, "/usr/lib/libdsi_netctrl.a": 2423826, "/usr/lib/libqdp.a": 158218}
+PKGSIZE_data-staticdev: 3416264

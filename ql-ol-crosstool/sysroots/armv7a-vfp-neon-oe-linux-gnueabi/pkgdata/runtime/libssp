@@ -1,0 +1,19 @@
+PN: gcc-runtime
+PV: 4.9.3
+PR: r0
+PKGV: 4.9.3
+PKGR: r0
+LICENSE_libssp: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+RDEPENDS_libssp: glibc (>= 2.22)
+RPROVIDES_libssp:  libssp (=4.9.3)
+SECTION: devel
+PKG_libssp: libssp0
+FILES_libssp: /usr/lib/libssp.so.*
+FILERPROVIDESFLIST_libssp: /usr/lib/libssp.so.0.0.0
+FILES_INFO: {"/usr/lib/libssp.so.0": 15, "/usr/lib/libssp.so.0.0.0": 9748}
+FILERPROVIDES_/usr/lib/libssp.so.0.0.0_libssp: elf(buildid) (= 86502acc73a66e47221bf6bd5b5b19ba0392360d) libssp.so.0 libssp.so.0(LIBSSP_1.0)
+FILERDEPENDSFLIST_libssp: /usr/lib/libssp.so.0.0.0
+FILERDEPENDS_/usr/lib/libssp.so.0.0.0_libssp: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libssp: 9763

@@ -1,0 +1,19 @@
+PN: loc-launcher
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Location process launcher
+SUMMARY: loc-launcher version git-r1
+RDEPENDS_loc-launcher: loc-base-util (>= git) loc-mq-client (>= git) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) liblog (>= 1.0) libgcc (>= 4.9.3) gps-utils (>= git) loc-pla (>= git) glibc (>= 2.22)
+SECTION: base
+PKG_loc-launcher: loc-launcher
+FILES_loc-launcher: /usr/bin/* /usr/sbin/* /usr/lib/loc-launcher/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/loc-launcher /usr/lib/loc-launcher/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_loc-launcher: /usr/bin/loc@underscore@launcher
+FILES_INFO: {"/etc/init.d/start_loc_launcher": 1000, "/usr/bin/loc_launcher": 63264}
+FILERPROVIDES_/usr/bin/loc@underscore@launcher_loc-launcher: elf(buildid) (= b14e2409fea554a6b2c0a5b94438fbcdef07c88f)
+FILERDEPENDSFLIST_loc-launcher: /usr/bin/loc@underscore@launcher /etc/init.d/start@underscore@loc@underscore@launcher
+FILERDEPENDS_/usr/bin/loc@underscore@launcher_loc-launcher: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_utils_so.so.1 libloc_base_util.so.1 libloc_mq_client.so.1 libloc_pla.so.1 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/start@underscore@loc@underscore@launcher_loc-launcher: /bin/sh
+PKGSIZE_loc-launcher: 64264

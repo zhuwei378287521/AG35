@@ -1,0 +1,4 @@
+libloc_ds_api.so.1:/usr/lib:git
+libloc_core.so.1:/usr/lib:git
+libloc_api_v02.so.1:/usr/lib:git
+libloc_eng_so.so.1:/usr/lib:git

@@ -1,0 +1,3 @@
+/bin/su
+/usr/lib/busybox/bin/su 50
+/bin/su.shadow 200

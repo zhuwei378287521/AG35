@@ -1,0 +1,15 @@
+PN: libunwind
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libunwind-dbg: Libunwind  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libunwind-dbg: libunwind version 1.0-r0 - Debugging files
+RRECOMMENDS_libunwind-dbg: libgcc-dbg glibc-dbg
+SECTION_libunwind-dbg: devel
+PKG_libunwind-dbg: libunwind-dbg
+ALLOW_EMPTY_libunwind-dbg: 1
+FILES_libunwind-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libunwind/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libunwind/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libunwind/libunwind/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libunwind.so.0.0.0": 24636}
+PKGSIZE_libunwind-dbg: 24636

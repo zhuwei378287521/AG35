@@ -1,0 +1,15 @@
+PN: canwrapper-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_canwrapper-hdr-dev: CAN Wrapper hdr  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_canwrapper-hdr-dev: canwrapper-hdr version git-r1 - Development files
+RDEPENDS_canwrapper-hdr-dev: canwrapper-hdr (= git-r1)
+SECTION_canwrapper-hdr-dev: devel
+PKG_canwrapper-hdr-dev: canwrapper-hdr-dev
+ALLOW_EMPTY_canwrapper-hdr-dev: 1
+FILES_canwrapper-hdr-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/canwrapper-hdr/*.la /lib/*.la
+FILES_INFO: {"/usr/include/CwNodeSet.h": 1113, "/usr/include/CwSim.h": 1333, "/usr/include/CwNode.h": 616, "/usr/include/CanWrapper.h": 13912, "/usr/include/CwFrame.h": 5185, "/usr/include/CwBase.h": 3484, "/usr/include/CwLock.h": 794, "/usr/include/CwBlockingQueue.h": 2016}
+PKGSIZE_canwrapper-hdr-dev: 28453

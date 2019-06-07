@@ -1,0 +1,14 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r19_perf
+RRECOMMENDS_system-core-adbd-dbg: system-core-dbg libselinux-dbg glibc-dbg zlib-dbg libstdc++-dbg ext4-utils-dbg libmincrypt-dbg liblog-dbg libsparse-dbg libpcre-dbg glib-2.0-dbg libgcc-dbg ql-libsepol-dbg libcutils-dbg libunwind-dbg
+SECTION: base
+PKG_system-core-adbd-dbg: system-core-adbd-dbg
+FILES_system-core-adbd-dbg: /sbin/.debug/adbd /usr/lib/.debug/libadbd.*
+FILES_INFO: {"/sbin/.debug/adbd": 11800, "/usr/lib/.debug/libadbd.so.0.0.0": 28024}
+PKGSIZE_system-core-adbd-dbg: 39824

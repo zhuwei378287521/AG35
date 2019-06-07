@@ -1,0 +1,14 @@
+PN: audiohal
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_audiohal-staticdev: audiohal  This package contains static libraries for software development.
+SUMMARY_audiohal-staticdev: audiohal version 1.0-r0 - Development files (Static Libraries)
+RDEPENDS_audiohal-staticdev: audiohal-dev (= 1.0-r0)
+SECTION_audiohal-staticdev: devel
+PKG_audiohal-staticdev: audiohal-staticdev
+FILES_audiohal-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/audiohal/*.a
+FILES_INFO: {}
+PKGSIZE_audiohal-staticdev: 0

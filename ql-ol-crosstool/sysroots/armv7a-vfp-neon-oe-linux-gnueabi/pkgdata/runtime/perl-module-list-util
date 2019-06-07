@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.22.0
+PR: r0
+PKGV: 5.22.0
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-list-util: perl module list-util
+SUMMARY_perl-module-list-util: perl module list-util
+RDEPENDS_perl-module-list-util: perl-module-strict perl-module-exporter perl glibc (>= 2.22) perl-module-xsloader
+SECTION: devel
+PKG_perl-module-list-util: perl-module-list-util
+FILES_perl-module-list-util: /usr/lib/perl/5.22.0/auto/List/Util/Util.so /usr/lib/perl/5.22.0/List/Util.pm
+FILERPROVIDESFLIST_perl-module-list-util: /usr/lib/perl/5.22.0/auto/List/Util/Util.so
+FILES_INFO: {"/usr/lib/perl/5.22.0/List/Util.pm": 14226, "/usr/lib/perl/5.22.0/auto/List/Util/Util.so": 38412}
+FILERPROVIDES_/usr/lib/perl/5.22.0/auto/List/Util/Util.so_perl-module-list-util: Util.so elf(buildid) (= 8c55234c7b1e90876c4be671ba273128e83be9c3)
+FILERDEPENDSFLIST_perl-module-list-util: /usr/lib/perl/5.22.0/auto/List/Util/Util.so
+FILERDEPENDS_/usr/lib/perl/5.22.0/auto/List/Util/Util.so_perl-module-list-util: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-list-util: 52638

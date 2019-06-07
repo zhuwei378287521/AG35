@@ -1,0 +1,15 @@
+PN: ql-mtdimg
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-mtdimg-dbg: Quectel Function Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ql-mtdimg-dbg: ql-mtdimg version git-r1 - Debugging files
+RRECOMMENDS_ql-mtdimg-dbg: glibc-dbg
+SECTION_ql-mtdimg-dbg: devel
+PKG_ql-mtdimg-dbg: ql-mtdimg-dbg
+ALLOW_EMPTY_ql-mtdimg-dbg: 1
+FILES_ql-mtdimg-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-mtdimg/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-mtdimg/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-mtdimg/ql-mtdimg/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/mtdimg": 39192}
+PKGSIZE_ql-mtdimg-dbg: 39192

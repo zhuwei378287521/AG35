@@ -1,0 +1,14 @@
+PN: gps-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: GPS Utils
+SUMMARY: gps-utils version git-r1
+RPROVIDES_gps-utils-locale:  gps-utils-locale (=git)
+SECTION: base
+PKG_gps-utils-locale: libgps-utils-so-locale
+FILES_gps-utils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_gps-utils-locale: 0

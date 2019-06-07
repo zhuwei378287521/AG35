@@ -1,0 +1,16 @@
+PN: recovery
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Apache-2.0
+DESCRIPTION_recovery-dev: Recovery bootloader  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_recovery-dev: recovery version git-r7 - Development files
+RDEPENDS_recovery-dev: recovery (= git-r7)
+RRECOMMENDS_recovery-dev: libbz2-dev ext4-utils-dev system-core-dev system-core-adbd-dev libmincrypt-dev libpcre-dev liblog-dev zlib-dev update-rc.d-dev libgcc-dev glibc-dev libstdc++-dev libsparse-dev glib-2.0-dev oem-recovery-dev ql-libsepol-dev bzip2-dev libcutils-dev libselinux-dev initscripts-dev
+SECTION_recovery-dev: devel
+PKG_recovery-dev: recovery-dev
+ALLOW_EMPTY_recovery-dev: 1
+FILES_recovery-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/recovery/*.la /lib/*.la
+FILES_INFO: {"/usr/include/recovery/Zip.h": 4610, "/usr/lib/libmtdutils.la": 884, "/usr/lib/libfusesideload.la": 896, "/usr/include/recovery/Bits.h": 7919, "/usr/include/recovery/fuse_adb_provider.h": 992, "/usr/lib/libminadbd.so": 19, "/usr/lib/libminzip.la": 878, "/usr/include/recovery/mounts.h": 1121, "/usr/include/recovery/applypatch.h": 3059, "/usr/include/recovery/mtdutils.h": 2228, "/usr/include/recovery/Log.h": 4766, "/usr/lib/pkgconfig/recovery.pc": 200, "/usr/lib/libedify.la": 875, "/usr/include/recovery/DirUtil.h": 1885, "/usr/lib/libapplypatch.la": 1118, "/usr/include/recovery/inline_magic.h": 838, "/usr/include/recovery/SysUtil.h": 1087, "/usr/lib/libminadbd.la": 1594, "/usr/include/recovery/Hash.h": 5662}
+PKGSIZE_recovery-dev: 40631

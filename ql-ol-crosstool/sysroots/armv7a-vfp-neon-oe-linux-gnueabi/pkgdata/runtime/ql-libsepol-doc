@@ -1,0 +1,14 @@
+PN: ql-libsepol
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION_ql-libsepol-doc: QUECTEL libsepol  This package contains documentation.
+SUMMARY_ql-libsepol-doc: ql-libsepol version git-r1 - Documentation files
+RPROVIDES_ql-libsepol-doc:  ql-libsepol-doc (=git)
+SECTION_ql-libsepol-doc: doc
+PKG_ql-libsepol-doc: libsepol-doc
+FILES_ql-libsepol-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ql-libsepol-doc: 0

@@ -1,0 +1,248 @@
+###########################################
+# Quectel Full fota script 
+#
+# Author : Darren
+# Date   : 2018/05/07
+##########################################
+
+#!/bin/sh
+# fota full update error code define
+SCRIPT_ARGUMENT_ERROR='1'
+SDCARD_NOEXIST='2'
+UPDATE_PACKAGE_NOEXIST='3'
+UNZIPFAILED='4'
+INTEGERITFAILED='5'
+
+UARTSPEED="115200"
+UARTNB="cs8"
+USBUART="/dev/ttyGS1"
+MODEMUART="/dev/ttyGS2"
+MAINUART="/dev/ttyHS0"
+
+updatetool="mtdimg"
+updateopt="--flash"
+sdmnt="/mnt/sdcard"
+mmcmnt="/media/mmc1"
+usemnt=""
+sdblk="/dev/mmcblk0p1"
+mmcblk="/dev/mmcblk0p1"
+mmcpolling="/sys/devices/7864900.sdhci/polling"
+updatefile="update.zip"
+package="${sdmnt}/${updatefile}" #the default value of package, script may be modify it
+unpathname="tmpupdatefile"
+unzippath="${sdmnt}/${unpathname}"
+
+UPDATEPART="system modem boot" #it's partition that will be update
+BACKUPPART="sys_back qdsp6sw_b" #it's bakcup partition that will be backuped
+PACKAGEFILE="mdm9607-sysfs.ubi NON-HLOS.ubi mdm9607-boot.img customapps.ubi"
+
+FIFOFILE="/dev/shm/process.fifo"
+
+#fota info 
+STAT_SUCCEED='0'
+STAT_UPDATE='1'
+STAT_BACKUP='2'
+STAT_FAILED='3'
+
+# card type
+SDCARD='1'
+EMMC='2'
+CARDTYPE=${SDCARD} # default card type is SD CARD
+
+# hook scrit
+PREPARE_HOOK="prepare_hook.sh"
+END_HOOK="end_hook.sh"
+
+UpdateLog()
+{
+	echo "[UPDATE]${1}"
+}
+
+CheckMMC()
+{
+	[ ! -e $mmcmnt ] && mkdir -p $mmcmnt
+	mmcblk=`fotainfo --get-package | sed 's/.*:\(.*\)/\1/'`
+	if [ ! -e $mmcblk ];then
+		UpdateLog "${mmcblk} is not exist"
+		if [ -e ${mmcpolling} ];then
+		        UpdateLog "polling file is exist"
+		        echo 1 > /sys/devices/7864900.sdhci/polling
+		        sleep 1
+		fi
+
+		if [ -e ${mmcblk} ];then
+		        UpdateLog "Mount ${mmcblk} in ${mmcmnt}"
+		        mount -t auto -o rw ${mmcblk} ${mmcmnt}
+		fi
+    else
+		UpdateLog "Mount ${mmcblk} in ${mmcmnt}"
+		mount -t auto -o rw ${mmcblk} ${mmcmnt}
+	fi
+	
+	cat /proc/self/mounts | grep "${mmcmnt}"
+	[ $? -ne 0 ] && UpdateLog "eMMC is not exist" && return 1
+	mount | grep "^${mmcblk}.*(ro" 
+	if [ $? -eq 0 ];then
+		UpdateLog "eMMC Card is read-only, try to remount eMMC"
+ 		mount -t auto -o remount,rw ${mmcblk} ${mmcmnt}
+	fi
+	return 0
+}
+
+CheckSDCard()
+{
+	cat /proc/self/mounts | grep ${sdmnt}
+	[ $? -ne 0 ] && UpdateLog "SD card is not exist" && return 1
+	mount | grep "^${sdblk}.*(ro" 
+	if [ $? -eq 0 ];then
+		UpdateLog "SD Card is read-only, try to remount sdcard"
+ 		mount -t auto -o remount,rw ${sdblk} ${sdmnt}
+	fi
+	return 0
+}
+
+CheckFileExist()
+{
+	CheckSDCard
+	if [ $? -eq 0 ];then
+		usemnt="${sdmnt}"
+		package="${sdmnt}/${updatefile}"
+		unzippath="${sdmnt}/${unpathname}"
+		[ -e $package ] && CARDTYPE="${SDCARD}" && return 0	
+	fi
+	CheckMMC
+	if [ $? -eq 0 ];then
+		usemnt="${mmcmnt}"
+		package="${mmcmnt}/${updatefile}"
+		unzippath="${mmcmnt}/${unpathname}"
+		[ -e $package ] && CARDTYPE="${EMMC}" && return 0
+	fi
+	
+	return ${UPDATE_PACKAGE_NOEXIST}
+}
+
+UnzipUpdatePackage()
+{
+	CheckFileExist
+	[ $? -ne 0 ] && exit $UPDATE_PACKAGE_NOEXIST
+	UpdateLog "package:${package} unzippath:${unzippath}"
+	rm -fr ${unzippath}
+	if [ $? -ne 0 ];then
+		[ "${CARDTYPE}"x = "${SDCARD}"x ] && mount -t auto -o remount,rw ${sdblk} ${sdmnt}
+		[ "${CARDTYPE}"x = "${EMMC}"x ] && mount -t auto -o remount,rw ${mmcblk} ${mmcmnt}
+	fi
+	rm -fr ${unzippath} && mkdir ${unzippath}
+	unzip $package -d $unzippath
+	[ $? -ne 0 ] && UpdateLog "unzip update package failed" && exit UNZIPFAILED
+}
+
+
+SetUartStatus()
+{
+	[ -c ${MAINUART} ]  && stty -F ${MAINUART} ispeed ${UARTSPEED} ospeed ${UARTSPEED} ${UARTNB}
+}
+
+SendURC()
+{
+	#echo "+QIND: \"FOTA\",\"UPDATING\",$1" > ${USBUART}
+	#echo "+QIND: \"FOTA\",\"UPDATING\",$1" > ${MODEMUART}
+	echo "+QIND: \"FOTA\",\"UPDATING\",$1" > ${MAINUART}
+}
+
+SendRateIPC()
+{
+	echo $1 > ${FIFOFILE}
+}
+
+StartURC()
+{
+	while true
+	do
+		i=`head -n 1 ${FIFOFILE}`
+		if [ $i -eq 100 ];then
+			SendURC $i
+			exit 0
+		fi
+		for index in `seq 10`
+		do
+			SendURC $i
+			i=$((i+1))
+			sleep 0.5
+		done
+	done
+}
+
+EndURC()
+{
+	#echo "+QIND: \"FOTA\",\"END\",1" > ${USBUART}
+	#echo "+QIND: \"FOTA\",\"END\",1" > ${MODEMUART}
+	echo "+QIND: \"FOTA\",\"END\",0" > ${MAINUART}
+}
+
+
+UpdateModule()
+{
+	ABSPATH="${unzippath}/${2}"
+	if [ -e ${ABSPATH} ];then
+		UpdateLog "${1} was writing..."
+		${updatetool} ${updateopt} $1 ${ABSPATH}
+		UpdateLog "${1} write done"
+	else
+		UpdateLog "${1} update file is not exist in ${updatefile}, fota will be skip ${1} update"
+	fi
+}
+
+UpdateParse()
+{
+	index='1'
+	while true
+	do
+		partition=`echo ${1} | cut -d ' ' -f $index`
+		[ -z $partition ] && break
+		filename=`echo ${2} | cut -d ' ' -f $index`
+		index=$((index+1))
+		UpdateModule $partition $filename
+	done
+}
+	
+
+StartUpdate()
+{
+	if [ -e "${unzippath}/${PREPARE_HOOK}" ];then
+		chmod u+x ${unzippath}/${PREPARE_HOOK}
+		${unzippath}/${PREPARE_HOOK}
+		[ $? -ne 0 ] && UpdateLog "${PREPARE_HOOK} run failed..." && exit 1
+	fi
+	UpdateParse "${UPDATEPART}" "${PACKAGEFILE}"
+	SendRateIPC '50'
+}
+
+StartUpdateBackup()
+{
+	UpdateParse "${BACKUPPART}" "${PACKAGEFILE}"
+	if [ -e "${unzippath}/${END_HOOK}" ];then
+		chmod u+x ${unzippath}/${END_HOOK}
+		${unzippath}/${END_HOOK}
+		[ $? -ne 0 ] && UpdateLog "${END_HOOK} run failed..." && exit 1
+	fi
+	SendRateIPC '100'
+}
+
+Main()
+{
+	fotainfo --set-stat ${STAT_UPDATE} # set fota update state
+	rm -f ${FIFOFILE} && mkfifo ${FIFOFILE}
+	SetUartStatus
+	StartURC &
+	SendRateIPC '0'
+	UnzipUpdatePackage # unzip update.zip
+	StartUpdate # update main partition
+	StartUpdateBackup # bakcup modem or rootfs partition
+	fotainfo --set-stat ${STAT_SUCCEED} # fota update success state
+	EndURC
+	sys_reboot
+	exit 0
+}
+
+Main
+

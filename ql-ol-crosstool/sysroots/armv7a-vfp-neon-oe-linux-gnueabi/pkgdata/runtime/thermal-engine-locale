@@ -1,0 +1,13 @@
+PN: thermal-engine
+PV: git
+PR: r11
+PKGV: git
+PKGR: r11
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Thermal Engine
+SUMMARY: thermal-engine version git-r11
+SECTION: base
+PKG_thermal-engine-locale: thermal-engine-locale
+FILES_thermal-engine-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_thermal-engine-locale: 0

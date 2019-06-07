@@ -1,0 +1,16 @@
+PN: xtwifi-inet-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_xtwifi-inet-agent-dev: GPS xtwifi tile  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_xtwifi-inet-agent-dev: xtwifi-inet-agent version git-r1 - Development files
+RDEPENDS_xtwifi-inet-agent-dev: xtwifi-inet-agent (= git-r1)
+RRECOMMENDS_xtwifi-inet-agent-dev: loc-mq-client-dev loc-base-util-dev libcurl-dev liblog-dev curl-dev libstdc++-dev libgcc-dev glibc-dev glib-2.0-dev loc-pla-dev
+SECTION_xtwifi-inet-agent-dev: devel
+PKG_xtwifi-inet-agent-dev: xtwifi-inet-agent-dev
+ALLOW_EMPTY_xtwifi-inet-agent-dev: 1
+FILES_xtwifi-inet-agent-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xtwifi-inet-agent/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/xtwifi-inet-agent.pc": 158}
+PKGSIZE_xtwifi-inet-agent-dev: 158

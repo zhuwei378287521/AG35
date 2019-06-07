@@ -1,0 +1,14 @@
+PN: ql-libsepol
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION: QUECTEL libsepol
+SUMMARY: ql-libsepol version git-r1
+RPROVIDES_ql-libsepol-locale:  ql-libsepol-locale (=git)
+SECTION: base
+PKG_ql-libsepol-locale: libsepol-locale
+FILES_ql-libsepol-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ql-libsepol-locale: 0

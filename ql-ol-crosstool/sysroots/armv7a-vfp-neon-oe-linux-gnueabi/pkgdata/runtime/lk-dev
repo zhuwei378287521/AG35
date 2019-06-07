@@ -1,0 +1,16 @@
+PN: lk
+PV: git
+PR: r1signed_perf
+PKGV: git
+PKGR: r1signed_perf
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lk-dev: Sign the Little Kernel bootloader  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_lk-dev: lk version git-r1signed_perf - Development files
+RDEPENDS_lk-dev: lk (= git-r1signed_perf)
+RRECOMMENDS_lk-dev: gensecimage-dev
+SECTION_lk-dev: devel
+PKG_lk-dev: lk-dev
+ALLOW_EMPTY_lk-dev: 1
+FILES_lk-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lk/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_lk-dev: 0

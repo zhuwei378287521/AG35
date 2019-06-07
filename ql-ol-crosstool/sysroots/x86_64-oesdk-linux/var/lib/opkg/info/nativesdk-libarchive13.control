@@ -1,0 +1,15 @@
+Package: nativesdk-libarchive13
+Version: 3.1.2-r0
+Description: Support for reading various archive formats
+ C library and command-line tools for reading and writing tar, cpio, zip,
+ ISO, and other archive formats
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: x86_64-nativesdk
+OE: nativesdk-libarchive
+Homepage: http://www.libarchive.org/
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-libbz2-0 (>= 1.0.6), nativesdk-libc6 (>= 2.22), nativesdk-libxml2 (>= 2.9.2)
+Provides: nativesdk-libarchive
+Source: http://libarchive.org/downloads/libarchive-3.1.2.tar.gz file://libarchive-CVE-2013-0211.patch file://pkgconfig.patch file://libarchive-CVE-2015-2304.patch file://mkdir.patch

@@ -1,0 +1,19 @@
+PN: drplugin
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Lib DRPlugin
+SUMMARY: drplugin version git-r1
+RDEPENDS_drplugin: libcrypto (>= 1.0.2h) loc-hal (>= git) qmi (>= git) libgcc (>= 4.9.3) gps-utils (>= git) loc-net-iface (>= git) system-core (>= git) libssl (>= 1.0.2h) data-oss (>= git) gnsspps (>= git) diag (>= git) glibc (>= 2.22) drplugin-client (>= git) glib-2.0 (>= 2.44.1) libsqlite3 (>= 3.8.10.2) configdb (>= git) loc-pla (>= git) loc-base-util (>= git) data-items (>= git) lbs-core (>= git) qmi-framework (>= git) liblog (>= 1.0) dsutils (>= git) xmllib (>= git) data (>= git) libstdc++ (>= 4.9.3) qmi-client-helper (>= git) izat-core (>= git) libcutils (>= 1.0) loc-stub (>= git) time-genoff (>= git)
+RPROVIDES_drplugin:  drplugin (=git)
+SECTION: base
+PKG_drplugin: libdrplugin1
+FILES_drplugin: /usr/bin/* /usr/sbin/* /usr/lib/drplugin/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/drplugin /usr/lib/drplugin/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_drplugin: /usr/lib/libDRPlugin.so.1.0.0
+FILES_INFO: {"/usr/lib/libDRPlugin.so.1": 20, "/usr/lib/libDRPlugin.so.1.0.0": 30424}
+FILERPROVIDES_/usr/lib/libDRPlugin.so.1.0.0_drplugin: elf(buildid) (= 9113f43ef9128455c557fca6ccdd593da3db1595) libDRPlugin.so.1
+FILERDEPENDSFLIST_drplugin: /usr/lib/libDRPlugin.so.1.0.0
+FILERDEPENDS_/usr/lib/libDRPlugin.so.1.0.0_drplugin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libcrypto.so.1.0.0 libcutils.so.0 libdataitems.so.1 libdiag.so.1 libdl.so.2 libdrplugin_client.so.1 libdsi_netctrl.so.0 libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgnsspps.so.1 libgps_utils_so.so.1 libgthread-2.0.so.0 libizat_core.so.1 liblbs_core.so.1 libloc_api_v02.so.1 libloc_base_util.so.1 libloc_core.so.1 libloc_ds_api.so.1 libloc_eng_so.so.1 libloc_net_iface.so.1 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libnetmgr.so.0 libpthread.so.0 libqcmap_client.so.1 libqcmapipc.so.1 libqdi.so.0 libqmi.so.1 libqmi_cci.so.1 libqmi_client_helper.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 librmnetctl.so.0 librt.so.1 libsqlite3.so.0 libssl.so.1.0.0 libstdc++.so.6 libstdc++.so.6(CXXABI_ARM_1.3.3) libtime_genoff.so.1 libutils.so.0 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_drplugin: 30444

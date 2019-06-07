@@ -1,0 +1,16 @@
+PN: ql-libfotainfo
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-libfotainfo-dbg: Quectel Function Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ql-libfotainfo-dbg: ql-libfotainfo version git-r1 - Debugging files
+RPROVIDES_ql-libfotainfo-dbg:  ql-libfotainfo-dbg (=git)
+RRECOMMENDS_ql-libfotainfo-dbg: glibc-dbg
+SECTION_ql-libfotainfo-dbg: devel
+PKG_ql-libfotainfo-dbg: libfotainfo-dbg
+ALLOW_EMPTY_ql-libfotainfo-dbg: 1
+FILES_ql-libfotainfo-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-libfotainfo/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-libfotainfo/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-libfotainfo/ql-libfotainfo/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libfotainfo.so.1.0.0": 34196}
+PKGSIZE_ql-libfotainfo-dbg: 34196

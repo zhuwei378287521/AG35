@@ -1,0 +1,18 @@
+PN: garden-app
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Garden test shippable app for LOC API HAL
+SUMMARY: garden-app version git-r5
+RDEPENDS_garden-app: loc-glue (>= git) location-flp (>= git) loc-pla (>= git) loc-hal (>= git) glibc (>= 2.22) ulp2 (>= git) loc-vzw (>= git) libgcc (>= 4.9.3) gps-utils (>= git) location-service (>= git) glib-2.0 (>= 2.44.1) data (>= git)
+SECTION: base
+PKG_garden-app: garden-app
+FILES_garden-app: /usr/bin/* /usr/sbin/* /usr/lib/garden-app/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/garden-app /usr/lib/garden-app/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_garden-app: /usr/bin/garden@underscore@app
+FILES_INFO: {"/usr/bin/garden_app": 45004}
+FILERPROVIDES_/usr/bin/garden@underscore@app_garden-app: elf(buildid) (= b9d70280a33dbeb1fd4f63cb933cff5ff5353d7c)
+FILERDEPENDSFLIST_garden-app: /usr/bin/garden@underscore@app
+FILERDEPENDS_/usr/bin/garden@underscore@app_garden-app: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libflp.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_utils_so.so.1 libloc_eng_so.so.1 libloc_ext.so.1 libloc_pla.so.1 liblocationservice.so.1 liblocationservice_glue.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 librt.so.1 librt.so.1(GLIBC_2.4) libulp2.so.1 rtld(GNU_HASH)
+PKGSIZE_garden-app: 45004

@@ -1,0 +1,20 @@
+PN: ql-openssl-tz
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel openssl-tz lib
+SUMMARY: ql-openssl-tz version git-r1
+RDEPENDS_ql-openssl-tz: glibc (>= 2.22) libcrypto (>= 1.0.2h)
+SECTION: base
+PKG_ql-openssl-tz: ql-openssl-tz
+FILES_ql-openssl-tz: /usr/bin/* /usr/sbin/* /usr/lib/ql-openssl-tz/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ql-openssl-tz /usr/lib/ql-openssl-tz/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_ql-openssl-tz: /usr/bin/ql@underscore@openssl@underscore@tz@underscore@test /usr/lib/libql@underscore@openssl@underscore@tz.so.1.0.0
+FILES_INFO: {"/usr/lib/libql_openssl_tz.so.1.0.0": 14036, "/usr/bin/ql_openssl_tz_test": 14000, "/usr/lib/libql_openssl_tz.so.1": 25}
+FILERPROVIDES_/usr/bin/ql@underscore@openssl@underscore@tz@underscore@test_ql-openssl-tz: elf(buildid) (= dcf30b9b6afb814a23e0d788f3ac04e1660a31b2)
+FILERPROVIDES_/usr/lib/libql@underscore@openssl@underscore@tz.so.1.0.0_ql-openssl-tz: elf(buildid) (= 31d8dfa8b5e9080372227492931c55921911cfd9) libql_openssl_tz.so.1
+FILERDEPENDSFLIST_ql-openssl-tz: /usr/bin/ql@underscore@openssl@underscore@tz@underscore@test /usr/lib/libql@underscore@openssl@underscore@tz.so.1.0.0
+FILERDEPENDS_/usr/bin/ql@underscore@openssl@underscore@tz@underscore@test_ql-openssl-tz: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libcrypto.so.1.0.0(OPENSSL_1.0.1) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libql@underscore@openssl@underscore@tz.so.1.0.0_ql-openssl-tz: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) rtld(GNU_HASH)
+PKGSIZE_ql-openssl-tz: 28061

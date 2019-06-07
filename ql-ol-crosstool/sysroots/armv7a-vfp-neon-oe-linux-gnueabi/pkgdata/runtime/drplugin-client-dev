@@ -1,0 +1,17 @@
+PN: drplugin-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-client-dev: DR Plugin client  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_drplugin-client-dev: drplugin-client version git-r1 - Development files
+RDEPENDS_drplugin-client-dev: drplugin-client (= git-r1)
+RPROVIDES_drplugin-client-dev:  drplugin-client-dev (=git)
+RRECOMMENDS_drplugin-client-dev: liblog-dev loc-base-util-dev libgcc-dev time-genoff-dev glib-2.0-dev gps-utils-dev loc-hal-dev data-dev qmi-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev libcrypto-dev libstdc++-dev dsutils-dev libsqlite3-dev data-items-dev libcutils-dev loc-net-iface-dev lbs-core-dev system-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev diag-dev qmi-framework-dev
+SECTION_drplugin-client-dev: devel
+PKG_drplugin-client-dev: libdrplugin-client-dev
+ALLOW_EMPTY_drplugin-client-dev: 1
+FILES_drplugin-client-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/drplugin-client/*.la /lib/*.la
+FILES_INFO: {"/usr/include/drplugin-client/loc_drp_client.h": 9156, "/usr/lib/libdrplugin_client.so": 27, "/usr/lib/pkgconfig/drplugin-client.pc": 223, "/usr/lib/libdrplugin_client.la": 3040}
+PKGSIZE_drplugin-client-dev: 12446

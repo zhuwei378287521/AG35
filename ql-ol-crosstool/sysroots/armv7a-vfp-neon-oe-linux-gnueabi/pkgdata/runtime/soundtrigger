@@ -1,0 +1,18 @@
+PN: soundtrigger
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: sound trigger loader Library
+SUMMARY: soundtrigger version git-r9
+RDEPENDS_soundtrigger: tinyalsa (>= git) glibc (>= 2.22) expat (>= 2.1.0) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) system-media (>= git)
+SECTION: base
+PKG_soundtrigger: soundtrigger
+FILES_soundtrigger: /usr/bin/* /usr/sbin/* /usr/lib/soundtrigger/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/soundtrigger /usr/lib/soundtrigger/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so
+FILERPROVIDESFLIST_soundtrigger: /usr/lib/sound@underscore@trigger@underscore@primary@underscore@default.so
+FILES_INFO: {"/usr/lib/sound_trigger_primary_default.so": 146992, "/usr/lib/sound_trigger.primary.default.so": 32}
+FILERPROVIDES_/usr/lib/sound@underscore@trigger@underscore@primary@underscore@default.so_soundtrigger: elf(buildid) (= fa913542a0cc6c7771f5115df8d3d7f49265f7d2) sound_trigger_primary_default.so
+FILERDEPENDSFLIST_soundtrigger: /usr/lib/sound@underscore@trigger@underscore@primary@underscore@default.so
+FILERDEPENDS_/usr/lib/sound@underscore@trigger@underscore@primary@underscore@default.so_soundtrigger: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libaudioroute.so.0 libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 libdl.so.2 libdl.so.2(GLIBC_2.4) libexpat.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libtinyalsa.so.1 rtld(GNU_HASH)
+PKGSIZE_soundtrigger: 147024

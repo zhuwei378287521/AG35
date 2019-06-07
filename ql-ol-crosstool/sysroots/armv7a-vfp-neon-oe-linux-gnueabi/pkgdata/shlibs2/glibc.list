@@ -1,0 +1,15 @@
+libBrokenLocale.so.1:/lib:2.22
+libpthread.so.0:/lib:2.22
+libanl.so.1:/lib:2.22
+libdl.so.2:/lib:2.22
+libcrypt.so.1:/lib:2.22
+libresolv.so.2:/lib:2.22
+ld-linux.so.3:/lib:2.22
+libnss_compat.so.2:/lib:2.22
+libc.so.6:/lib:2.22
+libnss_files.so.2:/lib:2.22
+librt.so.1:/lib:2.22
+libm.so.6:/lib:2.22
+libutil.so.1:/lib:2.22
+libnsl.so.1:/lib:2.22
+libnss_dns.so.2:/lib:2.22

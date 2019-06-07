@@ -1,0 +1,14 @@
+PN: acdbrtac
+PV: 1.0
+PR: r3
+PKGV: 1.0
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb rtac Library
+SUMMARY: acdbrtac version 1.0-r3
+RPROVIDES_acdbrtac-locale:  acdbrtac-locale (=1.0)
+SECTION: base
+PKG_acdbrtac-locale: libacdbrtac-locale
+FILES_acdbrtac-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_acdbrtac-locale: 0

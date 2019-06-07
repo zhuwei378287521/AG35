@@ -1,0 +1,14 @@
+PN: slim-daemon
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-daemon-staticdev: SLIM daemon   This package contains static libraries for software development.
+SUMMARY_slim-daemon-staticdev: slim-daemon version git-r1 - Development files (Static Libraries)
+RDEPENDS_slim-daemon-staticdev: slim-daemon-dev (= git-r1)
+SECTION_slim-daemon-staticdev: devel
+PKG_slim-daemon-staticdev: slim-daemon-staticdev
+FILES_slim-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/slim-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_slim-daemon-staticdev: 0

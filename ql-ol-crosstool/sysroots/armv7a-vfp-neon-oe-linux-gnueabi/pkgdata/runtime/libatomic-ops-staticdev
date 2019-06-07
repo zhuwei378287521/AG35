@@ -1,0 +1,14 @@
+PN: libatomic-ops
+PV: 7.4.2
+PR: r0
+PKGV: 7.4.2
+PKGR: r0
+LICENSE: GPLv2 & MIT
+DESCRIPTION_libatomic-ops-staticdev: A library for atomic integer operations.  This package contains static libraries for software development.
+SUMMARY_libatomic-ops-staticdev: A library for atomic integer operations - Development files (Static Libraries)
+RDEPENDS_libatomic-ops-staticdev: libatomic-ops-dev (= 7.4.2-r0)
+SECTION_libatomic-ops-staticdev: devel
+PKG_libatomic-ops-staticdev: libatomic-ops-staticdev
+FILES_libatomic-ops-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libatomic-ops/*.a
+FILES_INFO: {"/usr/lib/libatomic_ops_gpl.a": 3914, "/usr/lib/libatomic_ops.a": 4034}
+PKGSIZE_libatomic-ops-staticdev: 7948

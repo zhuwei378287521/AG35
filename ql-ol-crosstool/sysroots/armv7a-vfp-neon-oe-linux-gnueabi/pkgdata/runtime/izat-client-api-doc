@@ -1,0 +1,14 @@
+PN: izat-client-api
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_izat-client-api-doc: Izat client api libary  This package contains documentation.
+SUMMARY_izat-client-api-doc: izat-client-api version git-r1 - Documentation files
+RPROVIDES_izat-client-api-doc:  izat-client-api-doc (=git)
+SECTION_izat-client-api-doc: doc
+PKG_izat-client-api-doc: libizat-client-api-doc
+FILES_izat-client-api-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_izat-client-api-doc: 0

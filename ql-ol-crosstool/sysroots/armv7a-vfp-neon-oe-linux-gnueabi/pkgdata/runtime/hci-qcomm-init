@@ -1,0 +1,24 @@
+PN: hci-qcomm-init
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Bluetooth BT Vendor Filters
+SUMMARY: hci-qcomm-init version git-r0
+RDEPENDS_hci-qcomm-init: libstdc++ (>= 4.9.3) diag (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1) qmi (>= git) qmi-framework (>= git) libcutils (>= 1.0) liblog (>= 1.0) libgcc (>= 4.9.3)
+SECTION: base
+PKG_hci-qcomm-init: hci-qcomm-init
+FILES_hci-qcomm-init: /usr/bin/* /usr/sbin/* /usr/lib/hci-qcomm-init/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/hci-qcomm-init /usr/lib/hci-qcomm-init/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_hci-qcomm-init: /usr/bin/wcnssfilter /usr/lib/libbtnv.so.0.0.0 /usr/bin/hci@underscore@qcomm@underscore@init /usr/bin/btnvtool
+FILES_INFO: {"/usr/lib/libbtnv.so.0.0.0": 9948, "/usr/bin/wcnssfilter": 98492, "/usr/bin/hci_qcomm_init": 191028, "/usr/lib/libbtnv.so.0": 16, "/usr/bin/btnvtool": 14104}
+FILERPROVIDES_/usr/bin/wcnssfilter_hci-qcomm-init: elf(buildid) (= 06b6dd4c7aa97788d4401d6c546f3282ccfdfe06)
+FILERPROVIDES_/usr/lib/libbtnv.so.0.0.0_hci-qcomm-init: elf(buildid) (= 5fbcf1fe73b19bc40b0ac55e21b455ba63b5f563) libbtnv.so.0
+FILERPROVIDES_/usr/bin/hci@underscore@qcomm@underscore@init_hci-qcomm-init: elf(buildid) (= 48b39497e24520822800d073375a80f023b4a406)
+FILERPROVIDES_/usr/bin/btnvtool_hci-qcomm-init: elf(buildid) (= 1564b0936fc7459a7b87041641e868520b402984)
+FILERDEPENDSFLIST_hci-qcomm-init: /usr/bin/wcnssfilter /usr/lib/libbtnv.so.0.0.0 /usr/bin/hci@underscore@qcomm@underscore@init /usr/bin/btnvtool
+FILERDEPENDS_/usr/bin/wcnssfilter_hci-qcomm-init: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libbtnv.so.0.0.0_hci-qcomm-init: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libm.so.6 libstdc++.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/hci@underscore@qcomm@underscore@init_hci-qcomm-init: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbtnv.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/btnvtool_hci-qcomm-init: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbtnv.so.0 libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmiservices.so.1 rtld(GNU_HASH)
+PKGSIZE_hci-qcomm-init: 313588

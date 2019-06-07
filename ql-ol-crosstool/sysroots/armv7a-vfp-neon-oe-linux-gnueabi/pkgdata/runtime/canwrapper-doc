@@ -1,0 +1,14 @@
+PN: canwrapper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_canwrapper-doc: CAN Wrapper   This package contains documentation.
+SUMMARY_canwrapper-doc: canwrapper version git-r1 - Documentation files
+RPROVIDES_canwrapper-doc:  canwrapper-doc (=git)
+SECTION_canwrapper-doc: doc
+PKG_canwrapper-doc: libcanwrapper-doc
+FILES_canwrapper-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_canwrapper-doc: 0

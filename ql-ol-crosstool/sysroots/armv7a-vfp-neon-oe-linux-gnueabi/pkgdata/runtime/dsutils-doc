@@ -1,0 +1,14 @@
+PN: dsutils
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_dsutils-doc: Qualcomm Data DSutils Module  This package contains documentation.
+SUMMARY_dsutils-doc: dsutils version git-r7 - Documentation files
+RPROVIDES_dsutils-doc:  dsutils-doc (=git)
+SECTION_dsutils-doc: doc
+PKG_dsutils-doc: libdsutils-doc
+FILES_dsutils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_dsutils-doc: 0

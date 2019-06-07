@@ -1,0 +1,13 @@
+PN: libhardware
+PV: git
+PR: r6
+PKGV: git
+PKGR: r6
+LICENSE: Apache-2.0
+DESCRIPTION: hardware libhardware headers
+SUMMARY: libhardware version git-r6
+SECTION: base
+PKG_libhardware-locale: libhardware-locale
+FILES_libhardware-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libhardware-locale: 0

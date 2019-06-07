@@ -1,0 +1,23 @@
+PN: gdbm
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION: Key/value database library with extensible hashing.
+SUMMARY: Key/value database library with extensible hashing
+RDEPENDS_gdbm-bin: gdbm (>= 1.11) glibc (>= 2.22)
+RPROVIDES_gdbm-bin:  gdbm-bin (=1.11)
+SECTION: libs
+PKG_gdbm-bin: libgdbm-bin
+FILES_gdbm-bin: /usr/bin/* /usr/sbin/*
+FILERPROVIDESFLIST_gdbm-bin: /usr/bin/gdbm@underscore@dump /usr/bin/gdbmtool /usr/bin/gdbm@underscore@load
+FILES_INFO: {"/usr/bin/gdbm_dump": 18244, "/usr/bin/gdbmtool": 83104, "/usr/bin/gdbm_load": 18360}
+FILERPROVIDES_/usr/bin/gdbm@underscore@dump_gdbm-bin: elf(buildid) (= 76ea8b7367253cdeea1b1c20c7f42b331c3332c9)
+FILERPROVIDES_/usr/bin/gdbmtool_gdbm-bin: elf(buildid) (= e5ef097e7d2ed579cc4769d41794f0561eab11ef)
+FILERPROVIDES_/usr/bin/gdbm@underscore@load_gdbm-bin: elf(buildid) (= e7b531e5af90a7a8cfa578c4f3a0b459366926be)
+FILERDEPENDSFLIST_gdbm-bin: /usr/bin/gdbm@underscore@dump /usr/bin/gdbmtool /usr/bin/gdbm@underscore@load
+FILERDEPENDS_/usr/bin/gdbm@underscore@dump_gdbm-bin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gdbmtool_gdbm-bin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gdbm@underscore@load_gdbm-bin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+PKGSIZE_gdbm-bin: 119708

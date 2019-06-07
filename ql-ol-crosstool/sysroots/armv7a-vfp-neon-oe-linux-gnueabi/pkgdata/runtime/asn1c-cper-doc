@@ -1,0 +1,14 @@
+PN: asn1c-cper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_asn1c-cper-doc: GPS asn1c cper  This package contains documentation.
+SUMMARY_asn1c-cper-doc: asn1c-cper version git-r1 - Documentation files
+RPROVIDES_asn1c-cper-doc:  asn1c-cper-doc (=git)
+SECTION_asn1c-cper-doc: doc
+PKG_asn1c-cper-doc: libasn1c-cper-doc
+FILES_asn1c-cper-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_asn1c-cper-doc: 0

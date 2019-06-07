@@ -1,0 +1,3 @@
+/sbin/poweroff
+/usr/lib/busybox/sbin/poweroff 50
+/sbin/poweroff.sysvinit 200

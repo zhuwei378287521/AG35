@@ -1,0 +1,13 @@
+PN: oem-recovery
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: OEM Recovery
+SUMMARY: oem-recovery version git-r1
+SECTION: base
+PKG_oem-recovery-locale: oem-recovery-locale
+FILES_oem-recovery-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_oem-recovery-locale: 0

@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: slim-daemon
+Description: Qualcomm SLIM Daemon
+Version: 1.0.0
+Libs: -L${libdir} -lslimclient
+Cflags: -I${includedir}/slim-client -I${includedir}/provider/common -I${includedir}/apss/listener -I${includedir}/apss/daemon/

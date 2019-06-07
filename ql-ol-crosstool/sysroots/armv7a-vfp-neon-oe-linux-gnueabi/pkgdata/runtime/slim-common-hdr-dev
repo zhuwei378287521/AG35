@@ -1,0 +1,15 @@
+PN: slim-common-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-common-hdr-dev: slim common hdr  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_slim-common-hdr-dev: slim-common-hdr version git-r1 - Development files
+RDEPENDS_slim-common-hdr-dev: slim-common-hdr (= git-r1)
+SECTION_slim-common-hdr-dev: devel
+PKG_slim-common-hdr-dev: slim-common-hdr-dev
+ALLOW_EMPTY_slim-common-hdr-dev: 1
+FILES_slim-common-hdr-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/slim-common-hdr/*.la /lib/*.la
+FILES_INFO: {"/usr/include/libslimcommon/slim_task.h": 11895, "/usr/include/libslimcommon/slim_api.h": 24746, "/usr/include/libslimcommon/slim_internal_api.h": 10486, "/usr/include/libslimcommon/slim_utils.h": 9647, "/usr/include/libslimcommon/slim_core.h": 13737, "/usr/include/libslimcommon/slim_internal.h": 5468, "/usr/include/libslimcommon/slim_timesync.h": 12009, "/usr/include/libslimcommon/slim_service_status.h": 13200, "/usr/include/libslimcommon/slim_provider_conf.h": 4965, "/usr/include/libslimcommon/slim_internal_client_types.h": 1839, "/usr/include/libslimcommon/slim_provider_data.h": 26153, "/usr/include/libslimcommon/slim_client_types.h": 69187}
+PKGSIZE_slim-common-hdr-dev: 203332

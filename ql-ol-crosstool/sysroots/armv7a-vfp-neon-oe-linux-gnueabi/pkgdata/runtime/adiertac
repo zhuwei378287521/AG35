@@ -1,0 +1,19 @@
+PN: adiertac
+PV: 1.0
+PR: r3
+PKGV: 1.0
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: adie rtac Library and calibiration files
+SUMMARY: adiertac version 1.0-r3
+RDEPENDS_adiertac: audioalsa (>= git) diag (>= git) time-genoff (>= git) glib-2.0 (>= 2.44.1) acdbmapper (>= git) audcal (>= git) glibc (>= 2.22)
+RPROVIDES_adiertac:  adiertac (=1.0)
+SECTION: base
+PKG_adiertac: libadiertac1
+FILES_adiertac: /usr/bin/* /usr/sbin/* /usr/lib/adiertac/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/adiertac /usr/lib/adiertac/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_adiertac: /usr/lib/libadiertac.so.1.0.0
+FILES_INFO: {"/usr/lib/libadiertac.so.1.0.0": 22124, "/usr/lib/libadiertac.so.1": 20}
+FILERPROVIDES_/usr/lib/libadiertac.so.1.0.0_adiertac: elf(buildid) (= 16b9c77ad41ecb1d12c6bbe88be3ea49afa68f26) libadiertac.so.1
+FILERDEPENDSFLIST_adiertac: /usr/lib/libadiertac.so.1.0.0
+FILERDEPENDS_/usr/lib/libadiertac.so.1.0.0_adiertac: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libacdbmapper.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_adiertac: 22144

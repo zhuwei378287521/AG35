@@ -1,0 +1,13 @@
+PN: izat-api-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: Izat api hdr
+SUMMARY: izat-api-hdr version git-r1
+SECTION: base
+PKG_izat-api-hdr-locale: izat-api-hdr-locale
+FILES_izat-api-hdr-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_izat-api-hdr-locale: 0

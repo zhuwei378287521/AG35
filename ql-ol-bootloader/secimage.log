@@ -1,0 +1,349 @@
+sectools_builder: SECTOOLS_DIR = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage
+sectools_builder: python /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/sectools.py secimage -i /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn -o /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign -g appsbl -c /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage.xml -sa
+Logging to /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign/SecImage_log.txt
+
+
+    SecImage launched as: "/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/sectools.py secimage -i /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn -o /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign -g appsbl -c /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage.xml -sa"
+
+Config path is set to: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage.xml
+[33mWARNING: OEM ID is set to 0 for sign_id "appsbl"[39m
+Output dir is set to: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign
+Openssl v1.0.1 or greater is available at: "/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/sysroots/x86_64-linux/usr/bin/openssl"
+------------------------------------------------------
+Processing 1/1: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn
+
+l1_file_name = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Encryption/Unified/default/l1_key.bin
+l2_file_name = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Encryption/Unified/default/l2_key.bin
+l3_file_name = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Encryption/Unified/default/l3_key.bin
+Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
+Performing OEM sign on image: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn
+attestation_certificate_extensions = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/General_Assets/Signing/openssl/v3_attest.ext
+ca_certificate_extensions = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/General_Assets/Signing/openssl/v3.ext
+openssl_configfile = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/General_Assets/Signing/openssl/opensslroot.cfg
+Using QC HMAC for hash segment
+Using PKCS RSA padding
+Using a predefined Root certificate and a predefined key
+Key Used: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Signing/Local/qc_presigned_certs-key2048_exp65537/qpsa_rootca.key
+Certificate Used: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Signing/Local/qc_presigned_certs-key2048_exp65537/qpsa_rootca.cer
+Using a predefined Attestation CA certificate and a predefined key
+Key Used: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Signing/Local/qc_presigned_certs-key2048_exp65537/qpsa_attestca.key
+Certificate Used: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Signing/Local/qc_presigned_certs-key2048_exp65537/qpsa_attestca.cer
+Generating new Attestation certificate and a random key
+
+Attestation Certificate Properties:
+| SW_ID     | 0x0000000000000009  |
+| HW_ID     | 0x0000000000000000  |
+| DEBUG     | 0x0000000000000002  |
+| OEM_ID    | 0x0000              |
+| SW_SIZE   | 200                 |
+| MODEL_ID  | 0x0000              |
+| SHA_ALGO  | SHA256              |
+| APP_ID    | None                |
+| CRASH_DUMP| None                |
+| ROT_EN    | None                |
+| Exponent  | 65537               |
+| TCG_MIN   | None                |
+| TCG_MAX   | None                |
+| FID_MIN   | None                |
+| FID_MAX   | None                |
+
+Signed image is stored at /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign/default/appsbl/appsboot.mbn
+Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
+image is signed with PKCS
+Image /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign/default/appsbl/appsboot.mbn signature is valid
+Image /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign/default/appsbl/appsboot.mbn is not encrypted
+
+Base Properties: 
+| Integrity Check                 | True  |
+| Signed                          | True  |
+| Encrypted                       | False |
+| Size of signature               | 256   |
+| Size of one cert                | 2048  |
+| Num of certs in cert chain      | 3     |
+| Number of root certs            | 1     |
+| Hash Page Segments as segments  | False |
+| Cert chain size                 | 6144  |
+
+ELF Properties: 
+Elf Header: 
+| Magic                      | ELF                           |
+| Class                      | ELF32                          |
+| Data                       | 2's complement, little endian  |
+| Version                    | 1 (Current)                    |
+| OS/ABI                     | No extensions or unspecified   |
+| ABI Version                | 0                              |
+| Type                       | EXEC (Executable file)         |
+| Machine                    | Advanced RISC Machines ARM     |
+| Version                    | 0x1                            |
+| Entry address              | 0x82900000                     |
+| Program headers offset     | 0x00000034                     |
+| Section headers offset     | 0x00000000                     |
+| Flags                      | 0x05000202                     |
+| ELF header size            | 52                             |
+| Program headers size       | 32                             |
+| Number of program headers  | 3                              |
+| Section headers size       | 40                             |
+| Number of section headers  | 0                              |
+| String table section index | 0                              |
+
+Elf Program Headers: 
+| S.No |    Type    | Offset | VirtAddr | PhysAddr | FileSize | MemSize | Flags |  Align   |
+|------|------------|--------|----------|----------|----------|---------|-------|----------|
+|  1   | 1879048193 |0x6ba10 |0x8295ba10|0x8295ba10| 0x00008  | 0x00008 |  0x4  | 0x4      |
+|  2   |    LOAD    |0x10000 |0x82900000|0x82900000| 0x5dfa8  | 0x72fe8 |  0x7  | 0x10000  |
+|  3   | 1685382481 |0x00000 |0x00000000|0x00000000| 0x00000  | 0x00000 |  0x7  | 0x10     |
+
+Hash Segment Properties: 
+| Header Size  | 40B  |
+
+Header: 
+| cert_chain_ptr  | 0x8295c1c8  |
+| cert_chain_size | 0x00001800  |
+| code_size       | 0x000000a0  |
+| flash_parti_ver | 0x00000003  |
+| image_dest_ptr  | 0x8295c028  |
+| image_id        | 0x00000000  |
+| image_size      | 0x000019a0  |
+| image_src       | 0x00000000  |
+| sig_ptr         | 0x8295c0c8  |
+| sig_size        | 0x00000100  |
+
+SecElf Properties: 
+| image_type        | 0     |
+| max_elf_segments  | 100   |
+| testsig_serialnum | None  |
+
+------------------------------------------------------
+
+SUMMARY:
+Following actions were performed: "sign, validate"
+Output is saved at: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign
+
+| Idx | SignId | Parse | Integrity | Sign | Encrypt |              Validate              |
+|     |        |       |           |      |         | Parse | Integrity | Sign | Encrypt |
+|-----|--------|-------|-----------|------|---------|-------|-----------|------|---------|
+|  1. | appsbl |   T   |     NA    |  T   |    NA   |   T   |     T     |  T   |    F    |
+
+
+sectools_builder: SECTOOLS_DIR = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage
+sectools_builder: python /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/sectools.py secimage -i /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn -o /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign_and_encrypt -g appsbl -c /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage.xml -sea
+Logging to /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign_and_encrypt/SecImage_log.txt
+
+
+    SecImage launched as: "/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/sectools.py secimage -i /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn -o /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign_and_encrypt -g appsbl -c /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage.xml -sea"
+
+Config path is set to: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage.xml
+[33mWARNING: OEM ID is set to 0 for sign_id "appsbl"[39m
+Output dir is set to: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign_and_encrypt
+Openssl v1.0.1 or greater is available at: "/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/sysroots/x86_64-linux/usr/bin/openssl"
+------------------------------------------------------
+Processing 1/1: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn
+
+l1_file_name = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Encryption/Unified/default/l1_key.bin
+l2_file_name = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Encryption/Unified/default/l2_key.bin
+l3_file_name = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Encryption/Unified/default/l3_key.bin
+Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
+Performing OEM sign on image: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn
+attestation_certificate_extensions = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/General_Assets/Signing/openssl/v3_attest.ext
+ca_certificate_extensions = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/General_Assets/Signing/openssl/v3.ext
+openssl_configfile = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/General_Assets/Signing/openssl/opensslroot.cfg
+Using QC HMAC for hash segment
+Using PKCS RSA padding
+Using a predefined Root certificate and a predefined key
+Key Used: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Signing/Local/qc_presigned_certs-key2048_exp65537/qpsa_rootca.key
+Certificate Used: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Signing/Local/qc_presigned_certs-key2048_exp65537/qpsa_rootca.cer
+Using a predefined Attestation CA certificate and a predefined key
+Key Used: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Signing/Local/qc_presigned_certs-key2048_exp65537/qpsa_attestca.key
+Certificate Used: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Signing/Local/qc_presigned_certs-key2048_exp65537/qpsa_attestca.cer
+Generating new Attestation certificate and a random key
+
+Attestation Certificate Properties:
+| SW_ID     | 0x0000000000000009  |
+| HW_ID     | 0x0000000000000000  |
+| DEBUG     | 0x0000000000000002  |
+| OEM_ID    | 0x0000              |
+| SW_SIZE   | 200                 |
+| MODEL_ID  | 0x0000              |
+| SHA_ALGO  | SHA256              |
+| APP_ID    | None                |
+| CRASH_DUMP| None                |
+| ROT_EN    | None                |
+| Exponent  | 65537               |
+| TCG_MIN   | None                |
+| TCG_MAX   | None                |
+| FID_MIN   | None                |
+| FID_MAX   | None                |
+
+Signed & Encrypted image is stored at /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign_and_encrypt/default/appsbl/appsboot.mbn
+Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
+image is signed with PKCS
+Image /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign_and_encrypt/default/appsbl/appsboot.mbn signature is valid
+Image /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign_and_encrypt/default/appsbl/appsboot.mbn is encrypted
+
+Base Properties: 
+| Integrity Check                 | True  |
+| Signed                          | True  |
+| Encrypted                       | True  |
+| Size of signature               | 256   |
+| Size of one cert                | 2048  |
+| Num of certs in cert chain      | 3     |
+| Number of root certs            | 1     |
+| Hash Page Segments as segments  | False |
+| Cert chain size                 | 6144  |
+
+ELF Properties: 
+Elf Header: 
+| Magic                      | ELF                           |
+| Class                      | ELF32                          |
+| Data                       | 2's complement, little endian  |
+| Version                    | 1 (Current)                    |
+| OS/ABI                     | No extensions or unspecified   |
+| ABI Version                | 0                              |
+| Type                       | EXEC (Executable file)         |
+| Machine                    | Advanced RISC Machines ARM     |
+| Version                    | 0x1                            |
+| Entry address              | 0x82900000                     |
+| Program headers offset     | 0x00000034                     |
+| Section headers offset     | 0x00000000                     |
+| Flags                      | 0x05000202                     |
+| ELF header size            | 52                             |
+| Program headers size       | 32                             |
+| Number of program headers  | 3                              |
+| Section headers size       | 40                             |
+| Number of section headers  | 0                              |
+| String table section index | 0                              |
+
+Elf Program Headers: 
+| S.No |    Type    | Offset | VirtAddr | PhysAddr | FileSize | MemSize | Flags |  Align   |
+|------|------------|--------|----------|----------|----------|---------|-------|----------|
+|  1   | 1879048193 |0x6ba10 |0x8295ba10|0x8295ba10| 0x00008  | 0x00008 |  0x4  | 0x4      |
+|  2   |    LOAD    |0x10000 |0x82900000|0x82900000| 0x5dfa8  | 0x72fe8 |  0x7  | 0x10000  |
+|  3   | 1685382481 |0x00000 |0x00000000|0x00000000| 0x00000  | 0x00000 |  0x7  | 0x10     |
+
+Hash Segment Properties: 
+| Header Size  | 40B  |
+
+Header: 
+| cert_chain_ptr  | 0x8295c1c8  |
+| cert_chain_size | 0x00001800  |
+| code_size       | 0x000000a0  |
+| flash_parti_ver | 0x00000003  |
+| image_dest_ptr  | 0x8295c028  |
+| image_id        | 0x00000000  |
+| image_size      | 0x000019a0  |
+| image_src       | 0x00000000  |
+| sig_ptr         | 0x8295c0c8  |
+| sig_size        | 0x00000100  |
+
+SecElf Properties: 
+| image_type        | 0     |
+| max_elf_segments  | 100   |
+| testsig_serialnum | None  |
+
+------------------------------------------------------
+
+SUMMARY:
+Following actions were performed: "sign, encrypt, validate"
+Output is saved at: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/sign_and_encrypt
+
+| Idx | SignId | Parse | Integrity | Sign | Encrypt |              Validate              |
+|     |        |       |           |      |         | Parse | Integrity | Sign | Encrypt |
+|-----|--------|-------|-----------|------|---------|-------|-----------|------|---------|
+|  1. | appsbl |   T   |     NA    |  T   |    T    |   T   |     T     |  T   |    T    |
+
+
+sectools_builder: SECTOOLS_DIR = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage
+sectools_builder: python /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/sectools.py secimage -i /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn -o /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/integrity_check -g appsbl -c /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage.xml -ta
+Logging to /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/integrity_check/SecImage_log.txt
+
+
+    SecImage launched as: "/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/sectools.py secimage -i /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn -o /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/integrity_check -g appsbl -c /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage.xml -ta"
+
+Config path is set to: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/config/integration/secimage.xml
+[33mWARNING: OEM ID is set to 0 for sign_id "appsbl"[39m
+Output dir is set to: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/integrity_check
+Openssl v1.0.1 or greater is available at: "/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/sysroots/x86_64-linux/usr/bin/openssl"
+------------------------------------------------------
+Processing 1/1: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/bootable/lk/build-mdm9607/appsboot.mbn
+
+l1_file_name = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Encryption/Unified/default/l1_key.bin
+l2_file_name = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Encryption/Unified/default/l2_key.bin
+l3_file_name = /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work-shared/signing_tools/SecImage/resources/data_prov_assets/Encryption/Unified/default/l3_key.bin
+Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
+image is stored at /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/integrity_check/default/appsbl/appsboot.mbn
+Clear L1 key, clear L2 key, and clear L3 keys were provided locally.
+Image /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/integrity_check/default/appsbl/appsboot.mbn is not signed
+Image /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/integrity_check/default/appsbl/appsboot.mbn is not encrypted
+
+Base Properties: 
+| Integrity Check                 | True  |
+| Signed                          | False |
+| Encrypted                       | False |
+| Size of signature               | 256   |
+| Size of one cert                | 2048  |
+| Num of certs in cert chain      | 3     |
+| Number of root certs            | 1     |
+| Hash Page Segments as segments  | False |
+| Cert chain size                 | 6144  |
+
+ELF Properties: 
+Elf Header: 
+| Magic                      | ELF                           |
+| Class                      | ELF32                          |
+| Data                       | 2's complement, little endian  |
+| Version                    | 1 (Current)                    |
+| OS/ABI                     | No extensions or unspecified   |
+| ABI Version                | 0                              |
+| Type                       | EXEC (Executable file)         |
+| Machine                    | Advanced RISC Machines ARM     |
+| Version                    | 0x1                            |
+| Entry address              | 0x82900000                     |
+| Program headers offset     | 0x00000034                     |
+| Section headers offset     | 0x00000000                     |
+| Flags                      | 0x05000202                     |
+| ELF header size            | 52                             |
+| Program headers size       | 32                             |
+| Number of program headers  | 3                              |
+| Section headers size       | 40                             |
+| Number of section headers  | 0                              |
+| String table section index | 0                              |
+
+Elf Program Headers: 
+| S.No |    Type    | Offset | VirtAddr | PhysAddr | FileSize | MemSize | Flags |  Align   |
+|------|------------|--------|----------|----------|----------|---------|-------|----------|
+|  1   | 1879048193 |0x6ba10 |0x8295ba10|0x8295ba10| 0x00008  | 0x00008 |  0x4  | 0x4      |
+|  2   |    LOAD    |0x10000 |0x82900000|0x82900000| 0x5dfa8  | 0x72fe8 |  0x7  | 0x10000  |
+|  3   | 1685382481 |0x00000 |0x00000000|0x00000000| 0x00000  | 0x00000 |  0x7  | 0x10     |
+
+Hash Segment Properties: 
+| Header Size  | 40B  |
+
+Header: 
+| cert_chain_ptr  | 0x8295c0c8  |
+| cert_chain_size | 0x00000000  |
+| code_size       | 0x000000a0  |
+| flash_parti_ver | 0x00000003  |
+| image_dest_ptr  | 0x8295c028  |
+| image_id        | 0x00000000  |
+| image_size      | 0x000000a0  |
+| image_src       | 0x00000000  |
+| sig_ptr         | 0x8295c0c8  |
+| sig_size        | 0x00000000  |
+
+SecElf Properties: 
+| image_type        | 0     |
+| max_elf_segments  | 100   |
+| testsig_serialnum | None  |
+
+------------------------------------------------------
+
+SUMMARY:
+Following actions were performed: "integrity_check, validate"
+Output is saved at: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/release/AG35CEVAR05A03T4G_OCPU/apps_proc/poky/build/tmp-glibc/work/mdm9607-oe-linux-gnueabi/lk/git-r1signed_perf/image/boot/integrity_check
+
+| Idx | SignId | Parse | Integrity | Sign | Encrypt |              Validate              |
+|     |        |       |           |      |         | Parse | Integrity | Sign | Encrypt |
+|-----|--------|-------|-----------|------|---------|-------|-----------|------|---------|
+|  1. | appsbl |   T   |     T     |  NA  |    NA   |   T   |     T     |  F   |    F    |
+
+

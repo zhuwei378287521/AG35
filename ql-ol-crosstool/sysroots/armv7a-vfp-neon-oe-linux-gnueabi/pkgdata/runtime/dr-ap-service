@@ -1,0 +1,18 @@
+PN: dr-ap-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: DR AP service
+SUMMARY: dr-ap-service version git-r1
+RDEPENDS_dr-ap-service: glibc (>= 2.22) drplugin-server (>= git) qmi-framework (>= git) libgcc (>= 4.9.3) gps-utils (>= git) data (>= git)
+SECTION: base
+PKG_dr-ap-service: dr-ap-service
+FILES_dr-ap-service: /usr/bin/* /usr/sbin/* /usr/lib/dr-ap-service/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dr-ap-service /usr/lib/dr-ap-service/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_dr-ap-service: /usr/bin/DR@underscore@AP@underscore@Service
+FILES_INFO: {"/etc/apdr.conf": 1386, "/usr/bin/DR_AP_Service": 9900}
+FILERPROVIDES_/usr/bin/DR@underscore@AP@underscore@Service_dr-ap-service: elf(buildid) (= 8990547b312dd115501aca5bc6fb368fc503bd71)
+FILERDEPENDSFLIST_dr-ap-service: /usr/bin/DR@underscore@AP@underscore@Service
+FILERDEPENDS_/usr/bin/DR@underscore@AP@underscore@Service_dr-ap-service: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) lib_drplugin_server.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libgps_utils_so.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libqmi_cci.so.1 rtld(GNU_HASH)
+PKGSIZE_dr-ap-service: 11286

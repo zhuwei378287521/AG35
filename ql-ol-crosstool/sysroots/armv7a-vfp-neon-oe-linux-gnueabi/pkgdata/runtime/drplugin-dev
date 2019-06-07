@@ -1,0 +1,17 @@
+PN: drplugin
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-dev: Lib DRPlugin  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_drplugin-dev: drplugin version git-r1 - Development files
+RDEPENDS_drplugin-dev: drplugin (= git-r1)
+RPROVIDES_drplugin-dev:  drplugin-dev (=git)
+RRECOMMENDS_drplugin-dev: liblog-dev loc-base-util-dev libgcc-dev time-genoff-dev glib-2.0-dev gps-utils-dev data-dev qmi-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev gnsspps-dev libstdc++-dev libcrypto-dev loc-hal-dev libsqlite3-dev data-items-dev libcutils-dev loc-net-iface-dev lbs-core-dev system-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev dsutils-dev drplugin-client-dev qmi-framework-dev diag-dev
+SECTION_drplugin-dev: devel
+PKG_drplugin-dev: libdrplugin-dev
+ALLOW_EMPTY_drplugin-dev: 1
+FILES_drplugin-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/drplugin/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libDRPlugin.la": 3079, "/usr/lib/pkgconfig/drplugin.pc": 199, "/usr/include/drplugin/DRPlugin.h": 3693, "/usr/lib/libDRPlugin.so": 20}
+PKGSIZE_drplugin-dev: 6991

@@ -1,0 +1,15 @@
+PN: qmi-framework
+PV: git
+PR: r8
+PKGV: git
+PKGR: r8
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-framework-dbg: QMI Framework Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qmi-framework-dbg: qmi-framework version git-r8 - Debugging files
+RRECOMMENDS_qmi-framework-dbg: glibc-dbg configdb-dbg diag-dbg time-genoff-dbg glib-2.0-dbg dsutils-dbg xmllib-dbg qmi-dbg
+SECTION_qmi-framework-dbg: devel
+PKG_qmi-framework-dbg: qmi-framework-dbg
+ALLOW_EMPTY_qmi-framework-dbg: 1
+FILES_qmi-framework-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qmi-framework/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qmi-framework/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qmi-framework/qmi-framework/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/qmi_test_service_clnt_test_3000": 63712, "/usr/bin/.debug/qmi_test_service_clnt_test_3001": 63680, "/usr/lib/.debug/libqmi_sap.so.1.0.0": 19852, "/usr/bin/.debug/qmi_test_service_clnt_test_0001": 64056, "/usr/bin/.debug/irsc_util": 18864, "/usr/bin/.debug/qmi_test_mt_client_init_instance": 64964, "/usr/lib/.debug/libqmi_csi.so.1.0.0": 70912, "/usr/bin/.debug/qmi_test_service_clnt_test_4000": 63240, "/usr/bin/.debug/qmi_test_service_clnt_test_4001": 63240, "/usr/bin/.debug/qmi_test_service_test": 35404, "/usr/bin/.debug/qmi_test_service_clnt_test_0000": 63712, "/usr/bin/.debug/qmi_test_service_start_svc": 66472, "/usr/bin/.debug/qmi_test_service_clnt_test_1000": 63676, "/usr/bin/.debug/qmi_test_service_clnt_test_1001": 64872, "/usr/lib/.debug/libqmi_encdec.so.1.0.0": 33344, "/usr/lib/.debug/libqmi_common_so.so.1.0.0": 7088, "/usr/lib/.debug/libqmi_cci.so.1.0.0": 116760, "/usr/bin/.debug/qmi_test_service_clnt_test_2000": 63476}
+PKGSIZE_qmi-framework-dbg: 1007324

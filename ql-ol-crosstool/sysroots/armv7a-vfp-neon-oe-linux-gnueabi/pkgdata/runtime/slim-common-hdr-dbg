@@ -1,0 +1,14 @@
+PN: slim-common-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-common-hdr-dbg: slim common hdr  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_slim-common-hdr-dbg: slim-common-hdr version git-r1 - Debugging files
+SECTION_slim-common-hdr-dbg: devel
+PKG_slim-common-hdr-dbg: slim-common-hdr-dbg
+ALLOW_EMPTY_slim-common-hdr-dbg: 1
+FILES_slim-common-hdr-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/slim-common-hdr/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/slim-common-hdr/.debug /usr/lib/matchbox-panel/.debug /usr/lib/slim-common-hdr/slim-common-hdr/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_slim-common-hdr-dbg: 0

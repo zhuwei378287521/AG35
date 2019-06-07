@@ -1,0 +1,13 @@
+PN: izat-api-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: Izat api hdr
+SUMMARY: izat-api-hdr version git-r1
+SECTION: base
+PKG_izat-api-hdr: izat-api-hdr
+FILES_izat-api-hdr: /usr/bin/* /usr/sbin/* /usr/lib/izat-api-hdr/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/izat-api-hdr /usr/lib/izat-api-hdr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_izat-api-hdr: 0

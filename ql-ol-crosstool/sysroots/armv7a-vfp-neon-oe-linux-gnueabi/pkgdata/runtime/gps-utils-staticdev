@@ -1,0 +1,15 @@
+PN: gps-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_gps-utils-staticdev: GPS Utils  This package contains static libraries for software development.
+SUMMARY_gps-utils-staticdev: gps-utils version git-r1 - Development files (Static Libraries)
+RDEPENDS_gps-utils-staticdev: gps-utils-dev (= git-r1)
+RPROVIDES_gps-utils-staticdev:  gps-utils-staticdev (=git)
+SECTION_gps-utils-staticdev: devel
+PKG_gps-utils-staticdev: libgps-utils-so-staticdev
+FILES_gps-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gps-utils/*.a
+FILES_INFO: {}
+PKGSIZE_gps-utils-staticdev: 0

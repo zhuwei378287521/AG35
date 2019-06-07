@@ -1,0 +1,17 @@
+PN: ext4-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_ext4-utils-dev: EXT4 UTILS  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ext4-utils-dev: ext4-utils version git-r1 - Development files
+RDEPENDS_ext4-utils-dev: ext4-utils (= git-r1)
+RPROVIDES_ext4-utils-dev:  ext4-utils-dev (=git)
+RRECOMMENDS_ext4-utils-dev: libcutils-dev libselinux-dev liblog-dev libpcre-dev libstdc++-dev libgcc-dev libsparse-dev glibc-dev ql-libsepol-dev zlib-dev
+SECTION_ext4-utils-dev: devel
+PKG_ext4-utils-dev: libext4-utils-dev
+ALLOW_EMPTY_ext4-utils-dev: 1
+FILES_ext4-utils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ext4-utils/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libext4_utils.la": 1172, "/usr/include/ext4_utils/ext4_crypt_init_extensions.h": 568, "/usr/include/ext4_utils/ext4_utils.h": 4656, "/usr/include/ext4_utils/ext4_extents.h": 2561, "/usr/include/ext4_utils/jbd2.h": 3637, "/usr/include/ext4_utils/ext4_sb.h": 1386, "/usr/include/ext4_utils/xattr.h": 1177, "/usr/include/ext4_utils/wipe.h": 954, "/usr/include/ext4_utils/make_ext4fs.h": 1015, "/usr/lib/libext4_utils.so": 22, "/usr/include/ext4_utils/ext4_kernel_headers.h": 1273, "/usr/include/ext4_utils/ext4.h": 19002}
+PKGSIZE_ext4-utils-dev: 37423

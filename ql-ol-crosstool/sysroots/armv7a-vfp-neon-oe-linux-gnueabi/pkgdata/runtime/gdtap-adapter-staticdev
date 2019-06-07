@@ -1,0 +1,15 @@
+PN: gdtap-adapter
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gdtap-adapter-staticdev: GPS xtwifi gdtap  This package contains static libraries for software development.
+SUMMARY_gdtap-adapter-staticdev: gdtap-adapter version git-r1 - Development files (Static Libraries)
+RDEPENDS_gdtap-adapter-staticdev: gdtap-adapter-dev (= git-r1)
+RPROVIDES_gdtap-adapter-staticdev:  gdtap-adapter-staticdev (=git)
+SECTION_gdtap-adapter-staticdev: devel
+PKG_gdtap-adapter-staticdev: libgdtap-adapter-staticdev
+FILES_gdtap-adapter-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gdtap-adapter/*.a
+FILES_INFO: {}
+PKGSIZE_gdtap-adapter-staticdev: 0

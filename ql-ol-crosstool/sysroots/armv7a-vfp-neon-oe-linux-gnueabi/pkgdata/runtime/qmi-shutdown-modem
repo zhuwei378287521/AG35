@@ -1,0 +1,18 @@
+PN: qmi-shutdown-modem
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMI shutdown modem Daemon
+SUMMARY: qmi-shutdown-modem version git-r4
+RDEPENDS_qmi-shutdown-modem: qmi (>= git) qmi-framework (>= git) glibc (>= 2.22)
+SECTION: base
+PKG_qmi-shutdown-modem: qmi-shutdown-modem
+FILES_qmi-shutdown-modem: /usr/bin/* /usr/sbin/* /usr/lib/qmi-shutdown-modem/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qmi-shutdown-modem /usr/lib/qmi-shutdown-modem/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/
+FILERPROVIDESFLIST_qmi-shutdown-modem: /usr/bin/qmi@underscore@shutdown@underscore@modem
+FILES_INFO: {"/usr/bin/qmi_shutdown_modem": 9912}
+FILERPROVIDES_/usr/bin/qmi@underscore@shutdown@underscore@modem_qmi-shutdown-modem: elf(buildid) (= f0e6ad75f9d3be8b390e740e4f4087a526f4eafd)
+FILERDEPENDSFLIST_qmi-shutdown-modem: /usr/bin/qmi@underscore@shutdown@underscore@modem
+FILERDEPENDS_/usr/bin/qmi@underscore@shutdown@underscore@modem_qmi-shutdown-modem: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_encdec.so.1 libqmiservices.so.1 rtld(GNU_HASH)
+PKGSIZE_qmi-shutdown-modem: 9912

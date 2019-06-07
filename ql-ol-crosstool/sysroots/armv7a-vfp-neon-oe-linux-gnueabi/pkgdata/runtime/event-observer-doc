@@ -1,0 +1,14 @@
+PN: event-observer
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_event-observer-doc: Event Observer  This package contains documentation.
+SUMMARY_event-observer-doc: event-observer version git-r1 - Documentation files
+RPROVIDES_event-observer-doc:  event-observer-doc (=git)
+SECTION_event-observer-doc: doc
+PKG_event-observer-doc: libevent-observer-doc
+FILES_event-observer-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_event-observer-doc: 0

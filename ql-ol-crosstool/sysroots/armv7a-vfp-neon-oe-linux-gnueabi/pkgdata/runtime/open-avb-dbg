@@ -1,0 +1,15 @@
+PN: open-avb
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_open-avb-dbg: open-avb tools  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_open-avb-dbg: open-avb version 1.0-r1 - Debugging files
+RRECOMMENDS_open-avb-dbg: glibc-dbg libstdc++-dbg libasound-dbg libpcap-dbg glib-2.0-dbg libgcc-dbg alsa-intf-dbg
+SECTION_open-avb-dbg: devel
+PKG_open-avb-dbg: open-avb-dbg
+ALLOW_EMPTY_open-avb-dbg: 1
+FILES_open-avb-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/open-avb/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/open-avb/.debug /usr/lib/matchbox-panel/.debug /usr/lib/open-avb/open-avb/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/daemon_cl": 722920, "/usr/bin/.debug/mrpd": 140352, "/usr/bin/.debug/maap_daemon": 8448, "/usr/bin/.debug/mrpctl": 16760, "/usr/bin/.debug/openavb_harness": 70468}
+PKGSIZE_open-avb-dbg: 958948

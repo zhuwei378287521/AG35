@@ -1,0 +1,16 @@
+Package: nativesdk-opkg
+Version: 1:0.3.0-r0
+Description: Open Package Manager
+ Open Package Manager.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: x86_64-nativesdk
+OE: nativesdk-opkg
+Homepage: http://code.google.com/p/opkg/
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-libbz2-0 (>= 1.0.6), nativesdk-libopkg1 (>= 0.3.0), nativesdk-libarchive13 (>= 3.1.2), nativesdk-libc6 (>= 2.22), nativesdk-libxml2 (>= 2.9.2)
+Provides: nativesdk-opkg-collateral
+Replaces: nativesdk-opkg-collateral, nativesdk-opkg-nogpg
+Conflicts: nativesdk-opkg-collateral
+Source: http://downloads.yoctoproject.org/releases/opkg/opkg-0.3.0.tar.gz file://opkg-configure.service file://opkg.conf file://0001-opkg_archive-add-support-for-empty-compressed-files.patch file://0001-libopkg-include-stdio.h-for-getting-FILE-defined.patch file://0001-opkg_conf-create-opkg.lock-in-run-instead-of-var-run.patch file://0001-string_util-New-file-with-bin_to_hex-function.patch file://0002-md5-Add-md5_to_string-function.patch file://0003-sha256-Add-sha256_to_string-function.patch file://0004-opkg_download-Use-short-cache-file-name.patch file://0001-pkg_get_provider_replacees-do-not-add-installed-pkg-.patch

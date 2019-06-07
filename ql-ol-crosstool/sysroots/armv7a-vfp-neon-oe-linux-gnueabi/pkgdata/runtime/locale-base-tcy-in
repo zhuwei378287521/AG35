@@ -1,0 +1,17 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: Locale data from glibc.
+SUMMARY: Locale data from glibc
+RDEPENDS_locale-base-tcy-in: glibc-localedata-tcy-in localedef glibc-charmap-utf-8
+RPROVIDES_locale-base-tcy-in:  virtual-locale-tcy-in virtual-locale-tcy
+SECTION: base
+PKG_locale-base-tcy-in: locale-base-tcy-in
+ALLOW_EMPTY_locale-base-tcy-in: 1
+pkg_postinst_locale-base-tcy-in: #!/bin/sh\n\nif [ "x$D" != "x" ]; then\n\texit 1\nfi\n\nrm -rf /tmp/locale/usr/lib/locale\nmkdir -p /tmp/locale/usr/lib/locale\nif [ -f /usr/lib/locale/locale-archive ]; then\n        cp /usr/lib/locale/locale-archive /tmp/locale/usr/lib/locale/\nfi\nlocaledef --inputfile=/usr/share/i18n/locales/tcy_IN --charmap=UTF-8 --prefix=/tmp/locale tcy_IN\nmkdir -p /usr/lib/locale/\nmv /tmp/locale/usr/lib/locale/locale-archive /usr/lib/locale/\nrm -rf /tmp/locale/usr/lib/locale\n
+pkg_postrm_locale-base-tcy-in: #!/bin/sh\n\nrm -rf /tmp/locale/usr/lib/locale\nmkdir -p /tmp/locale/usr/lib/locale\nif [ -f /usr/lib/locale/locale-archive ]; then\n\tcp /usr/lib/locale/locale-archive /tmp/locale/usr/lib/locale/\nfi\nlocaledef --delete-from-archive --inputfile=/usr/share/locales/tcy_IN --charmap=UTF-8 --prefix=/tmp/locale tcy_IN\nmv /tmp/locale/usr/lib/locale/locale-archive /usr/lib/locale/\nrm -rf /tmp/locale/usr/lib/locale\n
+FILES_INFO: {}
+PKGSIZE_locale-base-tcy-in: 0

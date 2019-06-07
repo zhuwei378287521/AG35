@@ -1,0 +1,13 @@
+PN: lowi-test
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS lowi test
+SUMMARY: lowi-test version git-r1
+SECTION: base
+PKG_lowi-test-locale: lowi-test-locale
+FILES_lowi-test-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_lowi-test-locale: 0

@@ -1,0 +1,16 @@
+PN: loc-mq-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mq-client-dbg: LOC MQ Client  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-mq-client-dbg: loc-mq-client version git-r1 - Debugging files
+RPROVIDES_loc-mq-client-dbg:  loc-mq-client-dbg (=git)
+RRECOMMENDS_loc-mq-client-dbg: libsqlite3-dbg libstdc++-dbg libssl-dbg libcrypto-dbg dsutils-dbg xmllib-dbg qmi-dbg qmi-framework-dbg qmi-client-helper-dbg diag-dbg data-oss-dbg libcutils-dbg loc-stub-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg configdb-dbg data-dbg time-genoff-dbg ql-syslog-dbg
+SECTION_loc-mq-client-dbg: devel
+PKG_loc-mq-client-dbg: libloc-mq-client-dbg
+ALLOW_EMPTY_loc-mq-client-dbg: 1
+FILES_loc-mq-client-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-mq-client/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-mq-client/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-mq-client/loc-mq-client/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_mq_client.so.1.0.0": 20820}
+PKGSIZE_loc-mq-client-dbg: 20820

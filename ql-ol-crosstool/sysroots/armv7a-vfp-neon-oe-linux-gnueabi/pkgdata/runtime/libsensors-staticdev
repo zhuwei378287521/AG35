@@ -1,0 +1,14 @@
+PN: libsensors
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD-3-Clause
+DESCRIPTION_libsensors-staticdev: Sensor library  This package contains static libraries for software development.
+SUMMARY_libsensors-staticdev: libsensors version git-r1 - Development files (Static Libraries)
+RDEPENDS_libsensors-staticdev: libsensors-dev (= git-r1)
+SECTION_libsensors-staticdev: devel
+PKG_libsensors-staticdev: libsensors-staticdev
+FILES_libsensors-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libsensors/*.a
+FILES_INFO: {}
+PKGSIZE_libsensors-staticdev: 0

@@ -1,0 +1,16 @@
+PN: lowi-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-server-dev: GPS lowi server  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_lowi-server-dev: lowi-server version git-r1 - Development files
+RDEPENDS_lowi-server-dev: lowi-server (= git-r1)
+RRECOMMENDS_lowi-server-dev: libnl-genl-dev loc-hal-dev libnl-dev loc-pla-dev loc-base-util-dev libstdc++-dev libgcc-dev lowi-client-dev loc-mq-client-dev glib-2.0-dev glibc-dev loc-launcher-dev liblog-dev
+SECTION_lowi-server-dev: devel
+PKG_lowi-server-dev: lowi-server-dev
+ALLOW_EMPTY_lowi-server-dev: 1
+FILES_lowi-server-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lowi-server/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/lowi-server.pc": 153}
+PKGSIZE_lowi-server-dev: 153

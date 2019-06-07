@@ -1,0 +1,19 @@
+PN: gps-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: GPS Utils
+SUMMARY: gps-utils version git-r1
+RDEPENDS_gps-utils: glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) loc-stub (>= git) libgcc (>= 4.9.3) liblog (>= 1.0) loc-pla (>= git)
+RPROVIDES_gps-utils:  gps-utils (=git)
+SECTION: base
+PKG_gps-utils: libgps-utils-so1
+FILES_gps-utils: /usr/bin/* /usr/sbin/* /usr/lib/gps-utils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gps-utils /usr/lib/gps-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_gps-utils: /usr/lib/libgps@underscore@utils@underscore@so.so.1.0.0
+FILES_INFO: {"/usr/lib/libgps_utils_so.so.1": 24, "/usr/lib/libgps_utils_so.so.1.0.0": 79620}
+FILERPROVIDES_/usr/lib/libgps@underscore@utils@underscore@so.so.1.0.0_gps-utils: elf(buildid) (= ea1cbda44f06b7cc613c23c2ab1485c696cd1e9e) libgps_utils_so.so.1
+FILERDEPENDSFLIST_gps-utils: /usr/lib/libgps@underscore@utils@underscore@so.so.1.0.0
+FILERDEPENDS_/usr/lib/libgps@underscore@utils@underscore@so.so.1.0.0_gps-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.8) libcutils.so.0 libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.12) libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_gps-utils: 79644

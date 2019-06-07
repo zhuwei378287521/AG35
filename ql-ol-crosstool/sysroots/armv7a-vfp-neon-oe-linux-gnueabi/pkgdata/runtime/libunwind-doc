@@ -1,0 +1,13 @@
+PN: libunwind
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libunwind-doc: Libunwind  This package contains documentation.
+SUMMARY_libunwind-doc: libunwind version 1.0-r0 - Documentation files
+SECTION_libunwind-doc: doc
+PKG_libunwind-doc: libunwind-doc
+FILES_libunwind-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libunwind-doc: 0

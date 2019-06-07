@@ -1,0 +1,19 @@
+PN: safe-iop
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION: Safe integer operation library for C
+SUMMARY: safe-iop version git-r0
+RDEPENDS_safe-iop: glibc (>= 2.22)
+RPROVIDES_safe-iop:  safe-iop (=git)
+SECTION: base
+PKG_safe-iop: libsafe-iop0
+FILES_safe-iop: /usr/bin/* /usr/sbin/* /usr/lib/safe-iop/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/safe-iop /usr/lib/safe-iop/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_safe-iop: /usr/lib/libsafe@underscore@iop.so.0.0.0
+FILES_INFO: {"/usr/lib/libsafe_iop.so.0": 20, "/usr/lib/libsafe_iop.so.0.0.0": 5660}
+FILERPROVIDES_/usr/lib/libsafe@underscore@iop.so.0.0.0_safe-iop: elf(buildid) (= fb9b743d439a44c16a8df1ee509eb7f49c47de20) libsafe_iop.so.0
+FILERDEPENDSFLIST_safe-iop: /usr/lib/libsafe@underscore@iop.so.0.0.0
+FILERDEPENDS_/usr/lib/libsafe@underscore@iop.so.0.0.0_safe-iop: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_safe-iop: 5680

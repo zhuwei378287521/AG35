@@ -1,0 +1,16 @@
+PN: ql-mtdimg
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-mtdimg-dev: Quectel Function Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ql-mtdimg-dev: ql-mtdimg version git-r1 - Development files
+RDEPENDS_ql-mtdimg-dev: ql-mtdimg (= git-r1)
+RRECOMMENDS_ql-mtdimg-dev: glibc-dev
+SECTION_ql-mtdimg-dev: devel
+PKG_ql-mtdimg-dev: ql-mtdimg-dev
+ALLOW_EMPTY_ql-mtdimg-dev: 1
+FILES_ql-mtdimg-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ql-mtdimg/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_ql-mtdimg-dev: 0

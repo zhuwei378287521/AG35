@@ -1,0 +1,14 @@
+PN: data-items
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Data Items
+SUMMARY: data-items version git-r1
+RPROVIDES_data-items-locale:  data-items-locale (=git)
+SECTION: base
+PKG_data-items-locale: libdataitems-locale
+FILES_data-items-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_data-items-locale: 0

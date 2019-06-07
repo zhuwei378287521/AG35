@@ -1,0 +1,14 @@
+PN: izat-api-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_izat-api-hdr-dbg: Izat api hdr  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_izat-api-hdr-dbg: izat-api-hdr version git-r1 - Debugging files
+SECTION_izat-api-hdr-dbg: devel
+PKG_izat-api-hdr-dbg: izat-api-hdr-dbg
+ALLOW_EMPTY_izat-api-hdr-dbg: 1
+FILES_izat-api-hdr-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/izat-api-hdr/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/izat-api-hdr/.debug /usr/lib/matchbox-panel/.debug /usr/lib/izat-api-hdr/izat-api-hdr/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_izat-api-hdr-dbg: 0

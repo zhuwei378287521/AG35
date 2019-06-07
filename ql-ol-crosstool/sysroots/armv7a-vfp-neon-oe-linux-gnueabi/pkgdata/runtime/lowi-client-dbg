@@ -1,0 +1,16 @@
+PN: lowi-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-client-dbg: GPS lowi client  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lowi-client-dbg: lowi-client version git-r1 - Debugging files
+RPROVIDES_lowi-client-dbg:  lowi-client-dbg (=git)
+RRECOMMENDS_lowi-client-dbg: libsqlite3-dbg libstdc++-dbg libssl-dbg libcrypto-dbg dsutils-dbg xmllib-dbg qmi-dbg qmi-framework-dbg qmi-client-helper-dbg glibc-dbg diag-dbg data-oss-dbg libcutils-dbg loc-stub-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg loc-mq-client-dbg configdb-dbg data-dbg time-genoff-dbg
+SECTION_lowi-client-dbg: devel
+PKG_lowi-client-dbg: liblowi-client-dbg
+ALLOW_EMPTY_lowi-client-dbg: 1
+FILES_lowi-client-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lowi-client/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lowi-client/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lowi-client/lowi-client/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/liblowi_client.so.1.0.0": 57776}
+PKGSIZE_lowi-client-dbg: 57776

@@ -1,0 +1,14 @@
+PN: loc-launcher
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-launcher-staticdev: GPS Location process launcher  This package contains static libraries for software development.
+SUMMARY_loc-launcher-staticdev: loc-launcher version git-r1 - Development files (Static Libraries)
+RDEPENDS_loc-launcher-staticdev: loc-launcher-dev (= git-r1)
+SECTION_loc-launcher-staticdev: devel
+PKG_loc-launcher-staticdev: loc-launcher-staticdev
+FILES_loc-launcher-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-launcher/*.a
+FILES_INFO: {}
+PKGSIZE_loc-launcher-staticdev: 0

@@ -1,0 +1,16 @@
+PN: sfe
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION_sfe-dev: Shortcut Forward Engine Driver  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_sfe-dev: sfe version git-r0_perf - Development files
+RDEPENDS_sfe-dev: sfe (= git-r0_perf)
+RRECOMMENDS_sfe-dev: kernel-module-shortcut-fe-dev kernel-module-shortcut-fe-ipv6-dev kernel-3.18.48-dev kernel-module-shortcut-fe-cm-dev
+SECTION_sfe-dev: devel
+PKG_sfe-dev: sfe-dev
+ALLOW_EMPTY_sfe-dev: 1
+FILES_sfe-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sfe/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_sfe-dev: 0

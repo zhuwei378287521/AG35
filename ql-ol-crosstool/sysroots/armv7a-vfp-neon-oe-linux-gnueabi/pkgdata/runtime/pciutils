@@ -1,0 +1,21 @@
+PN: pciutils
+PV: 3.3.1
+PR: r0
+PKGV: 3.3.1
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: The PCI Utilities package contains a library for portable access to PCI bus configuration space and several utilities based on this library.
+SUMMARY: PCI utilities
+RDEPENDS_pciutils: pciutils-ids zlib (>= 1.2.8) libkmod (>= 21+git0+114ec87c85) glibc (>= 2.22) libpci (>= 3.3.1)
+SECTION: console/utils
+PKG_pciutils: pciutils
+FILES_pciutils: /usr/bin/* /usr/sbin/* /usr/lib/pciutils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/pciutils /usr/lib/pciutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_pciutils: /usr/sbin/lspci /usr/sbin/setpci
+FILES_INFO: {"/usr/sbin/setpci": 18188, "/usr/bin/lspci": 13, "/usr/sbin/update-pciids": 1749, "/usr/sbin/lspci": 68808}
+FILERPROVIDES_/usr/sbin/lspci_pciutils: elf(buildid) (= dad68679c352d6354e1dfdfe05df2c67df1f3134)
+FILERPROVIDES_/usr/sbin/setpci_pciutils: elf(buildid) (= f8d9909924e164dd5cda5b2937065dff9b6b9654)
+FILERDEPENDSFLIST_pciutils: /usr/sbin/lspci /usr/sbin/update-pciids /usr/sbin/setpci
+FILERDEPENDS_/usr/sbin/lspci_pciutils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libkmod.so.2 libkmod.so.2(LIBKMOD_5) libpci.so.3 libpci.so.3(LIBPCI_3.0) libpci.so.3(LIBPCI_3.1) libpci.so.3(LIBPCI_3.3) libresolv.so.2 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/update-pciids_pciutils: /bin/sh
+FILERDEPENDS_/usr/sbin/setpci_pciutils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpci.so.3 libpci.so.3(LIBPCI_3.0) libpci.so.3(LIBPCI_3.1) libpci.so.3(LIBPCI_3.3) libresolv.so.2 libz.so.1 rtld(GNU_HASH)
+PKGSIZE_pciutils: 88758

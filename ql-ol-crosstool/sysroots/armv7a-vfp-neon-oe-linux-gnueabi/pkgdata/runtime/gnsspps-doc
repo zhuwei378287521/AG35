@@ -1,0 +1,14 @@
+PN: gnsspps
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gnsspps-doc: gnsspps  This package contains documentation.
+SUMMARY_gnsspps-doc: gnsspps version git-r1 - Documentation files
+RPROVIDES_gnsspps-doc:  gnsspps-doc (=git)
+SECTION_gnsspps-doc: doc
+PKG_gnsspps-doc: libgnsspps-doc
+FILES_gnsspps-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_gnsspps-doc: 0

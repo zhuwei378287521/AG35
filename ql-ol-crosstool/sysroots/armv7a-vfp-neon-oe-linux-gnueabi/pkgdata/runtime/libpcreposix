@@ -1,0 +1,19 @@
+PN: libpcre
+PV: 8.38
+PR: r09
+PKGV: 8.38
+PKGR: r09
+LICENSE: BSD
+DESCRIPTION: The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API.
+SUMMARY_libpcreposix: Perl Compatible Regular Expressions - C wrapper functions based on the POSIX regex API
+RDEPENDS_libpcreposix: libpcre (>= 8.38) glibc (>= 2.22)
+RPROVIDES_libpcreposix:  libpcreposix (=8.38)
+SECTION: devel
+PKG_libpcreposix: libpcreposix0
+FILES_libpcreposix: /usr/lib/libpcreposix.so.*
+FILERPROVIDESFLIST_libpcreposix: /usr/lib/libpcreposix.so.0.0.3
+FILES_INFO: {"/usr/lib/libpcreposix.so.0": 21, "/usr/lib/libpcreposix.so.0.0.3": 9816}
+FILERPROVIDES_/usr/lib/libpcreposix.so.0.0.3_libpcreposix: elf(buildid) (= 2da6b34e03a61045c563e6075ecf08a8d3c8c12f) libpcreposix.so.0
+FILERDEPENDSFLIST_libpcreposix: /usr/lib/libpcreposix.so.0.0.3
+FILERDEPENDS_/usr/lib/libpcreposix.so.0.0.3_libpcreposix: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpcre.so.1 rtld(GNU_HASH)
+PKGSIZE_libpcreposix: 9837

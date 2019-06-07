@@ -1,0 +1,14 @@
+PN: sfe
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION_sfe-dbg: Shortcut Forward Engine Driver  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_sfe-dbg: sfe version git-r0_perf - Debugging files
+SECTION_sfe-dbg: devel
+PKG_sfe-dbg: sfe-dbg
+ALLOW_EMPTY_sfe-dbg: 1
+FILES_sfe-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sfe/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sfe/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sfe/sfe/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_sfe-dbg: 0

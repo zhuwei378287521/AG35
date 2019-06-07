@@ -1,0 +1,13 @@
+PN: fluoride
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION: Bluetooth Fluoride Stack
+SUMMARY: fluoride version git-r0
+SECTION: base
+PKG_fluoride-locale: fluoride-locale
+FILES_fluoride-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_fluoride-locale: 0

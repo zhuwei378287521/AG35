@@ -1,0 +1,14 @@
+PN: loc-mq-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: LOC MQ Client
+SUMMARY: loc-mq-client version git-r1
+RPROVIDES_loc-mq-client-locale:  loc-mq-client-locale (=git)
+SECTION: base
+PKG_loc-mq-client-locale: libloc-mq-client-locale
+FILES_loc-mq-client-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-mq-client-locale: 0

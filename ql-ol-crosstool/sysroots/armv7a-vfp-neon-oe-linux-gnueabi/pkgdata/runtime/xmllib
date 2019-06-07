@@ -1,0 +1,19 @@
+PN: xmllib
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm XML Library
+SUMMARY: xmllib version git-r9
+RDEPENDS_xmllib: diag (>= git) time-genoff (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1)
+RPROVIDES_xmllib:  xmllib (=git)
+SECTION: base
+PKG_xmllib: libxml0
+FILES_xmllib: /usr/bin/* /usr/sbin/* /usr/lib/xmllib/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/xmllib /usr/lib/xmllib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_xmllib: /usr/lib/libxml.so.0.0.0
+FILES_INFO: {"/usr/lib/libxml.so.0.0.0": 38560, "/usr/lib/libxml.so.0": 15}
+FILERPROVIDES_/usr/lib/libxml.so.0.0.0_xmllib: elf(buildid) (= b185d9f66861985939e227df05f1041ac2841b15) libxml.so.0
+FILERDEPENDSFLIST_xmllib: /usr/lib/libxml.so.0.0.0
+FILERDEPENDS_/usr/lib/libxml.so.0.0.0_xmllib: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_xmllib: 38575

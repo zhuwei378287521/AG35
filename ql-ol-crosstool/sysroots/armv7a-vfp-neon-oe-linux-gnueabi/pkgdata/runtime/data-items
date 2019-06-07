@@ -1,0 +1,19 @@
+PN: data-items
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Data Items
+SUMMARY: data-items version git-r1
+RDEPENDS_data-items: loc-base-util (>= git) libcrypto (>= 1.0.2h) glibc (>= 2.22) libcutils (>= 1.0) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libsqlite3 (>= 3.8.10.2) loc-stub (>= git) libgcc (>= 4.9.3) gps-utils (>= git) liblog (>= 1.0) loc-pla (>= git) libssl (>= 1.0.2h)
+RPROVIDES_data-items:  data-items (=git)
+SECTION: base
+PKG_data-items: libdataitems1
+FILES_data-items: /usr/bin/* /usr/sbin/* /usr/lib/data-items/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/data-items /usr/lib/data-items/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_data-items: /usr/lib/libdataitems.so.1.0.0
+FILES_INFO: {"/usr/lib/libdataitems.so.1.0.0": 366264, "/usr/lib/libdataitems.so.1": 21}
+FILERPROVIDES_/usr/lib/libdataitems.so.1.0.0_data-items: elf(buildid) (= a43b911c3eca5dd727ce5393eb3d1479826216ce) libdataitems.so.1
+FILERDEPENDSFLIST_data-items: /usr/lib/libdataitems.so.1.0.0
+FILERDEPENDS_/usr/lib/libdataitems.so.1.0.0_data-items: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcutils.so.0 libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_utils_so.so.1 libgthread-2.0.so.0 libloc_base_util.so.1 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libsqlite3.so.0 libssl.so.1.0.0 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_data-items: 366285

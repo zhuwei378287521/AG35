@@ -1,0 +1,17 @@
+PN: gps-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_gps-utils-dev: GPS Utils  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gps-utils-dev: gps-utils version git-r1 - Development files
+RDEPENDS_gps-utils-dev: gps-utils (= git-r1)
+RPROVIDES_gps-utils-dev:  gps-utils-dev (=git)
+RRECOMMENDS_gps-utils-dev: glibc-dev loc-pla-dev liblog-dev libstdc++-dev libgcc-dev glib-2.0-dev libcutils-dev loc-stub-dev
+SECTION_gps-utils-dev: devel
+PKG_gps-utils-dev: libgps-utils-so-dev
+ALLOW_EMPTY_gps-utils-dev: 1
+FILES_gps-utils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gps-utils/*.la /lib/*.la
+FILES_INFO: {"/usr/include/gps-utils/loc_log.h": 2571, "/usr/include/gps-utils/linked_list.h": 6881, "/usr/include/gps-utils/loc_gps.h": 84394, "/usr/include/gps-utils/gps_extended_c.h": 46338, "/usr/lib/pkgconfig/gps-utils.pc": 207, "/usr/include/gps-utils/LocTimer.h": 3180, "/usr/include/gps-utils/msg_q.h": 6298, "/usr/include/gps-utils/loc_timer.h": 3139, "/usr/lib/libgps_utils_so.so": 24, "/usr/include/gps-utils/LocHeap.h": 4130, "/usr/include/gps-utils/LocThread.h": 3807, "/usr/lib/libgps_utils_so.la": 1262, "/usr/include/gps-utils/MsgTask.h": 2701, "/usr/include/gps-utils/loc_target.h": 3318, "/usr/include/gps-utils/loc_cfg.h": 3815, "/usr/include/gps-utils/loc_misc_utils.h": 4013, "/usr/include/gps-utils/gps_extended.h": 3827, "/usr/include/gps-utils/loc_nmea.h": 2563}
+PKGSIZE_gps-utils-dev: 182468

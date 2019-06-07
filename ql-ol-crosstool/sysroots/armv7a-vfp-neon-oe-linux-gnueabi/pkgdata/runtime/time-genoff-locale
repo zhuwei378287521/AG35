@@ -1,0 +1,14 @@
+PN: time-genoff
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Time Genoff Library
+SUMMARY: time-genoff version git-r0
+RPROVIDES_time-genoff-locale:  time-genoff-locale (=git)
+SECTION: base
+PKG_time-genoff-locale: libtime-genoff-locale
+FILES_time-genoff-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_time-genoff-locale: 0

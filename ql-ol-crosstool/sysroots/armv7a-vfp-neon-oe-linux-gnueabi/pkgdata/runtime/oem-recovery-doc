@@ -1,0 +1,13 @@
+PN: oem-recovery
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_oem-recovery-doc: OEM Recovery  This package contains documentation.
+SUMMARY_oem-recovery-doc: oem-recovery version git-r1 - Documentation files
+SECTION_oem-recovery-doc: doc
+PKG_oem-recovery-doc: oem-recovery-doc
+FILES_oem-recovery-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_oem-recovery-doc: 0

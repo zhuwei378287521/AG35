@@ -1,0 +1,14 @@
+PN: slim-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: SLIM Utils
+SUMMARY: slim-utils version git-r1
+RPROVIDES_slim-utils-locale:  slim-utils-locale (=git)
+SECTION: base
+PKG_slim-utils-locale: libslimutils-locale
+FILES_slim-utils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_slim-utils-locale: 0

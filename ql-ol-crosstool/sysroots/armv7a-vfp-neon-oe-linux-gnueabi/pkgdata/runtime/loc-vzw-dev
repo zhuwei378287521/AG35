@@ -1,0 +1,17 @@
+PN: loc-vzw
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-vzw-dev: GPS Location vzw  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-vzw-dev: loc-vzw version git-r1 - Development files
+RDEPENDS_loc-vzw-dev: loc-vzw (= git-r1)
+RPROVIDES_loc-vzw-dev:  loc-vzw-dev (=git)
+RRECOMMENDS_loc-vzw-dev: liblog-dev loc-flp-hdr-dev libgcc-dev time-genoff-dev glib-2.0-dev gps-utils-dev loc-hal-dev data-dev qmi-dev ql-syslog-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libstdc++-dev dsutils-dev libcutils-dev loc-stub-dev data-oss-dev qmi-client-helper-dev qmi-framework-dev diag-dev
+SECTION_loc-vzw-dev: devel
+PKG_loc-vzw-dev: libloc-ext-dev
+ALLOW_EMPTY_loc-vzw-dev: 1
+FILES_loc-vzw-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-vzw/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/loc-vzw.pc": 224, "/usr/include/loc-vzw/vzwGpsLocationProvider/loc_ext/loc_vzw.h": 8067, "/usr/lib/libloc_ext.so": 19, "/usr/lib/libloc_ext.la": 2527}
+PKGSIZE_loc-vzw-dev: 10837

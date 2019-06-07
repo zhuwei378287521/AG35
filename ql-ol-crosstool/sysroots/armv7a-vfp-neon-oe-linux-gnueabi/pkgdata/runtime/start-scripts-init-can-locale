@@ -1,0 +1,13 @@
+PN: start-scripts-init-can
+PV: 1.0
+PR: r2
+PKGV: 1.0
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION: Start up script for setting up the can link
+SUMMARY: start-scripts-init-can version 1.0-r2
+SECTION: base
+PKG_start-scripts-init-can-locale: start-scripts-init-can-locale
+FILES_start-scripts-init-can-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_start-scripts-init-can-locale: 0

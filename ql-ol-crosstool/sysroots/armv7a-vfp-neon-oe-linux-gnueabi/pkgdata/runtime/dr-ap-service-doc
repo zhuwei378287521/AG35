@@ -1,0 +1,13 @@
+PN: dr-ap-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_dr-ap-service-doc: DR AP service  This package contains documentation.
+SUMMARY_dr-ap-service-doc: dr-ap-service version git-r1 - Documentation files
+SECTION_dr-ap-service-doc: doc
+PKG_dr-ap-service-doc: dr-ap-service-doc
+FILES_dr-ap-service-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_dr-ap-service-doc: 0

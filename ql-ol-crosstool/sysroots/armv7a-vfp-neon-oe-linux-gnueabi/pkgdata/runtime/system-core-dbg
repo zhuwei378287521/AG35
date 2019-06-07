@@ -1,0 +1,15 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION_system-core-dbg: Android system/core components  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_system-core-dbg: system-core version git-r19_perf - Debugging files
+RRECOMMENDS_system-core-dbg: libselinux-dbg glibc-dbg zlib-dbg libstdc++-dbg ext4-utils-dbg libmincrypt-dbg liblog-dbg libsparse-dbg libpcre-dbg glib-2.0-dbg libgcc-dbg ql-libsepol-dbg libcutils-dbg libunwind-dbg
+SECTION_system-core-dbg: devel
+PKG_system-core-dbg: system-core-dbg
+ALLOW_EMPTY_system-core-dbg: 1
+FILES_system-core-dbg: /usr/bin/.debug/* /usr/lib/.debug/*
+FILES_INFO: {"/usr/lib/.debug/libutils.so.0.0.0": 37456, "/usr/bin/.debug/debuggerd": 11440, "/usr/lib/.debug/libfs_mgr.so.0.0.0": 17528, "/usr/lib/.debug/libbacktrace.so.0.0.0": 15780, "/usr/lib/.debug/libbase.so.0.0.0": 12004, "/usr/lib/.debug/liblogwrap.so.0.0.0": 6828, "/usr/bin/.debug/logwrapper": 5188, "/usr/bin/.debug/logcat": 9052, "/usr/bin/.debug/crasher": 6264, "/usr/lib/.debug/libsync.so.0.0.0": 4284, "/usr/bin/.debug/sync_test": 14624, "/usr/bin/.debug/fs_mgr": 5180}
+PKGSIZE_system-core-dbg: 145628

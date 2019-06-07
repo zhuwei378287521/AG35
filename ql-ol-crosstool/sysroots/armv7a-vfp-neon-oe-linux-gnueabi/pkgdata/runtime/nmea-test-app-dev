@@ -1,0 +1,16 @@
+PN: nmea-test-app
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_nmea-test-app-dev: NMEA test application   This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_nmea-test-app-dev: nmea-test-app version git-r1 - Development files
+RDEPENDS_nmea-test-app-dev: nmea-test-app (= git-r1)
+RRECOMMENDS_nmea-test-app-dev: glib-2.0-dev loc-hal-dev glibc-dev liblog-dev
+SECTION_nmea-test-app-dev: devel
+PKG_nmea-test-app-dev: nmea-test-app-dev
+ALLOW_EMPTY_nmea-test-app-dev: 1
+FILES_nmea-test-app-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/nmea-test-app/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_nmea-test-app-dev: 0

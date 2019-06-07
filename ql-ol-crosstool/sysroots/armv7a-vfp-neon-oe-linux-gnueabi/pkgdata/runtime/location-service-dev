@@ -1,0 +1,17 @@
+PN: location-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-service-dev: GPS Location Service library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_location-service-dev: location-service version git-r1 - Development files
+RDEPENDS_location-service-dev: location-service (= git-r1)
+RPROVIDES_location-service-dev:  location-service-dev (=git)
+RRECOMMENDS_location-service-dev: liblog-dev loc-base-util-dev loc-flp-hdr-dev libgcc-dev time-genoff-dev glib-2.0-dev event-observer-dev gps-utils-dev loc-mq-client-dev ulp2-dev data-dev libsqlite3-dev qmi-dev ql-syslog-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev libcrypto-dev libstdc++-dev gnsspps-dev loc-hal-dev lowi-client-dev data-items-dev libcutils-dev loc-net-iface-dev lbs-core-dev system-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev dsutils-dev drplugin-client-dev drplugin-dev qmi-framework-dev diag-dev
+SECTION_location-service-dev: devel
+PKG_location-service-dev: liblocationservice-dev
+ALLOW_EMPTY_location-service-dev: 1
+FILES_location-service-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/location-service/*.la /lib/*.la
+FILES_INFO: {"/usr/include/location-service/LBSAdapter.h": 3861, "/usr/include/location-service/IzatLocation.h": 12846, "/usr/include/location-service/IzatTypes.h": 3657, "/usr/include/location-service/IDataItemObserver.h": 1413, "/usr/include/location-service/IIzatListener.h": 1954, "/usr/include/location-service/loc_extended.h": 1447, "/usr/include/location-service/IOSListener.h": 865, "/usr/include/location-service/IzatNmea.h": 2855, "/usr/include/location-service/IOSLocationProvider.h": 2869, "/usr/include/location-service/IIzatManager.h": 4001, "/usr/lib/pkgconfig/location-service.pc": 316, "/usr/include/location-service/IOSFramework.h": 2807, "/usr/include/location-service/IRawCommandInjector.h": 704, "/usr/include/location-service/ulp_service.h": 13684, "/usr/include/location-service/IzatSvInfo.h": 1934, "/usr/include/location-service/IOSFrameworkCleaner.h": 1131, "/usr/include/location-service/IFrameworkActionReq.h": 2062, "/usr/include/location-service/IzatRequest.h": 9730, "/usr/lib/liblocationservice.la": 3452, "/usr/include/location-service/IDataItemQuery.h": 1354, "/usr/include/location-service/IzatDefines.h": 859, "/usr/lib/liblocationservice.so": 27, "/usr/include/location-service/GeoFencerProxyMsgs.h": 830, "/usr/include/location-service/IDataItemSubscription.h": 4411}
+PKGSIZE_location-service-dev: 79069

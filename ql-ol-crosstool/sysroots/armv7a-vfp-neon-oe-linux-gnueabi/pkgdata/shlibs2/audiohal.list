@@ -1,0 +1,3 @@
+audio_primary_default.so:/usr/lib:1.0
+libqahw.so:/usr/lib:1.0
+libqcompostprocbundle.so:/usr/lib:1.0

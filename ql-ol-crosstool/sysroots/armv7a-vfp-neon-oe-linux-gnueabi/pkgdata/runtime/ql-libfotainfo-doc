@@ -1,0 +1,14 @@
+PN: ql-libfotainfo
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-libfotainfo-doc: Quectel Function Daemon  This package contains documentation.
+SUMMARY_ql-libfotainfo-doc: ql-libfotainfo version git-r1 - Documentation files
+RPROVIDES_ql-libfotainfo-doc:  ql-libfotainfo-doc (=git)
+SECTION_ql-libfotainfo-doc: doc
+PKG_ql-libfotainfo-doc: libfotainfo-doc
+FILES_ql-libfotainfo-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ql-libfotainfo-doc: 0

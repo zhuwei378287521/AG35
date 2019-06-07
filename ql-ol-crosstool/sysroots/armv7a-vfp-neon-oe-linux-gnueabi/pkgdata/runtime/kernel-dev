@@ -1,0 +1,14 @@
+PN: linux-quic
+PV: git
+PR: r5_perf
+PKGV: git
+PKGR: r5_perf
+LICENSE: GPLv2
+DESCRIPTION: QuIC Linux Kernel
+SUMMARY: linux-quic version git-r5_perf
+RRECOMMENDS_kernel-dev: kernel-base-dev kernel-module-mmc-test-dev kernel-module-qca8337-dev kernel-3.18.48-dev kernel-module-ql-lpm-dev kernel-module-ansi-cprng-dev kernel-module-quec-spi-chn-dev kernel-module-gpio-axis-dev kernel-module-af-key-dev kernel-module-quectel-phy-dev kernel-module-spidev-dev kernel-module-qcom-emac-dev kernel-module-mmc-block-test-dev kernel-module-gpio-input-dev kernel-module-gpio-event-dev kernel-module-xt-physdev-dev kernel-module-at803x-dev kernel-module-test-iosched-dev kernel-module-gpio-output-dev kernel-module-gpio-matrix-dev kernel-module-low-power-consume-driver-v2-dev
+SECTION: base
+PKG_kernel-dev: kernel-dev
+FILES_kernel-dev: /boot/System.map* /boot/Module.symvers* /boot/config* /usr/src/kernel /lib/modules/3.18.48/build /boot/zImage-3.18.48
+FILES_INFO: {"/boot/config-3.18.48": 101394, "/boot/Module.symvers-3.18.48": 408450, "/boot/System.map-3.18.48": 2553479, "/boot/zImage-3.18.48": 5624928}
+PKGSIZE_kernel-dev: 8688251

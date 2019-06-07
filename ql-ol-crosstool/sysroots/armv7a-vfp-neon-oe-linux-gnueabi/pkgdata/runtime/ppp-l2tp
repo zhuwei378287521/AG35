@@ -1,0 +1,20 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+SUMMARY_ppp-l2tp: Plugin for PPP for l2tp support
+RDEPENDS_ppp-l2tp: glibc (>= 2.22)
+SECTION: console/network
+PKG_ppp-l2tp: ppp-l2tp
+FILES_ppp-l2tp: /usr/lib/pppd/2.4.7/*l2tp.so
+FILERPROVIDESFLIST_ppp-l2tp: /usr/lib/pppd/2.4.7/openl2tp.so /usr/lib/pppd/2.4.7/pppol2tp.so
+FILES_INFO: {"/usr/lib/pppd/2.4.7/openl2tp.so": 9748, "/usr/lib/pppd/2.4.7/pppol2tp.so": 14300}
+FILERPROVIDES_/usr/lib/pppd/2.4.7/openl2tp.so_ppp-l2tp: elf(buildid) (= 0e5b59070a011e0ac312e7c86b8a110eaac9eb5a) openl2tp.so
+FILERPROVIDES_/usr/lib/pppd/2.4.7/pppol2tp.so_ppp-l2tp: elf(buildid) (= 599f7fd512e9431e9b1f5cbbd490dda648d4b235) pppol2tp.so
+FILERDEPENDSFLIST_ppp-l2tp: /usr/lib/pppd/2.4.7/openl2tp.so /usr/lib/pppd/2.4.7/pppol2tp.so
+FILERDEPENDS_/usr/lib/pppd/2.4.7/openl2tp.so_ppp-l2tp: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/pppd/2.4.7/pppol2tp.so_ppp-l2tp: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ppp-l2tp: 24048

@@ -1,0 +1,18 @@
+PN: acdbloader
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb loader Library
+SUMMARY: acdbloader version git-r7
+RDEPENDS_acdbloader: audioalsa (>= git) adiertac (>= 1.0) diag (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) liblog (>= 1.0) acdbrtac (>= 1.0) audcal (>= git) time-genoff (>= git) acdbmapper (>= git)
+SECTION: base
+PKG_acdbloader: acdbloader
+FILES_acdbloader: /usr/lib/*.so /usr/lib/*.so.* /etc/* /usr/lib/pkgconfig/*
+FILERPROVIDESFLIST_acdbloader: /usr/lib/libacdbloader.so
+FILES_INFO: {"/etc/firmware/wcd9310/wcd9310_mbhc.bin": 25, "/usr/lib/pkgconfig/acdbloader.pc": 199, "/etc/firmware/wcd9310/wcd9310_anc.bin": 32, "/usr/lib/libacdbloader.so": 97196}
+FILERPROVIDES_/usr/lib/libacdbloader.so_acdbloader: elf(buildid) (= 59acd46bd6989def41fdc04e6ed6e0b80fe4526f) libacdbloader.so
+FILERDEPENDSFLIST_acdbloader: /usr/lib/libacdbloader.so
+FILERDEPENDS_/usr/lib/libacdbloader.so_acdbloader: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libacdbmapper.so.1 libacdbrtac.so.1 libadiertac.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_acdbloader: 97452

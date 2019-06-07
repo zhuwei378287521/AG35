@@ -1,0 +1,13 @@
+PN: izat-api-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_izat-api-hdr-doc: Izat api hdr  This package contains documentation.
+SUMMARY_izat-api-hdr-doc: izat-api-hdr version git-r1 - Documentation files
+SECTION_izat-api-hdr-doc: doc
+PKG_izat-api-hdr-doc: izat-api-hdr-doc
+FILES_izat-api-hdr-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_izat-api-hdr-doc: 0

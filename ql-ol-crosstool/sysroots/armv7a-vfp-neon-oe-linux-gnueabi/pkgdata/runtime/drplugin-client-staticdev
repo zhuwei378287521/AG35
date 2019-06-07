@@ -1,0 +1,15 @@
+PN: drplugin-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-client-staticdev: DR Plugin client  This package contains static libraries for software development.
+SUMMARY_drplugin-client-staticdev: drplugin-client version git-r1 - Development files (Static Libraries)
+RDEPENDS_drplugin-client-staticdev: drplugin-client-dev (= git-r1)
+RPROVIDES_drplugin-client-staticdev:  drplugin-client-staticdev (=git)
+SECTION_drplugin-client-staticdev: devel
+PKG_drplugin-client-staticdev: libdrplugin-client-staticdev
+FILES_drplugin-client-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/drplugin-client/*.a
+FILES_INFO: {}
+PKGSIZE_drplugin-client-staticdev: 0

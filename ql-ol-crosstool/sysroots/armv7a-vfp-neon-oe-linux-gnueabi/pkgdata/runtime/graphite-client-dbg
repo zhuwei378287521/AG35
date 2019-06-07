@@ -1,0 +1,15 @@
+PN: graphite-client
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_graphite-client-dbg: Graphite-client Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_graphite-client-dbg: graphite-client version git-r0 - Debugging files
+RRECOMMENDS_graphite-client-dbg: liblog-dbg libstdc++-dbg glibc-dbg expat-dbg
+SECTION_graphite-client-dbg: devel
+PKG_graphite-client-dbg: graphite-client-dbg
+ALLOW_EMPTY_graphite-client-dbg: 1
+FILES_graphite-client-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/graphite-client/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/graphite-client/.debug /usr/lib/matchbox-panel/.debug /usr/lib/graphite-client/graphite-client/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libgcs-ipc.so.0.0.0": 33228, "/usr/lib/.debug/libgcs-osal.so.0.0.0": 30172, "/usr/lib/.debug/libgcs-calwrapper.so.0.0.0": 18108, "/usr/lib/.debug/libgcs.so.0.0.0": 65712}
+PKGSIZE_graphite-client-dbg: 147220

@@ -1,0 +1,18 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r19_perf
+RRECOMMENDS_system-core-debuggerd:  update-rc.d
+SECTION: base
+PKG_system-core-debuggerd: system-core-debuggerd
+FILES_system-core-debuggerd: /etc/init.d/init_debuggerd /sbin/debuggerd /sbin/debuggerd64 /lib/systemd/system/init_debuggerd.service /lib/systemd/system/multi-user.target.wants/init_debuggerd.service /lib/systemd/system/ffbm.target.wants/init_debuggerd.service
+pkg_postinst_system-core-debuggerd: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT init_debuggerd start 31 2 3 4 5 . stop 38 6 .\nfi\n
+pkg_postrm_system-core-debuggerd: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT init_debuggerd remove\nfi\n
+pkg_preinst_system-core-debuggerd: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/init_debuggerd" ]; then\n\t/etc/init.d/init_debuggerd stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT init_debuggerd remove\nfi\n
+pkg_prerm_system-core-debuggerd: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/init_debuggerd stop\nfi\n
+FILES_INFO: {}
+PKGSIZE_system-core-debuggerd: 0

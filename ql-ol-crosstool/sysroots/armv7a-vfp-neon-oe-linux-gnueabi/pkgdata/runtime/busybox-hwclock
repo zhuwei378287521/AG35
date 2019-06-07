@@ -1,0 +1,15 @@
+PN: busybox
+PV: 1.23.2
+PR: r0.1
+PKGV: 1.23.2
+PKGR: r0.1
+LICENSE: GPLv2 & bzip2
+DESCRIPTION: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.
+SUMMARY: Tiny versions of many common UNIX utilities in a single small executable
+SECTION: base
+PKG_busybox-hwclock: busybox-hwclock
+FILES_busybox-hwclock: /etc/init.d/hwclock.sh
+FILES_INFO: {"/etc/init.d/hwclock.sh": 2541}
+FILERDEPENDSFLIST_busybox-hwclock: /etc/init.d/hwclock.sh
+FILERDEPENDS_/etc/init.d/hwclock.sh_busybox-hwclock: /bin/sh
+PKGSIZE_busybox-hwclock: 2541

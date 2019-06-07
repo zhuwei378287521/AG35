@@ -1,0 +1,23 @@
+PN: ql-pwrkey-monitor
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel ql_pwrkey_monitor data dispatch
+SUMMARY: ql-pwrkey-monitor version git-r1
+RDEPENDS_ql-pwrkey-monitor: glibc (>= 2.22)
+RRECOMMENDS_ql-pwrkey-monitor:  update-rc.d
+SECTION: base
+PKG_ql-pwrkey-monitor: ql-pwrkey-monitor
+FILES_ql-pwrkey-monitor: /usr/bin/* /usr/sbin/* /usr/lib/ql-pwrkey-monitor/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ql-pwrkey-monitor /usr/lib/ql-pwrkey-monitor/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_ql-pwrkey-monitor: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT ql-pwrkey-monitor start 91 2 3 4 5 .\nfi\n
+pkg_postrm_ql-pwrkey-monitor: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT ql-pwrkey-monitor remove\nfi\n
+pkg_preinst_ql-pwrkey-monitor: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/ql-pwrkey-monitor" ]; then\n\t/etc/init.d/ql-pwrkey-monitor stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT ql-pwrkey-monitor remove\nfi\n
+pkg_prerm_ql-pwrkey-monitor: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/ql-pwrkey-monitor stop\nfi\n
+FILERPROVIDESFLIST_ql-pwrkey-monitor: /usr/bin/ql@underscore@pwrkey@underscore@monitor
+FILES_INFO: {"/usr/bin/ql_pwrkey_monitor": 5808, "/etc/init.d/ql-pwrkey-monitor": 950}
+FILERPROVIDES_/usr/bin/ql@underscore@pwrkey@underscore@monitor_ql-pwrkey-monitor: elf(buildid) (= cea287e9ee1b1a874d0cd1e57ab1dd74039901d6)
+FILERDEPENDSFLIST_ql-pwrkey-monitor: /usr/bin/ql@underscore@pwrkey@underscore@monitor
+FILERDEPENDS_/usr/bin/ql@underscore@pwrkey@underscore@monitor_ql-pwrkey-monitor: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ql-pwrkey-monitor: 6758

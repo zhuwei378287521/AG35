@@ -1,0 +1,14 @@
+PN: configdb
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Data Configdb Module
+SUMMARY: configdb version git-r5
+RPROVIDES_configdb-locale:  configdb-locale (=git)
+SECTION: base
+PKG_configdb-locale: libconfigdb-locale
+FILES_configdb-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_configdb-locale: 0

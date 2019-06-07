@@ -1,0 +1,14 @@
+PN: mcm-core
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mcm-core-staticdev: QTI Mobile Connection Manager Core libraries and Service  This package contains static libraries for software development.
+SUMMARY_mcm-core-staticdev: mcm-core version git-r5 - Development files (Static Libraries)
+RDEPENDS_mcm-core-staticdev: mcm-core-dev (= git-r5)
+SECTION_mcm-core-staticdev: devel
+PKG_mcm-core-staticdev: mcm-core-staticdev
+FILES_mcm-core-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/mcm-core/*.a
+FILES_INFO: {"/usr/lib/libmcm.a": 125154, "/usr/lib/libmcm_log_util.a": 30498, "/usr/lib/libmcmipc.a": 83134, "/usr/lib/libmcm_srv_audio.a": 73658}
+PKGSIZE_mcm-core-staticdev: 312444

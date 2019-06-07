@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: loc-net-iface
+Description: GPS Loc Net Iface
+Version: @VERSION
+Libs: -L${libdir} -lloc_net_iface
+Cflags: -I${includedir} -I${includedir}/loc-net-iface -I${includedir}/loc-net-iface/le

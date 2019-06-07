@@ -1,0 +1,26 @@
+PN: audiohal
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: audiohal
+SUMMARY: audiohal version 1.0-r0
+RDEPENDS_audiohal: tinyalsa (>= git) glibc (>= 2.22) expat (>= 2.1.0) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) system-media (>= git) tinycompress (>= git) system-core (>= git) libhardware (>= git)
+SECTION: multimedia
+PKG_audiohal: audiohal
+FILES_audiohal: /usr/lib/*.so /usr/lib/*.so.* /etc/* /usr/lib/pkgconfig/* /usr/bin/* /data/*
+FILERPROVIDESFLIST_audiohal: /usr/bin/hal@underscore@rec@underscore@test /usr/bin/hal@underscore@play@underscore@test /usr/lib/audio@underscore@primary@underscore@default.so /usr/lib/libqcompostprocbundle.so /usr/lib/libqahw.so
+FILES_INFO: {"/usr/lib/libqahw.so": 34320, "/etc/audio_platform_info_extcodec.xml": 2320, "/usr/lib/audio.primary.default.so": 24, "/usr/lib/libqcompostprocbundle.so": 63188, "/usr/lib/audio_primary_default.so": 316548, "/etc/mixer_paths_wcd9330_i2s.xml": 29398, "/usr/bin/hal_play_test": 59876, "/usr/bin/hal_rec_test": 30620}
+FILERPROVIDES_/usr/bin/hal@underscore@rec@underscore@test_audiohal: elf(buildid) (= be9605c18eecce808ae33db2e0a568bc892c602c)
+FILERPROVIDES_/usr/bin/hal@underscore@play@underscore@test_audiohal: elf(buildid) (= 72355418812fff1234177aaf0eb7628ec585bd0d)
+FILERPROVIDES_/usr/lib/audio@underscore@primary@underscore@default.so_audiohal: audio_primary_default.so elf(buildid) (= 7c3a2c2ae3c8a23aad339fb47171dfc0f671e534)
+FILERPROVIDES_/usr/lib/libqcompostprocbundle.so_audiohal: elf(buildid) (= b2e63a0dd83e810f371ed99997ae5d0c4416bd40) libqcompostprocbundle.so
+FILERPROVIDES_/usr/lib/libqahw.so_audiohal: elf(buildid) (= 847c097d1ecd46c3b836007c249a588cc8bb6337) libqahw.so
+FILERDEPENDSFLIST_audiohal: /usr/bin/hal@underscore@rec@underscore@test /usr/bin/hal@underscore@play@underscore@test /usr/lib/audio@underscore@primary@underscore@default.so /usr/lib/libqcompostprocbundle.so /usr/lib/libqahw.so
+FILERDEPENDS_/usr/bin/hal@underscore@rec@underscore@test_audiohal: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqahw.so libutils.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/hal@underscore@play@underscore@test_audiohal: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqahw.so libutils.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/audio@underscore@primary@underscore@default.so_audiohal: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libaudioroute.so.0 libaudioutils.so.0 libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 libdl.so.2 libdl.so.2(GLIBC_2.4) libexpat.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libtinyalsa.so.1 libtinycompress.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libqcompostprocbundle.so_audiohal: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libdl.so.2 libdl.so.2(GLIBC_2.4) libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libtinyalsa.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libqahw.so_audiohal: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libdl.so.2 libdl.so.2(GLIBC_2.4) libhardware.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_audiohal: 536294

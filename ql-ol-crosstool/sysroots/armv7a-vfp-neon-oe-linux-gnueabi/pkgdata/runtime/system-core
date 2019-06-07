@@ -1,0 +1,40 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r19_perf
+RDEPENDS_system-core: glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) libgcc (>= 4.9.3) libunwind (>= 1.0)
+SECTION: base
+PKG_system-core: system-core
+FILES_system-core: /usr/bin/* /usr/lib/pkgconfig/* /usr/lib/*.so.* 
+FILERPROVIDESFLIST_system-core: /usr/lib/liblogwrap.so.0.0.0 /usr/bin/logwrapper /usr/lib/libfs@underscore@mgr.so.0.0.0 /usr/lib/libutils.so.0.0.0 /usr/lib/libbase.so.0.0.0 /usr/bin/logcat /usr/bin/crasher /usr/bin/debuggerd /usr/lib/libbacktrace.so.0.0.0 /usr/lib/libsync.so.0.0.0 /usr/bin/sync@underscore@test /usr/bin/fs@underscore@mgr
+FILES_INFO: {"/usr/lib/liblogwrap.so.0.0.0": 13848, "/usr/bin/logwrapper": 5800, "/usr/lib/pkgconfig/libbase.pc": 177, "/usr/lib/libbase.so.0.0.0": 26352, "/usr/lib/pkgconfig/libbacktrace.pc": 192, "/usr/lib/libfs_mgr.so.0.0.0": 38848, "/usr/lib/libbacktrace.so.0.0.0": 42736, "/usr/lib/libsync.so.0": 16, "/usr/lib/libbacktrace.so.0": 21, "/usr/bin/logcat": 26284, "/usr/bin/crasher": 9892, "/usr/lib/pkgconfig/libsync.pc": 180, "/usr/lib/libutils.so.0": 17, "/usr/bin/fs_mgr": 5800, "/usr/lib/pkgconfig/libutils.pc": 174, "/usr/lib/pkgconfig/logwrapper.pc": 180, "/usr/lib/libutils.so.0.0.0": 87800, "/usr/lib/pkgconfig/fs_mgr.pc": 177, "/usr/lib/libsync.so.0.0.0": 5656, "/usr/lib/libbase.so.0": 16, "/usr/bin/debuggerd": 46760, "/usr/lib/libfs_mgr.so.0": 18, "/usr/lib/liblogwrap.so.0": 19, "/usr/bin/sync_test": 9896}
+FILERPROVIDES_/usr/lib/liblogwrap.so.0.0.0_system-core: elf(buildid) (= 1fe263bf92b134c62ed7c429cc25ab080c583ee1) liblogwrap.so.0
+FILERPROVIDES_/usr/bin/logwrapper_system-core: elf(buildid) (= 6c8820344af2b7ee4d7ad3f506d35ddf55529d8a)
+FILERPROVIDES_/usr/lib/libfs@underscore@mgr.so.0.0.0_system-core: elf(buildid) (= 5eab23893e8d19afc4339a56f44d4f3b3380a082) libfs_mgr.so.0
+FILERPROVIDES_/usr/lib/libutils.so.0.0.0_system-core: elf(buildid) (= fb63aee2e731d234cef37fec0d1d0a6057865616) libutils.so.0
+FILERPROVIDES_/usr/lib/libbase.so.0.0.0_system-core: elf(buildid) (= 1e73da9ab06022e396b3d61c4e6c29b7b8dd3119) libbase.so.0
+FILERPROVIDES_/usr/bin/logcat_system-core: elf(buildid) (= 25333cfef9e3c7782b3e678c971f4d6c14ece578)
+FILERPROVIDES_/usr/bin/crasher_system-core: elf(buildid) (= 4278e9842303883d3972db526b322838a9e7ebe0)
+FILERPROVIDES_/usr/bin/debuggerd_system-core: elf(buildid) (= 44e5770bb70175805540f0cdd0eb7f2d6180e370)
+FILERPROVIDES_/usr/lib/libbacktrace.so.0.0.0_system-core: elf(buildid) (= 372435e8c7fa73d73005a53fb39f53c19c2c8c96) libbacktrace.so.0
+FILERPROVIDES_/usr/lib/libsync.so.0.0.0_system-core: elf(buildid) (= 387d2ed55281875391029ca2e253afc08621c17f) libsync.so.0
+FILERPROVIDES_/usr/bin/sync@underscore@test_system-core: elf(buildid) (= dd2f89034d4cd1eb8b0a40718a5687059647d284)
+FILERPROVIDES_/usr/bin/fs@underscore@mgr_system-core: elf(buildid) (= 18318580a9fe2111b084df570459231774762e06)
+FILERDEPENDSFLIST_system-core: /usr/lib/liblogwrap.so.0.0.0 /usr/bin/logwrapper /usr/lib/libfs@underscore@mgr.so.0.0.0 /usr/lib/libutils.so.0.0.0 /usr/lib/libbase.so.0.0.0 /usr/bin/logcat /usr/bin/crasher /usr/bin/debuggerd /usr/lib/libbacktrace.so.0.0.0 /usr/lib/libsync.so.0.0.0 /usr/bin/sync@underscore@test /usr/bin/fs@underscore@mgr
+FILERDEPENDS_/usr/lib/liblogwrap.so.0.0.0_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/logwrapper_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 liblog.so.0 liblogwrap.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libfs@underscore@mgr.so.0.0.0_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 liblogwrap.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libutils.so.0.0.0_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libm.so.6(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libbase.so.0.0.0_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.11) libstdc++.so.6(GLIBCXX_3.4.14) libstdc++.so.6(GLIBCXX_3.4.20) libstdc++.so.6(GLIBCXX_3.4.9) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/logcat_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbase.so.0 libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcutils.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/crasher_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/debuggerd_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbacktrace.so.0 libbase.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_1.3.8) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libbacktrace.so.0.0.0_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbase.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.20) libunwind.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libsync.so.0.0.0_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) liblog.so.0 libstdc++.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sync@underscore@test_system-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/fs@underscore@mgr_system-core: libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libfs_mgr.so.0 liblog.so.0 rtld(GNU_HASH)
+PKGSIZE_system-core: 320859

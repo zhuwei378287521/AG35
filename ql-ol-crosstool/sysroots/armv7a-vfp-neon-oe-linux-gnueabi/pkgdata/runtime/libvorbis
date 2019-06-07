@@ -1,0 +1,22 @@
+PN: libvorbis
+PV: 1.3.3
+PR: r1
+PKGV: 1.3.3
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: General purpose compressed audio format for mid to high quality at fixed variable bitrates..
+SUMMARY: General purpose compressed audio format for mid to high quality at fixed variable bitrates.
+RDEPENDS_libvorbis: glibc (>= 2.22) libogg (>= 1.3.2)
+SECTION: base
+PKG_libvorbis: libvorbis
+FILES_libvorbis: /usr/bin/* /usr/sbin/* /usr/lib/libvorbis/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libvorbis /usr/lib/libvorbis/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libvorbis: /usr/lib/libvorbisfile.so.3.3.5 /usr/lib/libvorbis.so.0.4.6 /usr/lib/libvorbisenc.so.2.0.9
+FILES_INFO: {"/usr/lib/libvorbisenc.so.2": 21, "/usr/lib/libvorbis.so.0": 18, "/usr/lib/libvorbisfile.so.3.3.5": 30252, "/usr/lib/libvorbis.so.0.4.6": 169608, "/usr/lib/libvorbisfile.so.3": 22, "/usr/lib/libvorbisenc.so.2.0.9": 1500804}
+FILERPROVIDES_/usr/lib/libvorbisfile.so.3.3.5_libvorbis: elf(buildid) (= a4fadd3dcf22258bd02800acd4a2521a4f37c62a) libvorbisfile.so.3
+FILERPROVIDES_/usr/lib/libvorbis.so.0.4.6_libvorbis: elf(buildid) (= b30afb34a47526703af5248a086267482986f3d3) libvorbis.so.0
+FILERPROVIDES_/usr/lib/libvorbisenc.so.2.0.9_libvorbis: elf(buildid) (= f3122e1be557e201cb2e6d52cec3f4e294d5a796) libvorbisenc.so.2
+FILERDEPENDSFLIST_libvorbis: /usr/lib/libvorbisfile.so.3.3.5 /usr/lib/libvorbis.so.0.4.6 /usr/lib/libvorbisenc.so.2.0.9
+FILERDEPENDS_/usr/lib/libvorbisfile.so.3.3.5_libvorbis: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libogg.so.0 libvorbis.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libvorbis.so.0.4.6_libvorbis: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.15) libm.so.6(GLIBC_2.4) libogg.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libvorbisenc.so.2.0.9_libvorbis: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libogg.so.0 libvorbis.so.0 rtld(GNU_HASH)
+PKGSIZE_libvorbis: 1700725

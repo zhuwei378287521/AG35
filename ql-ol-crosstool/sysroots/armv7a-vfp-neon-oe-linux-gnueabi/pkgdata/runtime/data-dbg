@@ -1,0 +1,15 @@
+PN: data
+PV: git
+PR: r25
+PKGV: git
+PKGR: r25
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_data-dbg: Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_data-dbg: data version git-r25 - Debugging files
+RRECOMMENDS_data-dbg: dsutils-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg libstdc++-dbg diag-dbg time-genoff-dbg data-oss-dbg pugixml-dbg ql-syslog-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg qmi-dbg
+SECTION_data-dbg: devel
+PKG_data-dbg: data-dbg
+ALLOW_EMPTY_data-dbg: 1
+FILES_data-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/data/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/data/.debug /usr/lib/matchbox-panel/.debug /usr/lib/data/data/.debug /usr/src/debug  /usr/tests/.debug                      /WEBSERVER/www/cgi-bin/.debug 
+FILES_INFO: {"/usr/bin/.debug/eMBMs_TunnelingModule": 71092, "/usr/lib/.debug/libdsi_netctrl.so.0.0.0": 1073184, "/usr/lib/.debug/libqcmap_client.so.1.0.0": 433468, "/usr/bin/.debug/netmgrd": 1280232, "/usr/lib/.debug/libqcmaputils.so.1.0.0": 6892, "/usr/bin/.debug/qti": 288388, "/usr/bin/.debug/QCMAP_Web_CLIENT": 167160, "/usr/tests/.debug/dsi_netctrl_test": 56700, "/usr/bin/.debug/portal_ctl": 18228, "/usr/lib/.debug/libqcmapipc.so.1.0.0": 25068, "/WEBSERVER/www/cgi-bin/.debug/qcmap_web_cgi": 17580, "/usr/lib/.debug/libqcmap_cm.so.1.0.0": 266260, "/usr/lib/.debug/libnetmgr.so.0.0.0": 181592, "/usr/bin/.debug/QCMAP_StaInterface": 14172, "/usr/lib/.debug/libqdp.so.0.0.0": 27944, "/WEBSERVER/www/cgi-bin/.debug/qcmap_auth": 28004, "/usr/bin/.debug/QCMAP_CLI": 173332, "/usr/bin/.debug/radish": 162956, "/usr/bin/.debug/qmi_ip_multiclient": 268516, "/usr/lib/.debug/libqdi.so.0.0.0": 236380, "/usr/bin/.debug/portal_gateway": 248584, "/usr/bin/.debug/qti_ppp": 93632, "/usr/lib/.debug/libqmi_ip.so.1.0.0": 4492, "/usr/bin/.debug/QCMAP_ConnectionManager": 3342224}
+PKGSIZE_data-dbg: 8486080

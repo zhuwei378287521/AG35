@@ -1,0 +1,13 @@
+PN: slim-common-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-common-hdr-doc: slim common hdr  This package contains documentation.
+SUMMARY_slim-common-hdr-doc: slim-common-hdr version git-r1 - Documentation files
+SECTION_slim-common-hdr-doc: doc
+PKG_slim-common-hdr-doc: slim-common-hdr-doc
+FILES_slim-common-hdr-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_slim-common-hdr-doc: 0

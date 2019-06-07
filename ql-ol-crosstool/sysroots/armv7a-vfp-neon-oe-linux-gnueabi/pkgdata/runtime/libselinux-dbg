@@ -1,0 +1,15 @@
+PN: libselinux
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION_libselinux-dbg: QUECTEL libselinux  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libselinux-dbg: libselinux version git-r1 - Debugging files
+RRECOMMENDS_libselinux-dbg: libpcre-dbg ql-libsepol-dbg glibc-dbg
+SECTION_libselinux-dbg: devel
+PKG_libselinux-dbg: libselinux-dbg
+ALLOW_EMPTY_libselinux-dbg: 1
+FILES_libselinux-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libselinux/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libselinux/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libselinux/libselinux/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libselinux.so.1.0.0": 438688}
+PKGSIZE_libselinux-dbg: 438688

@@ -1,0 +1,19 @@
+PN: libsensors
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD-3-Clause
+DESCRIPTION: Sensor library
+SUMMARY: libsensors version git-r1
+RDEPENDS_libsensors: libstdc++ (>= 4.9.3) glibc (>= 2.22) libgcc (>= 4.9.3) glib-2.0 (>= 2.44.1)
+RPROVIDES_libsensors:  libsensors (=git)
+SECTION: base
+PKG_libsensors: libsensors1
+FILES_libsensors: /usr/bin/* /usr/sbin/* /usr/lib/libsensors/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libsensors /usr/lib/libsensors/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libsensors: /usr/lib/libsensors.so.1.0.0
+FILES_INFO: {"/usr/lib/libsensors.so.1": 19, "/usr/lib/libsensors.so.1.0.0": 85060}
+FILERPROVIDES_/usr/lib/libsensors.so.1.0.0_libsensors: elf(buildid) (= 1e631257509457f00be47a85602b2cdd4f002370) libsensors.so.1
+FILERDEPENDSFLIST_libsensors: /usr/lib/libsensors.so.1.0.0
+FILERDEPENDS_/usr/lib/libsensors.so.1.0.0_libsensors: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.8) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_libsensors: 85079

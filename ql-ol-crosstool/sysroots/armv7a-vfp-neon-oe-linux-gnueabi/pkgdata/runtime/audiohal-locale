@@ -1,0 +1,13 @@
+PN: audiohal
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: audiohal
+SUMMARY: audiohal version 1.0-r0
+SECTION: multimedia
+PKG_audiohal-locale: audiohal-locale
+FILES_audiohal-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_audiohal-locale: 0

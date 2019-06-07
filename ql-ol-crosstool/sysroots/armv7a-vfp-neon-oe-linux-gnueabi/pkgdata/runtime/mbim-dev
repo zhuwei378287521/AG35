@@ -1,0 +1,16 @@
+PN: mbim
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mbim-dev: USB Mobile Broadband Interface Model (MBIM) Command Processor  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_mbim-dev: mbim version git-r2 - Development files
+RDEPENDS_mbim-dev: mbim (= git-r2)
+RRECOMMENDS_mbim-dev: glibc-dev liblog-dev qmi-dev libcutils-dev qmi-framework-dev diag-dev
+SECTION_mbim-dev: devel
+PKG_mbim-dev: mbim-dev
+ALLOW_EMPTY_mbim-dev: 1
+FILES_mbim-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mbim/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_mbim-dev: 0

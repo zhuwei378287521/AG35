@@ -1,0 +1,15 @@
+PN: ql-pwrkey-monitor
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-pwrkey-monitor-dbg: Quectel ql_pwrkey_monitor data dispatch  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ql-pwrkey-monitor-dbg: ql-pwrkey-monitor version git-r1 - Debugging files
+RRECOMMENDS_ql-pwrkey-monitor-dbg: glibc-dbg
+SECTION_ql-pwrkey-monitor-dbg: devel
+PKG_ql-pwrkey-monitor-dbg: ql-pwrkey-monitor-dbg
+ALLOW_EMPTY_ql-pwrkey-monitor-dbg: 1
+FILES_ql-pwrkey-monitor-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-pwrkey-monitor/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-pwrkey-monitor/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-pwrkey-monitor/ql-pwrkey-monitor/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/ql_pwrkey_monitor": 10728}
+PKGSIZE_ql-pwrkey-monitor-dbg: 10728

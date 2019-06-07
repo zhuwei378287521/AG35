@@ -1,0 +1,14 @@
+PN: ulp2
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS LBS Core
+SUMMARY: ulp2 version git-r1
+RPROVIDES_ulp2-locale:  ulp2-locale (=git)
+SECTION: base
+PKG_ulp2-locale: libulp2-locale
+FILES_ulp2-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ulp2-locale: 0

@@ -1,0 +1,16 @@
+PN: event-observer
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_event-observer-dbg: Event Observer  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_event-observer-dbg: event-observer version git-r1 - Debugging files
+RPROVIDES_event-observer-dbg:  event-observer-dbg (=git)
+RRECOMMENDS_event-observer-dbg: loc-pla-dbg glibc-dbg gps-utils-dbg libstdc++-dbg liblog-dbg glib-2.0-dbg libgcc-dbg libcutils-dbg loc-stub-dbg
+SECTION_event-observer-dbg: devel
+PKG_event-observer-dbg: libevent-observer-dbg
+ALLOW_EMPTY_event-observer-dbg: 1
+FILES_event-observer-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/event-observer/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/event-observer/.debug /usr/lib/matchbox-panel/.debug /usr/lib/event-observer/event-observer/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libevent_observer.so.1.0.0": 5864}
+PKGSIZE_event-observer-dbg: 5864

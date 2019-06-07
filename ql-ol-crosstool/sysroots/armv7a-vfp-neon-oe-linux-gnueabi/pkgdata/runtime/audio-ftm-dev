@@ -1,0 +1,16 @@
+PN: audio-ftm
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audio-ftm-dev: Audio FTM  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_audio-ftm-dev: audio-ftm version git-r5 - Development files
+RDEPENDS_audio-ftm-dev: audio-ftm (= git-r5)
+RRECOMMENDS_audio-ftm-dev: alsa-intf-dev liblog-dev glibc-dev tinyalsa-dev glib-2.0-dev common-dev diag-dev
+SECTION_audio-ftm-dev: devel
+PKG_audio-ftm-dev: audio-ftm-dev
+ALLOW_EMPTY_audio-ftm-dev: 1
+FILES_audio-ftm-dev: /usr/lib/*.la /usr/include
+FILES_INFO: {}
+PKGSIZE_audio-ftm-dev: 0

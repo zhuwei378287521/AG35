@@ -1,0 +1,17 @@
+PN: izat-client-api
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_izat-client-api-dev: Izat client api libary  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_izat-client-api-dev: izat-client-api version git-r1 - Development files
+RDEPENDS_izat-client-api-dev: izat-client-api (= git-r1)
+RPROVIDES_izat-client-api-dev:  izat-client-api-dev (=git)
+RRECOMMENDS_izat-client-api-dev: liblog-dev loc-base-util-dev libgcc-dev time-genoff-dev glib-2.0-dev location-service-dev gps-utils-dev loc-mq-client-dev loc-hal-dev data-dev qmi-dev ql-syslog-dev izat-api-hdr-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev libcrypto-dev libstdc++-dev dsutils-dev libsqlite3-dev libcutils-dev loc-stub-dev data-oss-dev qmi-client-helper-dev diag-dev qmi-framework-dev
+SECTION_izat-client-api-dev: devel
+PKG_izat-client-api-dev: libizat-client-api-dev
+ALLOW_EMPTY_izat-client-api-dev: 1
+FILES_izat-client-api-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/izat-client-api/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libizat_client_api.la": 2783, "/usr/lib/pkgconfig/izat-client-api.pc": 223, "/usr/lib/libizat_client_api.so": 27}
+PKGSIZE_izat-client-api-dev: 3033

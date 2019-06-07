@@ -1,0 +1,15 @@
+PN: packagegroup-bt
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_packagegroup-bt-dbg: BT Deamons.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_packagegroup-bt-dbg: BT Deamons - Debugging files
+RRECOMMENDS_packagegroup-bt-dbg: bt-app-dbg libbt-vendor-dbg bt-property-dbg fluoride-dbg
+SECTION_packagegroup-bt-dbg: devel
+PKG_packagegroup-bt-dbg: packagegroup-bt-dbg
+ALLOW_EMPTY_packagegroup-bt-dbg: 1
+FILES_packagegroup-bt-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/packagegroup-bt/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/packagegroup-bt/.debug /usr/lib/matchbox-panel/.debug /usr/lib/packagegroup-bt/packagegroup-bt/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_packagegroup-bt-dbg: 0

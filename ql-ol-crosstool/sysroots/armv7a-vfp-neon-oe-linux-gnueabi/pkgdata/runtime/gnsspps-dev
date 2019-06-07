@@ -1,0 +1,17 @@
+PN: gnsspps
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gnsspps-dev: gnsspps  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gnsspps-dev: gnsspps version git-r1 - Development files
+RDEPENDS_gnsspps-dev: gnsspps (= git-r1)
+RPROVIDES_gnsspps-dev:  gnsspps-dev (=git)
+RRECOMMENDS_gnsspps-dev: gps-utils-dev glibc-dev loc-pla-dev liblog-dev libstdc++-dev glib-2.0-dev libcutils-dev loc-stub-dev
+SECTION_gnsspps-dev: devel
+PKG_gnsspps-dev: libgnsspps-dev
+ALLOW_EMPTY_gnsspps-dev: 1
+FILES_gnsspps-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gnsspps/*.la /lib/*.la
+FILES_INFO: {"/usr/include/gnsspps/gnsspps.h": 1994, "/usr/lib/libgnsspps.so": 19, "/usr/lib/libgnsspps.la": 1312, "/usr/lib/pkgconfig/gnsspps.pc": 199}
+PKGSIZE_gnsspps-dev: 3524

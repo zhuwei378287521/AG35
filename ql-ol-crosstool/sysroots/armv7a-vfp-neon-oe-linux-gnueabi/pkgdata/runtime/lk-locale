@@ -1,0 +1,13 @@
+PN: lk
+PV: git
+PR: r1signed_perf
+PKGV: git
+PKGR: r1signed_perf
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Sign the Little Kernel bootloader
+SUMMARY: lk version git-r1signed_perf
+SECTION: base
+PKG_lk-locale: lk-locale
+FILES_lk-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_lk-locale: 0

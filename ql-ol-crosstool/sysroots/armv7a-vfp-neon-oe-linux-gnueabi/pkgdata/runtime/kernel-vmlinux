@@ -1,0 +1,15 @@
+PN: linux-quic
+PV: git
+PR: r5_perf
+PKGV: git
+PKGR: r5_perf
+LICENSE: GPLv2
+DESCRIPTION: QuIC Linux Kernel
+SUMMARY: linux-quic version git-r5_perf
+SECTION: base
+PKG_kernel-vmlinux: kernel-vmlinux
+FILES_kernel-vmlinux: /boot/vmlinux*
+FILERPROVIDESFLIST_kernel-vmlinux: /boot/vmlinux-3.18.48
+FILES_INFO: {"/boot/vmlinux-3.18.48": 124305532}
+FILERPROVIDES_/boot/vmlinux-3.18.48_kernel-vmlinux: elf(buildid) (= d5f3c9f0ce5375711771659488837e7d8567f10c)
+PKGSIZE_kernel-vmlinux: 124305532

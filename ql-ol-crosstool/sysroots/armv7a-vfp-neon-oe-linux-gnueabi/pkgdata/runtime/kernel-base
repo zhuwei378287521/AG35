@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git
+PR: r5_perf
+PKGV: git
+PKGR: r5_perf
+LICENSE: GPLv2
+DESCRIPTION: QuIC Linux Kernel
+SUMMARY: linux-quic version git-r5_perf
+RPROVIDES_kernel-base:  kernel-3.18.48 kernel-base (=git)
+SECTION: base
+PKG_kernel-base: kernel-3.18.48
+ALLOW_EMPTY_kernel-base: 1
+FILES_kernel-base: /lib/modules/3.18.48/modules.order /lib/modules/3.18.48/modules.builtin
+pkg_postinst_kernel-base: \tif [ ! -e "$D/lib/modules/3.18.48" ]; then\n\t\tmkdir -p $D/lib/modules/3.18.48\n\tfi\n\tif [ -n "$D" ]; then\n\t\tdepmodwrapper -a -b $D 3.18.48\n\telse\n\t\tdepmod -a 3.18.48\n\tfi\n
+FILES_INFO: {"/lib/modules/3.18.48/modules.builtin": 13909, "/lib/modules/3.18.48/modules.order": 758}
+PKGSIZE_kernel-base: 14667

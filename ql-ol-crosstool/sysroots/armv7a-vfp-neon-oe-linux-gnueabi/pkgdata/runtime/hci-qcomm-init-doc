@@ -1,0 +1,13 @@
+PN: hci-qcomm-init
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_hci-qcomm-init-doc: Bluetooth BT Vendor Filters  This package contains documentation.
+SUMMARY_hci-qcomm-init-doc: hci-qcomm-init version git-r0 - Documentation files
+SECTION_hci-qcomm-init-doc: doc
+PKG_hci-qcomm-init-doc: hci-qcomm-init-doc
+FILES_hci-qcomm-init-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_hci-qcomm-init-doc: 0

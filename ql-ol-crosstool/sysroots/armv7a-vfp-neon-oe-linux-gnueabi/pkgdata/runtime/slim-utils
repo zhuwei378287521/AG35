@@ -1,0 +1,19 @@
+PN: slim-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: SLIM Utils
+SUMMARY: slim-utils version git-r1
+RDEPENDS_slim-utils: diag (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libgcc (>= 4.9.3) time-genoff (>= git)
+RPROVIDES_slim-utils:  slim-utils (=git)
+SECTION: base
+PKG_slim-utils: libslimutils1
+FILES_slim-utils: /usr/bin/* /usr/sbin/* /usr/lib/slim-utils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/slim-utils /usr/lib/slim-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_slim-utils: /usr/lib/libslimutils.so.1.0.0
+FILES_INFO: {"/usr/lib/libslimutils.so.1.0.0": 30488, "/usr/lib/libslimutils.so.1": 21}
+FILERPROVIDES_/usr/lib/libslimutils.so.1.0.0_slim-utils: elf(buildid) (= 4c4788ea297d7b98f3c51e2cb5fc21758554cad4) libslimutils.so.1
+FILERDEPENDSFLIST_slim-utils: /usr/lib/libslimutils.so.1.0.0
+FILERDEPENDS_/usr/lib/libslimutils.so.1.0.0_slim-utils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdiag.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_slim-utils: 30509

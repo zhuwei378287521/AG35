@@ -1,0 +1,16 @@
+PN: btvendorhal
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_btvendorhal-dbg: hardware btvendorhal headers  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_btvendorhal-dbg: btvendorhal version git-r1 - Debugging files
+RPROVIDES_btvendorhal-dbg:  btvendorhal-dbg (=git)
+RRECOMMENDS_btvendorhal-dbg: liblog-dbg libstdc++-dbg libcutils-dbg glibc-dbg
+SECTION_btvendorhal-dbg: devel
+PKG_btvendorhal-dbg: libbtvendorhal-dbg
+ALLOW_EMPTY_btvendorhal-dbg: 1
+FILES_btvendorhal-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/btvendorhal/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/btvendorhal/.debug /usr/lib/matchbox-panel/.debug /usr/lib/btvendorhal/btvendorhal/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libbtvendorhal.so.0.0.0": 4264}
+PKGSIZE_btvendorhal-dbg: 4264

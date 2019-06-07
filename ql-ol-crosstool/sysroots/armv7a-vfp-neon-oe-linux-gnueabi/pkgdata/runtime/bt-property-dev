@@ -1,0 +1,16 @@
+PN: bt-property
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_bt-property-dev: Bluetooth Property Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_bt-property-dev: bt-property version git-r0 - Development files
+RDEPENDS_bt-property-dev: bt-property (= git-r0)
+RRECOMMENDS_bt-property-dev: glib-2.0-dev common-dev glibc-dev liblog-dev
+SECTION_bt-property-dev: devel
+PKG_bt-property-dev: bt-property-dev
+ALLOW_EMPTY_bt-property-dev: 1
+FILES_bt-property-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bt-property/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_bt-property-dev: 0

@@ -1,0 +1,15 @@
+PN: loc-externaldrcore
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-externaldrcore-staticdev: DR core  This package contains static libraries for software development.
+SUMMARY_loc-externaldrcore-staticdev: loc-externaldrcore version git-r1 - Development files (Static Libraries)
+RDEPENDS_loc-externaldrcore-staticdev: loc-externaldrcore-dev (= git-r1)
+RPROVIDES_loc-externaldrcore-staticdev:  loc-externaldrcore-staticdev (=git)
+SECTION_loc-externaldrcore-staticdev: devel
+PKG_loc-externaldrcore-staticdev: libloc-externaldrcore-staticdev
+FILES_loc-externaldrcore-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-externaldrcore/*.a
+FILES_INFO: {}
+PKGSIZE_loc-externaldrcore-staticdev: 0

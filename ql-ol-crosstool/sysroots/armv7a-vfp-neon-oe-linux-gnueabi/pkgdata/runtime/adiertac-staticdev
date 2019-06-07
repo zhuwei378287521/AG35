@@ -1,0 +1,15 @@
+PN: adiertac
+PV: 1.0
+PR: r3
+PKGV: 1.0
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_adiertac-staticdev: adie rtac Library and calibiration files  This package contains static libraries for software development.
+SUMMARY_adiertac-staticdev: adiertac version 1.0-r3 - Development files (Static Libraries)
+RDEPENDS_adiertac-staticdev: adiertac-dev (= 1.0-r3)
+RPROVIDES_adiertac-staticdev:  adiertac-staticdev (=1.0)
+SECTION_adiertac-staticdev: devel
+PKG_adiertac-staticdev: libadiertac-staticdev
+FILES_adiertac-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/adiertac/*.a
+FILES_INFO: {}
+PKGSIZE_adiertac-staticdev: 0

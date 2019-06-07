@@ -1,0 +1,14 @@
+PN: slim-common
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: SLIM Common library
+SUMMARY: slim-common version git-r1
+RPROVIDES_slim-common-locale:  slim-common-locale (=git)
+SECTION: base
+PKG_slim-common-locale: libslimcommon-locale
+FILES_slim-common-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_slim-common-locale: 0

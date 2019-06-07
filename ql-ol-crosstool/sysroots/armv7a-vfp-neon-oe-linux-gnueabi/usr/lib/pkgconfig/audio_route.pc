@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: audio_route
+Description: audio_route library
+Version: 1.0.0
+Libs: -L${libdir} -laudioroute
+Cflags: -I${includedir}

@@ -1,0 +1,24 @@
+PN: system-media
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: Apache-2.0
+DESCRIPTION: system media headers
+SUMMARY: system-media version git-r2
+RDEPENDS_system-media: tinyalsa (>= git) glibc (>= 2.22) expat (>= 2.1.0) libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0)
+SECTION: base
+PKG_system-media: system-media
+FILES_system-media: /usr/lib/lib*.so.* /usr/lib/pkgconfig/*
+FILERPROVIDESFLIST_system-media: /usr/lib/libaudioroute.so.0.0.0 /usr/lib/libcamera@underscore@metadata.so.0.0.0 /usr/lib/libaudioutils.so.0.0.0 /usr/lib/libtinysndfile.so.0.0.0
+FILES_INFO: {"/usr/lib/pkgconfig/audio_route.pc": 191, "/usr/lib/libtinysndfile.so.0": 23, "/usr/lib/libaudioroute.so.0.0.0": 13852, "/usr/lib/pkgconfig/alsa_utils.pc": 188, "/usr/lib/libaudioutils.so.0": 22, "/usr/lib/libcamera_metadata.so.0": 27, "/usr/lib/libtinysndfile.so.0.0.0": 22044, "/usr/lib/pkgconfig/audio_utils.pc": 191, "/usr/lib/pkgconfig/tinysndfile.pc": 204, "/usr/lib/libaudioutils.so.0.0.0": 22044, "/usr/lib/libaudioroute.so.0": 22, "/usr/lib/libcamera_metadata.so.0.0.0": 36544}
+FILERPROVIDES_/usr/lib/libaudioroute.so.0.0.0_system-media: elf(buildid) (= 0636101fd76bad10e2f4ba0a2aa4c41decdbae3e) libaudioroute.so.0
+FILERPROVIDES_/usr/lib/libcamera@underscore@metadata.so.0.0.0_system-media: elf(buildid) (= fabe0ba7e1b3436d36515b996fa289f51b1f4815) libcamera_metadata.so.0
+FILERPROVIDES_/usr/lib/libaudioutils.so.0.0.0_system-media: elf(buildid) (= 6f301ef6f7c4611079364c8f23698247a1ab1968) libaudioutils.so.0
+FILERPROVIDES_/usr/lib/libtinysndfile.so.0.0.0_system-media: elf(buildid) (= 974779b3b2df35a7f937d4ff1da75139a5ae389c) libtinysndfile.so.0
+FILERDEPENDSFLIST_system-media: /usr/lib/libaudioroute.so.0.0.0 /usr/lib/libcamera@underscore@metadata.so.0.0.0 /usr/lib/libaudioutils.so.0.0.0 /usr/lib/libtinysndfile.so.0.0.0
+FILERDEPENDS_/usr/lib/libaudioroute.so.0.0.0_system-media: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libexpat.so.1 liblog.so.0 libm.so.6 libpthread.so.0 libstdc++.so.6 libtinyalsa.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libcamera@underscore@metadata.so.0.0.0_system-media: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libaudioutils.so.0.0.0_system-media: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libtinysndfile.so.0.0.0_system-media: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_system-media: 95352

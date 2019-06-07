@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: gps-utils
+Description: QTI GPS Location utils
+Version: @VERSION
+Libs: -L${libdir} -lgps_utils_so
+Cflags: -I${includedir}/gps-utils

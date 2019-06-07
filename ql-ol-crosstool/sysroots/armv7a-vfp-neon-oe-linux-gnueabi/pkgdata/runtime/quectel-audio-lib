@@ -1,0 +1,19 @@
+PN: quectel-audio-lib
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel audio lib
+SUMMARY: quectel-audio-lib version git-r1
+RDEPENDS_quectel-audio-lib: audioalsa (>= git) adiertac (>= 1.0) diag (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) alsa-intf (>= git) liblog (>= 1.0) acdbrtac (>= 1.0) acdbloader (>= git) audcal (>= git) time-genoff (>= git) acdbmapper (>= git)
+RPROVIDES_quectel-audio-lib:  quectel-audio-lib (=git)
+SECTION: base
+PKG_quectel-audio-lib: libql-lib-audio1
+FILES_quectel-audio-lib: /usr/bin/* /usr/sbin/* /usr/lib/quectel-audio-lib/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-audio-lib /usr/lib/quectel-audio-lib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_quectel-audio-lib: /usr/lib/libql@underscore@lib@underscore@audio.so.1.0.0
+FILES_INFO: {"/usr/lib/libql_lib_audio.so.1.0.0": 30240, "/usr/lib/libql_lib_audio.so.1": 24}
+FILERPROVIDES_/usr/lib/libql@underscore@lib@underscore@audio.so.1.0.0_quectel-audio-lib: elf(buildid) (= eda1a9044883e610191a3db4d79c4438ce5aa53a) libql_lib_audio.so.1
+FILERDEPENDSFLIST_quectel-audio-lib: /usr/lib/libql@underscore@lib@underscore@audio.so.1.0.0
+FILERDEPENDS_/usr/lib/libql@underscore@lib@underscore@audio.so.1.0.0_quectel-audio-lib: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libacdbloader.so libacdbmapper.so.1 libacdbrtac.so.1 libadiertac.so.1 libalsa_intf.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 libstdc++.so.6 libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_quectel-audio-lib: 30264

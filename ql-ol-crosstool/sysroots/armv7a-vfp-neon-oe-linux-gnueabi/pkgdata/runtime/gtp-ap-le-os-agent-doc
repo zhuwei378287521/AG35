@@ -1,0 +1,13 @@
+PN: gtp-ap-le-os-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gtp-ap-le-os-agent-doc: GPS xtwifi LE os agent  This package contains documentation.
+SUMMARY_gtp-ap-le-os-agent-doc: gtp-ap-le-os-agent version git-r1 - Documentation files
+SECTION_gtp-ap-le-os-agent-doc: doc
+PKG_gtp-ap-le-os-agent-doc: gtp-ap-le-os-agent-doc
+FILES_gtp-ap-le-os-agent-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_gtp-ap-le-os-agent-doc: 0

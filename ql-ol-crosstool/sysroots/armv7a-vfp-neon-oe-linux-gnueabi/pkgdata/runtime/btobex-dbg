@@ -1,0 +1,14 @@
+PN: btobex
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_btobex-dbg: Bluetooth OBEX  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_btobex-dbg: btobex version git-r0 - Debugging files
+SECTION_btobex-dbg: devel
+PKG_btobex-dbg: btobex-dbg
+ALLOW_EMPTY_btobex-dbg: 1
+FILES_btobex-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/btobex/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/btobex/.debug /usr/lib/matchbox-panel/.debug /usr/lib/btobex/btobex/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_btobex-dbg: 0

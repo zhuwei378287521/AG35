@@ -1,0 +1,19 @@
+PN: libunwind
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Libunwind
+SUMMARY: libunwind version 1.0-r0
+RDEPENDS_libunwind: glibc (>= 2.22) libgcc (>= 4.9.3)
+RPROVIDES_libunwind:  libunwind (=1.0)
+SECTION: base
+PKG_libunwind: libunwind0
+FILES_libunwind: /usr/bin/* /usr/sbin/* /usr/lib/libunwind/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libunwind /usr/lib/libunwind/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libunwind: /usr/lib/libunwind.so.0.0.0
+FILES_INFO: {"/usr/lib/libunwind.so.0.0.0": 108264, "/usr/lib/libunwind.so.0": 18}
+FILERPROVIDES_/usr/lib/libunwind.so.0.0.0_libunwind: elf(buildid) (= c57bcc2befd799c6e478e227cc250bc414480359) libunwind.so.0
+FILERDEPENDSFLIST_libunwind: /usr/lib/libunwind.so.0.0.0
+FILERDEPENDS_/usr/lib/libunwind.so.0.0.0_libunwind: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) rtld(GNU_HASH)
+PKGSIZE_libunwind: 108282

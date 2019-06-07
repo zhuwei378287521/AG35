@@ -1,0 +1,20 @@
+PN: util-linux
+PV: 2.26.2
+PR: r0.3
+PKGV: 2.26.2
+PKGR: r0.3
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-readprofile: update-alternatives-opkg glibc (>= 2.22)
+SECTION: base
+PKG_util-linux-readprofile: util-linux-readprofile
+FILES_util-linux-readprofile: /usr/sbin/readprofile.util-linux
+pkg_postinst_util-linux-readprofile: #!/bin/sh\n\tupdate-alternatives --install /usr/sbin/readprofile readprofile /usr/sbin/readprofile.util-linux 100\n
+pkg_prerm_util-linux-readprofile: #!/bin/sh\n\tupdate-alternatives --remove  readprofile /usr/sbin/readprofile.util-linux\n
+FILERPROVIDESFLIST_util-linux-readprofile: /usr/sbin/readprofile.util-linux
+FILES_INFO: {"/usr/sbin/readprofile.util-linux": 14104}
+FILERPROVIDES_/usr/sbin/readprofile.util-linux_util-linux-readprofile: elf(buildid) (= f80ce29e8d191b669a2e7a3354d1f7907e611b63) /usr/sbin/readprofile
+FILERDEPENDSFLIST_util-linux-readprofile: /usr/sbin/readprofile.util-linux
+FILERDEPENDS_/usr/sbin/readprofile.util-linux_util-linux-readprofile: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_util-linux-readprofile: 14104

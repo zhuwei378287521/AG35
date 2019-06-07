@@ -1,0 +1,14 @@
+PN: gnsspps
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: gnsspps
+SUMMARY: gnsspps version git-r1
+RPROVIDES_gnsspps-locale:  gnsspps-locale (=git)
+SECTION: base
+PKG_gnsspps-locale: libgnsspps-locale
+FILES_gnsspps-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_gnsspps-locale: 0

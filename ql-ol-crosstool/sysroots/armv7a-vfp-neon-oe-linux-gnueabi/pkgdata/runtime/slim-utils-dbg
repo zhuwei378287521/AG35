@@ -1,0 +1,16 @@
+PN: slim-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-utils-dbg: SLIM Utils  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_slim-utils-dbg: slim-utils version git-r1 - Debugging files
+RPROVIDES_slim-utils-dbg:  slim-utils-dbg (=git)
+RRECOMMENDS_slim-utils-dbg: glibc-dbg libstdc++-dbg diag-dbg time-genoff-dbg glib-2.0-dbg libgcc-dbg
+SECTION_slim-utils-dbg: devel
+PKG_slim-utils-dbg: libslimutils-dbg
+ALLOW_EMPTY_slim-utils-dbg: 1
+FILES_slim-utils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/slim-utils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/slim-utils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/slim-utils/slim-utils/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libslimutils.so.1.0.0": 12508}
+PKGSIZE_slim-utils-dbg: 12508

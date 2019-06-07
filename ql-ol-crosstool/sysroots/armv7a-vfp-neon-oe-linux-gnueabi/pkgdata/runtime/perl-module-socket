@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.22.0
+PR: r0
+PKGV: 5.22.0
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-socket: perl module socket
+SUMMARY_perl-module-socket: perl module socket
+RDEPENDS_perl-module-socket: perl-module-carp perl-module-warnings-register glibc (>= 2.22) perl-module-xsloader perl-module-scalar-util perl-module-exporter perl-module-strict perl
+SECTION: devel
+PKG_perl-module-socket: perl-module-socket
+FILES_perl-module-socket: /usr/lib/perl/5.22.0/auto/Socket/Socket.so /usr/lib/perl/5.22.0/Socket.pm
+FILERPROVIDESFLIST_perl-module-socket: /usr/lib/perl/5.22.0/auto/Socket/Socket.so
+FILES_INFO: {"/usr/lib/perl/5.22.0/Socket.pm": 36343, "/usr/lib/perl/5.22.0/auto/Socket/Socket.so": 34380}
+FILERPROVIDES_/usr/lib/perl/5.22.0/auto/Socket/Socket.so_perl-module-socket: Socket.so elf(buildid) (= 56ad50bd38bdbd4e767517122f7c4ec892a077d2)
+FILERDEPENDSFLIST_perl-module-socket: /usr/lib/perl/5.22.0/auto/Socket/Socket.so
+FILERDEPENDS_/usr/lib/perl/5.22.0/auto/Socket/Socket.so_perl-module-socket: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-socket: 70723

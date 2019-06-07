@@ -1,0 +1,18 @@
+PN: lowi-test
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS lowi test
+SUMMARY: lowi-test version git-r1
+RDEPENDS_lowi-test: loc-base-util (>= git) libxml2 (>= 2.9.2) lowi-client (>= git) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) liblog (>= 1.0) libgcc (>= 4.9.3) glibc (>= 2.22)
+SECTION: base
+PKG_lowi-test: lowi-test
+FILES_lowi-test: /usr/bin/* /usr/sbin/* /usr/lib/lowi-test/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lowi-test /usr/lib/lowi-test/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_lowi-test: /usr/bin/lowi-test
+FILES_INFO: {"/usr/bin/lowi-test": 96408}
+FILERPROVIDES_/usr/bin/lowi-test_lowi-test: elf(buildid) (= a822e488bd0984f6d6de64d0120935ff88984218)
+FILERDEPENDSFLIST_lowi-test: /usr/bin/lowi-test
+FILERDEPENDS_/usr/bin/lowi-test_lowi-test: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.8) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libloc_base_util.so.1 liblog.so.0 liblowi_client.so.1 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libxml2.so.2 libxml2.so.2(LIBXML2_2.4.30) rtld(GNU_HASH)
+PKGSIZE_lowi-test: 96408

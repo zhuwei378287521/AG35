@@ -1,0 +1,13 @@
+PN: nmea-test-app
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_nmea-test-app-doc: NMEA test application   This package contains documentation.
+SUMMARY_nmea-test-app-doc: nmea-test-app version git-r1 - Documentation files
+SECTION_nmea-test-app-doc: doc
+PKG_nmea-test-app-doc: nmea-test-app-doc
+FILES_nmea-test-app-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_nmea-test-app-doc: 0

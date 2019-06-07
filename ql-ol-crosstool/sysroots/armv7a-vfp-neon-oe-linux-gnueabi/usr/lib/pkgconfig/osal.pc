@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: osal
+Description: osal library
+Version: 1.0.0
+Libs: -L${libdir} -lgcs-osal
+Cflags: -I${includedir}/graphite-client/osal/

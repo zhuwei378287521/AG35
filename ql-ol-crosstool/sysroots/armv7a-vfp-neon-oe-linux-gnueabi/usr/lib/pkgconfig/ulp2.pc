@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: ulp2
+Description: QTI GPS ulp
+Version: @VERSION
+Libs: -L${libdir} -lulp2
+Cflags: -I${includedir}/ulp2

@@ -1,0 +1,23 @@
+PN: quectel-thermal
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel thermal
+SUMMARY: quectel-thermal version git-r1
+RDEPENDS_quectel-thermal: qmi (>= git) qmi-framework (>= git) glibc (>= 2.22)
+RRECOMMENDS_quectel-thermal:  update-rc.d
+SECTION: base
+PKG_quectel-thermal: quectel-thermal
+FILES_quectel-thermal: /usr/bin/* /usr/sbin/* /usr/lib/quectel-thermal/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-thermal /usr/lib/quectel-thermal/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_quectel-thermal: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT quectel-thermal start 45 2 3 4 5 .\nfi\n
+pkg_postrm_quectel-thermal: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel-thermal remove\nfi\n
+pkg_preinst_quectel-thermal: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/quectel-thermal" ]; then\n\t/etc/init.d/quectel-thermal stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel-thermal remove\nfi\n
+pkg_prerm_quectel-thermal: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/quectel-thermal stop\nfi\n
+FILERPROVIDESFLIST_quectel-thermal: /usr/bin/quectel-thermal
+FILES_INFO: {"/etc/init.d/quectel-thermal": 945, "/usr/bin/quectel-thermal": 18160}
+FILERPROVIDES_/usr/bin/quectel-thermal_quectel-thermal: elf(buildid) (= 2585d90e3f78b2ac42fe27fb1bfa8047a4abc800)
+FILERDEPENDSFLIST_quectel-thermal: /usr/bin/quectel-thermal
+FILERDEPENDS_/usr/bin/quectel-thermal_quectel-thermal: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmiservices.so.1 rtld(GNU_HASH)
+PKGSIZE_quectel-thermal: 19105

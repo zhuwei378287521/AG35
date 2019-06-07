@@ -1,0 +1,14 @@
+PN: lowi-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-server-staticdev: GPS lowi server  This package contains static libraries for software development.
+SUMMARY_lowi-server-staticdev: lowi-server version git-r1 - Development files (Static Libraries)
+RDEPENDS_lowi-server-staticdev: lowi-server-dev (= git-r1)
+SECTION_lowi-server-staticdev: devel
+PKG_lowi-server-staticdev: lowi-server-staticdev
+FILES_lowi-server-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lowi-server/*.a
+FILES_INFO: {}
+PKGSIZE_lowi-server-staticdev: 0

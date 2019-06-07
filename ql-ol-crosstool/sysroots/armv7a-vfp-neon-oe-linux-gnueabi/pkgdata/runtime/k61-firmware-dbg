@@ -1,0 +1,14 @@
+PN: k61-firmware
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_k61-firmware-dbg: K61 firmware  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_k61-firmware-dbg: k61-firmware version git-r1 - Debugging files
+SECTION_k61-firmware-dbg: devel
+PKG_k61-firmware-dbg: k61-firmware-dbg
+ALLOW_EMPTY_k61-firmware-dbg: 1
+FILES_k61-firmware-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/k61-firmware/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/k61-firmware/.debug /usr/lib/matchbox-panel/.debug /usr/lib/k61-firmware/k61-firmware/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_k61-firmware-dbg: 0

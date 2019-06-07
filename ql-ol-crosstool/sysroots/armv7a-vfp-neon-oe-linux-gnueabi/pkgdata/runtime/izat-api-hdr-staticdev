@@ -1,0 +1,14 @@
+PN: izat-api-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_izat-api-hdr-staticdev: Izat api hdr  This package contains static libraries for software development.
+SUMMARY_izat-api-hdr-staticdev: izat-api-hdr version git-r1 - Development files (Static Libraries)
+RDEPENDS_izat-api-hdr-staticdev: izat-api-hdr-dev (= git-r1)
+SECTION_izat-api-hdr-staticdev: devel
+PKG_izat-api-hdr-staticdev: izat-api-hdr-staticdev
+FILES_izat-api-hdr-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/izat-api-hdr/*.a
+FILES_INFO: {}
+PKGSIZE_izat-api-hdr-staticdev: 0

@@ -1,0 +1,19 @@
+PN: libcutils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION: Build Android libcutils
+SUMMARY: libcutils version 1.0-r1
+RDEPENDS_libcutils: libstdc++ (>= 4.9.3) glibc (>= 2.22) liblog (>= 1.0) libgcc (>= 4.9.3)
+RPROVIDES_libcutils:  libcutils (=1.0)
+SECTION: base
+PKG_libcutils: libcutils0
+FILES_libcutils: /usr/lib/libcutils.so.* /usr/lib/pkgconfig/*
+FILERPROVIDESFLIST_libcutils: /usr/lib/libcutils.so.0.0.0
+FILES_INFO: {"/usr/lib/libcutils.so.0": 18, "/usr/lib/pkgconfig/libcutils.pc": 177, "/usr/lib/libcutils.so.0.0.0": 50916}
+FILERPROVIDES_/usr/lib/libcutils.so.0.0.0_libcutils: elf(buildid) (= 9d3bdb3c59dd2aec62838231dabaad501c741d47) libcutils.so.0
+FILERDEPENDSFLIST_libcutils: /usr/lib/libcutils.so.0.0.0
+FILERDEPENDS_/usr/lib/libcutils.so.0.0.0_libcutils: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_libcutils: 51111

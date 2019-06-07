@@ -1,0 +1,16 @@
+PN: drplugin-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-client-dbg: DR Plugin client  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_drplugin-client-dbg: drplugin-client version git-r1 - Debugging files
+RPROVIDES_drplugin-client-dbg:  drplugin-client-dbg (=git)
+RRECOMMENDS_drplugin-client-dbg: libsqlite3-dbg lbs-core-dbg loc-net-iface-dbg libssl-dbg data-items-dbg libcrypto-dbg izat-core-dbg dsutils-dbg xmllib-dbg qmi-dbg system-core-dbg qmi-framework-dbg qmi-client-helper-dbg diag-dbg data-oss-dbg libcutils-dbg libstdc++-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg data-dbg configdb-dbg loc-stub-dbg time-genoff-dbg
+SECTION_drplugin-client-dbg: devel
+PKG_drplugin-client-dbg: libdrplugin-client-dbg
+ALLOW_EMPTY_drplugin-client-dbg: 1
+FILES_drplugin-client-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/drplugin-client/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/drplugin-client/.debug /usr/lib/matchbox-panel/.debug /usr/lib/drplugin-client/drplugin-client/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libdrplugin_client.so.1.0.0": 14780}
+PKGSIZE_drplugin-client-dbg: 14780

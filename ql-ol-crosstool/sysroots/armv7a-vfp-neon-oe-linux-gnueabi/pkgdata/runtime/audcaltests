@@ -1,0 +1,18 @@
+PN: audcaltests
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Audio Calibration Library
+SUMMARY: audcaltests version git-r7
+RDEPENDS_audcaltests: glibc (>= 2.22) liblog (>= 1.0) acdbloader (>= git)
+SECTION: base
+PKG_audcaltests: audcaltests
+FILES_audcaltests: /usr/bin/* /usr/sbin/* /usr/lib/audcaltests/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/audcaltests /usr/lib/audcaltests/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_audcaltests: /usr/bin/sendcal
+FILES_INFO: {"/usr/bin/sendcal": 9896}
+FILERPROVIDES_/usr/bin/sendcal_audcaltests: elf(buildid) (= f8020b57159bfb5156b24446226ccc062b20c871)
+FILERDEPENDSFLIST_audcaltests: /usr/bin/sendcal
+FILERDEPENDS_/usr/bin/sendcal_audcaltests: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libacdbloader.so libc.so.6 libc.so.6(GLIBC_2.4) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_audcaltests: 9896

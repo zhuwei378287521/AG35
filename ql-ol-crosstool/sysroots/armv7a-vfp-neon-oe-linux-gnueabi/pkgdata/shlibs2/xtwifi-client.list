@@ -1,0 +1,4 @@
+libxtwifiserver_protocol_uri_v3.so.1:/usr/lib:git
+libxtwifi_ulp_adaptor.so.1:/usr/lib:git
+libxtwifiserver_protocol.so.1:/usr/lib:git
+libxtwifi_tile.so.1:/usr/lib:git

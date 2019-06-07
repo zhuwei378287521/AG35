@@ -1,0 +1,20 @@
+PN: start-scripts-init-can
+PV: 1.0
+PR: r2
+PKGV: 1.0
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION: Start up script for setting up the can link
+SUMMARY: start-scripts-init-can version 1.0-r2
+RRECOMMENDS_start-scripts-init-can:  update-rc.d
+SECTION: base
+PKG_start-scripts-init-can: start-scripts-init-can
+FILES_start-scripts-init-can: /usr/bin/* /usr/sbin/* /usr/lib/start-scripts-init-can/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/start-scripts-init-can /usr/lib/start-scripts-init-can/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_start-scripts-init-can: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT init-can.sh start 45 5 . stop 3 0 1 6 .\nfi\n
+pkg_postrm_start-scripts-init-can: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT init-can.sh remove\nfi\n
+pkg_preinst_start-scripts-init-can: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/init-can.sh" ]; then\n\t/etc/init.d/init-can.sh stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT init-can.sh remove\nfi\n
+pkg_prerm_start-scripts-init-can: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/init-can.sh stop\nfi\n
+FILES_INFO: {"/etc/init.d/init-can.sh": 1627}
+FILERDEPENDSFLIST_start-scripts-init-can: /etc/init.d/init-can.sh
+FILERDEPENDS_/etc/init.d/init-can.sh_start-scripts-init-can: /system/bin/sh
+PKGSIZE_start-scripts-init-can: 1627

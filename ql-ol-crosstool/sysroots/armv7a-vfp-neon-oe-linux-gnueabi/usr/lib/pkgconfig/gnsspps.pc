@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: gnsspps
+Description: QTI GPS drplugin-client
+Version: @VERSION
+Libs: -L${libdir} -lgnsspps
+Cflags: -I${includedir}/gnsspps

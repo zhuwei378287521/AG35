@@ -1,0 +1,13 @@
+PN: libsensors
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD-3-Clause
+DESCRIPTION: Sensor library
+SUMMARY: libsensors version git-r1
+SECTION: base
+PKG_libsensors-locale: libsensors-locale
+FILES_libsensors-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libsensors-locale: 0

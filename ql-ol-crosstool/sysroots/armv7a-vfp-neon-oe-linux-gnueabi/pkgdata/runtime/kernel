@@ -1,0 +1,14 @@
+PN: linux-quic
+PV: git
+PR: r5_perf
+PKGV: git
+PKGR: r5_perf
+LICENSE: GPLv2
+DESCRIPTION: QuIC Linux Kernel
+SUMMARY: linux-quic version git-r5_perf
+RDEPENDS_kernel: kernel-base
+SECTION: base
+PKG_kernel: kernel
+ALLOW_EMPTY_kernel: 1
+FILES_INFO: {}
+PKGSIZE_kernel: 0

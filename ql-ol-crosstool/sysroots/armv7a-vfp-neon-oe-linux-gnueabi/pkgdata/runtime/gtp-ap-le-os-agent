@@ -1,0 +1,18 @@
+PN: gtp-ap-le-os-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS xtwifi LE os agent
+SUMMARY: gtp-ap-le-os-agent version git-r1
+RDEPENDS_gtp-ap-le-os-agent: loc-base-util (>= git) loc-mq-client (>= git) liblog (>= 1.0) libgcc (>= 4.9.3) glibc (>= 2.22)
+SECTION: base
+PKG_gtp-ap-le-os-agent: gtp-ap-le-os-agent
+FILES_gtp-ap-le-os-agent: /usr/bin/* /usr/sbin/* /usr/lib/gtp-ap-le-os-agent/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gtp-ap-le-os-agent /usr/lib/gtp-ap-le-os-agent/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_gtp-ap-le-os-agent: /usr/bin/gtp-ap-le-os-agent
+FILES_INFO: {"/usr/bin/gtp-ap-le-os-agent": 9928}
+FILERPROVIDES_/usr/bin/gtp-ap-le-os-agent_gtp-ap-le-os-agent: elf(buildid) (= ea5138cbdbd6e1f5291b301e54122c5533b4ebc3)
+FILERDEPENDSFLIST_gtp-ap-le-os-agent: /usr/bin/gtp-ap-le-os-agent
+FILERDEPENDS_/usr/bin/gtp-ap-le-os-agent_gtp-ap-le-os-agent: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libloc_base_util.so.1 libloc_mq_client.so.1 liblog.so.0 rtld(GNU_HASH)
+PKGSIZE_gtp-ap-le-os-agent: 9928

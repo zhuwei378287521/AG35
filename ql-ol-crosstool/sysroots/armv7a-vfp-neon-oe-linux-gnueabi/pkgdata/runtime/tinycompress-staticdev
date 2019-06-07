@@ -1,0 +1,14 @@
+PN: tinycompress
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD & LGPLv2.1
+DESCRIPTION_tinycompress-staticdev: ALSA sound library for compress format.  This package contains static libraries for software development.
+SUMMARY_tinycompress-staticdev: ALSA sound library for compress format - Development files (Static Libraries)
+RDEPENDS_tinycompress-staticdev: tinycompress-dev (= git-r0)
+SECTION_tinycompress-staticdev: devel
+PKG_tinycompress-staticdev: tinycompress-staticdev
+FILES_tinycompress-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/tinycompress/*.a
+FILES_INFO: {}
+PKGSIZE_tinycompress-staticdev: 0

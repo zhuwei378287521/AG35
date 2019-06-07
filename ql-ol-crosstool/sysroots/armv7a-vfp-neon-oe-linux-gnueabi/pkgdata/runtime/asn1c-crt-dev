@@ -1,0 +1,17 @@
+PN: asn1c-crt
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_asn1c-crt-dev: GPS asn1c  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_asn1c-crt-dev: asn1c-crt version git-r1 - Development files
+RDEPENDS_asn1c-crt-dev: asn1c-crt (= git-r1)
+RPROVIDES_asn1c-crt-dev:  asn1c-crt-dev (=git)
+RRECOMMENDS_asn1c-crt-dev: glib-2.0-dev libgcc-dev glibc-dev libstdc++-dev
+SECTION_asn1c-crt-dev: devel
+PKG_asn1c-crt-dev: libasn1c-crt-dev
+ALLOW_EMPTY_asn1c-crt-dev: 1
+FILES_asn1c-crt-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/asn1c-crt/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libasn1c_crt.la": 1056, "/usr/lib/pkgconfig/asn1c-crt.pc": 158, "/usr/lib/libasn1c_crt.so": 21}
+PKGSIZE_asn1c-crt-dev: 1235

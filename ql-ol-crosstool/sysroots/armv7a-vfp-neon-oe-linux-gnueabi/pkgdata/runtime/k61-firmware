@@ -1,0 +1,13 @@
+PN: k61-firmware
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: K61 firmware
+SUMMARY: k61-firmware version git-r1
+SECTION: base
+PKG_k61-firmware: k61-firmware
+FILES_k61-firmware: /usr/bin/* /usr/sbin/* /usr/lib/k61-firmware/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/k61-firmware /usr/lib/k61-firmware/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/etc/firmware/K61_firmware.elf": 1006341}
+PKGSIZE_k61-firmware: 1006341

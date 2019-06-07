@@ -1,0 +1,14 @@
+PN: libunwind
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libunwind-staticdev: Libunwind  This package contains static libraries for software development.
+SUMMARY_libunwind-staticdev: libunwind version 1.0-r0 - Development files (Static Libraries)
+RDEPENDS_libunwind-staticdev: libunwind-dev (= 1.0-r0)
+SECTION_libunwind-staticdev: devel
+PKG_libunwind-staticdev: libunwind-staticdev
+FILES_libunwind-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libunwind/*.a
+FILES_INFO: {"/usr/lib/libunwind.a": 242304}
+PKGSIZE_libunwind-staticdev: 242304

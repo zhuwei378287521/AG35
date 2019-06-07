@@ -1,0 +1,22 @@
+PN: tinycompress
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD & LGPLv2.1
+DESCRIPTION: ALSA sound library for compress format.
+SUMMARY: ALSA sound library for compress format
+RDEPENDS_tinycompress: glibc (>= 2.22)
+SECTION: base
+PKG_tinycompress: tinycompress
+FILES_tinycompress: /usr/bin/* /usr/sbin/* /usr/lib/tinycompress/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/tinycompress /usr/lib/tinycompress/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_tinycompress: /usr/bin/crecord /usr/bin/cplay /usr/lib/libtinycompress.so.0.0.0
+FILES_INFO: {"/usr/lib/libtinycompress.so.0": 24, "/usr/bin/crecord": 13988, "/usr/bin/cplay": 9892, "/usr/lib/libtinycompress.so.0.0.0": 14116}
+FILERPROVIDES_/usr/bin/crecord_tinycompress: elf(buildid) (= 75a48f3a2f4aabaa47229888c1e17161994b1565)
+FILERPROVIDES_/usr/bin/cplay_tinycompress: elf(buildid) (= ba5a8e50122db8fce7fc0f599370843ff70ada03)
+FILERPROVIDES_/usr/lib/libtinycompress.so.0.0.0_tinycompress: elf(buildid) (= 89dff1f0325ac229fd16bf2692ed7bd3feb0bc2a) libtinycompress.so.0
+FILERDEPENDSFLIST_tinycompress: /usr/bin/crecord /usr/bin/cplay /usr/lib/libtinycompress.so.0.0.0
+FILERDEPENDS_/usr/bin/crecord_tinycompress: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libtinycompress.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/cplay_tinycompress: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libtinycompress.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libtinycompress.so.0.0.0_tinycompress: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_tinycompress: 38020

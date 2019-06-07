@@ -1,0 +1,15 @@
+PN: packagegroup-bt
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: BT Deamons.
+SUMMARY: BT Deamons
+RDEPENDS_packagegroup-bt: libbt-vendor fluoride bt-app bt-property
+SECTION: base
+PKG_packagegroup-bt: packagegroup-bt
+ALLOW_EMPTY_packagegroup-bt: 1
+FILES_packagegroup-bt: /usr/bin/* /usr/sbin/* /usr/lib/packagegroup-bt/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/packagegroup-bt /usr/lib/packagegroup-bt/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_packagegroup-bt: 0

@@ -1,0 +1,20 @@
+PN: system-conf
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: ISC
+DESCRIPTION: Device specific config
+SUMMARY: system-conf version git-r3
+RRECOMMENDS_system-conf:  update-rc.d
+SECTION: base
+PKG_system-conf: system-conf
+FILES_system-conf: /usr/bin/* /usr/sbin/* /usr/lib/system-conf/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/system-conf /usr/lib/system-conf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /data/misc/wifi/* /lib/firmware/wlan/qca_cld/* /lib/firmware/wlan/qca_cld/* /etc/init.d/* 
+pkg_postinst_system-conf: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT wlan_daemon remove\nfi\n
+pkg_postrm_system-conf: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT wlan_daemon remove\nfi\n
+pkg_preinst_system-conf: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/wlan_daemon" ]; then\n\t/etc/init.d/wlan_daemon stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT wlan_daemon remove\nfi\n
+pkg_prerm_system-conf: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/wlan_daemon stop\nfi\n
+FILES_INFO: {"/data/misc/wifi/hostapd-wlan1.conf": 66892, "/etc/cld-hostapd-wlan0.sh": 1912, "/lib/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini": 13992, "/etc/sysctl.conf": 306, "/data/misc/wifi/hostapd.conf": 66889, "/etc/cld-hostapd-wlan1.sh": 1912, "/data/misc/wifi/sta_mode_hostapd.conf": 66890, "/etc/init.d/wlan": 4699, "/data/misc/wifi/wpa_supplicant.conf": 102}
+FILERDEPENDSFLIST_system-conf: /etc/init.d/wlan
+FILERDEPENDS_/etc/init.d/wlan_system-conf: /bin/sh
+PKGSIZE_system-conf: 223594

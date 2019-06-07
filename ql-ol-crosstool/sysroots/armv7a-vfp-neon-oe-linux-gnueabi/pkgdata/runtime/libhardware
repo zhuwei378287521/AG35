@@ -1,0 +1,19 @@
+PN: libhardware
+PV: git
+PR: r6
+PKGV: git
+PKGR: r6
+LICENSE: Apache-2.0
+DESCRIPTION: hardware libhardware headers
+SUMMARY: libhardware version git-r6
+RDEPENDS_libhardware: libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) glibc (>= 2.22)
+RPROVIDES_libhardware:  libhardware (=git)
+SECTION: base
+PKG_libhardware: libhardware0
+FILES_libhardware: /usr/bin/* /usr/sbin/* /usr/lib/libhardware/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libhardware /usr/lib/libhardware/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libhardware: /usr/lib/libhardware.so.0.0.0
+FILES_INFO: {"/usr/lib/libhardware.so.0.0.0": 9816, "/usr/lib/libhardware.so.0": 20}
+FILERPROVIDES_/usr/lib/libhardware.so.0.0.0_libhardware: elf(buildid) (= ffe4e773ddcee462de486750cb6f15a943498e54) libhardware.so.0
+FILERDEPENDSFLIST_libhardware: /usr/lib/libhardware.so.0.0.0
+FILERDEPENDS_/usr/lib/libhardware.so.0.0.0_libhardware: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libdl.so.2 libdl.so.2(GLIBC_2.4) liblog.so.0 libm.so.6 libpthread.so.0 libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_libhardware: 9836

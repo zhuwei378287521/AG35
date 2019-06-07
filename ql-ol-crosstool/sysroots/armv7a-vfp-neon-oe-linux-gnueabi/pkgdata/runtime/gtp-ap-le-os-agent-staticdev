@@ -1,0 +1,14 @@
+PN: gtp-ap-le-os-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gtp-ap-le-os-agent-staticdev: GPS xtwifi LE os agent  This package contains static libraries for software development.
+SUMMARY_gtp-ap-le-os-agent-staticdev: gtp-ap-le-os-agent version git-r1 - Development files (Static Libraries)
+RDEPENDS_gtp-ap-le-os-agent-staticdev: gtp-ap-le-os-agent-dev (= git-r1)
+SECTION_gtp-ap-le-os-agent-staticdev: devel
+PKG_gtp-ap-le-os-agent-staticdev: gtp-ap-le-os-agent-staticdev
+FILES_gtp-ap-le-os-agent-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gtp-ap-le-os-agent/*.a
+FILES_INFO: {}
+PKGSIZE_gtp-ap-le-os-agent-staticdev: 0

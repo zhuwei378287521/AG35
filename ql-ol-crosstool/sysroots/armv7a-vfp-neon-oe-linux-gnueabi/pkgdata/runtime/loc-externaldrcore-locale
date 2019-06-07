@@ -1,0 +1,14 @@
+PN: loc-externaldrcore
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: DR core
+SUMMARY: loc-externaldrcore version git-r1
+RPROVIDES_loc-externaldrcore-locale:  loc-externaldrcore-locale (=git)
+SECTION: base
+PKG_loc-externaldrcore-locale: libloc-externaldrcore-locale
+FILES_loc-externaldrcore-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-externaldrcore-locale: 0

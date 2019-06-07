@@ -1,0 +1,14 @@
+PN: oem-recovery
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_oem-recovery-dbg: OEM Recovery  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_oem-recovery-dbg: oem-recovery version git-r1 - Debugging files
+SECTION_oem-recovery-dbg: devel
+PKG_oem-recovery-dbg: oem-recovery-dbg
+ALLOW_EMPTY_oem-recovery-dbg: 1
+FILES_oem-recovery-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/oem-recovery/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/oem-recovery/.debug /usr/lib/matchbox-panel/.debug /usr/lib/oem-recovery/oem-recovery/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_oem-recovery-dbg: 0

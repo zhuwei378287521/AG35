@@ -1,0 +1,19 @@
+PN: libsparse
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION: Build Android libsprase
+SUMMARY: libsparse version 1.0-r0
+RDEPENDS_libsparse: glibc (>= 2.22) zlib (>= 1.2.8)
+RPROVIDES_libsparse:  libsparse (=1.0)
+SECTION: base
+PKG_libsparse: libsparse0
+FILES_libsparse: /usr/bin/* /usr/sbin/* /usr/lib/libsparse/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libsparse /usr/lib/libsparse/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libsparse: /usr/lib/libsparse.so.0.0.0
+FILES_INFO: {"/usr/lib/libsparse.so.0.0.0": 26336, "/usr/lib/libsparse.so.0": 18}
+FILERPROVIDES_/usr/lib/libsparse.so.0.0.0_libsparse: elf(buildid) (= 7163e43ac215743d76b01db3514b27da03ade48c) libsparse.so.0
+FILERDEPENDSFLIST_libsparse: /usr/lib/libsparse.so.0.0.0
+FILERDEPENDS_/usr/lib/libsparse.so.0.0.0_libsparse: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libz.so.1 libz.so.1(ZLIB_1.2.3.3) rtld(GNU_HASH)
+PKGSIZE_libsparse: 26354

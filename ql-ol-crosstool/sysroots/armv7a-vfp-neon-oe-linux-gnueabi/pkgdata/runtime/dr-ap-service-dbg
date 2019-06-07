@@ -1,0 +1,15 @@
+PN: dr-ap-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_dr-ap-service-dbg: DR AP service  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_dr-ap-service-dbg: dr-ap-service version git-r1 - Debugging files
+RRECOMMENDS_dr-ap-service-dbg: glibc-dbg data-dbg gps-utils-dbg drplugin-server-dbg libgcc-dbg qmi-framework-dbg
+SECTION_dr-ap-service-dbg: devel
+PKG_dr-ap-service-dbg: dr-ap-service-dbg
+ALLOW_EMPTY_dr-ap-service-dbg: 1
+FILES_dr-ap-service-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dr-ap-service/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dr-ap-service/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dr-ap-service/dr-ap-service/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/DR_AP_Service": 5568}
+PKGSIZE_dr-ap-service-dbg: 5568

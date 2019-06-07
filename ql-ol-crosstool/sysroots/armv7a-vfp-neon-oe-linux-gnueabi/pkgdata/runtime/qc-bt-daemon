@@ -1,0 +1,18 @@
+PN: qc-bt-daemon
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Bluetooth QC Daemon
+SUMMARY: qc-bt-daemon version git-r0
+RDEPENDS_qc-bt-daemon: glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) qmi-framework (>= git) liblog (>= 1.0) libgcc (>= 4.9.3) data (>= git)
+SECTION: base
+PKG_qc-bt-daemon: qc-bt-daemon
+FILES_qc-bt-daemon: /usr/bin/* /usr/sbin/* /usr/lib/qc-bt-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qc-bt-daemon /usr/lib/qc-bt-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_qc-bt-daemon: /usr/bin/qcbtdaemon
+FILES_INFO: {"/usr/bin/qcbtdaemon": 18092}
+FILERPROVIDES_/usr/bin/qcbtdaemon_qc-bt-daemon: elf(buildid) (= fb242b06837daabd28387082e96098e5a6f4c22d)
+FILERDEPENDSFLIST_qc-bt-daemon: /usr/bin/qcbtdaemon
+FILERDEPENDS_/usr/bin/qcbtdaemon_qc-bt-daemon: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libqmi_cci.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_qc-bt-daemon: 18092

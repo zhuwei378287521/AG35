@@ -1,0 +1,15 @@
+PN: drplugin
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-staticdev: Lib DRPlugin  This package contains static libraries for software development.
+SUMMARY_drplugin-staticdev: drplugin version git-r1 - Development files (Static Libraries)
+RDEPENDS_drplugin-staticdev: drplugin-dev (= git-r1)
+RPROVIDES_drplugin-staticdev:  drplugin-staticdev (=git)
+SECTION_drplugin-staticdev: devel
+PKG_drplugin-staticdev: libdrplugin-staticdev
+FILES_drplugin-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/drplugin/*.a
+FILES_INFO: {}
+PKGSIZE_drplugin-staticdev: 0

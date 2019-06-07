@@ -1,0 +1,13 @@
+PN: wlan-services
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: WLAN Services required for QCACLD
+SUMMARY: wlan-services version git-r2
+SECTION: base
+PKG_wlan-services-locale: wlan-services-locale
+FILES_wlan-services-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_wlan-services-locale: 0

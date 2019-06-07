@@ -1,0 +1,20 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r19_perf
+RRECOMMENDS_system-core-post-boot:  update-rc.d
+SECTION: base
+PKG_system-core-post-boot: system-core-post-boot
+FILES_system-core-post-boot: /etc/init.d/init_post_boot /lib/systemd/system/init_post_boot.service /lib/systemd/system/multi-user.target.wants/init_post_boot.service /lib/systemd/system/ffbm.target.wants/init_post_boot.service /etc/initscripts/init_post_boot
+pkg_postinst_system-core-post-boot: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT init_post_boot start 90 2 3 4 5 .\nfi\n
+pkg_postrm_system-core-post-boot: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT init_post_boot remove\nfi\n
+pkg_preinst_system-core-post-boot: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/init_post_boot" ]; then\n\t/etc/init.d/init_post_boot stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT init_post_boot remove\nfi\n
+pkg_prerm_system-core-post-boot: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/init_post_boot stop\nfi\n
+FILES_INFO: {"/etc/init.d/init_post_boot": 32278}
+FILERDEPENDSFLIST_system-core-post-boot: /etc/init.d/init@underscore@post@underscore@boot
+FILERDEPENDS_/etc/init.d/init@underscore@post@underscore@boot_system-core-post-boot: /bin/sh
+PKGSIZE_system-core-post-boot: 32278

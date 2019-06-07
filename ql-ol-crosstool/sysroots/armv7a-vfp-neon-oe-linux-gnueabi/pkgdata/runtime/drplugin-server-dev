@@ -1,0 +1,17 @@
+PN: drplugin-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-server-dev: DR Plugin server  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_drplugin-server-dev: drplugin-server version git-r1 - Development files
+RDEPENDS_drplugin-server-dev: drplugin-server (= git-r1)
+RPROVIDES_drplugin-server-dev:  drplugin-server-dev (=git)
+RRECOMMENDS_drplugin-server-dev: liblog-dev loc-base-util-dev libgcc-dev time-genoff-dev glib-2.0-dev loc-hal-dev data-dev slim-common-dev qmi-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev libcrypto-dev libstdc++-dev loc-externaldrcore-dev gps-utils-dev libsqlite3-dev data-items-dev libcutils-dev loc-net-iface-dev slim-client-dev lbs-core-dev slim-utils-dev system-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev dsutils-dev qmi-framework-dev loc-externaldr-dev diag-dev
+SECTION_drplugin-server-dev: devel
+PKG_drplugin-server-dev: lib-drplugin-server-dev
+ALLOW_EMPTY_drplugin-server-dev: 1
+FILES_drplugin-server-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/drplugin-server/*.la /lib/*.la
+FILES_INFO: {"/usr/include/drplugin-server/DRPluginService.h": 9541, "/usr/include/drplugin-server/loc_drplugin_server.h": 890, "/usr/lib/lib_drplugin_server.so": 28, "/usr/include/drplugin-server/dr_plugin_msg.h": 6647, "/usr/include/drplugin-server/loc_drplugin_srvr_main.h": 1407, "/usr/lib/pkgconfig/drplugin-server.pc": 228, "/usr/include/drplugin-server/loc_drplugin_srvr_log.h": 9522, "/usr/lib/lib_drplugin_server.la": 3305, "/usr/include/drplugin-server/Slim_APDRClient.h": 2827}
+PKGSIZE_drplugin-server-dev: 34395

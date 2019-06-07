@@ -1,0 +1,14 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION_system-core-staticdev: Android system/core components  This package contains static libraries for software development.
+SUMMARY_system-core-staticdev: system-core version git-r19_perf - Development files (Static Libraries)
+RDEPENDS_system-core-staticdev: system-core-dev (= git-r19_perf)
+SECTION_system-core-staticdev: devel
+PKG_system-core-staticdev: system-core-staticdev
+FILES_system-core-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/system-core/*.a
+FILES_INFO: {"/usr/lib/libfs_mgr.a": 49084, "/usr/lib/liblogwrap.a": 10926, "/usr/lib/libadbd.a": 153348, "/usr/lib/libbacktrace.a": 69116, "/usr/lib/libsync.a": 2702, "/usr/lib/libutils.a": 177416, "/usr/lib/libbase.a": 36684}
+PKGSIZE_system-core-staticdev: 499276

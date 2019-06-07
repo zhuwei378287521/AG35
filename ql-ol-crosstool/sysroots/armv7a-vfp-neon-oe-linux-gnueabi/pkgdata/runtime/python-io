@@ -1,0 +1,28 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-io: Python low-level I/O
+RDEPENDS_python-io: libcrypto (>= 1.0.2h) libpython2 (>= 2.7.9) python-textutils glibc (>= 2.22) python-math python-core python-contextlib python-netclient libssl (>= 1.0.2h)
+SECTION: devel/python
+PKG_python-io: python-io
+FILES_python-io: /usr/lib/python2.7/lib-dynload/_socket.so /usr/lib/python2.7/lib-dynload/_io.so /usr/lib/python2.7/lib-dynload/_ssl.so /usr/lib/python2.7/lib-dynload/select.so /usr/lib/python2.7/lib-dynload/termios.so /usr/lib/python2.7/lib-dynload/cStringIO.so /usr/lib/python2.7/pipes.* /usr/lib/python2.7/socket.* /usr/lib/python2.7/ssl.* /usr/lib/python2.7/tempfile.* /usr/lib/python2.7/StringIO.* /usr/lib/python2.7/io.* /usr/lib/python2.7/_pyio.* 
+FILERPROVIDESFLIST_python-io: /usr/lib/python2.7/lib-dynload/@underscore@socket.so /usr/lib/python2.7/lib-dynload/cStringIO.so /usr/lib/python2.7/lib-dynload/@underscore@ssl.so /usr/lib/python2.7/lib-dynload/termios.so /usr/lib/python2.7/lib-dynload/@underscore@io.so /usr/lib/python2.7/lib-dynload/select.so
+FILES_INFO: {"/usr/lib/python2.7/ssl.py": 36086, "/usr/lib/python2.7/pipes.py": 9582, "/usr/lib/python2.7/io.pyc": 3578, "/usr/lib/python2.7/lib-dynload/_socket.so": 77892, "/usr/lib/python2.7/ssl.pyc": 30854, "/usr/lib/python2.7/_pyio.pyc": 64059, "/usr/lib/python2.7/lib-dynload/cStringIO.so": 16768, "/usr/lib/python2.7/io.py": 3321, "/usr/lib/python2.7/lib-dynload/termios.so": 17884, "/usr/lib/python2.7/tempfile.py": 18721, "/usr/lib/python2.7/socket.py": 20512, "/usr/lib/python2.7/lib-dynload/_io.so": 148636, "/usr/lib/python2.7/StringIO.py": 10662, "/usr/lib/python2.7/lib-dynload/select.so": 22080, "/usr/lib/python2.7/pipes.pyc": 9276, "/usr/lib/python2.7/StringIO.pyc": 11442, "/usr/lib/python2.7/socket.pyc": 16046, "/usr/lib/python2.7/tempfile.pyc": 19861, "/usr/lib/python2.7/_pyio.py": 69294, "/usr/lib/python2.7/lib-dynload/_ssl.so": 76168}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@socket.so_python-io: _socket.so elf(buildid) (= 9b1c4cfb2847b332d865451816d2391349957ebe)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/cStringIO.so_python-io: cStringIO.so elf(buildid) (= 22ed0c9a3d385373c8953438d31db0f088ace1f6)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@ssl.so_python-io: _ssl.so elf(buildid) (= 2daa89df699431fe9fea99c7e0209c7c615b387e)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/termios.so_python-io: elf(buildid) (= 960c613dbac01ec6f35d5d289490a33ca3700c35) termios.so
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@io.so_python-io: _io.so elf(buildid) (= 227591a34f92317dd11a64c217d0d605bf0abdc5)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/select.so_python-io: elf(buildid) (= 8b047abe918e316733bc18d6d0775997bd3f784d) select.so
+FILERDEPENDSFLIST_python-io: /usr/lib/python2.7/lib-dynload/@underscore@socket.so /usr/lib/python2.7/lib-dynload/cStringIO.so /usr/lib/python2.7/lib-dynload/@underscore@ssl.so /usr/lib/python2.7/lib-dynload/termios.so /usr/lib/python2.7/lib-dynload/@underscore@io.so /usr/lib/python2.7/lib-dynload/select.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@socket.so_python-io: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/cStringIO.so_python-io: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@ssl.so_python-io: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libpython2.7.so.1.0 libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0(OPENSSL_1.0.1) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/termios.so_python-io: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@io.so_python-io: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/select.so_python-io: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-io: 682722

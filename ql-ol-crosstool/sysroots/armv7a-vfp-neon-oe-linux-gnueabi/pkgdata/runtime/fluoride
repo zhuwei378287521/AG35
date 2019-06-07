@@ -1,0 +1,20 @@
+PN: fluoride
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION: Bluetooth Fluoride Stack
+SUMMARY: fluoride version git-r0
+RDEPENDS_fluoride: glibc (>= 2.22) zlib (>= 1.2.8) libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) system-media (>= git) libhardware (>= git)
+SECTION: base
+PKG_fluoride: fluoride
+FILES_fluoride: /usr/bin/* /usr/sbin/* /usr/lib/fluoride/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/fluoride /usr/lib/fluoride/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib /data/misc/bluetooth/*
+FILERPROVIDESFLIST_fluoride: /usr/lib/libbluetoothdefault.so.0.0.0 /usr/bin/bdt
+FILES_INFO: {"/usr/lib/audio.a2dp.default.so": 24, "/usr/lib/libbluetoothdefault.so.0": 28, "/data/misc/bluetooth/bt_did.conf": 2618, "/usr/lib/libbluetoothdefault.so": 28, "/usr/lib/bluetooth.default.so": 24, "/data/misc/bluetooth/bt_stack.conf": 2248, "/data/misc/bluetooth/iot_devlist.conf": 1834, "/usr/bin/bdt": 18216, "/usr/lib/libbluetoothdefault.so.0.0.0": 2726988}
+FILERPROVIDES_/usr/lib/libbluetoothdefault.so.0.0.0_fluoride: elf(buildid) (= 324373b5983d32cb73449011d9e99e26f5bc4945) libbluetoothdefault.so.0
+FILERPROVIDES_/usr/bin/bdt_fluoride: elf(buildid) (= d0b073412c0103edda918c0866d99b8507aa5202)
+FILERDEPENDSFLIST_fluoride: /usr/lib/libbluetoothdefault.so.0.0.0 /usr/bin/bdt
+FILERDEPENDS_/usr/lib/libbluetoothdefault.so.0.0.0_fluoride: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libaudioutils.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdl.so.2 libdl.so.2(GLIBC_2.4) liblog.so.0 libresolv.so.2 libresolv.so.2(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/bdt_fluoride: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libhardware.so.0 liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_fluoride: 2752008

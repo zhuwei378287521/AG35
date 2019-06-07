@@ -1,0 +1,13 @@
+PN: canwrapper-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_canwrapper-hdr-doc: CAN Wrapper hdr  This package contains documentation.
+SUMMARY_canwrapper-hdr-doc: canwrapper-hdr version git-r1 - Documentation files
+SECTION_canwrapper-hdr-doc: doc
+PKG_canwrapper-hdr-doc: canwrapper-hdr-doc
+FILES_canwrapper-hdr-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_canwrapper-hdr-doc: 0

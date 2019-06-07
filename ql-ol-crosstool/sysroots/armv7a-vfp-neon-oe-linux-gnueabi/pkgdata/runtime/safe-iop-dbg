@@ -1,0 +1,16 @@
+PN: safe-iop
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_safe-iop-dbg: Safe integer operation library for C  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_safe-iop-dbg: safe-iop version git-r0 - Debugging files
+RPROVIDES_safe-iop-dbg:  safe-iop-dbg (=git)
+RRECOMMENDS_safe-iop-dbg: glibc-dbg
+SECTION_safe-iop-dbg: devel
+PKG_safe-iop-dbg: libsafe-iop-dbg
+ALLOW_EMPTY_safe-iop-dbg: 1
+FILES_safe-iop-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/safe-iop/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/safe-iop/.debug /usr/lib/matchbox-panel/.debug /usr/lib/safe-iop/safe-iop/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libsafe_iop.so.0.0.0": 6720}
+PKGSIZE_safe-iop-dbg: 6720

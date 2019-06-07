@@ -1,0 +1,20 @@
+PN: wireless-tools
+PE: 1
+PV: 30.pre9
+PR: r0
+PKGE: 1
+PKGV: 30.pre9
+PKGR: r0
+LICENSE: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+DESCRIPTION: Tools for the Linux Standard Wireless Extension Subsystem.
+SUMMARY: Tools for the Linux Standard Wireless Extension Subsystem
+RDEPENDS_ifrename: glibc (>= 2.22)
+SECTION: base
+PKG_ifrename: ifrename
+FILES_ifrename: /usr/sbin/ifrename
+FILERPROVIDESFLIST_ifrename: /usr/sbin/ifrename
+FILES_INFO: {"/usr/sbin/ifrename": 46820}
+FILERPROVIDES_/usr/sbin/ifrename_ifrename: elf(buildid) (= 0274172e9cf550f668dc4c71165be25444707991)
+FILERDEPENDSFLIST_ifrename: /usr/sbin/ifrename
+FILERDEPENDS_/usr/sbin/ifrename_ifrename: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ifrename: 46820

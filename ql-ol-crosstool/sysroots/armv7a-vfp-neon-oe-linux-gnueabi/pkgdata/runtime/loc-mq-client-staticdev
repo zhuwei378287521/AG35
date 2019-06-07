@@ -1,0 +1,15 @@
+PN: loc-mq-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mq-client-staticdev: LOC MQ Client  This package contains static libraries for software development.
+SUMMARY_loc-mq-client-staticdev: loc-mq-client version git-r1 - Development files (Static Libraries)
+RDEPENDS_loc-mq-client-staticdev: loc-mq-client-dev (= git-r1)
+RPROVIDES_loc-mq-client-staticdev:  loc-mq-client-staticdev (=git)
+SECTION_loc-mq-client-staticdev: devel
+PKG_loc-mq-client-staticdev: libloc-mq-client-staticdev
+FILES_loc-mq-client-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-mq-client/*.a
+FILES_INFO: {}
+PKGSIZE_loc-mq-client-staticdev: 0

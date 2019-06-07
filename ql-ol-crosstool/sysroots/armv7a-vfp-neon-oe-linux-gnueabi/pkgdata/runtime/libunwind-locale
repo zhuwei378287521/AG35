@@ -1,0 +1,13 @@
+PN: libunwind
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Libunwind
+SUMMARY: libunwind version 1.0-r0
+SECTION: base
+PKG_libunwind-locale: libunwind-locale
+FILES_libunwind-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libunwind-locale: 0

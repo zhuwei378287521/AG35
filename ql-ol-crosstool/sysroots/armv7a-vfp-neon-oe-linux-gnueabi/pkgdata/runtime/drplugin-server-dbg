@@ -1,0 +1,16 @@
+PN: drplugin-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-server-dbg: DR Plugin server  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_drplugin-server-dbg: drplugin-server version git-r1 - Debugging files
+RPROVIDES_drplugin-server-dbg:  drplugin-server-dbg (=git)
+RRECOMMENDS_drplugin-server-dbg: libsqlite3-dbg lbs-core-dbg slim-utils-dbg libstdc++-dbg loc-net-iface-dbg libssl-dbg data-items-dbg libcrypto-dbg loc-externaldr-dbg izat-core-dbg qmi-framework-dbg xmllib-dbg qmi-dbg system-core-dbg dsutils-dbg qmi-client-helper-dbg loc-externaldrcore-dbg diag-dbg data-oss-dbg slim-common-dbg slim-client-dbg libcutils-dbg loc-stub-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg data-dbg configdb-dbg time-genoff-dbg
+SECTION_drplugin-server-dbg: devel
+PKG_drplugin-server-dbg: lib-drplugin-server-dbg
+ALLOW_EMPTY_drplugin-server-dbg: 1
+FILES_drplugin-server-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/drplugin-server/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/drplugin-server/.debug /usr/lib/matchbox-panel/.debug /usr/lib/drplugin-server/drplugin-server/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/lib_drplugin_server.so.1.0.0": 346312}
+PKGSIZE_drplugin-server-dbg: 346312

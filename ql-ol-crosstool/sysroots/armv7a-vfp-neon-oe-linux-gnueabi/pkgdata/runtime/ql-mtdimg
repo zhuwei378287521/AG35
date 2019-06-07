@@ -1,0 +1,18 @@
+PN: ql-mtdimg
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel Function Daemon
+SUMMARY: ql-mtdimg version git-r1
+RDEPENDS_ql-mtdimg: glibc (>= 2.22)
+SECTION: base
+PKG_ql-mtdimg: ql-mtdimg
+FILES_ql-mtdimg: /usr/bin/* /usr/sbin/* /usr/lib/ql-mtdimg/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ql-mtdimg /usr/lib/ql-mtdimg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_ql-mtdimg: /usr/bin/mtdimg
+FILES_INFO: {"/usr/bin/mtdimg": 18164}
+FILERPROVIDES_/usr/bin/mtdimg_ql-mtdimg: elf(buildid) (= 2aed19a20aba438a8be0d2e1b77e3f2c48c63de5)
+FILERDEPENDSFLIST_ql-mtdimg: /usr/bin/mtdimg
+FILERDEPENDS_/usr/bin/mtdimg_ql-mtdimg: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+PKGSIZE_ql-mtdimg: 18164

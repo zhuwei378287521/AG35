@@ -1,0 +1,24 @@
+PN: tinyalsa
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: Tinyalsa Library
+SUMMARY: tinyalsa version git-r1
+RDEPENDS_tinyalsa: libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) glibc (>= 2.22)
+SECTION: base
+PKG_tinyalsa: tinyalsa
+FILES_tinyalsa: /usr/bin/* /usr/sbin/* /usr/lib/tinyalsa/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/tinyalsa /usr/lib/tinyalsa/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_tinyalsa: /usr/bin/tinymix /usr/bin/tinyplay /usr/bin/tinycap /usr/lib/libtinyalsa.so.1.0.0
+FILES_INFO: {"/usr/lib/libtinyalsa.so.1.0.0": 22264, "/usr/bin/tinyplay": 13992, "/usr/bin/tinycap": 9900, "/usr/bin/tinymix": 14036, "/usr/lib/libtinyalsa.so.1": 20}
+FILERPROVIDES_/usr/bin/tinymix_tinyalsa: elf(buildid) (= df396d1135bd7a319d7d0b9c940f1a63f03b2b81)
+FILERPROVIDES_/usr/bin/tinyplay_tinyalsa: elf(buildid) (= 257a15f996cef4cf0cdd4c97aa179c99f49b1c41)
+FILERPROVIDES_/usr/bin/tinycap_tinyalsa: elf(buildid) (= 6d46919fca900372f705d25ea5f618c01076e273)
+FILERPROVIDES_/usr/lib/libtinyalsa.so.1.0.0_tinyalsa: elf(buildid) (= a219ab0f97e6a265f3287d415b3df941fc7cefe1) libtinyalsa.so.1
+FILERDEPENDSFLIST_tinyalsa: /usr/bin/tinymix /usr/bin/tinyplay /usr/bin/tinycap /usr/lib/libtinyalsa.so.1.0.0
+FILERDEPENDS_/usr/bin/tinymix_tinyalsa: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtinyalsa.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/tinyplay_tinyalsa: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) liblog.so.0 libtinyalsa.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/tinycap_tinyalsa: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtinyalsa.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libtinyalsa.so.1.0.0_tinyalsa: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_tinyalsa: 60212

@@ -1,0 +1,14 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r19_perf
+RRECOMMENDS_system-core-leprop-dbg: system-core-dbg libselinux-dbg glibc-dbg zlib-dbg libstdc++-dbg ext4-utils-dbg libmincrypt-dbg liblog-dbg libsparse-dbg libpcre-dbg glib-2.0-dbg libgcc-dbg ql-libsepol-dbg libcutils-dbg libunwind-dbg
+SECTION: base
+PKG_system-core-leprop-dbg: system-core-leprop-dbg
+FILES_system-core-leprop-dbg: /sbin/.debug/leprop-service /usr/bin/.debug/getprop /usr/bin/.debug/setprop
+FILES_INFO: {"/sbin/.debug/leprop-service": 7280, "/usr/bin/.debug/setprop": 4864, "/usr/bin/.debug/getprop": 4940}
+PKGSIZE_system-core-leprop-dbg: 17084

@@ -1,0 +1,14 @@
+PN: loc-glue
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-glue-doc: GPS Location Service library  This package contains documentation.
+SUMMARY_loc-glue-doc: loc-glue version git-r1 - Documentation files
+RPROVIDES_loc-glue-doc:  loc-glue-doc (=git)
+SECTION_loc-glue-doc: doc
+PKG_loc-glue-doc: liblocationservice-glue-doc
+FILES_loc-glue-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-glue-doc: 0

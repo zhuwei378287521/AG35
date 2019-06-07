@@ -1,0 +1,39 @@
+PN: lttng-ust
+PE: 2
+PV: 2.6.2+gitAUTOINC+c49ee9040a
+PR: r0
+PKGE: 2
+PKGV: 2.6.2+git0+c49ee9040a
+PKGR: r0
+LICENSE: LGPLv2.1+ & MIT & GPLv2
+DESCRIPTION: The LTTng UST 2.x package contains the userspace tracer library to trace userspace codes.
+SUMMARY: Linux Trace Toolkit Userspace Tracer 2.x
+RDEPENDS_lttng-ust: glibc (>= 2.22) liburcu (>= 0.8.7)
+RPROVIDES_lttng-ust: lttng2-ust
+RREPLACES_lttng-ust: lttng2-ust
+RCONFLICTS_lttng-ust: lttng2-ust
+SECTION: base
+PKG_lttng-ust: lttng-ust
+FILES_lttng-ust: /usr/bin/* /usr/sbin/* /usr/lib/lttng-ust/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lttng-ust /usr/lib/lttng-ust/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_lttng-ust: /usr/lib/liblttng-ust.so.0.0.0 /usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0 /usr/lib/liblttng-ust-dl.so.0.0.0 /usr/lib/liblttng-ust-fork.so.0.0.0 /usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0 /usr/lib/liblttng-ust-cyg-profile.so.0.0.0 /usr/lib/liblttng-ust-libc-wrapper.so.0.0.0 /usr/lib/liblttng-ust-ctl.so.2.0.0 /usr/lib/liblttng-ust-tracepoint.so.0.0.0
+FILES_INFO: {"/usr/lib/liblttng-ust.so.0.0.0": 354976, "/usr/lib/liblttng-ust-tracepoint.so.0": 32, "/usr/lib/liblttng-ust-dl.so.0": 24, "/usr/lib/liblttng-ust-pthread-wrapper.so.0": 37, "/usr/lib/liblttng-ust-libc-wrapper.so.0": 34, "/usr/lib/liblttng-ust-cyg-profile.so.0": 33, "/usr/lib/liblttng-ust-ctl.so.2.0.0": 215148, "/usr/lib/liblttng-ust-cyg-profile-fast.so.0": 38, "/usr/lib/liblttng-ust-dl.so.0.0.0": 14284, "/usr/lib/liblttng-ust-fork.so.0.0.0": 5664, "/usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0": 18524, "/usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0": 10200, "/usr/lib/liblttng-ust-cyg-profile.so.0.0.0": 14292, "/usr/lib/liblttng-ust-ctl.so.2": 25, "/usr/lib/liblttng-ust-libc-wrapper.so.0.0.0": 26800, "/usr/lib/liblttng-ust-fork.so.0": 26, "/usr/lib/liblttng-ust-tracepoint.so.0.0.0": 38592, "/usr/lib/liblttng-ust.so.0": 21}
+FILERPROVIDES_/usr/lib/liblttng-ust.so.0.0.0_lttng-ust: elf(buildid) (= 9c54c1471ce198a39d6ffe28cbb4ecd3f08688a1) liblttng-ust.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0_lttng-ust: elf(buildid) (= 93dfe8f4285b485578553cdae182f19d723c0c0e) liblttng-ust-cyg-profile-fast.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-dl.so.0.0.0_lttng-ust: elf(buildid) (= 7767272f3eecdf73f8327b24f2e28e73f3d30f8e) liblttng-ust-dl.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-fork.so.0.0.0_lttng-ust: elf(buildid) (= fd6114a61bc2e7a3991a455ae790947f290c35f8) liblttng-ust-fork.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0_lttng-ust: elf(buildid) (= b9ee7d903a79245a60ce22ca68f981197b019058) liblttng-ust-pthread-wrapper.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-cyg-profile.so.0.0.0_lttng-ust: elf(buildid) (= 06badd9fb7bdd97290f7adfd772d07a3638a4890) liblttng-ust-cyg-profile.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-libc-wrapper.so.0.0.0_lttng-ust: elf(buildid) (= 69cb48df832512dcc19bd89b559a93ba9fd79ebf) liblttng-ust-libc-wrapper.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-ctl.so.2.0.0_lttng-ust: elf(buildid) (= 3611376f19d60bc91a6eec8ce8447d136edcefac) liblttng-ust-ctl.so.2
+FILERPROVIDES_/usr/lib/liblttng-ust-tracepoint.so.0.0.0_lttng-ust: elf(buildid) (= 7988ed0bf9ee62a531509519c9175fe543bb0eab) liblttng-ust-tracepoint.so.0
+FILERDEPENDSFLIST_lttng-ust: /usr/lib/liblttng-ust.so.0.0.0 /usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0 /usr/lib/liblttng-ust-dl.so.0.0.0 /usr/lib/liblttng-ust-fork.so.0.0.0 /usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0 /usr/lib/liblttng-ust-cyg-profile.so.0.0.0 /usr/lib/liblttng-ust-libc-wrapper.so.0.0.0 /usr/lib/liblttng-ust-ctl.so.2.0.0 /usr/lib/liblttng-ust-tracepoint.so.0.0.0
+FILERDEPENDS_/usr/lib/liblttng-ust.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.8) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-dl.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-fork.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-cyg-profile.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-libc-wrapper.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-ctl.so.2.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-tracepoint.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+PKGSIZE_lttng-ust: 698750

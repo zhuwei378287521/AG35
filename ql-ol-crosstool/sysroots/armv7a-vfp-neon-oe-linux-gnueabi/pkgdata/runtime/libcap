@@ -1,0 +1,19 @@
+PN: libcap
+PV: 2.24
+PR: r0
+PKGV: 2.24
+PKGR: r0
+LICENSE: BSD | GPLv2
+DESCRIPTION: Library for getting/setting POSIX.1e capabilities.
+SUMMARY: Library for getting/setting POSIX.1e capabilities
+RDEPENDS_libcap: glibc (>= 2.22) libattr (>= 2.4.47)
+RPROVIDES_libcap:  libcap (=2.24)
+SECTION: base
+PKG_libcap: libcap2
+FILES_libcap: /usr/bin/* /usr/sbin/* /usr/lib/libcap/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libcap /usr/lib/libcap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/security/*.so
+FILERPROVIDESFLIST_libcap: /lib/libcap.so.2.24
+FILES_INFO: {"/lib/libcap.so.2.24": 18096, "/lib/libcap.so.2": 14}
+FILERPROVIDES_/lib/libcap.so.2.24_libcap: elf(buildid) (= cb0c4f97d514086a9b7f565e888a01ec691d8da0) libcap.so.2
+FILERDEPENDSFLIST_libcap: /lib/libcap.so.2.24
+FILERDEPENDS_/lib/libcap.so.2.24_libcap: rtld(GNU_HASH)
+PKGSIZE_libcap: 18110

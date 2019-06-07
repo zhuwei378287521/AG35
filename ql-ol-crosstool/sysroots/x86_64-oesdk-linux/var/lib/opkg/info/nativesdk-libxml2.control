@@ -1,0 +1,18 @@
+Package: nativesdk-libxml2
+Version: 2.9.2-r0
+Description: XML C Parser Library and Toolkit
+ The XML Parser Library allows for manipulation of XML files.  Libxml2
+ exports Push and Pull type parser interfaces for both XML and HTML.  It
+ can do DTD validation at parse time, on a parsed document instance or
+ with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and
+ Xinclude implementations.  It also has a SAX like interface, which is
+ designed to be compatible with Expat.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-libxml2
+Homepage: http://www.xmlsoft.org/
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-libc6 (>= 2.22)
+Source: ftp://xmlsoft.org/libxml2/libxml2-2.9.2.tar.gz;name=libtar file://libxml-64bit.patch file://ansidecl.patch file://runtest.patch file://run-ptest file://libxml2-CVE-2014-0191-fix.patch file://python-sitepackages-dir.patch file://libxml-m4-use-pkgconfig.patch file://configure.ac-fix-cross-compiling-warning.patch file://0001-CVE-2015-1819-Enforce-the-reader-to-run-in-constant-.patch file://CVE-2015-7941-1-Stop-parsing-on-entities-boundaries-errors.patch file://CVE-2015-7941-2-Cleanup-conditional-section-error-handling.patch file://CVE-2015-8317-Fail-parsing-early-on-if-encoding-conversion-failed.patch file://CVE-2015-7942-Another-variation-of-overflow-in-Conditional-section.patch file://CVE-2015-7942-2-Fix-an-error-in-previous-Conditional-section-patch.patch file://0001-CVE-2015-8035-Fix-XZ-compression-support-loop.patch file://CVE-2015-7498-Avoid-processing-entities-after-encoding-conversion-.patch file://0001-CVE-2015-7497-Avoid-an-heap-buffer-overflow-in-xmlDi.patch file://CVE-2015-7499-1-Add-xmlHaltParser-to-stop-the-parser.patch file://CVE-2015-7499-2-Detect-incoherency-on-GROW.patch file://0001-Fix-a-bug-on-name-parsing-at-the-end-of-current-inpu.patch file://0001-CVE-2015-7500-Fix-memory-access-error-due-to-incorre.patch file://0001-CVE-2015-8242-Buffer-overead-with-HTML-parser-in-pus.patch file://0001-CVE-2015-5312-Another-entity-expansion-issue.patch file://CVE-2015-8241.patch file://CVE-2015-8710.patch http://www.w3.org/XML/Test/xmlts20080827.tar.gz;name=testtar file://72a46a519ce7326d9a00f0b6a7f2a8e958cd1675.patch file://0001-threads-Define-pthread-definitions-for-glibc-complia.patch file://CVE-2016-1762.patch file://CVE-2016-3705.patch file://CVE-2016-1834.patch file://CVE-2016-4483.patch file://CVE-2016-1840.patch file://CVE-2016-1838.patch file://CVE-2016-1839.patch file://CVE-2016-1836.patch file://CVE-2016-4449.patch file://CVE-2016-1837.patch file://CVE-2016-1835.patch file://CVE-2016-1833.patch file://CVE-2016-3627.patch file://CVE-2016-4447.patch file://CVE-2016-4448_1.patch file://CVE-2016-4448_2.patch

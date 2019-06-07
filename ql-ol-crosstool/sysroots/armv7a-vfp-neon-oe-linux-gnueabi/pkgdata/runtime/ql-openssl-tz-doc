@@ -1,0 +1,13 @@
+PN: ql-openssl-tz
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-openssl-tz-doc: Quectel openssl-tz lib  This package contains documentation.
+SUMMARY_ql-openssl-tz-doc: ql-openssl-tz version git-r1 - Documentation files
+SECTION_ql-openssl-tz-doc: doc
+PKG_ql-openssl-tz-doc: ql-openssl-tz-doc
+FILES_ql-openssl-tz-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ql-openssl-tz-doc: 0

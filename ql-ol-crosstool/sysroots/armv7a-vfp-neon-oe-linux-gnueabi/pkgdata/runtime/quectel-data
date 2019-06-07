@@ -1,0 +1,25 @@
+PN: quectel-data
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel RemoteFs Service
+SUMMARY: quectel-data version git-r1
+RDEPENDS_quectel-data: qmi (>= git) diag (>= git) time-genoff (>= git) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) qmi-framework (>= git) configdb (>= git) dsutils (>= git) xmllib (>= git) libgcc (>= 4.9.3) data (>= git) glibc (>= 2.22)
+SECTION: base
+PKG_quectel-data: quectel-data
+FILES_quectel-data: /usr/bin/* /usr/sbin/* /usr/lib/quectel-data/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-data /usr/lib/quectel-data/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_quectel-data: /usr/lib/libql@underscore@qcmap@underscore@client.so.1.0.0 /usr/bin/Quec@underscore@WIFI@underscore@CLI /usr/bin/Quectel@underscore@QCMAP@underscore@CLI /usr/bin/quec@underscore@wifi@underscore@bridge
+FILES_INFO: {"/etc/init.d/start_quec_wifi_bridge": 953, "/usr/bin/Quectel_QCMAP_CLI": 22204, "/usr/bin/Quec_WIFI_CLI": 26284, "/usr/lib/libql_qcmap_client.so.1": 27, "/usr/bin/quec_wifi_bridge": 18100, "/etc/init.d/emac": 2108, "/usr/lib/libql_qcmap_client.so.1.0.0": 22212}
+FILERPROVIDES_/usr/lib/libql@underscore@qcmap@underscore@client.so.1.0.0_quectel-data: elf(buildid) (= 9b17cf6b47f9dd5f7155ca468bb47f8f2380ba20) libql_qcmap_client.so.1
+FILERPROVIDES_/usr/bin/Quec@underscore@WIFI@underscore@CLI_quectel-data: elf(buildid) (= 7956d28b80e4d5e11cd57fcf5371a18f3ddb9960)
+FILERPROVIDES_/usr/bin/Quectel@underscore@QCMAP@underscore@CLI_quectel-data: elf(buildid) (= 238ccb63aaef11711937cb3acc6fa70f20650bb5)
+FILERPROVIDES_/usr/bin/quec@underscore@wifi@underscore@bridge_quectel-data: elf(buildid) (= 6b848e86858a8b2a0a1638a08d3c96d514f9a7fb)
+FILERDEPENDSFLIST_quectel-data: /usr/lib/libql@underscore@qcmap@underscore@client.so.1.0.0 /usr/bin/Quec@underscore@WIFI@underscore@CLI /usr/bin/quec@underscore@wifi@underscore@bridge /etc/init.d/emac /usr/bin/Quectel@underscore@QCMAP@underscore@CLI
+FILERDEPENDS_/usr/lib/libql@underscore@qcmap@underscore@client.so.1.0.0_quectel-data: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libqcmapipc.so.1 libqmi.so.1 libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmi_encdec.so.1 libqmiidl.so.1 libqmiservices.so.1 librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/Quec@underscore@WIFI@underscore@CLI_quectel-data: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libqmi_cci.so.1 libqmiservices.so.1 librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/quec@underscore@wifi@underscore@bridge_quectel-data: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/emac_quectel-data: /bin/sh
+FILERDEPENDS_/usr/bin/Quectel@underscore@QCMAP@underscore@CLI_quectel-data: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libqmi_cci.so.1 libqmiservices.so.1 librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_quectel-data: 91888

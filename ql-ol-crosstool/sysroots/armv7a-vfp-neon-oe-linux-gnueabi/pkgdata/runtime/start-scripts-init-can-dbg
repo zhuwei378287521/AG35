@@ -1,0 +1,14 @@
+PN: start-scripts-init-can
+PV: 1.0
+PR: r2
+PKGV: 1.0
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION_start-scripts-init-can-dbg: Start up script for setting up the can link  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_start-scripts-init-can-dbg: start-scripts-init-can version 1.0-r2 - Debugging files
+SECTION_start-scripts-init-can-dbg: devel
+PKG_start-scripts-init-can-dbg: start-scripts-init-can-dbg
+ALLOW_EMPTY_start-scripts-init-can-dbg: 1
+FILES_start-scripts-init-can-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/start-scripts-init-can/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/start-scripts-init-can/.debug /usr/lib/matchbox-panel/.debug /usr/lib/start-scripts-init-can/start-scripts-init-can/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_start-scripts-init-can-dbg: 0

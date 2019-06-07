@@ -1,0 +1,16 @@
+PN: drplugin
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-dbg: Lib DRPlugin  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_drplugin-dbg: drplugin version git-r1 - Debugging files
+RPROVIDES_drplugin-dbg:  drplugin-dbg (=git)
+RRECOMMENDS_drplugin-dbg: libsqlite3-dbg lbs-core-dbg loc-net-iface-dbg libssl-dbg data-items-dbg libcrypto-dbg izat-core-dbg qmi-framework-dbg xmllib-dbg qmi-dbg system-core-dbg dsutils-dbg qmi-client-helper-dbg diag-dbg data-oss-dbg libcutils-dbg libstdc++-dbg drplugin-client-dbg gps-utils-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg data-dbg configdb-dbg gnsspps-dbg loc-stub-dbg time-genoff-dbg
+SECTION_drplugin-dbg: devel
+PKG_drplugin-dbg: libdrplugin-dbg
+ALLOW_EMPTY_drplugin-dbg: 1
+FILES_drplugin-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/drplugin/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/drplugin/.debug /usr/lib/matchbox-panel/.debug /usr/lib/drplugin/drplugin/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libDRPlugin.so.1.0.0": 8960}
+PKGSIZE_drplugin-dbg: 8960

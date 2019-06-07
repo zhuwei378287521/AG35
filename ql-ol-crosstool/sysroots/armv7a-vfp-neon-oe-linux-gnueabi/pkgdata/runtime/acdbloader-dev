@@ -1,0 +1,16 @@
+PN: acdbloader
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbloader-dev: acdb loader Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_acdbloader-dev: acdbloader version git-r7 - Development files
+RDEPENDS_acdbloader-dev: acdbloader (= git-r7)
+RRECOMMENDS_acdbloader-dev: adiertac-dev acdbrtac-dev glibc-dev liblog-dev acdbmapper-dev libstdc++-dev time-genoff-dev glib-2.0-dev audioalsa-dev audcal-dev diag-dev
+SECTION_acdbloader-dev: devel
+PKG_acdbloader-dev: acdbloader-dev
+ALLOW_EMPTY_acdbloader-dev: 1
+FILES_acdbloader-dev: /usr/lib/*.la /usr/include
+FILES_INFO: {"/usr/include/acdbloader/vbat_map_api.h": 9067, "/usr/include/acdbloader/anc_map_api.h": 17434, "/usr/include/acdbloader/anc_bitmasks.h": 975, "/usr/include/acdbloader/acdb-anc-taiko.h": 3406, "/usr/include/acdbloader/acdb-anc-general.h": 3626, "/usr/lib/libacdbloader.la": 1422, "/usr/include/acdbloader/acdb-loader.h": 11709, "/usr/include/acdbloader/acdb-anc-tabla.h": 1905, "/usr/include/acdbloader/wcd9335_anc_registers.h": 6227}
+PKGSIZE_acdbloader-dev: 55771

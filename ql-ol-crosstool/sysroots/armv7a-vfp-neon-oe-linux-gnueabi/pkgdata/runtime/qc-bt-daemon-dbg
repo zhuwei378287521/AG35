@@ -1,0 +1,15 @@
+PN: qc-bt-daemon
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qc-bt-daemon-dbg: Bluetooth QC Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qc-bt-daemon-dbg: qc-bt-daemon version git-r0 - Debugging files
+RRECOMMENDS_qc-bt-daemon-dbg: glibc-dbg data-dbg libstdc++-dbg liblog-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg
+SECTION_qc-bt-daemon-dbg: devel
+PKG_qc-bt-daemon-dbg: qc-bt-daemon-dbg
+ALLOW_EMPTY_qc-bt-daemon-dbg: 1
+FILES_qc-bt-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qc-bt-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qc-bt-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qc-bt-daemon/qc-bt-daemon/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/qcbtdaemon": 7956}
+PKGSIZE_qc-bt-daemon-dbg: 7956

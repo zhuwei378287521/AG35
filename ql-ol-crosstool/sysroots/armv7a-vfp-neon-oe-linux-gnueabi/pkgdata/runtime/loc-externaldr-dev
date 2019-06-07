@@ -1,0 +1,17 @@
+PN: loc-externaldr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-externaldr-dev: externaldr   This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-externaldr-dev: loc-externaldr version git-r1 - Development files
+RDEPENDS_loc-externaldr-dev: loc-externaldr (= git-r1)
+RPROVIDES_loc-externaldr-dev:  loc-externaldr-dev (=git)
+RRECOMMENDS_loc-externaldr-dev: liblog-dev loc-base-util-dev libgcc-dev time-genoff-dev glib-2.0-dev gps-utils-dev data-dev libcrypto-dev qmi-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev gnsspps-dev libstdc++-dev loc-externaldrcore-dev loc-hal-dev libsqlite3-dev data-items-dev libcutils-dev loc-net-iface-dev lbs-core-dev system-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev dsutils-dev diag-dev qmi-framework-dev
+SECTION_loc-externaldr-dev: devel
+PKG_loc-externaldr-dev: libloc-externaldr-dev
+ALLOW_EMPTY_loc-externaldr-dev: 1
+FILES_loc-externaldr-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-externaldr/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libloc_externalDr.la": 3069, "/usr/lib/libloc_externalDr.so": 26, "/usr/include/loc-externaldr/qdr_sensor_if.h": 7106, "/usr/lib/pkgconfig/loc-externaldr.pc": 220, "/usr/include/loc-externaldr/DRExternal.h": 9635}
+PKGSIZE_loc-externaldr-dev: 20056

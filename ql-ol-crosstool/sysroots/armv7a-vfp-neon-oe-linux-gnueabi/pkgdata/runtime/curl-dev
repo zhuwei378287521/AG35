@@ -1,0 +1,18 @@
+PN: curl
+PV: 7.44.0
+PR: r0
+PKGV: 7.44.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_curl-dev: Command line tool and library for client-side URL transfers.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_curl-dev: Command line tool and library for client-side URL transfers - Development files
+RDEPENDS_curl-dev: libcurl curl (= 7.44.0-r0)
+RRECOMMENDS_curl-dev: glibc-dev zlib-dev libcurl-dev libssl-dev openssl-dev libcrypto-dev
+SECTION_curl-dev: devel
+PKG_curl-dev: curl-dev
+ALLOW_EMPTY_curl-dev: 1
+FILES_curl-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/curl/*.la /lib/*.la /usr/bin/*-config
+FILES_INFO: {"/usr/include/curl/multi.h": 15992, "/usr/include/curl/stdcheaders.h": 1330, "/usr/include/curl/easy.h": 3472, "/usr/include/curl/typecheck-gcc.h": 37557, "/usr/lib/libcurl.la": 949, "/usr/include/curl/curlver.h": 3075, "/usr/lib/pkgconfig/libcurl.pc": 1546, "/usr/share/aclocal/libcurl.m4": 11164, "/usr/bin/curl-config": 6398, "/usr/include/curl/mprintf.h": 2565, "/usr/lib/libcurl.so": 16, "/usr/include/curl/curl.h": 89998, "/usr/include/curl/curlrules.h": 8934, "/usr/include/curl/curlbuild.h": 7305}
+FILERDEPENDSFLIST_curl-dev: /usr/bin/curl-config
+FILERDEPENDS_/usr/bin/curl-config_curl-dev: /bin/sh
+PKGSIZE_curl-dev: 190301

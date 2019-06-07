@@ -1,0 +1,32 @@
+PN: recovery
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Apache-2.0
+DESCRIPTION: Recovery bootloader
+SUMMARY: recovery version git-r7
+RDEPENDS_recovery: bzip2 system-core-adbd (>= git) ql-libsepol (>= git) libsparse (>= 1.0) glibc (>= 2.22) zlib (>= 1.2.8) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) libgcc (>= 4.9.3) libbz2 (>= 1.0.6) libpcre (>= 8.38) system-core (>= git) libselinux (>= git) libmincrypt (>= git) ext4-utils (>= git)
+RRECOMMENDS_recovery:  update-rc.d
+SECTION: base
+PKG_recovery: recovery
+FILES_recovery: /usr/bin/* /usr/sbin/* /usr/lib/recovery/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/recovery /usr/lib/recovery/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /cache /system /tmp /res /data /lib
+pkg_postinst_recovery: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT recovery start 27 5 . stop 80 0 1 6 .\nfi\n
+pkg_postrm_recovery: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT recovery remove\nfi\n
+pkg_preinst_recovery: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/recovery" ]; then\n\t/etc/init.d/recovery stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT recovery remove\nfi\n
+pkg_prerm_recovery: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/recovery stop\nfi\n
+FILERPROVIDESFLIST_recovery: /usr/bin/updater /usr/bin/recovery /usr/bin/applypatch /usr/lib/libminadbd.so.1.0.0 /usr/bin/verifier@underscore@test
+FILES_INFO: {"/usr/bin/updater": 141196, "/usr/lib/libminadbd.so.1": 19, "/etc/ubinize_system_rootfs.cfg": 129, "/usr/bin/verifier_test": 23352, "/res/recovery_volume_config": 1021, "/usr/bin/recovery": 75664, "/etc/fstab": 1021, "/usr/lib/libminadbd.so.1.0.0": 9912, "/usr/bin/applypatch": 111352, "/etc/init.d/recovery": 2173, "/etc/ubinize_modem.cfg": 121, "/etc/init.d/backup_rootfs.sh": 3664}
+FILERPROVIDES_/usr/bin/updater_recovery: elf(buildid) (= c81cada4ff748f093c938d2413705b8c5f17f47d)
+FILERPROVIDES_/usr/bin/recovery_recovery: elf(buildid) (= a676f9c37ae5c8ce251edd9c34a252fe44b8ecb1)
+FILERPROVIDES_/usr/bin/applypatch_recovery: elf(buildid) (= 9ffa308f1afe4910fbc6048c7952389687dc2de8)
+FILERPROVIDES_/usr/lib/libminadbd.so.1.0.0_recovery: elf(buildid) (= e05e1987ff6a5ed507cf7acd5ee34c49b5fb4fd0) libminadbd.so.1
+FILERPROVIDES_/usr/bin/verifier@underscore@test_recovery: elf(buildid) (= f6bb6a1b49404c313d829fdc2b9ce7608342e2f4)
+FILERDEPENDSFLIST_recovery: /usr/bin/updater /etc/init.d/backup@underscore@rootfs.sh /usr/lib/libminadbd.so.1.0.0 /usr/bin/applypatch /usr/bin/verifier@underscore@test /usr/bin/recovery
+FILERDEPENDS_/usr/bin/updater_recovery: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 libext4_utils.so.0 liblog.so.0 libmincrypt.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libselinux.so.1 libsparse.so.0 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/backup@underscore@rootfs.sh_recovery: /bin/sh
+FILERDEPENDS_/usr/lib/libminadbd.so.1.0.0_recovery: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libadbd.so.0 libbase.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libext4_utils.so.0 libfs_mgr.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 liblogwrap.so.0 libm.so.6 libmincrypt.so.0 libpcre.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libresolv.so.2 libselinux.so.1 libsepol.so.1 libsparse.so.0 libstdc++.so.6 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/applypatch_recovery: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/verifier@underscore@test_recovery: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libmincrypt.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/recovery_recovery: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbase.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libext4_utils.so.0 libfs_mgr.so.0 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 libminadbd.so.1 libmincrypt.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libselinux.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_recovery: 369624

@@ -1,0 +1,14 @@
+PN: libcutils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_libcutils-staticdev: Build Android libcutils  This package contains static libraries for software development.
+SUMMARY_libcutils-staticdev: libcutils version 1.0-r1 - Development files (Static Libraries)
+RDEPENDS_libcutils-staticdev: libcutils-dev (= 1.0-r1)
+SECTION_libcutils-staticdev: devel
+PKG_libcutils-staticdev: libcutils-staticdev
+FILES_libcutils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libcutils/*.a
+FILES_INFO: {}
+PKGSIZE_libcutils-staticdev: 0

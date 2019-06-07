@@ -1,0 +1,14 @@
+PN: izat-client-api
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Izat client api libary
+SUMMARY: izat-client-api version git-r1
+RPROVIDES_izat-client-api-locale:  izat-client-api-locale (=git)
+SECTION: base
+PKG_izat-client-api-locale: libizat-client-api-locale
+FILES_izat-client-api-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_izat-client-api-locale: 0

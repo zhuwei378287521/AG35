@@ -1,0 +1,16 @@
+PN: gnsspps
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gnsspps-dbg: gnsspps  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gnsspps-dbg: gnsspps version git-r1 - Debugging files
+RPROVIDES_gnsspps-dbg:  gnsspps-dbg (=git)
+RRECOMMENDS_gnsspps-dbg: loc-pla-dbg glibc-dbg gps-utils-dbg libstdc++-dbg liblog-dbg glib-2.0-dbg libcutils-dbg loc-stub-dbg
+SECTION_gnsspps-dbg: devel
+PKG_gnsspps-dbg: libgnsspps-dbg
+ALLOW_EMPTY_gnsspps-dbg: 1
+FILES_gnsspps-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gnsspps/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gnsspps/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gnsspps/gnsspps/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libgnsspps.so.1.0.0": 4848}
+PKGSIZE_gnsspps-dbg: 4848

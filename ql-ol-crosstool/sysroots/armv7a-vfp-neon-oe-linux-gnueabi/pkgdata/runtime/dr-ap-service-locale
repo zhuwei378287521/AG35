@@ -1,0 +1,13 @@
+PN: dr-ap-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: DR AP service
+SUMMARY: dr-ap-service version git-r1
+SECTION: base
+PKG_dr-ap-service-locale: dr-ap-service-locale
+FILES_dr-ap-service-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_dr-ap-service-locale: 0

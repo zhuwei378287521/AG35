@@ -1,0 +1,19 @@
+PN: mcmlocserver
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: MCM Location Server
+SUMMARY: mcmlocserver version git-r5
+RDEPENDS_mcmlocserver: loc-mcm-type-conv (>= git) mcm-core (>= git) glibc (>= 2.22) ql-syslog (>= git) glib-2.0 (>= 2.44.1) qmi-framework (>= git) libgcc (>= 4.9.3) gps-utils (>= git) location-service (>= git) data (>= git) loc-hal (>= git)
+SECTION: base
+PKG_mcmlocserver: mcmlocserver
+FILES_mcmlocserver: /usr/bin/* /usr/sbin/* /usr/lib/mcmlocserver/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mcmlocserver /usr/lib/mcmlocserver/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_mcmlocserver: /usr/bin/mcmlocserver
+FILES_INFO: {"/usr/bin/mcmlocserver": 91968, "/etc/init.d/mcmlocserverd": 687}
+FILERPROVIDES_/usr/bin/mcmlocserver_mcmlocserver: elf(buildid) (= a410ac49f0a415e638ae1637485093edf5353980)
+FILERDEPENDSFLIST_mcmlocserver: /usr/bin/mcmlocserver /etc/init.d/mcmlocserverd
+FILERDEPENDS_/usr/bin/mcmlocserver_mcmlocserver: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_utils_so.so.1 libloc_eng_so.so.1 libloc_mcm_type_conv.so.1 liblocationservice.so.1 libmcm.so.0 libmcmipc.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libql_sys_log.so.1 libqmi_csi.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/mcmlocserverd_mcmlocserver: /bin/sh
+PKGSIZE_mcmlocserver: 92655

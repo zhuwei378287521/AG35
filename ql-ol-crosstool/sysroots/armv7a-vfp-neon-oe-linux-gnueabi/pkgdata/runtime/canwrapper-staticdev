@@ -1,0 +1,15 @@
+PN: canwrapper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_canwrapper-staticdev: CAN Wrapper   This package contains static libraries for software development.
+SUMMARY_canwrapper-staticdev: canwrapper version git-r1 - Development files (Static Libraries)
+RDEPENDS_canwrapper-staticdev: canwrapper-dev (= git-r1)
+RPROVIDES_canwrapper-staticdev:  canwrapper-staticdev (=git)
+SECTION_canwrapper-staticdev: devel
+PKG_canwrapper-staticdev: libcanwrapper-staticdev
+FILES_canwrapper-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/canwrapper/*.a
+FILES_INFO: {}
+PKGSIZE_canwrapper-staticdev: 0

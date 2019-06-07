@@ -1,0 +1,13 @@
+PN: gtp-ap-le-os-agent
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS xtwifi LE os agent
+SUMMARY: gtp-ap-le-os-agent version git-r1
+SECTION: base
+PKG_gtp-ap-le-os-agent-locale: gtp-ap-le-os-agent-locale
+FILES_gtp-ap-le-os-agent-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_gtp-ap-le-os-agent-locale: 0

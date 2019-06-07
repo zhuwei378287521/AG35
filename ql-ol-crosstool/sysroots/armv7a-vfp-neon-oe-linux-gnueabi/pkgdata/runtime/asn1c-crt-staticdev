@@ -1,0 +1,15 @@
+PN: asn1c-crt
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_asn1c-crt-staticdev: GPS asn1c  This package contains static libraries for software development.
+SUMMARY_asn1c-crt-staticdev: asn1c-crt version git-r1 - Development files (Static Libraries)
+RDEPENDS_asn1c-crt-staticdev: asn1c-crt-dev (= git-r1)
+RPROVIDES_asn1c-crt-staticdev:  asn1c-crt-staticdev (=git)
+SECTION_asn1c-crt-staticdev: devel
+PKG_asn1c-crt-staticdev: libasn1c-crt-staticdev
+FILES_asn1c-crt-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/asn1c-crt/*.a
+FILES_INFO: {}
+PKGSIZE_asn1c-crt-staticdev: 0

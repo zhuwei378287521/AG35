@@ -1,0 +1,14 @@
+PN: qcacld-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qcacld-utils-staticdev: Qualcomm Atheros WLAN CLD utils  This package contains static libraries for software development.
+SUMMARY_qcacld-utils-staticdev: qcacld-utils version git-r1 - Development files (Static Libraries)
+RDEPENDS_qcacld-utils-staticdev: qcacld-utils-dev (= git-r1)
+SECTION_qcacld-utils-staticdev: devel
+PKG_qcacld-utils-staticdev: qcacld-utils-staticdev
+FILES_qcacld-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qcacld-utils/*.a
+FILES_INFO: {"/usr/lib/libAniAsf.a": 82556}
+PKGSIZE_qcacld-utils-staticdev: 82556

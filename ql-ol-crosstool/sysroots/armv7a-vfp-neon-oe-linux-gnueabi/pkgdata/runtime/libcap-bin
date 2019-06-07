@@ -1,0 +1,24 @@
+PN: libcap
+PV: 2.24
+PR: r0
+PKGV: 2.24
+PKGR: r0
+LICENSE: BSD | GPLv2
+DESCRIPTION: Library for getting/setting POSIX.1e capabilities.
+SUMMARY: Library for getting/setting POSIX.1e capabilities
+RDEPENDS_libcap-bin: libcap (>= 2.24) glibc (>= 2.22)
+SECTION: base
+PKG_libcap-bin: libcap-bin
+FILES_libcap-bin: /usr/bin/* /usr/sbin/*
+FILERPROVIDESFLIST_libcap-bin: /usr/sbin/capsh /usr/sbin/getpcaps /usr/sbin/setcap /usr/sbin/getcap
+FILES_INFO: {"/usr/sbin/setcap": 9892, "/usr/sbin/getpcaps": 5800, "/usr/sbin/getcap": 5796, "/usr/sbin/capsh": 18084}
+FILERPROVIDES_/usr/sbin/capsh_libcap-bin: elf(buildid) (= 1741656fb290c2666a188913f8ed087cec2e9a40)
+FILERPROVIDES_/usr/sbin/getpcaps_libcap-bin: elf(buildid) (= 3c005d185272c369407ec7dbb9316e873413e2e7)
+FILERPROVIDES_/usr/sbin/setcap_libcap-bin: elf(buildid) (= 5023de87a0a4cf1cbdee5fd3ad84811d8d349af5)
+FILERPROVIDES_/usr/sbin/getcap_libcap-bin: elf(buildid) (= 849f6b04d7707193dd1e2fb3659372819c93c78f)
+FILERDEPENDSFLIST_libcap-bin: /usr/sbin/capsh /usr/sbin/getpcaps /usr/sbin/setcap /usr/sbin/getcap
+FILERDEPENDS_/usr/sbin/capsh_libcap-bin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcap.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/getpcaps_libcap-bin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcap.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/setcap_libcap-bin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcap.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/getcap_libcap-bin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcap.so.2 rtld(GNU_HASH)
+PKGSIZE_libcap-bin: 39572

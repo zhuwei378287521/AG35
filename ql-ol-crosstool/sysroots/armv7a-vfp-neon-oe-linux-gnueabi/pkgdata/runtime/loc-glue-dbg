@@ -1,0 +1,16 @@
+PN: loc-glue
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-glue-dbg: GPS Location Service library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-glue-dbg: loc-glue version git-r1 - Debugging files
+RPROVIDES_loc-glue-dbg:  loc-glue-dbg (=git)
+RRECOMMENDS_loc-glue-dbg: libsqlite3-dbg lbs-core-dbg gps-utils-dbg diag-dbg loc-net-iface-dbg libssl-dbg data-items-dbg libcrypto-dbg izat-core-dbg qmi-framework-dbg xmllib-dbg qmi-dbg system-core-dbg loc-mq-client-dbg dsutils-dbg qmi-client-helper-dbg location-geofence-dbg lowi-client-dbg data-oss-dbg drplugin-dbg libcutils-dbg libstdc++-dbg drplugin-client-dbg event-observer-dbg location-service-dbg loc-hal-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg data-dbg configdb-dbg gnsspps-dbg location-flp-dbg loc-stub-dbg time-genoff-dbg ql-syslog-dbg ulp2-dbg
+SECTION_loc-glue-dbg: devel
+PKG_loc-glue-dbg: liblocationservice-glue-dbg
+ALLOW_EMPTY_loc-glue-dbg: 1
+FILES_loc-glue-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-glue/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-glue/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-glue/loc-glue/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/liblocationservice_glue.so.1.0.0": 18640}
+PKGSIZE_loc-glue-dbg: 18640

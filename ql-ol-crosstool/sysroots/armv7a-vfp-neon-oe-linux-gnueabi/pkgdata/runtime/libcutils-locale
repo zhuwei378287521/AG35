@@ -1,0 +1,13 @@
+PN: libcutils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION: Build Android libcutils
+SUMMARY: libcutils version 1.0-r1
+SECTION: base
+PKG_libcutils-locale: libcutils-locale
+FILES_libcutils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libcutils-locale: 0

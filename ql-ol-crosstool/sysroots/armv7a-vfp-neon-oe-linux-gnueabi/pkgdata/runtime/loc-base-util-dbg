@@ -1,0 +1,16 @@
+PN: loc-base-util
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-base-util-dbg: LOC base utils  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-base-util-dbg: loc-base-util version git-r1 - Debugging files
+RPROVIDES_loc-base-util-dbg:  loc-base-util-dbg (=git)
+RRECOMMENDS_loc-base-util-dbg: libsqlite3-dbg glibc-dbg libstdc++-dbg libssl-dbg libcrypto-dbg glib-2.0-dbg libgcc-dbg
+SECTION_loc-base-util-dbg: devel
+PKG_loc-base-util-dbg: libloc-base-util-dbg
+ALLOW_EMPTY_loc-base-util-dbg: 1
+FILES_loc-base-util-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-base-util/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-base-util/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-base-util/loc-base-util/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_base_util.so.1.0.0": 43364}
+PKGSIZE_loc-base-util-dbg: 43364

@@ -1,0 +1,14 @@
+PN: slim-common-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_slim-common-hdr-staticdev: slim common hdr  This package contains static libraries for software development.
+SUMMARY_slim-common-hdr-staticdev: slim-common-hdr version git-r1 - Development files (Static Libraries)
+RDEPENDS_slim-common-hdr-staticdev: slim-common-hdr-dev (= git-r1)
+SECTION_slim-common-hdr-staticdev: devel
+PKG_slim-common-hdr-staticdev: slim-common-hdr-staticdev
+FILES_slim-common-hdr-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/slim-common-hdr/*.a
+FILES_INFO: {}
+PKGSIZE_slim-common-hdr-staticdev: 0

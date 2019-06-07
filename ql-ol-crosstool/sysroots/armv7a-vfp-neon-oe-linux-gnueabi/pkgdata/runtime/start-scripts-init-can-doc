@@ -1,0 +1,13 @@
+PN: start-scripts-init-can
+PV: 1.0
+PR: r2
+PKGV: 1.0
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION_start-scripts-init-can-doc: Start up script for setting up the can link  This package contains documentation.
+SUMMARY_start-scripts-init-can-doc: start-scripts-init-can version 1.0-r2 - Documentation files
+SECTION_start-scripts-init-can-doc: doc
+PKG_start-scripts-init-can-doc: start-scripts-init-can-doc
+FILES_start-scripts-init-can-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_start-scripts-init-can-doc: 0

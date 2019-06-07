@@ -1,0 +1,14 @@
+PN: canwrapper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: CAN Wrapper 
+SUMMARY: canwrapper version git-r1
+RPROVIDES_canwrapper-locale:  canwrapper-locale (=git)
+SECTION: base
+PKG_canwrapper-locale: libcanwrapper-locale
+FILES_canwrapper-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_canwrapper-locale: 0

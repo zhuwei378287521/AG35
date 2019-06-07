@@ -1,0 +1,17 @@
+PN: btvendorhal
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_btvendorhal-dev: hardware btvendorhal headers  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_btvendorhal-dev: btvendorhal version git-r1 - Development files
+RDEPENDS_btvendorhal-dev: btvendorhal (= git-r1)
+RPROVIDES_btvendorhal-dev:  btvendorhal-dev (=git)
+RRECOMMENDS_btvendorhal-dev: libcutils-dev glibc-dev system-core-dev liblog-dev libstdc++-dev
+SECTION_btvendorhal-dev: devel
+PKG_btvendorhal-dev: libbtvendorhal-dev
+ALLOW_EMPTY_btvendorhal-dev: 1
+FILES_btvendorhal-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/btvendorhal/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libbtvendorhal.so": 23, "/usr/lib/libbtvendorhal.la": 1087}
+PKGSIZE_btvendorhal-dev: 1110

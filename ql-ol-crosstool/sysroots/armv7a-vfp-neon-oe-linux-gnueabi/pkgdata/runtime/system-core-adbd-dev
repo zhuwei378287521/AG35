@@ -1,0 +1,15 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r19_perf
+RDEPENDS_system-core-adbd-dev: system-core-adbd
+RRECOMMENDS_system-core-adbd-dev: system-core-dev openssl-dev libcutils-dev libselinux-dev libpcre-dev ext4-utils-dev zlib-dev libgcc-dev update-rc.d-dev safe-iop-dev libmincrypt-dev libstdc++-dev libsparse-dev glib-2.0-dev glibc-dev ql-libsepol-dev libunwind-dev liblog-dev initscripts-dev
+SECTION: base
+PKG_system-core-adbd-dev: system-core-adbd-dev
+FILES_system-core-adbd-dev: /usr/lib/libadbd.so /usr/lib/libadbd.la
+FILES_INFO: {"/usr/lib/libadbd.so": 16, "/usr/lib/libadbd.la": 1416}
+PKGSIZE_system-core-adbd-dev: 1432

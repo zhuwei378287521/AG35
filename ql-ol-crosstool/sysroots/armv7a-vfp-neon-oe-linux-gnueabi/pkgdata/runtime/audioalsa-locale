@@ -1,0 +1,14 @@
+PN: audioalsa
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: libaudioalsa Library
+SUMMARY: audioalsa version git-r5
+RPROVIDES_audioalsa-locale:  audioalsa-locale (=git)
+SECTION: base
+PKG_audioalsa-locale: libaudioalsa-locale
+FILES_audioalsa-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_audioalsa-locale: 0

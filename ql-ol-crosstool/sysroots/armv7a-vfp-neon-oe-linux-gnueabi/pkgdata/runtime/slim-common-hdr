@@ -1,0 +1,13 @@
+PN: slim-common-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: slim common hdr
+SUMMARY: slim-common-hdr version git-r1
+SECTION: base
+PKG_slim-common-hdr: slim-common-hdr
+FILES_slim-common-hdr: /usr/bin/* /usr/sbin/* /usr/lib/slim-common-hdr/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/slim-common-hdr /usr/lib/slim-common-hdr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_slim-common-hdr: 0

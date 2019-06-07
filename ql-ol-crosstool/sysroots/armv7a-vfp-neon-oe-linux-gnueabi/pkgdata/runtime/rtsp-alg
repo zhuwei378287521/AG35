@@ -1,0 +1,14 @@
+PN: rtsp-alg
+PV: 3.7
+PR: r6_perf
+PKGV: 3.7
+PKGR: r6_perf
+LICENSE: GPLv2
+DESCRIPTION: RSTP ALG
+SUMMARY: rtsp-alg version 3.7-r6_perf
+RDEPENDS_rtsp-alg: kernel-module-nf-conntrack-rtsp kernel-module-nf-nat-rtsp
+SECTION: base
+PKG_rtsp-alg: rtsp-alg
+ALLOW_EMPTY_rtsp-alg: 1
+FILES_INFO: {}
+PKGSIZE_rtsp-alg: 0

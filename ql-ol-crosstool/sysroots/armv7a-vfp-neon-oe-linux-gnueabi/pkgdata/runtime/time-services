@@ -1,0 +1,18 @@
+PN: time-services
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Time Services Daemon
+SUMMARY: time-services version git-r9
+RDEPENDS_time-services: qmi-framework (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1)
+SECTION: base
+PKG_time-services: time-services
+FILES_time-services: /usr/bin/* /usr/sbin/* /usr/lib/time-services/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/time-services /usr/lib/time-services/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/
+FILERPROVIDESFLIST_time-services: /usr/bin/time@underscore@daemon
+FILES_INFO: {"/usr/bin/time_daemon": 22252, "/etc/init.d/time_serviced": 991}
+FILERPROVIDES_/usr/bin/time@underscore@daemon_time-services: elf(buildid) (= 8b831f4b2b64cee38c39e839d4367a85cc78d8f4)
+FILERDEPENDSFLIST_time-services: /usr/bin/time@underscore@daemon
+FILERDEPENDS_/usr/bin/time@underscore@daemon_time-services: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_common_so.so.1 rtld(GNU_HASH)
+PKGSIZE_time-services: 23243

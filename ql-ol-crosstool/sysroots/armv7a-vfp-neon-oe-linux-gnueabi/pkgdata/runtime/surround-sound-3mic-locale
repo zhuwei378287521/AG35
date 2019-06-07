@@ -1,0 +1,13 @@
+PN: surround-sound-3mic
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: surround_sound_3mic Library
+SUMMARY: surround-sound-3mic version git-r0
+SECTION: base
+PKG_surround-sound-3mic-locale: surround-sound-3mic-locale
+FILES_surround-sound-3mic-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_surround-sound-3mic-locale: 0

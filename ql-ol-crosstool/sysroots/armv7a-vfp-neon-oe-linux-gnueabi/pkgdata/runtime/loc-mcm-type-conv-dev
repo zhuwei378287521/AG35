@@ -1,0 +1,17 @@
+PN: loc-mcm-type-conv
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mcm-type-conv-dev: MCM Location Type Conversion Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-mcm-type-conv-dev: loc-mcm-type-conv version git-r4 - Development files
+RDEPENDS_loc-mcm-type-conv-dev: loc-mcm-type-conv (= git-r4)
+RPROVIDES_loc-mcm-type-conv-dev:  loc-mcm-type-conv-dev (=git)
+RRECOMMENDS_loc-mcm-type-conv-dev: mcm-core-dev configdb-dev gps-utils-dev glibc-dev loc-stub-dev xmllib-dev liblog-dev libstdc++-dev dsutils-dev time-genoff-dev qmi-dev ql-syslog-dev glib-2.0-dev loc-pla-dev qmi-framework-dev libcutils-dev diag-dev
+SECTION_loc-mcm-type-conv-dev: devel
+PKG_loc-mcm-type-conv-dev: libloc-mcm-type-conv-dev
+ALLOW_EMPTY_loc-mcm-type-conv-dev: 1
+FILES_loc-mcm-type-conv-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-mcm-type-conv/*.la /lib/*.la
+FILES_INFO: {"/usr/include/loc-mcm-type-conv/loc_srv_mcm_to_hal_type_conversions.h": 3739, "/usr/lib/libloc_mcm_type_conv.so": 29, "/usr/include/loc-mcm-type-conv/loc_srv_hal_to_mcm_type_conversions.h": 3915, "/usr/lib/libloc_mcm_type_conv.la": 2239, "/usr/lib/pkgconfig/loc-mcm-type-conv.pc": 239}
+PKGSIZE_loc-mcm-type-conv-dev: 10161

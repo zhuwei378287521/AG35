@@ -1,0 +1,15 @@
+PN: ext4-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_ext4-utils-staticdev: EXT4 UTILS  This package contains static libraries for software development.
+SUMMARY_ext4-utils-staticdev: ext4-utils version git-r1 - Development files (Static Libraries)
+RDEPENDS_ext4-utils-staticdev: ext4-utils-dev (= git-r1)
+RPROVIDES_ext4-utils-staticdev:  ext4-utils-staticdev (=git)
+SECTION_ext4-utils-staticdev: devel
+PKG_ext4-utils-staticdev: libext4-utils-staticdev
+FILES_ext4-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ext4-utils/*.a
+FILES_INFO: {"/usr/lib/libext4_utils.a": 116196}
+PKGSIZE_ext4-utils-staticdev: 116196

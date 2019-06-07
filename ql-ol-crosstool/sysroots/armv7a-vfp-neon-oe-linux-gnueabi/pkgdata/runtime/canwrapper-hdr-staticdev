@@ -1,0 +1,14 @@
+PN: canwrapper-hdr
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_canwrapper-hdr-staticdev: CAN Wrapper hdr  This package contains static libraries for software development.
+SUMMARY_canwrapper-hdr-staticdev: canwrapper-hdr version git-r1 - Development files (Static Libraries)
+RDEPENDS_canwrapper-hdr-staticdev: canwrapper-hdr-dev (= git-r1)
+SECTION_canwrapper-hdr-staticdev: devel
+PKG_canwrapper-hdr-staticdev: canwrapper-hdr-staticdev
+FILES_canwrapper-hdr-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/canwrapper-hdr/*.a
+FILES_INFO: {}
+PKGSIZE_canwrapper-hdr-staticdev: 0

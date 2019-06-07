@@ -1,0 +1,16 @@
+PN: gps-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_gps-utils-dbg: GPS Utils  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gps-utils-dbg: gps-utils version git-r1 - Debugging files
+RPROVIDES_gps-utils-dbg:  gps-utils-dbg (=git)
+RRECOMMENDS_gps-utils-dbg: loc-pla-dbg glibc-dbg libstdc++-dbg liblog-dbg glib-2.0-dbg libgcc-dbg libcutils-dbg loc-stub-dbg
+SECTION_gps-utils-dbg: devel
+PKG_gps-utils-dbg: libgps-utils-so-dbg
+ALLOW_EMPTY_gps-utils-dbg: 1
+FILES_gps-utils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gps-utils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gps-utils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gps-utils/gps-utils/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libgps_utils_so.so.1.0.0": 21196}
+PKGSIZE_gps-utils-dbg: 21196

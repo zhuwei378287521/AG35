@@ -1,0 +1,13 @@
+PN: open-avb
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: open-avb tools
+SUMMARY: open-avb version 1.0-r1
+SECTION: base
+PKG_open-avb-locale: open-avb-locale
+FILES_open-avb-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_open-avb-locale: 0

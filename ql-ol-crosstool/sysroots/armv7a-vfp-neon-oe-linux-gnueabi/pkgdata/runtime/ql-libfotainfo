@@ -1,0 +1,19 @@
+PN: ql-libfotainfo
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION: Quectel Function Daemon
+SUMMARY: ql-libfotainfo version git-r1
+RDEPENDS_ql-libfotainfo: glibc (>= 2.22)
+RPROVIDES_ql-libfotainfo:  ql-libfotainfo (=git)
+SECTION: base
+PKG_ql-libfotainfo: libfotainfo1
+FILES_ql-libfotainfo: /usr/bin/* /usr/sbin/* /usr/lib/ql-libfotainfo/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ql-libfotainfo /usr/lib/ql-libfotainfo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_ql-libfotainfo: /usr/lib/libfotainfo.so.1.0.0
+FILES_INFO: {"/usr/lib/libfotainfo.so.1.0.0": 17948, "/usr/lib/libfotainfo.so.1": 20}
+FILERPROVIDES_/usr/lib/libfotainfo.so.1.0.0_ql-libfotainfo: elf(buildid) (= dff46481e30b6a1defcaf3498c504330e84ed2e0) libfotainfo.so.1
+FILERDEPENDSFLIST_ql-libfotainfo: /usr/lib/libfotainfo.so.1.0.0
+FILERDEPENDS_/usr/lib/libfotainfo.so.1.0.0_ql-libfotainfo: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+PKGSIZE_ql-libfotainfo: 17968

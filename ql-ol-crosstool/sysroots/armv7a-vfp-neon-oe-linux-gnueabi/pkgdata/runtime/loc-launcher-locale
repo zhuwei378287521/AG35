@@ -1,0 +1,13 @@
+PN: loc-launcher
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Location process launcher
+SUMMARY: loc-launcher version git-r1
+SECTION: base
+PKG_loc-launcher-locale: loc-launcher-locale
+FILES_loc-launcher-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-launcher-locale: 0

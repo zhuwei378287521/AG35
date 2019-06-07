@@ -1,0 +1,20 @@
+PN: libbt-vendor
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION: Bluetooth Vendor Library
+SUMMARY: libbt-vendor version git-r0
+RDEPENDS_libbt-vendor: glibc (>= 2.22) hci-qcomm-init (>= git) libstdc++ (>= 4.9.3) libcutils liblog (>= 1.0) libgcc (>= 4.9.3) glib-2.0 (>= 2.44.1)
+RPROVIDES_libbt-vendor:  libbt-vendor (=git)
+SECTION: base
+PKG_libbt-vendor: libbt-vendor0
+FILES_libbt-vendor: /usr/bin/* /usr/sbin/* /usr/lib/libbt-vendor/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libbt-vendor /usr/lib/libbt-vendor/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /data/misc/bluetooth/*
+FILERPROVIDESFLIST_libbt-vendor: /usr/lib/libbt-vendor.so.0.0.0
+FILES_INFO: {"/usr/lib/libbt-vendor.so.0": 21, "/data/misc/bluetooth/init.msm.bt.sh": 1913, "/usr/lib/libbt-vendor.so.0.0.0": 75520}
+FILERPROVIDES_/usr/lib/libbt-vendor.so.0.0.0_libbt-vendor: elf(buildid) (= 166c984b0827004b51c94f0e9e536112406c58a2) libbt-vendor.so.0
+FILERDEPENDSFLIST_libbt-vendor: /data/misc/bluetooth/init.msm.bt.sh /usr/lib/libbt-vendor.so.0.0.0
+FILERDEPENDS_/data/misc/bluetooth/init.msm.bt.sh_libbt-vendor: /bin/sh
+FILERDEPENDS_/usr/lib/libbt-vendor.so.0.0.0_libbt-vendor: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libbtnv.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_libbt-vendor: 77454

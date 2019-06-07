@@ -1,0 +1,14 @@
+PN: start-scripts-init-can
+PV: 1.0
+PR: r2
+PKGV: 1.0
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION_start-scripts-init-can-staticdev: Start up script for setting up the can link  This package contains static libraries for software development.
+SUMMARY_start-scripts-init-can-staticdev: start-scripts-init-can version 1.0-r2 - Development files (Static Libraries)
+RDEPENDS_start-scripts-init-can-staticdev: start-scripts-init-can-dev (= 1.0-r2)
+SECTION_start-scripts-init-can-staticdev: devel
+PKG_start-scripts-init-can-staticdev: start-scripts-init-can-staticdev
+FILES_start-scripts-init-can-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/start-scripts-init-can/*.a
+FILES_INFO: {}
+PKGSIZE_start-scripts-init-can-staticdev: 0

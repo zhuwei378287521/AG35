@@ -1,0 +1,15 @@
+PN: libsparse
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_libsparse-dbg: Build Android libsprase  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libsparse-dbg: libsparse version 1.0-r0 - Debugging files
+RRECOMMENDS_libsparse-dbg: glibc-dbg zlib-dbg
+SECTION_libsparse-dbg: devel
+PKG_libsparse-dbg: libsparse-dbg
+ALLOW_EMPTY_libsparse-dbg: 1
+FILES_libsparse-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libsparse/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libsparse/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libsparse/libsparse/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libsparse.so.0.0.0": 81780}
+PKGSIZE_libsparse-dbg: 81780

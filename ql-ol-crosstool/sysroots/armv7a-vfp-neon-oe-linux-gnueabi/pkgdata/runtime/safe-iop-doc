@@ -1,0 +1,14 @@
+PN: safe-iop
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_safe-iop-doc: Safe integer operation library for C  This package contains documentation.
+SUMMARY_safe-iop-doc: safe-iop version git-r0 - Documentation files
+RPROVIDES_safe-iop-doc:  safe-iop-doc (=git)
+SECTION_safe-iop-doc: doc
+PKG_safe-iop-doc: libsafe-iop-doc
+FILES_safe-iop-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_safe-iop-doc: 0

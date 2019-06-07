@@ -1,0 +1,15 @@
+PN: asn1c-cper
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_asn1c-cper-staticdev: GPS asn1c cper  This package contains static libraries for software development.
+SUMMARY_asn1c-cper-staticdev: asn1c-cper version git-r1 - Development files (Static Libraries)
+RDEPENDS_asn1c-cper-staticdev: asn1c-cper-dev (= git-r1)
+RPROVIDES_asn1c-cper-staticdev:  asn1c-cper-staticdev (=git)
+SECTION_asn1c-cper-staticdev: devel
+PKG_asn1c-cper-staticdev: libasn1c-cper-staticdev
+FILES_asn1c-cper-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/asn1c-cper/*.a
+FILES_INFO: {}
+PKGSIZE_asn1c-cper-staticdev: 0

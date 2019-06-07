@@ -1,0 +1,17 @@
+PN: gdtap-adapter
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gdtap-adapter-dev: GPS xtwifi gdtap  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gdtap-adapter-dev: gdtap-adapter version git-r1 - Development files
+RDEPENDS_gdtap-adapter-dev: gdtap-adapter (= git-r1)
+RPROVIDES_gdtap-adapter-dev:  gdtap-adapter-dev (=git)
+RRECOMMENDS_gdtap-adapter-dev: liblog-dev loc-base-util-dev libgcc-dev time-genoff-dev glib-2.0-dev loc-launcher-dev loc-hal-dev loc-mq-client-dev data-dev qmi-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libssl-dev libcrypto-dev libstdc++-dev gps-utils-dev libsqlite3-dev data-items-dev libcutils-dev loc-net-iface-dev system-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev dsutils-dev diag-dev qmi-framework-dev
+SECTION_gdtap-adapter-dev: devel
+PKG_gdtap-adapter-dev: libgdtap-adapter-dev
+ALLOW_EMPTY_gdtap-adapter-dev: 1
+FILES_gdtap-adapter-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gdtap-adapter/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/gdtap-adapter.pc": 169, "/usr/lib/libgdtap_adapter.la": 3007, "/usr/lib/libgdtap_adapter.so": 25}
+PKGSIZE_gdtap-adapter-dev: 3201

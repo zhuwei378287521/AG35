@@ -1,0 +1,13 @@
+PN: loc-launcher
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-launcher-doc: GPS Location process launcher  This package contains documentation.
+SUMMARY_loc-launcher-doc: loc-launcher version git-r1 - Documentation files
+SECTION_loc-launcher-doc: doc
+PKG_loc-launcher-doc: loc-launcher-doc
+FILES_loc-launcher-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-launcher-doc: 0

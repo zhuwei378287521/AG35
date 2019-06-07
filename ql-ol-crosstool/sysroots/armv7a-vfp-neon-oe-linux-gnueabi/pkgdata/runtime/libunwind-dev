@@ -1,0 +1,16 @@
+PN: libunwind
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libunwind-dev: Libunwind  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libunwind-dev: libunwind version 1.0-r0 - Development files
+RDEPENDS_libunwind-dev: libunwind (= 1.0-r0)
+RRECOMMENDS_libunwind-dev: libatomic-ops-dev glibc-dev libgcc-dev
+SECTION_libunwind-dev: devel
+PKG_libunwind-dev: libunwind-dev
+ALLOW_EMPTY_libunwind-dev: 1
+FILES_libunwind-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libunwind/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/libunwind.pc": 196, "/usr/include/libunwind/libunwind-ptrace.h": 2553, "/usr/include/libunwind/unwind.h": 5792, "/usr/include/libunwind/libunwind-aarch64.h": 5989, "/usr/include/libunwind/map_info.h": 2103, "/usr/include/libunwind/libunwind-common.h": 12146, "/usr/lib/libunwind.so": 18, "/usr/include/libunwind/libunwind-coredump.h": 2945, "/usr/lib/libunwind.la": 924, "/usr/include/libunwind/mempool.h": 3646, "/usr/include/libunwind/libunwind-dynamic.h": 7894, "/usr/include/libunwind/compiler.h": 2545, "/usr/include/libunwind/libunwind.h": 864, "/usr/include/libunwind/libunwind-arm.h": 7400, "/usr/include/libunwind/remote.h": 2660}
+PKGSIZE_libunwind-dev: 57675

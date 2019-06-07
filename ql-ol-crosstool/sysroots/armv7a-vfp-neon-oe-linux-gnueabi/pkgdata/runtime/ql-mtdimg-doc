@@ -1,0 +1,13 @@
+PN: ql-mtdimg
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+DESCRIPTION_ql-mtdimg-doc: Quectel Function Daemon  This package contains documentation.
+SUMMARY_ql-mtdimg-doc: ql-mtdimg version git-r1 - Documentation files
+SECTION_ql-mtdimg-doc: doc
+PKG_ql-mtdimg-doc: ql-mtdimg-doc
+FILES_ql-mtdimg-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ql-mtdimg-doc: 0

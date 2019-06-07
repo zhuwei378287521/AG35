@@ -1,0 +1,19 @@
+PN: liblog
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION: Build Android liblog
+SUMMARY: liblog version 1.0-r1
+RDEPENDS_liblog: libstdc++ (>= 4.9.3) glibc (>= 2.22) libgcc (>= 4.9.3)
+RPROVIDES_liblog:  liblog (=1.0)
+SECTION: base
+PKG_liblog: liblog0
+FILES_liblog: /usr/lib/pkgconfig/* /usr/lib/* /etc/*
+FILERPROVIDESFLIST_liblog: /usr/lib/liblog.so.0.0.0
+FILES_INFO: {"/usr/lib/pkgconfig/liblog.pc": 199, "/usr/lib/liblog.so.0": 15, "/etc/udev/rules.d/50-log.rules": 282, "/usr/lib/liblog.so.0.0.0": 30524}
+FILERPROVIDES_/usr/lib/liblog.so.0.0.0_liblog: elf(buildid) (= 7cdd7304edfc610606bde750b478ff36e9d18f8b) liblog.so.0
+FILERDEPENDSFLIST_liblog: /usr/lib/liblog.so.0.0.0
+FILERDEPENDS_/usr/lib/liblog.so.0.0.0_liblog: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libgcc_s.so.1 libm.so.6 libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_liblog: 31020

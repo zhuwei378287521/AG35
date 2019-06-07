@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.22.0
+PR: r0
+PKGV: 5.22.0
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-b: perl module b
+SUMMARY_perl-module-b: perl module b
+RDEPENDS_perl-module-b: perl-module-strict perl-module-exporter perl glibc (>= 2.22) perl-module-xsloader
+SECTION: devel
+PKG_perl-module-b: perl-module-b
+FILES_perl-module-b: /usr/lib/perl/5.22.0/auto/B/B.so /usr/lib/perl/5.22.0/B.pm
+FILERPROVIDESFLIST_perl-module-b: /usr/lib/perl/5.22.0/auto/B/B.so
+FILES_INFO: {"/usr/lib/perl/5.22.0/auto/B/B.so": 75340, "/usr/lib/perl/5.22.0/B.pm": 32618}
+FILERPROVIDES_/usr/lib/perl/5.22.0/auto/B/B.so_perl-module-b: B.so elf(buildid) (= 5f370967b2f46c480d21ae0efc426090bfee5542)
+FILERDEPENDSFLIST_perl-module-b: /usr/lib/perl/5.22.0/auto/B/B.so
+FILERDEPENDS_/usr/lib/perl/5.22.0/auto/B/B.so_perl-module-b: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-b: 107958

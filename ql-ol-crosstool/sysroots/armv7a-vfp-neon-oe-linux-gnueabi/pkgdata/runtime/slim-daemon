@@ -1,0 +1,18 @@
+PN: slim-daemon
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: SLIM daemon 
+SUMMARY: slim-daemon version git-r1
+RDEPENDS_slim-daemon: slim-utils (>= git) libsensors (>= git) diag (>= git) glibc (>= 2.22) canwrapper (>= git) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libgcc (>= 4.9.3) gps-utils (>= git) slim-common (>= git) loc-pla (>= git)
+SECTION: base
+PKG_slim-daemon: slim-daemon
+FILES_slim-daemon: /usr/bin/* /usr/sbin/* /usr/lib/slim-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/slim-daemon /usr/lib/slim-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_slim-daemon: /usr/bin/slim@underscore@daemon
+FILES_INFO: {"/usr/bin/slim_daemon": 91936, "/etc/sap.conf": 2410}
+FILERPROVIDES_/usr/bin/slim@underscore@daemon_slim-daemon: elf(buildid) (= 067c1d8c50b3c1fa22c97f9ca68e241071ab6c0d)
+FILERDEPENDSFLIST_slim-daemon: /usr/bin/slim@underscore@daemon
+FILERDEPENDS_/usr/bin/slim@underscore@daemon_slim-daemon: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcanwrapper.so.1 libdiag.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_utils_so.so.1 libloc_pla.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libsensors.so.1 libslimcommon.so.1 libslimutils.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_slim-daemon: 94346

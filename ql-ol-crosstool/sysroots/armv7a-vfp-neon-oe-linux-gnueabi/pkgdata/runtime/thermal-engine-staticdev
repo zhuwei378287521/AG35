@@ -1,0 +1,14 @@
+PN: thermal-engine
+PV: git
+PR: r11
+PKGV: git
+PKGR: r11
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_thermal-engine-staticdev: Thermal Engine  This package contains static libraries for software development.
+SUMMARY_thermal-engine-staticdev: thermal-engine version git-r11 - Development files (Static Libraries)
+RDEPENDS_thermal-engine-staticdev: thermal-engine-dev (= git-r11)
+SECTION_thermal-engine-staticdev: devel
+PKG_thermal-engine-staticdev: thermal-engine-staticdev
+FILES_thermal-engine-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/thermal-engine/*.a
+FILES_INFO: {}
+PKGSIZE_thermal-engine-staticdev: 0

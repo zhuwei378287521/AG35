@@ -1,0 +1,14 @@
+PN: liblog
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_liblog-staticdev: Build Android liblog  This package contains static libraries for software development.
+SUMMARY_liblog-staticdev: liblog version 1.0-r1 - Development files (Static Libraries)
+RDEPENDS_liblog-staticdev: liblog-dev (= 1.0-r1)
+SECTION_liblog-staticdev: devel
+PKG_liblog-staticdev: liblog-staticdev
+FILES_liblog-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/liblog/*.a
+FILES_INFO: {}
+PKGSIZE_liblog-staticdev: 0

@@ -1,0 +1,15 @@
+PN: loc-base-util
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-base-util-staticdev: LOC base utils  This package contains static libraries for software development.
+SUMMARY_loc-base-util-staticdev: loc-base-util version git-r1 - Development files (Static Libraries)
+RDEPENDS_loc-base-util-staticdev: loc-base-util-dev (= git-r1)
+RPROVIDES_loc-base-util-staticdev:  loc-base-util-staticdev (=git)
+SECTION_loc-base-util-staticdev: devel
+PKG_loc-base-util-staticdev: libloc-base-util-staticdev
+FILES_loc-base-util-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-base-util/*.a
+FILES_INFO: {}
+PKGSIZE_loc-base-util-staticdev: 0

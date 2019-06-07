@@ -1,0 +1,13 @@
+PN: lowi-server
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS lowi server
+SUMMARY: lowi-server version git-r1
+SECTION: base
+PKG_lowi-server-locale: lowi-server-locale
+FILES_lowi-server-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_lowi-server-locale: 0

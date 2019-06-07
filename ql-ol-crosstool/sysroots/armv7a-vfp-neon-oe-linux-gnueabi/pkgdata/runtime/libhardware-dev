@@ -1,0 +1,16 @@
+PN: libhardware
+PV: git
+PR: r6
+PKGV: git
+PKGR: r6
+LICENSE: Apache-2.0
+DESCRIPTION_libhardware-dev: hardware libhardware headers  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libhardware-dev: libhardware version git-r6 - Development files
+RDEPENDS_libhardware-dev: libhardware (= git-r6)
+RRECOMMENDS_libhardware-dev: libcutils-dev glibc-dev system-core-dev liblog-dev libstdc++-dev
+SECTION_libhardware-dev: devel
+PKG_libhardware-dev: libhardware-dev
+ALLOW_EMPTY_libhardware-dev: 1
+FILES_libhardware-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libhardware/*.la /lib/*.la
+FILES_INFO: {"/usr/include/hardware/camera_common.h": 39026, "/usr/include/hardware/audio.h": 28308, "/usr/include/hardware/camera3.h": 143197, "/usr/include/gralloc_priv.h": 2938, "/usr/include/hardware/gralloc.h": 14293, "/usr/lib/pkgconfig/hardware.pc": 194, "/usr/include/hardware/hardware.h": 7900, "/usr/include/hardware/hwcomposer_defs.h": 8851, "/usr/lib/libhardware.so": 20, "/usr/include/hardware/audio_alsaops.h": 3146, "/usr/include/hardware/fb.h": 5549, "/usr/lib/libhardware.la": 1066, "/usr/include/hardware/sound_trigger.h": 5300, "/usr/include/hardware/sensors.h": 40148, "/usr/include/hardware/gps.h": 82179, "/usr/include/hardware/hwcomposer.h": 35393, "/usr/include/hardware/audio_policy.h": 19077, "/usr/include/hardware/audio_effect.h": 53231, "/usr/include/hardware/fused_location.h": 30967, "/usr/include/hardware/power.h": 5693, "/usr/include/hardware/camera.h": 11242}
+PKGSIZE_libhardware-dev: 537718

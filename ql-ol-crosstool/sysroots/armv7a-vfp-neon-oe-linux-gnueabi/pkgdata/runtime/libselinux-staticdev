@@ -1,0 +1,14 @@
+PN: libselinux
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION_libselinux-staticdev: QUECTEL libselinux  This package contains static libraries for software development.
+SUMMARY_libselinux-staticdev: libselinux version git-r1 - Development files (Static Libraries)
+RDEPENDS_libselinux-staticdev: libselinux-dev (= git-r1)
+SECTION_libselinux-staticdev: devel
+PKG_libselinux-staticdev: libselinux-staticdev
+FILES_libselinux-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libselinux/*.a
+FILES_INFO: {"/usr/lib/libselinux.a": 895228}
+PKGSIZE_libselinux-staticdev: 895228

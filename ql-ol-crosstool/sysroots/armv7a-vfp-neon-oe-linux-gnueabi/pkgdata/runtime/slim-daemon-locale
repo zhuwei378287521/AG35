@@ -1,0 +1,13 @@
+PN: slim-daemon
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: SLIM daemon 
+SUMMARY: slim-daemon version git-r1
+SECTION: base
+PKG_slim-daemon-locale: slim-daemon-locale
+FILES_slim-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_slim-daemon-locale: 0

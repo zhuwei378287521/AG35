@@ -1,0 +1,15 @@
+PN: libcutils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Apache-2.0
+DESCRIPTION_libcutils-dbg: Build Android libcutils  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libcutils-dbg: libcutils version 1.0-r1 - Debugging files
+RRECOMMENDS_libcutils-dbg: liblog-dbg libstdc++-dbg glibc-dbg libgcc-dbg
+SECTION_libcutils-dbg: devel
+PKG_libcutils-dbg: libcutils-dbg
+ALLOW_EMPTY_libcutils-dbg: 1
+FILES_libcutils-dbg: /usr/lib/.debug/libcutils.*
+FILES_INFO: {"/usr/lib/.debug/libcutils.so.0.0.0": 17212}
+PKGSIZE_libcutils-dbg: 17212

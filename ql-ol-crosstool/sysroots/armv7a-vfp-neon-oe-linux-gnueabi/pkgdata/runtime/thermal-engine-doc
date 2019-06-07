@@ -1,0 +1,13 @@
+PN: thermal-engine
+PV: git
+PR: r11
+PKGV: git
+PKGR: r11
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_thermal-engine-doc: Thermal Engine  This package contains documentation.
+SUMMARY_thermal-engine-doc: thermal-engine version git-r11 - Documentation files
+SECTION_thermal-engine-doc: doc
+PKG_thermal-engine-doc: thermal-engine-doc
+FILES_thermal-engine-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_thermal-engine-doc: 0

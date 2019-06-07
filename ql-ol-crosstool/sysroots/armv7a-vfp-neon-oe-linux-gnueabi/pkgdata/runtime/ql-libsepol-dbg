@@ -1,0 +1,16 @@
+PN: ql-libsepol
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE:  Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+DESCRIPTION_ql-libsepol-dbg: QUECTEL libsepol  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ql-libsepol-dbg: ql-libsepol version git-r1 - Debugging files
+RPROVIDES_ql-libsepol-dbg:  ql-libsepol-dbg (=git)
+RRECOMMENDS_ql-libsepol-dbg: glibc-dbg
+SECTION_ql-libsepol-dbg: devel
+PKG_ql-libsepol-dbg: libsepol-dbg
+ALLOW_EMPTY_ql-libsepol-dbg: 1
+FILES_ql-libsepol-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-libsepol/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-libsepol/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-libsepol/ql-libsepol/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libsepol.so.1.0.0": 1169404}
+PKGSIZE_ql-libsepol-dbg: 1169404

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#Copyright (c) 2012 Qualcomm Technologies, Inc.  All Rights Reserved.
+#Qualcomm Technologies Proprietary and Confidential.
+
+#add by dawn [2018-10-16] avoid into sleep when shutdown or reboot
+echo  lock > /sys/power/wake_lock
+qmi_shutdown_modem --immediately

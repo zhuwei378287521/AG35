@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: izat client api
+Description: QTI GPS izat client api
+Version: @VERSION
+Libs: -L${libdir} -lizat_client_api
+Cflags: -I${includedir}/izat-client-api

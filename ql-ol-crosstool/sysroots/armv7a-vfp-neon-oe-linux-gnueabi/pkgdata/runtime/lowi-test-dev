@@ -1,0 +1,16 @@
+PN: lowi-test
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-test-dev: GPS lowi test  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_lowi-test-dev: lowi-test version git-r1 - Development files
+RDEPENDS_lowi-test-dev: lowi-test (= git-r1)
+RRECOMMENDS_lowi-test-dev: liblog-dev loc-pla-dev loc-base-util-dev libstdc++-dev libgcc-dev lowi-client-dev glib-2.0-dev glibc-dev loc-launcher-dev libxml2-dev
+SECTION_lowi-test-dev: devel
+PKG_lowi-test-dev: lowi-test-dev
+ALLOW_EMPTY_lowi-test-dev: 1
+FILES_lowi-test-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lowi-test/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_lowi-test-dev: 0

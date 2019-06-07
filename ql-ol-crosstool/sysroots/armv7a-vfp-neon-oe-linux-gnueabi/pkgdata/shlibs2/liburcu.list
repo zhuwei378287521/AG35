@@ -1,0 +1,7 @@
+liburcu.so.2:/usr/lib:0.8.7
+liburcu-mb.so.2:/usr/lib:0.8.7
+liburcu-qsbr.so.2:/usr/lib:0.8.7
+liburcu-common.so.2:/usr/lib:0.8.7
+liburcu-signal.so.2:/usr/lib:0.8.7
+liburcu-cds.so.2:/usr/lib:0.8.7
+liburcu-bp.so.2:/usr/lib:0.8.7

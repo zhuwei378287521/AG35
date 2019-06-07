@@ -1,0 +1,13 @@
+PN: system-core
+PV: git
+PR: r19_perf
+PKGV: git
+PKGR: r19_perf
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r19_perf
+SECTION: base
+PKG_system-core-logd: system-core-logd
+FILES_system-core-logd: /etc/init.d/logd /sbin/logd /lib/systemd/system/logd.service /lib/systemd/system/multi-user.target.wants/logd.service /lib/systemd/system/ffbm.target.wants/logd.service /etc/initscripts/logd
+FILES_INFO: {}
+PKGSIZE_system-core-logd: 0

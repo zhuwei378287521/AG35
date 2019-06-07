@@ -1,0 +1,16 @@
+PN: soundtrigger
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_soundtrigger-dev: sound trigger loader Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_soundtrigger-dev: soundtrigger version git-r9 - Development files
+RDEPENDS_soundtrigger-dev: soundtrigger (= git-r9)
+RRECOMMENDS_soundtrigger-dev: libhardware-dev libcutils-dev graphite-client-dev tinycompress-dev system-media-dev acdbloader-dev libstdc++-dev tinyalsa-dev glib-2.0-dev glibc-dev expat-dev liblog-dev audiohal-dev
+SECTION_soundtrigger-dev: devel
+PKG_soundtrigger-dev: soundtrigger-dev
+ALLOW_EMPTY_soundtrigger-dev: 1
+FILES_soundtrigger-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/soundtrigger/*.la /lib/*.la
+FILES_INFO: {"/usr/include/sound_trigger/sound_trigger_hw.h": 5021, "/usr/lib/pkgconfig/sound_trigger.pc": 204, "/usr/include/sound_trigger/sound_trigger_prop_intf.h": 3233, "/usr/lib/sound_trigger_primary_default.la": 1383}
+PKGSIZE_soundtrigger-dev: 9841

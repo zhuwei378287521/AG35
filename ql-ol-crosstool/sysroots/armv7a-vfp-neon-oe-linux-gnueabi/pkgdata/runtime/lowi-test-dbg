@@ -1,0 +1,15 @@
+PN: lowi-test
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lowi-test-dbg: GPS lowi test  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lowi-test-dbg: lowi-test version git-r1 - Debugging files
+RRECOMMENDS_lowi-test-dbg: glibc-dbg libstdc++-dbg lowi-client-dbg liblog-dbg loc-base-util-dbg glib-2.0-dbg libgcc-dbg libxml2-dbg
+SECTION_lowi-test-dbg: devel
+PKG_lowi-test-dbg: lowi-test-dbg
+ALLOW_EMPTY_lowi-test-dbg: 1
+FILES_lowi-test-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lowi-test/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lowi-test/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lowi-test/lowi-test/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/lowi-test": 30596}
+PKGSIZE_lowi-test-dbg: 30596

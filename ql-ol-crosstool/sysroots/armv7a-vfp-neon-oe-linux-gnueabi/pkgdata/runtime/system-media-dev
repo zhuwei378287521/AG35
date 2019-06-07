@@ -1,0 +1,20 @@
+PN: system-media
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: Apache-2.0
+DESCRIPTION_system-media-dev: system media headers  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_system-media-dev: system-media version git-r2 - Development files
+RDEPENDS_system-media-dev: tinyalsa (>= git) glibc (>= 2.22) glib-2.0 (>= 2.44.1) libstdc++ (>= 4.9.3) libcutils (>= 1.0) liblog (>= 1.0) system-media (= git-r2) system-media (>= git)
+RRECOMMENDS_system-media-dev: glibc-dev liblog-dev libstdc++-dev system-core-dev tinyalsa-dev glib-2.0-dev expat-dev libcutils-dev
+SECTION_system-media-dev: devel
+PKG_system-media-dev: system-media-dev
+ALLOW_EMPTY_system-media-dev: 1
+FILES_system-media-dev: /usr/lib/lib*.so /usr/lib/lib*.la /usr/include
+FILERPROVIDESFLIST_system-media-dev: /usr/lib/libalsautils.so
+FILES_INFO: {"/usr/include/audio_effects/effect_virtualizer.h": 3607, "/usr/include/system/camera_vendor_tags.h": 3852, "/usr/lib/libtinysndfile.so": 23, "/usr/lib/libaudioroute.so": 22, "/usr/lib/libcamera_metadata.la": 987, "/usr/lib/libaudioroute.la": 1145, "/usr/include/audio_utils/channels.h": 1856, "/usr/include/system/audio.h": 74311, "/usr/include/alsa_device_profile.h": 3572, "/usr/lib/libalsautils.so": 18000, "/usr/include/audio_effects/effect_environmentalreverb.h": 2650, "/usr/include/audio_route/audio_route.h": 1652, "/usr/lib/libaudioutils.la": 937, "/usr/include/audio_effects/effect_downmix.h": 1564, "/usr/include/tinysndfile/sndfile.h": 2406, "/usr/include/audio_effects/effect_ns.h": 1507, "/usr/include/system/sound_trigger.h": 12281, "/usr/include/system/camera_metadata.h": 18931, "/usr/include/audio_effects/effect_loudnessenhancer.h": 1482, "/usr/include/system/audio_policy.h": 3043, "/usr/include/audio_effects/effect_aec.h": 1408, "/usr/include/alsa_device_proxy.h": 2013, "/usr/include/audio_effects/effect_equalizer.h": 2368, "/usr/lib/libalsautils.la": 1206, "/usr/include/system/camera_metadata_tags.h": 43994, "/usr/include/audio_effects/effect_presetreverb.h": 1517, "/usr/lib/libtinysndfile.la": 959, "/usr/lib/libcamera_metadata.so": 27, "/usr/include/audio_effects/effect_agc.h": 1610, "/usr/include/audio_utils/primitives.h": 39649, "/usr/include/audio_effects/effect_visualizer.h": 2574, "/usr/include/audio_utils/format.h": 3001, "/usr/include/audio_effects/audio_effects_conf.h": 2590, "/usr/include/alsa_logging.h": 1016, "/usr/lib/libaudioutils.so": 22, "/usr/include/audio_effects/effect_bassboost.h": 1258}
+FILERPROVIDES_/usr/lib/libalsautils.so_system-media-dev: elf(buildid) (= faa10ef0d0aacdaca994cf092e94863d181c0726) libalsautils.so
+FILERDEPENDSFLIST_system-media-dev: /usr/lib/libalsautils.so
+FILERDEPENDS_/usr/lib/libalsautils.so_system-media-dev: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libaudioutils.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libcutils.so.0 libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libtinyalsa.so.1 rtld(GNU_HASH)
+PKGSIZE_system-media-dev: 259040

@@ -1,0 +1,15 @@
+PN: bt-property
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Apache-2.0
+DESCRIPTION_bt-property-dbg: Bluetooth Property Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_bt-property-dbg: bt-property version git-r0 - Debugging files
+RRECOMMENDS_bt-property-dbg: liblog-dbg glibc-dbg glib-2.0-dbg
+SECTION_bt-property-dbg: devel
+PKG_bt-property-dbg: bt-property-dbg
+ALLOW_EMPTY_bt-property-dbg: 1
+FILES_bt-property-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/bt-property/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/bt-property/.debug /usr/lib/matchbox-panel/.debug /usr/lib/bt-property/bt-property/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/btproperty": 7996}
+PKGSIZE_bt-property-dbg: 7996

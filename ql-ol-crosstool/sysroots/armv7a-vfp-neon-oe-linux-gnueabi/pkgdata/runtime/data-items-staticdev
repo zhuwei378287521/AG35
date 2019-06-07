@@ -1,0 +1,15 @@
+PN: data-items
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_data-items-staticdev: GPS Data Items  This package contains static libraries for software development.
+SUMMARY_data-items-staticdev: data-items version git-r1 - Development files (Static Libraries)
+RDEPENDS_data-items-staticdev: data-items-dev (= git-r1)
+RPROVIDES_data-items-staticdev:  data-items-staticdev (=git)
+SECTION_data-items-staticdev: devel
+PKG_data-items-staticdev: libdataitems-staticdev
+FILES_data-items-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/data-items/*.a
+FILES_INFO: {}
+PKGSIZE_data-items-staticdev: 0

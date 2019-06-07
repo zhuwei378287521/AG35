@@ -1,0 +1,14 @@
+PN: gps-utils
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_gps-utils-doc: GPS Utils  This package contains documentation.
+SUMMARY_gps-utils-doc: gps-utils version git-r1 - Documentation files
+RPROVIDES_gps-utils-doc:  gps-utils-doc (=git)
+SECTION_gps-utils-doc: doc
+PKG_gps-utils-doc: libgps-utils-so-doc
+FILES_gps-utils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_gps-utils-doc: 0

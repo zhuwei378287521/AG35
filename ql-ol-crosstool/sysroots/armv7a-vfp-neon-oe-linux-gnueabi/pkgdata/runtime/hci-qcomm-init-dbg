@@ -1,0 +1,15 @@
+PN: hci-qcomm-init
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_hci-qcomm-init-dbg: Bluetooth BT Vendor Filters  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_hci-qcomm-init-dbg: hci-qcomm-init version git-r0 - Debugging files
+RRECOMMENDS_hci-qcomm-init-dbg: glibc-dbg libstdc++-dbg diag-dbg liblog-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg libcutils-dbg qmi-dbg
+SECTION_hci-qcomm-init-dbg: devel
+PKG_hci-qcomm-init-dbg: hci-qcomm-init-dbg
+ALLOW_EMPTY_hci-qcomm-init-dbg: 1
+FILES_hci-qcomm-init-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/hci-qcomm-init/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/hci-qcomm-init/.debug /usr/lib/matchbox-panel/.debug /usr/lib/hci-qcomm-init/hci-qcomm-init/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/hci_qcomm_init": 108608, "/usr/bin/.debug/btnvtool": 6404, "/usr/bin/.debug/wcnssfilter": 20752, "/usr/lib/.debug/libbtnv.so.0.0.0": 5372}
+PKGSIZE_hci-qcomm-init-dbg: 141136

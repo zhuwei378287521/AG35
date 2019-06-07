@@ -1,0 +1,13 @@
+PN: k61-firmware
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: K61 firmware
+SUMMARY: k61-firmware version git-r1
+SECTION: base
+PKG_k61-firmware-locale: k61-firmware-locale
+FILES_k61-firmware-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_k61-firmware-locale: 0

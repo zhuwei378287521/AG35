@@ -1,0 +1,16 @@
+PN: qcacld-hl
+PV: git
+PR: r0_perf
+PKGV: git
+PKGR: r0_perf
+LICENSE: ISC
+DESCRIPTION_qcacld-hl-dev: Qualcomm Atheros WLAN CLD high latency driver  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_qcacld-hl-dev: qcacld-hl version git-r0_perf - Development files
+RDEPENDS_qcacld-hl-dev: qcacld-hl (= git-r0_perf)
+RRECOMMENDS_qcacld-hl-dev: rtsp-alg-dev kernel-module-wlan-dev kernel-3.18.48-dev
+SECTION_qcacld-hl-dev: devel
+PKG_qcacld-hl-dev: qcacld-hl-dev
+ALLOW_EMPTY_qcacld-hl-dev: 1
+FILES_qcacld-hl-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qcacld-hl/*.la /lib/*.la
+FILES_INFO: {"/usr/include/qcacld/wlan_nlink_common.h": 8196}
+PKGSIZE_qcacld-hl-dev: 8196

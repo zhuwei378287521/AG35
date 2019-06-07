@@ -1,0 +1,14 @@
+PN: drplugin
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_drplugin-doc: Lib DRPlugin  This package contains documentation.
+SUMMARY_drplugin-doc: drplugin version git-r1 - Documentation files
+RPROVIDES_drplugin-doc:  drplugin-doc (=git)
+SECTION_drplugin-doc: doc
+PKG_drplugin-doc: libdrplugin-doc
+FILES_drplugin-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_drplugin-doc: 0

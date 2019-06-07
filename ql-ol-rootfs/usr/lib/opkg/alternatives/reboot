@@ -1,0 +1,3 @@
+/sbin/reboot
+/usr/lib/busybox/sbin/reboot 50
+/sbin/reboot.sysvinit 200

@@ -1,0 +1,19 @@
+PN: loc-glue
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Location Service library
+SUMMARY: loc-glue version git-r1
+RDEPENDS_loc-glue: location-flp (>= git) libcrypto (>= 1.0.2h) loc-hal (>= git) drplugin (>= git) qmi (>= git) libgcc (>= 4.9.3) event-observer (>= git) loc-net-iface (>= git) system-core (>= git) libssl (>= 1.0.2h) data-oss (>= git) gnsspps (>= git) diag (>= git) glibc (>= 2.22) libcutils (>= 1.0) glib-2.0 (>= 2.44.1) configdb (>= git) location-geofence (>= git) loc-pla (>= git) loc-base-util (>= git) data-items (>= git) lbs-core (>= git) drplugin-client (>= git) loc-mq-client (>= git) ulp2 (>= git) ql-syslog (>= git) qmi-framework (>= git) liblog (>= 1.0) dsutils (>= git) xmllib (>= git) location-service (>= git) data (>= git) libstdc++ (>= 4.9.3) qmi-client-helper (>= git) izat-core (>= git) lowi-client (>= git) libsqlite3 (>= 3.8.10.2) loc-stub (>= git) time-genoff (>= git) gps-utils (>= git)
+RPROVIDES_loc-glue:  loc-glue (=git)
+SECTION: base
+PKG_loc-glue: liblocationservice-glue1
+FILES_loc-glue: /usr/bin/* /usr/sbin/* /usr/lib/loc-glue/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/loc-glue /usr/lib/loc-glue/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_loc-glue: /usr/lib/liblocationservice@underscore@glue.so.1.0.0
+FILES_INFO: {"/usr/lib/liblocationservice_glue.so.1": 32, "/usr/lib/liblocationservice_glue.so.1.0.0": 42692}
+FILERPROVIDES_/usr/lib/liblocationservice@underscore@glue.so.1.0.0_loc-glue: elf(buildid) (= 7c7bbc04dbd9672ffb6cac0fb5b5da74e309782b) liblocationservice_glue.so.1
+FILERDEPENDSFLIST_loc-glue: /usr/lib/liblocationservice@underscore@glue.so.1.0.0
+FILERDEPENDS_/usr/lib/liblocationservice@underscore@glue.so.1.0.0_loc-glue: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libDRPlugin.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libcrypto.so.1.0.0 libcutils.so.0 libdataitems.so.1 libdiag.so.1 libdl.so.2 libdrplugin_client.so.1 libdsi_netctrl.so.0 libdsutils.so.1 libevent_observer.so.1 libflp.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libgeofence.so.1 libglib-2.0.so.0 libgnsspps.so.1 libgps_utils_so.so.1 libgthread-2.0.so.0 libizat_core.so.1 liblbs_core.so.1 libloc_api_v02.so.1 libloc_base_util.so.1 libloc_core.so.1 libloc_ds_api.so.1 libloc_eng_so.so.1 libloc_mq_client.so.1 libloc_net_iface.so.1 libloc_pla.so.1 libloc_stub.so.1 liblocationservice.so.1 liblog.so.0 liblowi_client.so.1 libm.so.6 libnetmgr.so.0 libpthread.so.0 libqcmap_client.so.1 libqcmapipc.so.1 libqdi.so.0 libql_sys_log.so.1 libqmi.so.1 libqmi_cci.so.1 libqmi_client_helper.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 librmnetctl.so.0 librt.so.1 libsqlite3.so.0 libssl.so.1.0.0 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.15) libtime_genoff.so.1 libulp2.so.1 libutils.so.0 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_loc-glue: 42724

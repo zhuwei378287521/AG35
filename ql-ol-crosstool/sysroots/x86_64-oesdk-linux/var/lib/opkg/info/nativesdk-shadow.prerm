@@ -1,0 +1,7 @@
+#!/bin/sh
+	update-alternatives --remove  passwd /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/passwd.shadow
+	update-alternatives --remove  chfn /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chfn.shadow
+	update-alternatives --remove  chsh /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chsh.shadow
+	update-alternatives --remove  chpasswd /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chpasswd.shadow
+	update-alternatives --remove  vipw /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vipw.shadow
+	update-alternatives --remove  vigr /home/llp/opt/AG35/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vigr.shadow

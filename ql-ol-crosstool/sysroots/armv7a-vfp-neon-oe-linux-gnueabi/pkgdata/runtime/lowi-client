@@ -1,0 +1,19 @@
+PN: lowi-client
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS lowi client
+SUMMARY: lowi-client version git-r1
+RDEPENDS_lowi-client: libcrypto (>= 1.0.2h) loc-hal (>= git) libstdc++ (>= 4.9.3) libgcc (>= 4.9.3) gps-utils (>= git) libssl (>= 1.0.2h) data-oss (>= git) diag (>= git) time-genoff (>= git) libcutils (>= 1.0) glib-2.0 (>= 2.44.1) configdb (>= git) loc-pla (>= git) loc-base-util (>= git) loc-mq-client (>= git) qmi-framework (>= git) liblog (>= 1.0) dsutils (>= git) xmllib (>= git) data (>= git) qmi (>= git) qmi-client-helper (>= git) libsqlite3 (>= 3.8.10.2) loc-stub (>= git) glibc (>= 2.22)
+RPROVIDES_lowi-client:  lowi-client (=git)
+SECTION: base
+PKG_lowi-client: liblowi-client1
+FILES_lowi-client: /usr/bin/* /usr/sbin/* /usr/lib/lowi-client/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lowi-client /usr/lib/lowi-client/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_lowi-client: /usr/lib/liblowi@underscore@client.so.1.0.0
+FILES_INFO: {"/usr/lib/liblowi_client.so.1.0.0": 161520, "/usr/lib/liblowi_client.so.1": 23}
+FILERPROVIDES_/usr/lib/liblowi@underscore@client.so.1.0.0_lowi-client: elf(buildid) (= db8a2eb38e127360b53b67348b2d4a7c688bd69d) liblowi_client.so.1
+FILERDEPENDSFLIST_lowi-client: /usr/lib/liblowi@underscore@client.so.1.0.0
+FILERDEPENDS_/usr/lib/liblowi@underscore@client.so.1.0.0_lowi-client: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libcrypto.so.1.0.0 libcutils.so.0 libdiag.so.1 libdl.so.2 libdsi_netctrl.so.0 libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_utils_so.so.1 libgthread-2.0.so.0 libloc_api_v02.so.1 libloc_base_util.so.1 libloc_core.so.1 libloc_ds_api.so.1 libloc_eng_so.so.1 libloc_mq_client.so.1 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libnetmgr.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqdi.so.0 libqmi.so.1 libqmi_cci.so.1 libqmi_client_helper.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 librmnetctl.so.0 librt.so.1 libsqlite3.so.0 libssl.so.1.0.0 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_lowi-client: 161543
